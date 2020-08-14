@@ -1,0 +1,232 @@
+body {
+    min-height: 1000px;
+}
+
+body {
+    background: #f8f8f8;
+    color: #888888;
+    font: normal 10px/1.5em lato, arial, sans-serif;
+    word-wrap: break-word;
+    text-align: left;
+    letter-spacing: .15px;
+    margin: 0;
+    overflow-x: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+body, a, a:hover {
+    cursor: url('assets/cursor.ico'), auto;
+}
+
+
+a {
+    color: #888888;
+    text-decoration: none;
+    /*cursor: pointer;*/
+}
+
+a:hover {
+    color: #f0bfb3;
+    border-color: #f0bfb3 !important;
+}
+
+bar a:hover {
+    border-color: #f8f8f8 !important;
+}
+
+a, .iframe-controls--desktop, svg {
+    transition: all .15s linear;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -o-transition: all .15s linear;
+}
+
+aside, nav, article, footer, header, bar {
+    -webkit-animation-name: fade-in;
+    -webkit-animation-duration: 1.5s;
+}
+
+img {
+    opacity: 1;
+    border: 0;
+    text-decoration: none;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.tai, .block .ti, nav, .title {
+    font-weight: 600;
+    font-size: .9em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #f0bfb3;
+}
+
+nav {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav, bar {
+    width: calc(540px + 250px + 250px + 50px);
+    background: #ffffff;
+}
+
+.hi {
+    display: inline-block;
+    margin: 30px auto 15px auto;
+}
+
+.hi img {
+    display: block;
+    height: 65px;
+    width: 65px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+bar {
+    line-height: 1em;
+    border-bottom: 1px solid #f8f8f8;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 20px 0;
+    z-index: 5;
+    overflow-x: hidden;
+}
+
+bar a {
+    display: inline-block;
+    padding: 0 20px;
+    border-right: 1px solid #f8f8f8;
+}
+
+.stick bar {
+    position:fixed;
+    left:50%;  
+    top:0;     
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+    transform:translateX(-50%);      
+}    
+
+bar a {
+    display:inline-block;
+    padding:0 20px;    
+    border-right:1px solid #f8f8f8;
+}
+
+bar a:last-of-type {border:0;}
+
+bar a:hover {border-color:#f8f8f8!important;}
+
+.i {
+    position: absolute;
+    left: calc(-1em - 16px);
+    display: block;
+    border: 0;
+    padding: 0;
+}
+
+.i img {
+    display: block;
+    margin-top: -8px;
+    height: calc(1em + 16px);
+    width: calc(1em + 16px);
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.stick .i {
+    left: 25px;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+}
+
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+
+.cont {
+    width: calc(540px + 250px + 250px + 50px);
+    margin: 0 auto 0 auto;
+        margin-top: 0px;
+}
+
+aside, section {
+    display: inline-block;
+    vertical-align: top;
+}
+
+aside {
+    width: 250px;
+    margin: 25px 0;
+}
+
+section {
+    margin: 25px;
+    width: 812px;
+}
+
+article {
+    /*width: 540px;*/
+    width: 762px;
+    background: #ffffff;
+    border-bottom: 1px solid #f8f8f8;
+    margin-bottom: 25px;
+    position: relative;
+    padding: 25px;
+}
+
+.block {
+    background: #ffffff;
+    border-bottom: 1px solid #f8f8f8;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+}
+
+.sm {
+    display: block;
+    margin: 20px -25px;
+}
+
+.sm, .sm img {
+    width: 250px;
+}
+
+.ti {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #f8f8f8;
+}
+
+.nn a {
+    display: inline-block;
+    width: calc(50% - 5px);
+    margin-bottom: 5px;
+    border-bottom: 1px dotted #f8f8f8;
+    padding-bottom: 5px;
+}
+
+.nn a:nth-child(2n+1) {
+    margin-right: 5px;
+}
+
+.nn a:hover, .memb a:hover {
+    border-color: #f8f8f8 !important;
+}
+
+.title, .quote {
+    line-height: 1.5em;
+    margin-bottom: 25px;
+}
