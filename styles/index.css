@@ -5,7 +5,7 @@ body {
 body {
     background: #f8f8f8;
     color: #888888;
-    font: normal 10px/1.5em lato, arial, sans-serif;
+    font: normal 12px/1.5em lato, arial, sans-serif;
     word-wrap: break-word;
     text-align: left;
     letter-spacing: .15px;
@@ -17,7 +17,7 @@ body {
 }
 
 body, a, a:hover {
-    cursor: url('assets/cursor.ico'), auto;
+    cursor: url('../assets/cursor.cur'), auto;
 }
 
 
@@ -43,7 +43,7 @@ a, .iframe-controls--desktop, svg {
     -o-transition: all .15s linear;
 }
 
-aside, nav, article, footer, header, bar {
+aside, nav, article, #story, footer, header, bar {
     -webkit-animation-name: fade-in;
     -webkit-animation-duration: 1.5s;
 }
@@ -175,10 +175,10 @@ aside {
 
 section {
     margin: 25px;
-    width: 812px;
+    width: 811px;
 }
 
-article {
+article, #story {
     /*width: 540px;*/
     width: 762px;
     background: #ffffff;

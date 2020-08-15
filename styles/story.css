@@ -1,0 +1,94 @@
+ul {
+	padding-left: 25px;
+	margin: 0;
+}
+
+code {
+	display: block;
+	text-align: center;
+	padding: 15px;
+}
+
+.objetives {
+	height: 208px;
+	overflow-y: auto;
+	margin: 10px 0;
+}
+
+.objetives ul .done {
+	text-decoration-line: line-through;
+}
+
+.tai.checkpoint {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #f8f8f8;
+	margin-bottom: 5px;
+}
+
+
+#story .title {
+	text-align: center;
+	border-bottom: 1px solid;
+	padding-bottom: 25px;
+}
+
+#episode-container {
+    width: auto;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+    background-image: url("https://www.eldarya.es/assets/img/places/53c351540b94e73fd1cdff3bdb961be2~1520847675.jpg");
+    background-position: center center;
+}
+
+.choiceTextRpg {
+    z-index: 100;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 4%;
+    left: 2%;
+    right: 8%;
+    font-family: inherit;
+    background: -moz-linear-gradient(left, rgba(243, 193, 188, 0.9) 0%, rgba(255, 231, 227, 0.9) 60%, rgba(255, 255, 255, 0.6) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(243, 193, 188, 0.9)), color-stop(60%, rgba(255, 231, 227, 0.9)), color-stop(100%, rgba(255, 255, 255, 0.6)));
+    background: -webkit-linear-gradient(left, rgba(243, 193, 188, 0.9) 0%, rgba(255, 231, 227, 0.9) 60%, rgba(255, 255, 255, 0.6) 100%);
+    background: -o-linear-gradient(left, rgba(243, 193, 188, 0.9) 0%, rgba(255, 231, 227, 0.9) 60%, rgba(255, 255, 255, 0.6) 100%);
+    background: -ms-linear-gradient(left, rgba(243, 193, 188, 0.9) 0%, rgba(255, 231, 227, 0.9) 60%, rgba(255, 255, 255, 0.6) 100%);
+    background: linear-gradient(to right, rgba(243, 193, 188, 0.9) 0%, rgba(255, 231, 227, 0.9) 60%, rgba(255, 255, 255, 0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e62e0035', endColorstr='#990f47ae', GradientType=1);
+    color: rgba(79, 78, 78, 1);
+    padding: 1%;
+    font-size: 150%;
+    width: 88%;
+}
+
+.choiceTextRpg .choice, .adminChoiceTextRpg .choice {
+    cursor: pointer;
+    line-height: 100%;
+    -webkit-transition: all 0.2s ease-in-out;
+    word-break: break-word;
+}
+
+.choice:hover {
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+.own-npc {
+	position: absolute;
+	bottom: 0;
+	right: -44px;
+	width: 275px;
+	overflow: hidden;
+	height: 330px;
+	pointer-events: none;
+}
+
+.npcRpg {
+    position: relative;
+    z-index: -1;
+	min-width: 420px;
+	min-height: 594px;
+}
+
