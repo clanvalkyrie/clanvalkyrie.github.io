@@ -215,8 +215,6 @@
 		"setInventory":[],
 		"setObjetive":[]
 	},
-
-
 	{
 		"id":10018,
 		"text":"Necesito tu ayuda para esto.",
@@ -229,7 +227,6 @@
 		"setInventory":[],
 		"setObjetive":[]
 	},
-
 	{
 		"id":10019,
 		"text":"Necesito que sostengas esto.",
@@ -240,10 +237,8 @@
 		"choices":["(Me entregó una manzana.)"],
 		"nextStory":[10020],
 		"setInventory":[],
-		"setObjetive":[],
-	}
-
-
+		"setObjetive":[]
+	},
 	{
 		"id":10020,
 		"text":"",
@@ -252,24 +247,272 @@
 		"place":104,
 		"npc":[1050],
 		"choices":["¿Qué tengo que hacer con esto?"],
-		"nextStory":[pendiente],
+		"nextStory":[10021],
 		"setInventory":[106],
 		"setObjetive":[]
+	},
+	{
+		"id":10021,
+		"text":"Nada, solo es para probar si funciona el inventario.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":104,
+		"npc":[1050],
+		"choices":["Oh, ¿y funciona?"],
+		"nextStory":[10022],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10022,
+		"text":"No lo sé, tu dime.jpg",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":104,
+		"npc":[1050],
+		"choices":["¡Sí funciona!", "No, no funciona."],
+		"nextStory":[10023, 10024],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10023,
+		"text":"Lo sabía.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":104,
+		"npc":[1050],
+		"choices":["¿Y entonces porqué preguntas?"],
+		"nextStory":[10025],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10024,
+		"text":"¡No mientas! Mamá no te dejaría estar aquí si no funcionara.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":104,
+		"npc":[1050],
+		"choices":["¿Qué? ¿Tu mamá"],
+		"nextStory":[10025],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10025,
+		"text":"Como sea, ahora ven, sígueme al cerezo.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":104,
+		"npc":[1050],
+		"choices":["Eh, vale."],
+		"nextStory":[10026],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10026,
+		"text":"",
+		"type":"answer_only",
+		"closeDialog":true,
+		"place":104,
+		"npc":[],
+		"choices":["(Es una chica extraña, será mejor que le siga la corriente.)"],
+		"nextStory":[10027],
+		"setInventory":[],
+		"setObjetive":[102]
+	},
+	{
+		"id":10027,
+		"text":"Hasta que llegas.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":100,
+		"npc":[1050],
+		"choices":["Pero si venía atrás de tí."],
+		"nextStory":10028,
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10028,
+		"text":"Sisi ya ala chingada. Sostén mi hacha.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":100,
+		"npc":[1050],
+		"choices":["¿Qué?"],
+		"nextStory":10029,
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10029,
+		"text":"Ten cuidado, es pesada.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":100,
+		"npc":[1050],
+		"choices":["(Se acercó a mi y esperó a que la sujetara.)"],
+		"nextStory":10030,
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10030,
+		"text":"",
+		"type":"answer_only",
+		"closeDialog":false,
+		"place":100,
+		"npc":[1050],
+		"choices":["Uhm... Vale."],
+		"nextStory":10031,
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10031,
+		"text":"",
+		"type":"answer_only",
+		"closeDialog":false,
+		"place":100,
+		"npc":[1050],
+		"choices":["(Sujeté su hacha con cierto miedo de hacerla caer, mientras ella la soltaba lentamente.)"],
+		"nextStory":10032,
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10032,
+		"text":"",
+		"type":"answer_only",
+		"closeDialog":false,
+		"place":100,
+		"npc":[1051],
+		"choices":["¿Y bien? ¿Qué hago con ella?"],
+		"nextStory":10033,
+		"setInventory":[107],
+		"setObjetive":[]
+	},
+	{
+		"id":10033,
+		"text":"Nada, solo quería comprobar si se añadía a tu inventario.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":100,
+		"npc":[1051],
+		"choices":["(Continuar)"],
+		"nextStory":10034,
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10034,
+		"text":"Ya puedes devolvérmela.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":100,
+		"npc":[1051],
+		"choices":["Oh, sí claro, toma."],
+		"nextStory":10035,
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10035,
+		"text":"",
+		"type":"answer_only",
+		"closeDialog":false,
+		"place":100,
+		"npc":[1051],
+		"choices":["(Cuando sus manos tocaron el frío acero del hacha, se aferró a ella como si su vida dependiera de la misma.)"],
+		"nextStory":10036,
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10036,
+		"text":"",
+		"type":"answer_only",
+		"closeDialog":false,
+		"place":100,
+		"npc":[1050],
+		"choices":["¿La manzana también la quieres?"],
+		"nextStory":[10037],
+		"setInventory":[106],
+		"setObjetive":[]
+	},
+	{
+		"id":10037,
+		"text":"No, puedes quedártela.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":100,
+		"npc":[1050],
+		"choices":["Está bien. ¿Y ahora qué?"],
+		"nextStory":[10038],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10038,
+		"text":"Bueno, todavía quedan algunas pruebas, pero mamá está cansada.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":100,
+		"npc":[1050],
+		"choices":["(¿Otra vez mamá?)"],
+		"nextStory":[10039],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10039,
+		"text":"Otro día seguimos, ¿te parece?",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":100,
+		"npc":[1050],
+		"choices":["Claro, gracias por la manzana."],
+		"nextStory":[10040],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10041,
+		"text":"",
+		"type":"answer_only",
+		"closeDialog":false,
+		"place":100,
+		"npc":[1050],
+		"choices":["(Zunay me dedicó una sonrisa y se marchó.)"],
+		"nextStory":[10042],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10042,
+		"text":"",
+		"type":"answer_only",
+		"closeDialog":false,
+		"place":100,
+		"npc":[],
+		"choices":["(¡Sólo espero que esta sea una manzana normal!"],
+		"nextStory":[10043],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10043,
+		"text":"",
+		"type":"answer_only",
+		"closeDialog":false,
+		"place":100,
+		"npc":[],
+		"choices":["(FINALIZAR EPISODIO)"],
+		"nextStory":[],
+		"setInventory":[],
+		"setObjetive":[]
 	}
-
-
-
-
 ]
-
-/* if (closeDialog == true) {
-	// almacenar nextStory en temporal.
-}
-
-if (place == "auto") {
-	// Mantiene lugar por deplazamiento por movimientos.
-}
-
-if (setObjetive) {
-	// Objetivo completo. Se repite el id para tacharlo de la lista.
-}
