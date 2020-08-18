@@ -1,0 +1,7 @@
+[
+	{"id":100, "name":"Cerezo Centenario", "imgURL":"/valkyrieclub/assets/img/places/example-cerezo.jpg"},
+	{"id":101, "name":"Pasillo", "imgURL":"/valkyrieclub/assets/img/places/example-pasillo.jpg"},
+	{"id":102, "name":"Sala del Cristal", "imgURL":"/valkyrieclub/assets/img/places/example-cristal.jpg"},
+	{"id":103, "name":"Mi Habitación", "imgURL":"/valkyrieclub/assets/img/places/example-habitación"},
+	{"id":104, "name":"Habitación de Valkyon", "imgURL":"/valkyrieclub/assets/img/places/example-valkyon.jpg"}
+]

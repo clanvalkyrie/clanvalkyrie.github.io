@@ -1,0 +1,4 @@
+[
+	{"id":100, "text": "Desplázate.", "type":"moves", "value":5},
+	{"id":101, "text": "Encuentra a alguien.", "type": "place", "value":104}
+]

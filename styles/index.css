@@ -115,7 +115,8 @@ bar a {
     -moz-transform:translateX(-50%);
     -ms-transform:translateX(-50%);
     -o-transform:translateX(-50%);
-    transform:translateX(-50%);      
+    transform:translateX(-50%);
+    z-index: 101;
 }    
 
 bar a {

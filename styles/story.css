@@ -7,10 +7,11 @@ code {
 	display: block;
 	text-align: center;
 	padding: 15px;
+    padding-bottom: 0;
 }
 
 .objetives {
-	height: 208px;
+	height: 60px;
 	overflow-y: auto;
 	margin: 10px 0;
 }
@@ -68,6 +69,7 @@ code {
     line-height: 100%;
     -webkit-transition: all 0.2s ease-in-out;
     word-break: break-word;
+    padding-right: 15%;
 }
 
 .choice:hover {

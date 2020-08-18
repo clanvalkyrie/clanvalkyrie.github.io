@@ -1,0 +1,275 @@
+[
+	{
+		"id":10000, 
+		"text":"Bienvenido al mundo pokéLDARYA, bienvenido a Eldarya osiosi", 
+		"type":"story_general", 
+		"closeDialog":false,
+		"place":103,
+		"npc":[], 
+		"choices:":["(Continuar)"], 
+		"nextStory":[10001], 
+		"setInventory":[], 
+		"setObjetive":[]
+	},
+	{
+		"id":10001, 
+		"text":"El día de hoy estamos realizando algunas pruebas, es gratis, así que desplázate con confianza ;)", 
+		"type":"story_general", 
+		"closeDialog":true, 
+		"place":103,
+		"npc":[], 
+		"choices":["(Terminar conversación)"], 
+		"nextStory":[10002], 
+		"setInventory":[], 
+		"setObjetive":[100]
+	},
+	{
+		"id":10002,
+		"text":"Mentira, no era gratis. Son 10 dolares.",
+		"type":"story_general",
+		"closeDialog":false,
+		"place": "auto",
+		"npc":[],
+		"choices":["¿Y si no quiero?", "Aquí tienes."],
+		"nextStory":[10003, 10005],
+		"setInventory":[],
+		"setObjetive":[100]
+	},
+	{
+		"id":10003,
+		"text":"Bueno tampoco es como que tengas dinero así que... Voy a seguir escribiendo cosas sin sentido solo para probar si esta burbuja va bien, espero que no te moleste. Igual puedes tocar el botón sin terminar de leer, tampoco me importa.",
+		"type":"story_general",
+		"closeDialog":false,
+		"place": "auto",
+		"npc":[],
+		"choices":["En ese caso, yo también voy a hacer larga mi respuesta para ver si esta cosa se adapta también."],
+		"nextStory":[10004],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10004,
+		"text":"Aw gracias.",
+		"type":"story_general",
+		"closeDialog":false,
+		"place":"auto",
+		"npc":[],
+		"choices":["¿De nada?"],
+		"nextStory":[10007],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10005,
+		"text":"",
+		"type":"answer_only",
+		"closeDialog":false,
+		"place":"auto",
+		"npc":[],
+		"choices":["(Fingí sacar dinero invisible de mi bolsillo y extendí la mano para que alguien lo alcanzara.)"],
+		"nextStory":[10006],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10006,
+		"text":"Que no puedas verme no significa que quiera dinero invisible. Imbécil.",
+		"type":"story_general",
+		"closeDialog":false,
+		"place":"auto",
+		"npc":[],
+		"choices":["¿¡Cómo que imbécil!?"],
+		"nextStory":[10007],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10007,
+		"text":"Como sea, ahora estoy ocupado. Ve a perder el tiempo con alguien más.",
+		"type":"story_general",
+		"closeDialog":false,
+		"place":"auto",
+		"npc":[],
+		"choices":["Vaya, que amable."],
+		"nextStory":[10008],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10008,
+		"text":"",
+		"type":"answer_only",
+		"closeDialog":false,
+		"place":"auto",
+		"npc":[],
+		"choices":["Ya se fue."],
+		"nextStory":[10009],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10009,
+		"text":"",
+		"type":"answer_only",
+		"closeDialog":true,
+		"place":"auto",
+		"npc":[],
+		"choices":["Dijo que había alguien más, será mejor que de una vuelta."],
+		"nextStory":[10010],
+		"setInventory":[],
+		"setObjetive":[101]
+	},
+	{
+		"id":10010,
+		"text":"Tu debes ser nueva.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":104,
+		"npc":[],
+		"choices":["¿Qué?"],
+		"nextStory":[10011],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10011,
+		"text":"",
+		"type":"answer_only",
+		"closeDialog":false,
+		"place":104,
+		"npc":[1050],
+		"choices":["(Giré en dirección a la voz que que detuvo mi recorrido y me encontré una joven guerrera.)"],
+		"nextStory":[10012],
+		"setInventory":[],
+		"setObjetive":[101]
+	},
+	{
+		"id":10012,
+		"text":"Lo siento, no quería asustarte.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":104,
+		"npc":[1050],
+		"choices":["Oh no, no es nada."],
+		"nextStory":[10013],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10013,
+		"text":"Soy Zunay. Soy viuda :(",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":104,
+		"npc":[1050],
+		"choices":["Ah caray, lo siento. Yo soy Chenmi."],
+		"nextStory":[10014],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10014,
+		"text":"Me encantaría conocerte mejor, pero antes tengo un trabajo importante que hacer.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":104,
+		"npc":[1050],
+		"choices":["¿Qué es?", "¿Necesitas ayuda?", "(No decir nada.)"],
+		"nextStory":[10015, 10017, 10018],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10015,
+		"text":"Veo que eres curiosa.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":104,
+		"npc":[1050],
+		"choices":["Si... Un poco."],
+		"nextStory":[10016],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10016,
+		"text":"En ese caso ten, sujeta esto.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":104,
+		"npc":[1050],
+		"choices":["(Me entregó una manzana.)"],
+		"nextStory":[10020],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+	{
+		"id":10017,
+		"text":"De hecho sí. Sujeta esto.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":104,
+		"npc":[1050],
+		"choices":["(Me entregó una manzana.)"],
+		"nextStory":[10020],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+
+
+	{
+		"id":10018,
+		"text":"Necesito tu ayuda para esto.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":104,
+		"npc":[1050],
+		"choices":["¿Qué puedo hacer por tí?"],
+		"nextStory":[10019],
+		"setInventory":[],
+		"setObjetive":[]
+	},
+
+	{
+		"id":10019,
+		"text":"Necesito que sostengas esto.",
+		"type":"npc_dialog",
+		"closeDialog":false,
+		"place":104,
+		"npc":[1050],
+		"choices":["(Me entregó una manzana.)"],
+		"nextStory":[10020],
+		"setInventory":[],
+		"setObjetive":[],
+	}
+
+
+	{
+		"id":10020,
+		"text":"",
+		"type":"answer_only",
+		"closeDialog":false,
+		"place":104,
+		"npc":[1050],
+		"choices":["¿Qué tengo que hacer con esto?"],
+		"nextStory":[pendiente],
+		"setInventory":[106],
+		"setObjetive":[]
+	}
+
+
+
+
+]
+
+/* if (closeDialog == true) {
+	// almacenar nextStory en temporal.
+}
+
+if (place == "auto") {
+	// Mantiene lugar por deplazamiento por movimientos.
+}
+
+if (setObjetive) {
+	// Objetivo completo. Se repite el id para tacharlo de la lista.
+}
