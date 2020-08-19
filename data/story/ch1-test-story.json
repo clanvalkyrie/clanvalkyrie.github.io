@@ -429,7 +429,7 @@
 		"choices":["(Cuando sus manos tocaron el frío acero del hacha, se aferró a ella como si su vida dependiera de la misma.)"],
 		"nextStory":[10036],
 		"setInventory":[],
-		"setObjetive":[-102,-101,-100-102,-101,-100]
+		"setObjetive":[-102,-101,-100]
 	},
 	{
 		"id":10036,
@@ -441,7 +441,7 @@
 		"choices":["¿La manzana también la quieres?"],
 		"nextStory":[10037],
 		"setInventory":[106],
-		"setObjetive":[-102,-101,-100-102,-101,-100]
+		"setObjetive":[-102,-101,-100]
 	},
 	{
 		"id":10037,
@@ -453,7 +453,7 @@
 		"choices":["Está bien. ¿Y ahora qué?"],
 		"nextStory":[10038],
 		"setInventory":[],
-		"setObjetive":[-102,-101,-100-102,-101,-100]
+		"setObjetive":[-102,-101,-100]
 	},
 	{
 		"id":10038,
