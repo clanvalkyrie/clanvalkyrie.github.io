@@ -6,7 +6,7 @@
 		"closeDialog":false,
 		"place":103,
 		"npc":[], 
-		"choices:":["(Continuar)"], 
+		"choices":["(Continuar)"], 
 		"nextStory":[10001], 
 		"setInventory":[], 
 		"setObjetive":[]
