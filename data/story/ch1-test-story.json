@@ -33,7 +33,7 @@
 		"choices":["¿Y si no quiero?", "Aquí tienes."],
 		"nextStory":[10003, 10005],
 		"setInventory":[],
-		"setObjetive":[100]
+		"setObjetive":[-100]
 	},
 	{
 		"id":10003,
@@ -45,7 +45,7 @@
 		"choices":["En ese caso, yo también voy a hacer larga mi respuesta para ver si esta cosa se adapta también."],
 		"nextStory":[10004],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-100]
 	},
 	{
 		"id":10004,
@@ -57,7 +57,7 @@
 		"choices":["¿De nada?"],
 		"nextStory":[10007],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-100]
 	},
 	{
 		"id":10005,
@@ -69,7 +69,7 @@
 		"choices":["(Fingí sacar dinero invisible de mi bolsillo y extendí la mano para que alguien lo alcanzara.)"],
 		"nextStory":[10006],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-100]
 	},
 	{
 		"id":10006,
@@ -81,7 +81,7 @@
 		"choices":["¿¡Cómo que imbécil!?"],
 		"nextStory":[10007],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-100]
 	},
 	{
 		"id":10007,
@@ -93,7 +93,7 @@
 		"choices":["Vaya, que amable."],
 		"nextStory":[10008],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-100]
 	},
 	{
 		"id":10008,
@@ -105,7 +105,7 @@
 		"choices":["Ya se fue."],
 		"nextStory":[10009],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-100]
 	},
 	{
 		"id":10009,
@@ -117,7 +117,7 @@
 		"choices":["Dijo que había alguien más, será mejor que de una vuelta."],
 		"nextStory":[10010],
 		"setInventory":[],
-		"setObjetive":[101]
+		"setObjetive":[101,-100]
 	},
 	{
 		"id":10010,
@@ -129,7 +129,7 @@
 		"choices":["¿Qué?"],
 		"nextStory":[10011],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[101,-100]
 	},
 	{
 		"id":10011,
@@ -141,7 +141,7 @@
 		"choices":["(Giré en dirección a la voz que que detuvo mi recorrido y me encontré una joven guerrera.)"],
 		"nextStory":[10012],
 		"setInventory":[],
-		"setObjetive":[101]
+		"setObjetive":[-101,-100]
 	},
 	{
 		"id":10012,
@@ -153,7 +153,7 @@
 		"choices":["Oh no, no es nada."],
 		"nextStory":[10013],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-101,-100]
 	},
 	{
 		"id":10013,
@@ -165,7 +165,7 @@
 		"choices":["Ah caray, lo siento. Yo soy Chenmi."],
 		"nextStory":[10014],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-101,-100]
 	},
 	{
 		"id":10014,
@@ -177,7 +177,7 @@
 		"choices":["¿Qué es?", "¿Necesitas ayuda?", "(No decir nada.)"],
 		"nextStory":[10015, 10017, 10018],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-101,-100]
 	},
 	{
 		"id":10015,
@@ -189,7 +189,7 @@
 		"choices":["Si... Un poco."],
 		"nextStory":[10016],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-101,-100]
 	},
 	{
 		"id":10016,
@@ -201,7 +201,7 @@
 		"choices":["(Me entregó una manzana.)"],
 		"nextStory":[10020],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-101,-100]
 	},
 	{
 		"id":10017,
@@ -213,7 +213,7 @@
 		"choices":["(Me entregó una manzana.)"],
 		"nextStory":[10020],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-101,-100]
 	},
 	{
 		"id":10018,
@@ -225,7 +225,7 @@
 		"choices":["¿Qué puedo hacer por tí?"],
 		"nextStory":[10019],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-101,-100]
 	},
 	{
 		"id":10019,
@@ -237,7 +237,7 @@
 		"choices":["(Me entregó una manzana.)"],
 		"nextStory":[10020],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-101,-100]
 	},
 	{
 		"id":10020,
@@ -249,7 +249,7 @@
 		"choices":["¿Qué tengo que hacer con esto?"],
 		"nextStory":[10021],
 		"setInventory":[106],
-		"setObjetive":[]
+		"setObjetive":[-101,-100]
 	},
 	{
 		"id":10021,
@@ -261,7 +261,7 @@
 		"choices":["Oh, ¿y funciona?"],
 		"nextStory":[10022],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-101,-100]
 	},
 	{
 		"id":10022,
@@ -273,7 +273,7 @@
 		"choices":["¡Sí funciona!", "No, no funciona."],
 		"nextStory":[10023, 10024],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-101,-100]
 	},
 	{
 		"id":10023,
@@ -285,7 +285,7 @@
 		"choices":["¿Y entonces porqué preguntas?"],
 		"nextStory":[10025],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-101,-100]
 	},
 	{
 		"id":10024,
@@ -294,10 +294,10 @@
 		"closeDialog":false,
 		"place":104,
 		"npc":[1050],
-		"choices":["¿Qué? ¿Tu mamá"],
+		"choices":["¿Qué? ¿Tu mamá?"],
 		"nextStory":[10025],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-101,-100]
 	},
 	{
 		"id":10025,
@@ -309,7 +309,7 @@
 		"choices":["Eh, vale."],
 		"nextStory":[10026],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-101,-100]
 	},
 	{
 		"id":10026,
@@ -321,7 +321,7 @@
 		"choices":["(Es una chica extraña, será mejor que le siga la corriente.)"],
 		"nextStory":[10027],
 		"setInventory":[],
-		"setObjetive":[102]
+		"setObjetive":[102,-101,-100]
 	},
 	{
 		"id":10027,
@@ -331,9 +331,9 @@
 		"place":100,
 		"npc":[1050],
 		"choices":["Pero si venía atrás de tí."],
-		"nextStory":10028,
+		"nextStory":[10028],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[102,-101,-100]
 	},
 	{
 		"id":10028,
@@ -343,9 +343,9 @@
 		"place":100,
 		"npc":[1050],
 		"choices":["¿Qué?"],
-		"nextStory":10029,
+		"nextStory":[10029],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-102,-101,-100]
 	},
 	{
 		"id":10029,
@@ -355,9 +355,9 @@
 		"place":100,
 		"npc":[1050],
 		"choices":["(Se acercó a mi y esperó a que la sujetara.)"],
-		"nextStory":10030,
+		"nextStory":[10030],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-102,-101,-100]
 	},
 	{
 		"id":10030,
@@ -367,9 +367,9 @@
 		"place":100,
 		"npc":[1050],
 		"choices":["Uhm... Vale."],
-		"nextStory":10031,
+		"nextStory":[10031],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-102,-101,-100]
 	},
 	{
 		"id":10031,
@@ -379,9 +379,9 @@
 		"place":100,
 		"npc":[1050],
 		"choices":["(Sujeté su hacha con cierto miedo de hacerla caer, mientras ella la soltaba lentamente.)"],
-		"nextStory":10032,
+		"nextStory":[10032],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-102,-101,-100]
 	},
 	{
 		"id":10032,
@@ -391,9 +391,9 @@
 		"place":100,
 		"npc":[1051],
 		"choices":["¿Y bien? ¿Qué hago con ella?"],
-		"nextStory":10033,
+		"nextStory":[10033],
 		"setInventory":[107],
-		"setObjetive":[]
+		"setObjetive":[-102,-101,-100]
 	},
 	{
 		"id":10033,
@@ -403,9 +403,9 @@
 		"place":100,
 		"npc":[1051],
 		"choices":["(Continuar)"],
-		"nextStory":10034,
+		"nextStory":[10034],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-102,-101,-100]
 	},
 	{
 		"id":10034,
@@ -415,9 +415,9 @@
 		"place":100,
 		"npc":[1051],
 		"choices":["Oh, sí claro, toma."],
-		"nextStory":10035,
+		"nextStory":[10035],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-102,-101,-100]
 	},
 	{
 		"id":10035,
@@ -427,9 +427,9 @@
 		"place":100,
 		"npc":[1051],
 		"choices":["(Cuando sus manos tocaron el frío acero del hacha, se aferró a ella como si su vida dependiera de la misma.)"],
-		"nextStory":10036,
+		"nextStory":[10036],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-102,-101,-100-102,-101,-100]
 	},
 	{
 		"id":10036,
@@ -441,7 +441,7 @@
 		"choices":["¿La manzana también la quieres?"],
 		"nextStory":[10037],
 		"setInventory":[106],
-		"setObjetive":[]
+		"setObjetive":[-102,-101,-100-102,-101,-100]
 	},
 	{
 		"id":10037,
@@ -453,7 +453,7 @@
 		"choices":["Está bien. ¿Y ahora qué?"],
 		"nextStory":[10038],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-102,-101,-100-102,-101,-100]
 	},
 	{
 		"id":10038,
@@ -465,7 +465,7 @@
 		"choices":["(¿Otra vez mamá?)"],
 		"nextStory":[10039],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-102,-101,-100]
 	},
 	{
 		"id":10039,
@@ -477,7 +477,7 @@
 		"choices":["Claro, gracias por la manzana."],
 		"nextStory":[10040],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-102,-101,-100]
 	},
 	{
 		"id":10041,
@@ -489,7 +489,7 @@
 		"choices":["(Zunay me dedicó una sonrisa y se marchó.)"],
 		"nextStory":[10042],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-102,-101,-100]
 	},
 	{
 		"id":10042,
@@ -501,18 +501,18 @@
 		"choices":["(¡Sólo espero que esta sea una manzana normal!"],
 		"nextStory":[10043],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-102,-101,-100]
 	},
 	{
 		"id":10043,
 		"text":"",
 		"type":"answer_only",
-		"closeDialog":false,
+		"closeDialog":true,
 		"place":100,
 		"npc":[],
 		"choices":["(FINALIZAR EPISODIO)"],
 		"nextStory":[],
 		"setInventory":[],
-		"setObjetive":[]
+		"setObjetive":[-102,-101,-100]
 	}
 ]
