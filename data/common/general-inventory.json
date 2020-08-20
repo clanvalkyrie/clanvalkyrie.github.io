@@ -1,11 +1,11 @@
 [
-	{"id":100, "text":"Fragmento de mapa", "current":[100]},
-	{"id":101, "text":"Fragmento de mapa (x2)", "current":[101]},
-	{"id":102, "text":"Fragmento de mapa (x3)", "current":[102]},
-	{"id":103, "text":"Fragmento de mapa (x4)", "current":[103]},
-	{"id":104, "text":"Fragmento de mapa (x5)", "current":[104]},
-	{"id":105, "text":"Mapa", "current":[105]},
+	{"id":100, "text":"Fragmento de mapa"},
+	{"id":101, "text":"Fragmento de mapa (x2)"},
+	{"id":102, "text":"Fragmento de mapa (x3)"},
+	{"id":103, "text":"Fragmento de mapa (x4)"},
+	{"id":104, "text":"Fragmento de mapa (x5)"},
+	{"id":105, "text":"Mapa"},
 
-	{"id":106, "text":"Manzana.", "current":[106]},
-	{"id":107, "text":"Hacha de Zunay.", "current":[106,107]},
+	{"id":106, "text":"Manzana."},
+	{"id":107, "text":"Hacha de Zunay."}
 ]

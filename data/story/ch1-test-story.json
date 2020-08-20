@@ -260,7 +260,7 @@
 		"npc":[1050],
 		"choices":["Oh, ¿y funciona?"],
 		"nextStory":[10022],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[-101,-100]
 	},
 	{
@@ -272,7 +272,7 @@
 		"npc":[1050],
 		"choices":["¡Sí funciona!", "No, no funciona."],
 		"nextStory":[10023, 10024],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[-101,-100]
 	},
 	{
@@ -284,7 +284,7 @@
 		"npc":[1050],
 		"choices":["¿Y entonces porqué preguntas?"],
 		"nextStory":[10025],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[-101,-100]
 	},
 	{
@@ -296,7 +296,7 @@
 		"npc":[1050],
 		"choices":["¿Qué? ¿Tu mamá?"],
 		"nextStory":[10025],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[-101,-100]
 	},
 	{
@@ -308,7 +308,7 @@
 		"npc":[1050],
 		"choices":["Eh, vale."],
 		"nextStory":[10026],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[-101,-100]
 	},
 	{
@@ -320,7 +320,7 @@
 		"npc":[],
 		"choices":["(Es una chica extraña, será mejor que le siga la corriente.)"],
 		"nextStory":[10027],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[102,-101,-100]
 	},
 	{
@@ -332,7 +332,7 @@
 		"npc":[1050],
 		"choices":["Pero si venía atrás de tí."],
 		"nextStory":[10028],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[102,-101,-100]
 	},
 	{
@@ -344,7 +344,7 @@
 		"npc":[1050],
 		"choices":["¿Qué?"],
 		"nextStory":[10029],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[-102,-101,-100]
 	},
 	{
@@ -356,7 +356,7 @@
 		"npc":[1050],
 		"choices":["(Se acercó a mi y esperó a que la sujetara.)"],
 		"nextStory":[10030],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[-102,-101,-100]
 	},
 	{
@@ -368,7 +368,7 @@
 		"npc":[1050],
 		"choices":["Uhm... Vale."],
 		"nextStory":[10031],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[-102,-101,-100]
 	},
 	{
@@ -380,7 +380,7 @@
 		"npc":[1050],
 		"choices":["(Sujeté su hacha con cierto miedo de hacerla caer, mientras ella la soltaba lentamente.)"],
 		"nextStory":[10032],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[-102,-101,-100]
 	},
 	{
@@ -392,7 +392,7 @@
 		"npc":[1051],
 		"choices":["¿Y bien? ¿Qué hago con ella?"],
 		"nextStory":[10033],
-		"setInventory":[107],
+		"setInventory":[106,107],
 		"setObjetive":[-102,-101,-100]
 	},
 	{
@@ -404,7 +404,7 @@
 		"npc":[1051],
 		"choices":["(Continuar)"],
 		"nextStory":[10034],
-		"setInventory":[],
+		"setInventory":[106,107],
 		"setObjetive":[-102,-101,-100]
 	},
 	{
@@ -416,7 +416,7 @@
 		"npc":[1051],
 		"choices":["Oh, sí claro, toma."],
 		"nextStory":[10035],
-		"setInventory":[],
+		"setInventory":[106,107],
 		"setObjetive":[-102,-101,-100]
 	},
 	{
@@ -428,7 +428,7 @@
 		"npc":[1051],
 		"choices":["(Cuando sus manos tocaron el frío acero del hacha, se aferró a ella como si su vida dependiera de la misma.)"],
 		"nextStory":[10036],
-		"setInventory":[],
+		"setInventory":[106,107],
 		"setObjetive":[-102,-101,-100]
 	},
 	{
@@ -452,7 +452,7 @@
 		"npc":[1050],
 		"choices":["Está bien. ¿Y ahora qué?"],
 		"nextStory":[10038],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[-102,-101,-100]
 	},
 	{
@@ -464,7 +464,7 @@
 		"npc":[1050],
 		"choices":["(¿Otra vez mamá?)"],
 		"nextStory":[10039],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[-102,-101,-100]
 	},
 	{
@@ -476,7 +476,7 @@
 		"npc":[1050],
 		"choices":["Claro, gracias por la manzana."],
 		"nextStory":[10040],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[-102,-101,-100]
 	},
 	{
@@ -488,7 +488,7 @@
 		"npc":[1050],
 		"choices":["(Zunay me dedicó una sonrisa y se marchó.)"],
 		"nextStory":[10042],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[-102,-101,-100]
 	},
 	{
@@ -500,7 +500,7 @@
 		"npc":[],
 		"choices":["(¡Sólo espero que esta sea una manzana normal!"],
 		"nextStory":[10043],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[-102,-101,-100]
 	},
 	{
@@ -512,7 +512,7 @@
 		"npc":[],
 		"choices":["(FINALIZAR EPISODIO)"],
 		"nextStory":[],
-		"setInventory":[],
+		"setInventory":[106],
 		"setObjetive":[-102,-101,-100]
 	}
 ]
