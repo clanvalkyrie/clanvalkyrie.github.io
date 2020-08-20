@@ -480,31 +480,31 @@
 		"setObjetive":[-102,-101,-100]
 	},
 	{
-		"id":10041,
+		"id":10040,
 		"text":"",
 		"type":"answer_only",
 		"closeDialog":false,
 		"place":100,
 		"npc":[1050],
 		"choices":["(Zunay me dedicó una sonrisa y se marchó.)"],
+		"nextStory":[10041],
+		"setInventory":[106],
+		"setObjetive":[-102,-101,-100]
+	},
+	{
+		"id":10041,
+		"text":"",
+		"type":"answer_only",
+		"closeDialog":false,
+		"place":100,
+		"npc":[],
+		"choices":["(¡Sólo espero que esta sea una manzana normal!)"],
 		"nextStory":[10042],
 		"setInventory":[106],
 		"setObjetive":[-102,-101,-100]
 	},
 	{
 		"id":10042,
-		"text":"",
-		"type":"answer_only",
-		"closeDialog":false,
-		"place":100,
-		"npc":[],
-		"choices":["(¡Sólo espero que esta sea una manzana normal!"],
-		"nextStory":[10043],
-		"setInventory":[106],
-		"setObjetive":[-102,-101,-100]
-	},
-	{
-		"id":10043,
 		"text":"",
 		"type":"answer_only",
 		"closeDialog":true,
