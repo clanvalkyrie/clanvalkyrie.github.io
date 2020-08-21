@@ -1,22 +1,18 @@
-var contenedor, current, nextTemp = [];
+var contenedor, current, nextTemp, currentPlace = [];
+var OBJmoves = false, OBJplaces = false;
 var REMOTE = "https://zunnay.github.io";
 var storyDB = [], objetiveDB = [], inventoryDB = [], npcDB = [], placeDB = [];
 var dbCount = 0;
+
 // -----------------------------------------------------------------------------------------------------
 $(document).ready(function(){
-	// Bloquea scroll hacia arriba
-    $(document).scrollTop(115);
-    $(document).scroll(function(){
-        var scrolled = $(document).scrollTop();
-        if (scrolled < 115) {
-        	$(document).scrollTop(115);
-        };
-    });
+    $('body').addClass('stick');
 
 // Cargar base de datos.
 	// Capítulo ------> URL cambia según capítulo
+
 	const requestStory = new XMLHttpRequest();
-	requestStory.open("GET", "https://zunnay.github.io/valkyrieclub/data/story/ch1-test-story.json");
+	requestStory.open("GET", $("#qwe").text());
 	requestStory.responseType = "json";
 	requestStory.send();
 
@@ -27,7 +23,7 @@ $(document).ready(function(){
 
 	// Objetivos del capítulo ------> URL cambia según capítulo
 	const requestObjetives = new XMLHttpRequest();
-	requestObjetives.open("GET", "https://zunnay.github.io/valkyrieclub/data/story/ch1-objetives.json");
+	requestObjetives.open("GET", $("#wer").text());
 	requestObjetives.responseType = "json";
 	requestObjetives.send();
 
@@ -38,7 +34,7 @@ $(document).ready(function(){
 
 	// Inventario
 	const requestInventory = new XMLHttpRequest();
-	requestInventory.open("GET", "https://zunnay.github.io/valkyrieclub/data/common/general-inventory.json");
+	requestInventory.open("GET", $("#ert").text());
 	requestInventory.responseType = "json";
 	requestInventory.send();
 
@@ -49,7 +45,7 @@ $(document).ready(function(){
 
 	// NPC
 	const requestNPC = new XMLHttpRequest();
-	requestNPC.open("GET", "https://zunnay.github.io/valkyrieclub/data/common/general-npcs.json");
+	requestNPC.open("GET", $("#rty").text());
 	requestNPC.responseType = "json";
 	requestNPC.send();
 
@@ -60,7 +56,7 @@ $(document).ready(function(){
 
 	// Places
 	const requestPlaces = new XMLHttpRequest();
-	requestPlaces.open("GET", "https://zunnay.github.io/valkyrieclub/data/common/general-places.json");
+	requestPlaces.open("GET", $("#tyu").text());
 	requestPlaces.responseType = "json";
 	requestPlaces.send();
 
@@ -86,7 +82,7 @@ function almacena(db, name) {
 
 function iniciarCapitulo() {
 
-	cargarStory(storyDB[27].id);
+	cargarStory(storyDB[0].id);
 
 }
 
@@ -97,7 +93,7 @@ function cargarStory(id) {
 
 	var currentStory = storyDB.filter(function(v) {return v.id == id});
 
-	if (currentStory[0].id != nextTemp[0]) {
+	if (currentStory[0].id != nextTemp) {
 
 		// Cargar fondo
 		if (currentStory[0].place != "auto") {
@@ -193,27 +189,53 @@ function cargarStory(id) {
 			div.src = REMOTE + npcDB[0].imgURL;
 			document.getElementsByClassName("own-npc")[0].appendChild(div);
 
-		} else {
-			// Cargar puntos de desplazamiento
-			alert("Esta función no está disponible");
 		};
 
 		if (currentStory[0].closeDialog == true) {
-			nextTemp = currentStory[0].nextStory;
+			nextTemp = currentStory[0].nextStory[0];
 			(nextTemp == [])?(finalizaEpisodio()):"";
 		} else {
-			nextTemp.length = 0;
+			nextTemp = 0;
 			setMenu(currentStory[0].id);
 		};
 
 	} else {
 		// Cargar puntos de desplazamiento
-		alert("Esta función no está disponible");
+		alert("Esta función no está disponible 2");
+		setDesplazamientos ();
 	}
 };
 
+function setDesplazamientos(id) {
+
+	var place = [];
+	
+	if (id != "auto") {
+		place = placeDB.filter(function (v) {return v.id == id});
+	} else {
+		place = currentPlace;
+	}
+	
+
+	contenedor.innerHTML = "";
+
+	for (p = 0; p < place[0].places.length; p++) {
+		var div = document.createElement("div");
+		div.setAttribute("id", place[0].places[p]);
+		div.setAttribute("class","changeLocation tooltip");
+		div.setAttribute("style", place[0].style[p])
+
+		var temp = placeDB.filter(function(v) {return v.id == place[0].places[p]});
+
+		div.innerHTML = "<span class=tooltiptext>" + temp[0].name + "</span>"
+		contenedor.appendChild(div);
+	}
+
+};
+
 function finalizaEpisodio() {
-	alert("adiosito");
+	// Volver a la lista de episodios
+	// Mostrar CHECKPOINT
 };
 
 function setMenu (id) {
@@ -233,11 +255,21 @@ function setMenu (id) {
 			var obj = objetiveDB.filter(function(v) {return v.id == Math.abs(objId)});
 			if (objId > 0) {
 				lista = lista + '<li>' + obj[0].text + '</li>';
+
+				//Revisar
+				if(obj[0].type == "moves") {
+					OBJmoves = obj[0].value;
+					OBJplaces = false;
+				} else {
+					OBJplaces = obj[0].value;
+					OBJmoves = false;
+				};
+
 			} else {
 				lista = lista + '<li class="done">' + obj[0].text + '</li>';
 			};
 		};
-
+		
 		ul.innerHTML = lista;
 		objetives.appendChild(ul);
 	};
@@ -258,15 +290,22 @@ function setMenu (id) {
 };
 
 
-/* if (closeDialog == true) {
-	// almacenar nextStory en temporal.
-}
+function changeLocation(id) {
+	// Fijar fondo
+	currentPlace = placeDB.filter(function(v) {return v.id == id});
+	contenedor.style.backgroundImage = "url('" + REMOTE + currentPlace[0].imgURL + "')";
 
-if (setObjetive) {
-	// Objetivo completo. Se repite el id para tacharlo de la lista.
-}
+	// Verificar si se completan los objetivos
+	
+	if (OBJplaces == false) { // Objetivo por movimientos
+		OBJmoves--;
+		(OBJmoves == 0)?(cargarStory(nextTemp--)):(setDesplazamientos(id));
 
-*/
+	} else { // Objetivo por ubicación
+		(OBJplaces == id)?(cargarStory(nextTemp--)):(setDesplazamientos(id));
+	};
+};
+
 
 $(function() { 
 
@@ -275,13 +314,20 @@ $(function() {
 		if (choiceSeleted == "undefined") {
 			finalizaEpisodio();
 		} else {
-			if (choiceSeleted == nextTemp[0]) {
-				cargarStory(choiceSeleted);
+			if (choiceSeleted == nextTemp) {
 				setMenu(current);
+				var temp = storyDB.filter(function(v) {return v.id == current});
+				setDesplazamientos(temp[0].place);
 			} else {
 				cargarStory(choiceSeleted);
 			};
 		};
+
+	})});
+
+	$("#episode-container").each(function(){$(this).on("click", ".changeLocation", function() {
+		var mov = $(this).attr("id");
+		changeLocation(mov);
 
 	})});
 

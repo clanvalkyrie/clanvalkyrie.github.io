@@ -1,42 +1,36 @@
 [
 	{
-		"id":100, 
-		"name":"Jardín", 
+		"id":100, "name":"Jardín", 
 		"imgURL":"/valkyrieclub/assets/img/places/example-cerezo.jpg",
 		"places":[101], 
-		"style":["top:280px; right:70px;"]
+		"style":["top:280px; right:85px;"]
 	},
 	{
-		"id":101, 
-		"name":"Pasillo", 
+		"id":101, "name":"Pasillo", 
 		"imgURL":"/valkyrieclub/assets/img/places/example-pasillo.jpg",
 		"places":[100, 102, 103, 104, 105], 
 		"style":["top: 330px;left: 210px;","top: 240px;left: 60px;","top: 190px;right: 280px;","top: 220px;right: 60px;","top: 190px;right: 460px;"]
 	},
 	{
-		"id":102, 
-		"name":"Sala del Cristal", 
+		"id":102, "name":"Sala del Cristal", 
 		"imgURL":"/valkyrieclub/assets/img/places/example-cristal.jpg", 
 		"places":[101], 
 		"style":["top: 410px;left: 330px;"]
 	},
 	{
-		"id":103, 
-		"name":"Mi Habitación", 
+		"id":103, "name":"Mi Habitación", 
 		"imgURL":"/valkyrieclub/assets/img/places/example-habitacion.jpg",
 		"places":[101], 
 		"style":["top:400px; left:220px;"]
 	},
 	{
-		"id":104, 
-		"name":"Habitación de Alguien", 
+		"id":104, "name":"Habitación de Alguien", 
 		"imgURL":"/valkyrieclub/assets/img/places/example-valkyon.jpg",
 		"places":[101], 
 		"style":["top: 400px;left: 360px;"]
 	},
 	{
-		"id":105, 
-		"name":"Biblioteca", 
+		"id":105, "name":"Biblioteca", 
 		"imgURL":"/valkyrieclub/assets/img/places/biblioteca.jpg",
 		"places":[101], 
 		"style":["top: 250px;left: 440px;"]
