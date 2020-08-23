@@ -3,7 +3,7 @@ body {
 }
 
 body {
-    background: #f8f8f8;
+    background: #8d7caa;
     color: #888888;
     font: normal 12px/1.5em lato, arial, sans-serif;
     word-wrap: break-word;
@@ -28,12 +28,12 @@ a {
 }
 
 a:hover {
-    color: #f0bfb3;
+    color: #b09bd5;
     border-color: #f0bfb3 !important;
 }
 
 bar a:hover {
-    border-color: #f8f8f8 !important;
+    border-color: #86649b !important;
 }
 
 a, .iframe-controls--desktop, svg {
@@ -62,7 +62,7 @@ img {
     font-size: .9em;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    color: #f0bfb3;
+    color: #b492a8;
 }
 
 nav {
@@ -73,7 +73,7 @@ nav {
 
 nav, bar {
     width: calc(540px + 250px + 250px + 50px);
-    background: #ffffff;
+    background: #f6f6f6;
 }
 
 .hi {
@@ -92,7 +92,7 @@ nav, bar {
 
 bar {
     line-height: 1em;
-    border-bottom: 1px solid #f8f8f8;
+    border-bottom: 1px solid #86649b;
     position: absolute;
     top: 100%;
     left: 0;
@@ -104,7 +104,7 @@ bar {
 bar a {
     display: inline-block;
     padding: 0 20px;
-    border-right: 1px solid #f8f8f8;
+    border-right: 1px solid #86649b;
 }
 
 .stick bar {
@@ -119,15 +119,7 @@ bar a {
     z-index: 101;
 }    
 
-bar a {
-    display:inline-block;
-    padding:0 20px;    
-    border-right:1px solid #f8f8f8;
-}
-
 bar a:last-of-type {border:0;}
-
-bar a:hover {border-color:#f8f8f8!important;}
 
 .i {
     position: absolute;
@@ -182,7 +174,7 @@ section {
 article, #story {
     /*width: 540px;*/
     width: 762px;
-    background: #ffffff;
+    background: #f6f6f6;
     border-bottom: 1px solid #f8f8f8;
     margin-bottom: 25px;
     position: relative;
@@ -190,7 +182,7 @@ article, #story {
 }
 
 .block {
-    background: #ffffff;
+    background: #f6f6f6;
     border-bottom: 1px solid #f8f8f8;
     padding: 20px 25px;
     margin-bottom: 25px;
@@ -215,7 +207,7 @@ article, #story {
     display: inline-block;
     width: calc(50% - 5px);
     margin-bottom: 5px;
-    border-bottom: 1px dotted #f8f8f8;
+    border-bottom: 1px dotted #86649b;
     padding-bottom: 5px;
 }
 
@@ -224,7 +216,7 @@ article, #story {
 }
 
 .nn a:hover, .memb a:hover {
-    border-color: #f8f8f8 !important;
+    border-color: #86649b !important;
 }
 
 .title, .quote {
