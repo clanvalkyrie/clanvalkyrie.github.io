@@ -69,13 +69,13 @@
 		"id":111, "name":"Ala Izquierda", 
 		"imgURL":"/valkyrieclub/assets/img/places/ala-izquierda.png",
 		"places":[109,113], 
-		"style":["top: 370px;eft: 130px;","top: 250px;left: 515px;"]
+		"style":["top: 370px;left: 130px;","top: 250px;left: 515px;"]
 	},
 	{
 		"id":112, "name":"Ala Izquierda, de noche", 
 		"imgURL":"/valkyrieclub/assets/img/places/ala-izquierda-noche.png",
 		"places":[110,114], 
-		"style":["top: 370px;eft: 130px;","top: 250px;left: 515px;"]
+		"style":["top: 370px;left: 130px;","top: 250px;left: 515px;"]
 	},
 	{
 		"id":113, "name":"Comedor", 

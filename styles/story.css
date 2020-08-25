@@ -78,16 +78,36 @@ code {
 .bubbleText {
     font-weight: bold;
     background: rgba(247, 247, 247, 0.85);
-    max-width: 110px;
+    max-width: 150px;
     top: 100px;
     position: absolute;
-    left: 110px;
+    left: 90px;
     border-radius: 10px;
     text-align: center;
     padding: 10px;
     border: 1px solid #8d7caa;
     font-size: 13px;
     box-shadow: 2px 2px 5px #8d7caa;
+}
+
+.bubbleInfo {
+  width: 762px;
+  height: 450px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.bubbleInfo div {
+  max-width: 350px;
+  background: #fff;
+  position: relative;
+  top: -50px;
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid #000;
+  color: #000;
+  font-size: 14px;
 }
 
 .choice {
@@ -131,18 +151,29 @@ code {
     -webkit-transition: all 0.2s ease-in-out;
 }
 
-.npc{
+.npc, .pet {
     width: 550px;
     height: 450px;
     display: block;
     position: absolute;
+    text-align: center;
+}
+
+.pet {
+    width: 762px;
 }
 
 .npc img {
+    display: block;
     position: absolute;
     height: auto;
     top: -50px;
     min-width: 550px;
+}
+
+.pet img {
+    position: relative;
+    display: inline-block;
 }
 
 .own-npc {

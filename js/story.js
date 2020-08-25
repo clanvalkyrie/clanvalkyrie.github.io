@@ -89,6 +89,7 @@ function iniciarCapitulo() {
 function cargarStory(id) {
 	current = id;
 	contenedor = document.getElementById("episode-container");
+	contenedor.style.backgroundColor = "#000";
 	contenedor.innerHTML = "";
 
 	var currentStory = storyDB.filter(function(v) {return v.id == id});
@@ -96,30 +97,42 @@ function cargarStory(id) {
 	if (currentStory[0].id != nextTemp) {
 
 		// Cargar fondo
-		if (currentStory[0].place != "auto") {
+		if (!isNaN(currentStory[0].place)) {
 			var backIMG = placeDB.filter(function(v) {return v.id == currentStory[0].place});
 			contenedor.style.backgroundImage = "url('" + REMOTE + backIMG[0].imgURL + "')";
+		} else {
+			if (currentStory[0].place != "auto") {
+				currentStory[0].place == "white" ? contenedor.style.backgroundColor = "#fff" : "";
+				contenedor.style.backgroundImage = "url('')";
+			}
+			
 		};
 
 		// Cargar NPC si existe.
 		if (currentStory[0].npc.length != 0) {
 			// Cargar NPC
 			var div = document.createElement("div");
-			div.setAttribute("class", "npc");
+			
 
 			for (n = 0; n < currentStory[0].npc.length; n++) {
 				div.setAttribute("id",currentStory[0].npc[n]);
 
-				if (currentStory[0].npc.length == 1) {
-					div.style.left = "106px";
-				};
+				var gardie = npcDB.filter(function(v) {return v.id == currentStory[0].npc[n]});
+
+				if (gardie[0].type == "char") {
+					div.setAttribute("class", "npc");
+					(currentStory[0].npc.length == 1)?(div.style.left = "106px"):"";
+				} else {
+					div.setAttribute("class", "pet");
+					div.setAttribute("style", gardie[0].style[n]);
+				}
 
 				contenedor.appendChild(div);
 
-				var gardie = npcDB.filter(function(v) {return v.id == currentStory[0].npc[n]});
 				var img = document.createElement("img");
 				img.src = REMOTE + gardie[0].imgURL;
-				document.getElementsByClassName("npc")[n].appendChild(img);
+				(gardie[0].type == "char") ? document.getElementsByClassName("npc")[n].appendChild(img) : document.getElementsByClassName("pet")[n].appendChild(img);
+				
 			};
 		};
 
@@ -159,8 +172,14 @@ function cargarStory(id) {
 				div.innerHTML = currentStory[0].text;
 				contenedor.appendChild(div);
 
-			}
-		}
+			} else if (currentStory[0].type == "info_general") {
+				var div = document.createElement("div");
+				div.setAttribute("class", "bubbleInfo");
+				div.setAttribute("id", currentStory[0].id);
+				div.innerHTML = "<div>" + currentStory[0].text + "</div>";
+				contenedor.appendChild(div);
+			};
+		};
 
 		// Cargar opciones
 		if (currentStory[0].choices.length != 0) {
@@ -180,14 +199,18 @@ function cargarStory(id) {
 
 			};
 
-			div = document.createElement("div");
-			div.setAttribute("class", "own-npc");
-			document.getElementById("choiceText").appendChild(div);
+			if (currentStory[0].self != "") {
+				div = document.createElement("div");
+				div.setAttribute("class", "own-npc");
+				document.getElementById("choiceText").appendChild(div);
 
-			div = document.createElement("img");
-			div.setAttribute("class", "npcRpg");
-			div.src = REMOTE + npcDB[0].imgURL;
-			document.getElementsByClassName("own-npc")[0].appendChild(div);
+				var gardie = npcDB.filter(function(v) {return v.id == currentStory[0].self});
+				var img = document.createElement("img");
+				img.setAttribute("class", "npcRpg");
+				img.src = REMOTE + gardie[0].imgURL;
+				document.getElementsByClassName("own-npc")[0].appendChild(img);
+			}
+			
 
 		};
 
@@ -210,7 +233,7 @@ function setDesplazamientos(id) {
 
 	var place = [];
 	
-	if (id != "auto") {
+	if (!isNaN(id)) {
 		place = placeDB.filter(function (v) {return v.id == id});
 	} else {
 		place = currentPlace;
