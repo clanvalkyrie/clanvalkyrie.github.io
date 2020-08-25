@@ -1138,7 +1138,7 @@
 		"place":108,
 		"npc":[1200],
 		"self":1100,
-		"choices":["Bueno, la verdad es que me gustaría saber dónde estoy.",],
+		"choices":["Bueno, la verdad es que me gustaría saber dónde estoy."],
 		"nextStory":[10090],
 		"setInventory":[],
 		"setObjetive":[]
