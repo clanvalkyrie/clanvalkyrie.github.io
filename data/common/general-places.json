@@ -1,38 +1,98 @@
 [
 	{
-		"id":100, "name":"Jardín", 
-		"imgURL":"/valkyrieclub/assets/img/places/example-cerezo.jpg",
-		"places":[101], 
-		"style":["top:280px; right:85px;"]
+		"id":100, "name":"Claro del Bosque", 
+		"imgURL":"/valkyrieclub/assets/img/places/claro-bosque.png",
+		"places":[], 
+		"style":[]
 	},
 	{
-		"id":101, "name":"Pasillo", 
-		"imgURL":"/valkyrieclub/assets/img/places/example-pasillo.jpg",
-		"places":[100, 102, 103, 104, 105], 
-		"style":["top: 330px;left: 210px;","top: 240px;left: 60px;","top: 190px;right: 280px;","top: 220px;right: 60px;","top: 190px;right: 460px;"]
+		"id":101, "name":"Sala de Alquimia", 
+		"imgURL":"/valkyrieclub/assets/img/places/sala-alquimia.png",
+		"places":[107], 
+		"style":["top: 180px;left: 400px;"]
 	},
 	{
-		"id":102, "name":"Sala del Cristal", 
-		"imgURL":"/valkyrieclub/assets/img/places/example-cristal.jpg", 
-		"places":[101], 
-		"style":["top: 410px;left: 330px;"]
+		"id":102, "name":"Sala de Alquimia, de noche", 
+		"imgURL":"/valkyrieclub/assets/img/places/sala-alquimia-noche.png",
+		"places":[108], 
+		"style":["top: 180px;left: 400px;"]
 	},
 	{
-		"id":103, "name":"Mi Habitación", 
-		"imgURL":"/valkyrieclub/assets/img/places/example-habitacion.jpg",
-		"places":[101], 
-		"style":["top:400px; left:220px;"]
+		"id":103, "name":"Enfermería", 
+		"imgURL":"/valkyrieclub/assets/img/places/enfermeria.png",
+		"places":[107], 
+		"style":["top: 200px;left: 235px;"]
 	},
 	{
-		"id":104, "name":"Habitación de Alguien", 
-		"imgURL":"/valkyrieclub/assets/img/places/example-valkyon.jpg",
-		"places":[101], 
-		"style":["top: 400px;left: 360px;"]
+		"id":104, "name":"Enfermería, de noche", 
+		"imgURL":"/valkyrieclub/assets/img/places/enfermeria-noche.png", 
+		"places":[108], 
+		"style":["top: 200px;left: 235px;"]
 	},
 	{
 		"id":105, "name":"Biblioteca", 
-		"imgURL":"/valkyrieclub/assets/img/places/biblioteca.jpg",
-		"places":[101], 
-		"style":["top: 250px;left: 440px;"]
+		"imgURL":"/valkyrieclub/assets/img/places/biblioteca.png",
+		"places":[107], 
+		"style":["top: 230px;left: 445px;"]
+	},
+	{
+		"id":106, "name":"Biblioteca, de noche", 
+		"imgURL":"/valkyrieclub/assets/img/places/biblioteca-noche.png",
+		"places":[108], 
+		"style":["top: 230px;left: 445px;"]
+	},
+	{
+		"id":107, "name":"Ala Derecha", 
+		"imgURL":"/valkyrieclub/assets/img/places/ala-derecha.png",
+		"places":[101,103,105,109], 
+		"style":["top: 206px;right: 102px;","top: 200px;left: 537px;","top: 190px;left: 225px;","top: 390px;right: 150px;"]
+	},
+	{
+		"id":108, "name":"Ala Derecha, de noche", 
+		"imgURL":"/valkyrieclub/assets/img/places/ala-derecha-noche.png",
+		"places":[102,104,106,110], 
+		"style":["top: 206px;right: 102px;","top: 200px;left: 537px;","top: 190px;left: 225px;","top: 390px;right: 150px;"]
+	},
+	{
+		"id":109, "name":"Vestíbulo", 
+		"imgURL":"/valkyrieclub/assets/img/places/vestibulo.png",
+		"places":[107,111], 
+		"style":["top: 235px;left: 577px;","top: 240px;left: 160px;"]
+	},
+	{
+		"id":110, "name":"Vestíbulo, de noche", 
+		"imgURL":"/valkyrieclub/assets/img/places/vestibulo-noche.png",
+		"places":[108,112], 
+		"style":["top: 235px;left: 577px;","top: 240px;left: 160px;"]
+	},
+	{
+		"id":111, "name":"Ala Izquierda", 
+		"imgURL":"/valkyrieclub/assets/img/places/ala-izquierda.png",
+		"places":[109,113], 
+		"style":["top: 370px;eft: 130px;","top: 250px;left: 515px;"]
+	},
+	{
+		"id":112, "name":"Ala Izquierda, de noche", 
+		"imgURL":"/valkyrieclub/assets/img/places/ala-izquierda-noche.png",
+		"places":[110,114], 
+		"style":["top: 370px;eft: 130px;","top: 250px;left: 515px;"]
+	},
+	{
+		"id":113, "name":"Comedor", 
+		"imgURL":"/valkyrieclub/assets/img/places/comedor.png",
+		"places":[111], 
+		"style":["top: 250px;left: 230px;"]
+	},
+	{
+		"id":114, "name":"Comedor, de noche", 
+		"imgURL":"/valkyrieclub/assets/img/places/comedor-noche.png",
+		"places":[112], 
+		"style":["top: 250px;left: 230px;"]
+	},
+	{
+		"id":115, "name":"Enfermería, borrosa", 
+		"imgURL":"/valkyrieclub/assets/img/places/enfermeria-borrosa.png",
+		"places":[], 
+		"style":[""]
 	}
 ]

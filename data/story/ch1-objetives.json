@@ -1,5 +1,5 @@
 [
-	{"id":100, "text":"Desplázate.", "type":"moves", "value":10},
-	{"id":101, "text":"Encuentra a alguien.", "type": "place", "value":105},
-	{"id":102, "text":"Sigue a Zunay hasta el jardín.", "type":"place", "value":100}
+	{"id":100, "text":"¡Ve al comedor, Jean te estará esperando para seguir sabiendo más de este mágico mundo!", "type":"place", "value":110},
+	{"id":101, "text":"¡Ve al comedor, Jean te estará esperando para seguir sabiendo más de este mágico mundo!", "type":"place", "value":112},
+	{"id":102, "text":"¡Ve al comedor, Jean te estará esperando para seguir sabiendo más de este mágico mundo!", "type":"place", "value":114}
 ]
