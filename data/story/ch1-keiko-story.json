@@ -1704,11 +1704,11 @@
 	},
 	{
 		"id":10132,
-		"text":"Bien, Keiko. ¿Qué deseas saber?",
+		"text":"Bien, Keiko, estamos listas para tus preguntas, ¿qué deseas saber?",
 		"type":"npc_dialog",
 		"closeDialog":false,
 		"place":114,
-		"npc":[1250],
+		"npc":[1200],
 		"self":1100,
 		"choices":["Esto... ¿es normal que reciban chicas a menudo?","Esto... ¿quiénes son?","Esto... ¿qué es este lugar?"],
 		"nextStory":[10133,10179,10216],
