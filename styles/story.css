@@ -10,27 +10,60 @@ code {
     padding-bottom: 0;
 }
 
-.objetives, .inventory {
-	height: 60px;
-	overflow-y: auto;
-	margin: 10px 0;
-}
-
 .objetives ul .done {
-	text-decoration-line: line-through;
+    text-decoration-line: line-through;
 }
 
 .tai.checkpoint {
-	padding-bottom: 5px;
-	border-bottom: 1px solid #f8f8f8;
-	margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f8f8f8;
+    margin-bottom: 5px;
 }
 
 
-#story .title {
-	text-align: center;
-	border-bottom: 1px solid;
-	padding-bottom: 25px;
+#story .title, #episodes .title {
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 25px;
+}
+
+/* Lista de episodios */
+#episode-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.episode:nth-child(2n+1) {
+    margin-right: 20px;
+}
+.episode {
+    padding: 15px;
+    border: 1px solid #b492a8;
+    width: 339px;
+    margin-bottom: 20px;
+}
+
+.episode-title {
+    text-align: center;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #b492a8;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #b492a8;
+}
+
+.episode-description {
+    text-align: justify;
+}
+
+/* Episodio en curso */
+.objetives, .inventory {
+    height: 60px;
+    overflow-y: auto;
+    margin: 10px 0;
 }
 
 #episode-container {
@@ -91,23 +124,23 @@ code {
 }
 
 .bubbleInfo {
-  width: 762px;
-  height: 450px;
-  text-align: center;
-  vertical-align: middle;
-  display: table-cell;
+    width: 762px;
+    height: 450px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
 }
 
 .bubbleInfo div {
-  max-width: 350px;
-  background: #fff;
-  position: relative;
-  top: -50px;
-  display: inline-block;
-  padding: 20px;
-  border: 1px solid #000;
-  color: #000;
-  font-size: 14px;
+    max-width: 350px;
+    background: #fff;
+    position: relative;
+    top: -50px;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 14px;
 }
 
 .choice {
@@ -133,9 +166,6 @@ code {
     padding: 1%;
     font-size: 15px;
     width: 88%;
-
-    
-
 }
 
 .choiceTextRpg .choice, .adminChoiceTextRpg .choice {
@@ -210,39 +240,39 @@ code {
 }
 
 .tooltip {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-  position: absolute;
-  z-index: 1;
-  bottom: 150%;
-  left: 50%;
-  margin-left: -60px;
-  opacity: 0;
-  transition: opacity 0.3s;
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
 }
 
 .tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
 }
 
 .tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }

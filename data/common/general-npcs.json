@@ -4,8 +4,7 @@
 	{"id":1001, "name":"Dalfelí, silueta", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/dalfeli-silueta.png"},
 	{"id":1050, "name":"Chenmi, borrosa", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/chenmi-borrosa.png"},
 	{"id":1051, "name":"Alariane, borrosa", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/alariane-borrosa.png"},
-	{"id":1100, "name":"Zuriko, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/zuriko-default.png"},
-	{"id":1101, "name":"Zuriko sin hacha", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/zuriko-sin-hacha.png"},
+	{"id":1100, "name":"Keiko, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/keiko-default.png"},
 	{"id":1150, "name":"Vidhalye, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/vidhalye-default.png"},
 	{"id":1200, "name":"Jean, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/jean-default.png"},
 	{"id":1250, "name":"Jennen, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/jennen-default.png"}

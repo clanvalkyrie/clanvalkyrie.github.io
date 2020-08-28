@@ -84,7 +84,7 @@ function iniciarCapitulo() {
 
 	cargarStory(storyDB[0].id);
 
-}
+};
 
 function cargarStory(id) {
 	current = id;
@@ -104,35 +104,32 @@ function cargarStory(id) {
 			if (currentStory[0].place != "auto") {
 				currentStory[0].place == "white" ? contenedor.style.backgroundColor = "#fff" : "";
 				contenedor.style.backgroundImage = "url('')";
-			}
-			
+			};
 		};
 
 		// Cargar NPC si existe.
 		if (currentStory[0].npc.length != 0) {
 			// Cargar NPC
 			var div = document.createElement("div");
-			
 
 			for (n = 0; n < currentStory[0].npc.length; n++) {
-				div.setAttribute("id",currentStory[0].npc[n]);
 
+				div.setAttribute("id",currentStory[0].npc[n]);
 				var gardie = npcDB.filter(function(v) {return v.id == currentStory[0].npc[n]});
+
+				var img = document.createElement("img");
+				img.src = REMOTE + gardie[0].imgURL;
 
 				if (gardie[0].type == "char") {
 					div.setAttribute("class", "npc");
 					(currentStory[0].npc.length == 1)?(div.style.left = "106px"):"";
 				} else {
 					div.setAttribute("class", "pet");
-					div.setAttribute("style", gardie[0].style[n]);
-				}
+					img.setAttribute("style", gardie[0].style);
+				};
 
 				contenedor.appendChild(div);
-
-				var img = document.createElement("img");
-				img.src = REMOTE + gardie[0].imgURL;
 				(gardie[0].type == "char") ? document.getElementsByClassName("npc")[n].appendChild(img) : document.getElementsByClassName("pet")[n].appendChild(img);
-				
 			};
 		};
 
@@ -209,9 +206,7 @@ function cargarStory(id) {
 				img.setAttribute("class", "npcRpg");
 				img.src = REMOTE + gardie[0].imgURL;
 				document.getElementsByClassName("own-npc")[0].appendChild(img);
-			}
-			
-
+			};
 		};
 
 		if (currentStory[0].closeDialog == true) {
@@ -226,7 +221,7 @@ function cargarStory(id) {
 		// Cargar puntos de desplazamiento
 		alert("Esta función no está disponible 2");
 		setDesplazamientos ();
-	}
+	};
 };
 
 function setDesplazamientos(id) {
@@ -237,8 +232,7 @@ function setDesplazamientos(id) {
 		place = placeDB.filter(function (v) {return v.id == id});
 	} else {
 		place = currentPlace;
-	}
-	
+	};
 
 	contenedor.innerHTML = "";
 
@@ -252,8 +246,7 @@ function setDesplazamientos(id) {
 
 		div.innerHTML = "<span class=tooltiptext>" + temp[0].name + "</span>"
 		contenedor.appendChild(div);
-	}
-
+	};
 };
 
 function finalizaEpisodio() {
@@ -309,7 +302,6 @@ function setMenu (id) {
 		ul.innerHTML = lista;
 		inventory.appendChild(ul);
 	};
-
 };
 
 

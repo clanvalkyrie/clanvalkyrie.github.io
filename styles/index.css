@@ -43,7 +43,7 @@ a, .iframe-controls--desktop, svg {
     -o-transition: all .15s linear;
 }
 
-aside, nav, article, #story, footer, header, bar {
+aside, nav, article, #story, #episodes footer, header, bar {
     -webkit-animation-name: fade-in;
     -webkit-animation-duration: 1.5s;
 }
@@ -171,7 +171,7 @@ section {
     width: 811px;
 }
 
-article, #story {
+article, #story, #episodes {
     /*width: 540px;*/
     width: 762px;
     background: #f6f6f6;
