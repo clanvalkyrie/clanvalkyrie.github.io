@@ -1,0 +1,7 @@
+[
+	{
+		"episode":"001","title":"1 - Grata Bienvenida","char":["Keiko"],
+		"description":"Keiko acaba de llegar a las tierras eldaryanas, pero de una forma que alertó al Clan Valkyrie. Tras ser rescatada, recibe un poco de orientación por parte de sus nuevas compañeras quiénes les ayudará a averiguar el propósito de su llegada.",
+		"story":"ch1-keiko-story.json","objetive":"ch1-objetives.json"
+	}
+]
