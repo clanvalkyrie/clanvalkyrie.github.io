@@ -8,62 +8,19 @@ var dbCount = 0;
 $(document).ready(function(){
     $('body').addClass('stick');
 
-// Cargar base de datos.
-	// Capítulo ------> URL cambia según capítulo
-
-	const requestStory = new XMLHttpRequest();
-	requestStory.open("GET", $("#qwe").text());
-	requestStory.responseType = "json";
-	requestStory.send();
-
-	requestStory.onload = function() {
-		tempDB = requestStory.response;
-		almacena(tempDB, "story");
-	}
-
-	// Objetivos del capítulo ------> URL cambia según capítulo
-	const requestObjetives = new XMLHttpRequest();
-	requestObjetives.open("GET", $("#wer").text());
-	requestObjetives.responseType = "json";
-	requestObjetives.send();
-
-	requestObjetives.onload = function() {
-		tempDB = requestObjetives.response;
-		almacena(tempDB, "objetive");
-	};
+	// Cargar base de datos.
 
 	// Inventario
-	const requestInventory = new XMLHttpRequest();
-	requestInventory.open("GET", $("#ert").text());
-	requestInventory.responseType = "json";
-	requestInventory.send();
-
-	requestInventory.onload = function() {
-		tempDB = requestInventory.response;
-		almacena(tempDB, "inventory");
-	};
+	const requestInventory = new XMLHttpRequest();requestInventory.open("GET", $("#ert").text());requestInventory.responseType = "json";requestInventory.send();
+	requestInventory.onload = function() {tempDB = requestInventory.response;almacena(tempDB, "inventory");};
 
 	// NPC
-	const requestNPC = new XMLHttpRequest();
-	requestNPC.open("GET", $("#rty").text());
-	requestNPC.responseType = "json";
-	requestNPC.send();
-
-	requestNPC.onload = function() {
-		tempDB = requestNPC.response;
-		almacena(tempDB, "npc");
-	};
+	const requestNPC = new XMLHttpRequest();requestNPC.open("GET", $("#rty").text());requestNPC.responseType = "json";requestNPC.send();
+	requestNPC.onload = function() {tempDB = requestNPC.response;almacena(tempDB, "npc");};
 
 	// Places
-	const requestPlaces = new XMLHttpRequest();
-	requestPlaces.open("GET", $("#tyu").text());
-	requestPlaces.responseType = "json";
-	requestPlaces.send();
-
-	requestPlaces.onload = function() {
-		tempDB = requestPlaces.response;
-		almacena(tempDB, "place");
-	};
+	const requestPlaces = new XMLHttpRequest();requestPlaces.open("GET", $("#tyu").text());requestPlaces.responseType = "json";requestPlaces.send();
+	requestPlaces.onload = function() {tempDB = requestPlaces.response;almacena(tempDB, "place");};
 
 });
 
@@ -104,6 +61,9 @@ function cargarStory(id) {
 			if (currentStory[0].place != "auto") {
 				currentStory[0].place == "white" ? contenedor.style.backgroundColor = "#fff" : "";
 				contenedor.style.backgroundImage = "url('')";
+			} else {
+				// Revisar !
+				(currentPlace.length == 1) ? (contenedor.style.backgroundImage = "url('" + REMOTE + backIMG[0].imgURL + "')") : "";
 			};
 		};
 
@@ -259,8 +219,10 @@ function setMenu (id) {
 
 	var objetives = document.getElementsByClassName("objetives")[0];
 	var inventory = document.getElementsByClassName("inventory")[0];
+	var checkpoint = document.getElementsByTagName("code")[0];
 	objetives.innerHTML = "";
 	inventory.innerHTML = "";
+	checkpoint.innerHTML = "";
 
 	if (currentStory[0].setObjetive.length != 0) {
 		var ul = document.createElement("ul");
@@ -302,8 +264,13 @@ function setMenu (id) {
 		ul.innerHTML = lista;
 		inventory.appendChild(ul);
 	};
-};
 
+	if (currentStory[0].checkpoint.length == 19) {
+		checkpoint.innerHTML = currentStory[0].checkpoint;
+	} else {
+		// El lugar no está establecido, debe asignarse.
+	};
+};
 
 function changeLocation(id) {
 	// Fijar fondo
@@ -320,7 +287,6 @@ function changeLocation(id) {
 		(OBJplaces == id)?(cargarStory(nextTemp--)):(setDesplazamientos(id));
 	};
 };
-
 
 $(function() { 
 

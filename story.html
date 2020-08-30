@@ -10,6 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="styles/story.css">
 		<link rel="stylesheet" href="https://use.edgefonts.net/c/7ac18c/1w;lato,2,c0s:W:i4,c0y:W:i7,c0r:W:n4,c0x:W:n7/l" media="all">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/chloader.js"></script>
 		<script type="text/javascript" src="js/story.js"></script>
 
 	</head>
@@ -29,7 +30,8 @@
 
 
 
-		<div class="cont" style="margin-top:50px; display:none;">
+		<!-- Lista de episodios -->
+		<div class="cont" style="margin-top:50px; display:block;">
 			<aside>
 				<div class="block">
 					<a class="tai" href="/">Comunidad Valquírica</a>
@@ -60,57 +62,34 @@
 			</aside>
 
 			<section style="margin-right: 0">
+
+
+
+				<div id="episodes" style="">
+
+					<div class="title">Continúa tu aventura</div>
+
+					<div class="episode code">
+						<p>Si ya iniciaste tu historia pega aquí tu código para continuar desde dónde la dejaste:</p>
+						<form onsubmit="return false;" style="margin: 20px auto 15px;">
+							<input id="episode-code" value="" >
+							<input id="load-episode" class="button" type="submit" value="Continuar" >
+						</form>
+					</div>
+				</div>
+
 				<div id="episodes" style="">
 
 					<div class="title">Lista de capítulos</div>
-					<ul id="episode-list" style="display: flex;flex-wrap: wrap;list-style: none;padding: 0;">
-						<li class="episode">
-							<div class="episode-title">
-								<b>1 - Grata Bienvenida</b>
-							</div>
-							<div class="episode-description">
-                                <p>Un paseo por el bosque, un círculo de setas... y una luz cegadora. Entrar en un mundo nuevo a veces puede reservar buenas sorpresas... pero también malas.</p>
-                            </div>
-						</li><li class="episode">
-							<div class="episode-title">
-								<b>1 - Grata Bienvenida</b>
-							</div>
-							<div class="episode-description">
-                                <p>Un paseo por el bosque, un círculo de setas... y una luz cegadora. Entrar en un mundo nuevo a veces puede reservar buenas sorpresas... pero también malas.</p>
-                            </div>
-						</li><li class="episode">
-							<div class="episode-title">
-								<b>1 - Grata Bienvenida</b>
-							</div>
-							<div class="episode-description">
-                                <p>Un paseo por el bosque, un círculo de setas... y una luz cegadora. Entrar en un mundo nuevo a veces puede reservar buenas sorpresas... pero también malas.</p>
-                            </div>
-						</li><li class="episode">
-							<div class="episode-title">
-								<b>1 - Grata Bienvenida</b>
-							</div>
-							<div class="episode-description">
-                                <p>Un paseo por el bosque, un círculo de setas... y una luz cegadora. Entrar en un mundo nuevo a veces puede reservar buenas sorpresas... pero también malas.</p>
-                            </div>
-						</li>
+					<ul id="episode-list">
 					</ul>
-
 				</div>
-				
-			</section>
 
+			</section>
 		</div>
 
-
-
-
-
-
-
-
-
-
-		<div class="cont" style="margin-top:50px;">
+		<!-- Episodios -->
+		<div class="cont" style="margin-top:50px; display:none;">
 			<aside>
 				<div class="block">
 					<div class="tai" href="/">Comunidad Valquírica</div>
@@ -129,12 +108,10 @@
 					</div>
 				</div>
 
-
-
 				<div class="block">
 					<div class="tai checkpoint">Checkpoint</div>
 					Utiliza el siguiente código para continuar con tu historia:
-					<code>AXMWDOCIE</code>
+					<code></code>
 				</div>
 			</aside>
 
@@ -142,10 +119,11 @@
 
 				<div id="story" style="">
 
+					<div id="episode-back"></div>
 					<div class="title">1 - Grata Bienvenida</div>
 					<div id="episode-container">
-						<div id="qwe" style="display:none">https://zunnay.github.io/valkyrieclub/data/story/ch1-keiko-story.json</div>
-						<div id="wer" style="display:none">https://zunnay.github.io/valkyrieclub/data/story/ch1-objetives.json</div>
+
+						<div id="qwe" style="display:none">https://zunnay.github.io/valkyrieclub/data/ch.json</div>
 						<div id="ert" style="display:none">https://zunnay.github.io/valkyrieclub/data/common/general-inventory.json</div>
 						<div id="rty" style="display:none">https://zunnay.github.io/valkyrieclub/data/common/general-npcs.json</div>
 						<div id="tyu" style="display:none">https://zunnay.github.io/valkyrieclub/data/common/general-places.json</div>

@@ -1,5 +1,5 @@
 body {
-    min-height: 1000px;
+/*    min-height: 1000px;*/
 }
 
 body {
@@ -153,7 +153,8 @@ bar a:last-of-type {border:0;}
 .cont {
     width: calc(540px + 250px + 250px + 50px);
     margin: 0 auto 0 auto;
-        margin-top: 0px;
+    margin-top: 0px;
+    transition: display 2s;
 }
 
 aside, section {
