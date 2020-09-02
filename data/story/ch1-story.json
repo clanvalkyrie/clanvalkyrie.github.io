@@ -4084,7 +4084,7 @@
 		"text":"",
 		"type":"answer_only",
 		"closeDialog":true,
-		"place":104,
+		"place":100,
 		"npc":[],
 		"self":1100,
 		"choices":["(FINALIZAR EPISODIO)"],

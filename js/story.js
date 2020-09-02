@@ -90,7 +90,7 @@ function cargarStory(id) {
 				};
 
 				contenedor.appendChild(div);
-				(gardie[0].type == "char") ? document.getElementsByClassName("npc")[n].appendChild(img) : document.getElementsByClassName("pet")[n].appendChild(img);
+				(gardie[0].type == "pet") ? document.getElementsByClassName("pet")[n].appendChild(img) : document.getElementsByClassName("npc")[n].appendChild(img);
 			};
 		};
 
