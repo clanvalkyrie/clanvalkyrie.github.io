@@ -80,9 +80,10 @@ function cargarStory(id) {
 				var img = document.createElement("img");
 				img.src = REMOTE + gardie[0].imgURL;
 
-				if (gardie[0].type == "char") {
+				if (gardie[0].type == "char" || gardie[0].type == "extra") {
 					div.setAttribute("class", "npc");
-					(currentStory[0].npc.length == 1)?(div.style.left = "106px"):"";
+					//(currentStory[0].npc.length == 1)?(div.style.width = "550px"):"";
+					gardie[0].type == "char" ? img.style.width = "550px" : img.setAttribute("style", gardie[0].style);
 				} else {
 					div.setAttribute("class", "pet");
 					img.setAttribute("style", gardie[0].style);

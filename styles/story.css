@@ -228,23 +228,18 @@ input {
 }
 
 .npc, .pet {
-    width: 550px;
+    width: 762px;
     height: 450px;
     display: block;
     position: absolute;
     text-align: center;
 }
 
-.pet {
-    width: 762px;
-}
-
 .npc img {
-    display: block;
-    position: absolute;
+    display: inline-block;
+    position: relative;
     height: auto;
     top: -50px;
-    min-width: 550px;
 }
 
 .pet img {
