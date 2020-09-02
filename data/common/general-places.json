@@ -94,5 +94,23 @@
 		"imgURL":"/valkyrieclub/assets/img/places/enfermeria-borrosa.png",
 		"places":[], 
 		"style":[""]
+	},
+	{
+		"id":116, "name":"Callejón profundo", 
+		"imgURL":"/valkyrieclub/assets/img/places/callejon-profundo.png",
+		"places":[117], 
+		"style":["top: 400px;right: 260px;"]
+	},
+	{
+		"id":117, "name":"Callejón abandonado", 
+		"imgURL":"/valkyrieclub/assets/img/places/callejon-abandonado.png",
+		"places":[116,118], 
+		"style":["top: 210px;left: 60px;","top: 220px;right: 50px;"]
+	},
+	{
+		"id":118, "name":"Avenida sombría", 
+		"imgURL":"/valkyrieclub/assets/img/places/avenida-sombria.png",
+		"places":[117], 
+		"style":["top: 230px;left: 80px;"]
 	}
 ]

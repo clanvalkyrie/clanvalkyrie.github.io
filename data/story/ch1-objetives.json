@@ -2,5 +2,7 @@
 	{"id":100, "text":"¡Ve al comedor, Jean te estará esperando para seguir sabiendo más de este mágico mundo!", "type":"place", "value":110},
 	{"id":101, "text":"¡Ve al comedor, Jean te estará esperando para seguir sabiendo más de este mágico mundo!", "type":"place", "value":112},
 	{"id":102, "text":"¡Ve al comedor, Jean te estará esperando para seguir sabiendo más de este mágico mundo!", "type":"place", "value":114},
-	{"id":103, "text":"Es hora de dormir, vuelve a la enfermería para descansar.", "type":"place", "value":104}
+	{"id":103, "text":"Es hora de dormir, vuelve a la enfermería para descansar.", "type":"place", "value":104},
+	{"id":104, "text":"¡Sal de ahí!", "type":"place", "value":117},
+	{"id":105, "text":"¡HUYE!", "type":"place", "value":118}
 ]

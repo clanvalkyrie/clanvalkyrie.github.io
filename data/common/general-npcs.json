@@ -1,7 +1,12 @@
 [
 
-	{"id":1000, "name":"Ailikamp, borroso", "type":"pet", "style":"top:50px;", "imgURL":"/valkyrieclub/assets/img/pet/ailikamp-borroso.png"},
+	{"id":1000, "name":"Ailikamp, borroso", "type":"pet", "style":"top: 50px;", "imgURL":"/valkyrieclub/assets/img/pet/ailikamp-borroso.png"},
 	{"id":1001, "name":"Dalfelí, silueta", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/dalfeli-silueta.png"},
+	{"id":1002, "name":"Nicolás, silueta", "type":"extra", "style":"top: 10px;", "imgURL":"/valkyrieclub/assets/img/extra/nicolas-silueta.png"},
+	{"id":1003, "name":"Mafia, conversación", "type":"extra", "style":"top: 30px;", "imgURL":"/valkyrieclub/assets/img/extra/mafia-conversacion.png"},
+	{"id":1004, "name":"Mafia, conversación y disparo", "type":"extra", "style":"top: 30px;", "imgURL":"/valkyrieclub/assets/img/extra/mafia-conversacion-disparo.png"},
+	{"id":1005, "name":"Mafia, enfrentamiento", "type":"extra", "style":"top: 30px;", "imgURL":"/valkyrieclub/assets/img/extra/mafia-enfrentamiento.png"},
+	{"id":1006, "name":"Diosa", "type":"extra", "style":"left: 125px;top: 30px;", "imgURL":"/valkyrieclub/assets/img/extra/diosa.png"},
 	{"id":1050, "name":"Chenmi, borrosa", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/chenmi-borrosa.png"},
 	{"id":1051, "name":"Alariane, borrosa", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/alariane-borrosa.png"},
 	{"id":1100, "name":"Keiko, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/keiko-default.png"},
