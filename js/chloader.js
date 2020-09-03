@@ -35,8 +35,8 @@ $(function() {
         requestStory.onload = function() {tempDB = requestStory.response;almacena(tempDB, "story");}
 
         // Objetivos del capítulo
-        const requestObjetives = new XMLHttpRequest();requestObjetives.open("GET", chList[chapterSelected - 1].objetive);requestObjetives.responseType = "json";requestObjetives.send();
-        requestObjetives.onload = function() {tempDB = requestObjetives.response;almacena(tempDB, "objetive");};
+        const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", chList[chapterSelected - 1].objective);requestObjectives.responseType = "json";requestObjectives.send();
+        requestObjectives.onload = function() {tempDB = requestObjectives.response;almacena(tempDB, "objective");};
 
     })});
 
@@ -76,9 +76,9 @@ $(function() {
                         storyDB = tempDB;
 
                         // Cargar los objetivos del capítulo
-                        const requestObjetives = new XMLHttpRequest();requestObjetives.open("GET", chList[indexCP - 1].objetive);requestObjetives.responseType = "json";requestObjetives.send();
-                        requestObjetives.onload = function() {
-                            objetiveDB = requestObjetives.response;
+                        const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", chList[indexCP - 1].objective);requestObjectives.responseType = "json";requestObjectives.send();
+                        requestObjectives.onload = function() {
+                            objectiveDB = requestObjectives.response;
 
                             //Iniciar capítulo
                             cargarStory(chk[0].id);
@@ -100,9 +100,9 @@ $(function() {
                             currentPlace = placeDB.filter(function (v) {return v.id == placeIndex});
 
                             // Cargar los objetivos del capítulo
-                            const requestObjetives = new XMLHttpRequest();requestObjetives.open("GET", chList[indexCP - 1].objetive);requestObjetives.responseType = "json";requestObjetives.send();
-                            requestObjetives.onload = function() {
-                                objetiveDB = requestObjetives.response;
+                            const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", chList[indexCP - 1].objective);requestObjectives.responseType = "json";requestObjectives.send();
+                            requestObjectives.onload = function() {
+                                objectiveDB = requestObjectives.response;
 
                                 //Iniciar capítulo
                                 cargarStory(chk[0].id);

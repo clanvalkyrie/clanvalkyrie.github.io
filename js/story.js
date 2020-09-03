@@ -1,7 +1,7 @@
 var contenedor, current, nextTemp, currentPlace = [];
 var OBJmoves = false, OBJplaces = false;
 var REMOTE = "https://zunnay.github.io";
-var storyDB = [], objetiveDB = [], inventoryDB = [], npcDB = [], placeDB = [];
+var storyDB = [], objectiveDB = [], inventoryDB = [], npcDB = [], placeDB = [];
 var dbCount = 0;
 
 // -----------------------------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ function almacena(db, name) {
 	
 	switch (name) {
 		case "story":storyDB = db;dbCount++;break;
-		case "objetive":objetiveDB = db;dbCount++;break;
+		case "objective":objectiveDB = db;dbCount++;break;
 		case "inventory":inventoryDB = db;dbCount++;break;
 		case "npc":npcDB = db;dbCount++;break;
 		case "place":placeDB = db;dbCount++;
@@ -218,10 +218,10 @@ function finalizaEpisodio() {
 function setMenu (id) {
 	var currentStory = storyDB.filter(function(v) {return v.id == id});
 
-	var objetives = document.getElementsByClassName("objetives")[0];
+	var objectives = document.getElementsByClassName("objectives")[0];
 	var inventory = document.getElementsByClassName("inventory")[0];
 	var checkpoint = document.getElementsByTagName("code")[0];
-	objetives.innerHTML = "";
+	objectives.innerHTML = "";
 	inventory.innerHTML = "";
 	checkpoint.innerHTML = "";
 
@@ -231,7 +231,7 @@ function setMenu (id) {
 
 		for (o = 0; o < currentStory[0].setObjective.length; o++) {
 			var objId = currentStory[0].setObjective[o]
-			var obj = objetiveDB.filter(function(v) {return v.id == Math.abs(objId)});
+			var obj = objectiveDB.filter(function(v) {return v.id == Math.abs(objId)});
 			if (objId > 0) {
 				lista = lista + '<li>' + obj[0].text + '</li>';
 
@@ -250,7 +250,7 @@ function setMenu (id) {
 		};
 		
 		ul.innerHTML = lista;
-		objetives.appendChild(ul);
+		objectives.appendChild(ul);
 	};
 
 	if (currentStory[0].setInventory.length != 0) {
