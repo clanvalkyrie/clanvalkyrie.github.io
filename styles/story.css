@@ -19,7 +19,7 @@ input {
     text-align: center;
 }
 
-.objetives ul .done {
+.objectives ul .done {
     text-decoration-line: line-through;
 }
 
@@ -96,7 +96,7 @@ input {
 }
 
 /* Episodio en curso */
-.objetives, .inventory {
+.objectives, .inventory {
     height: 60px;
     overflow-y: auto;
     margin: 10px 0;

@@ -225,12 +225,12 @@ function setMenu (id) {
 	inventory.innerHTML = "";
 	checkpoint.innerHTML = "";
 
-	if (currentStory[0].setObjetive.length != 0) {
+	if (currentStory[0].setObjective.length != 0) {
 		var ul = document.createElement("ul");
 		var lista = ""; 
 
-		for (o = 0; o < currentStory[0].setObjetive.length; o++) {
-			var objId = currentStory[0].setObjetive[o]
+		for (o = 0; o < currentStory[0].setObjective.length; o++) {
+			var objId = currentStory[0].setObjective[o]
 			var obj = objetiveDB.filter(function(v) {return v.id == Math.abs(objId)});
 			if (objId > 0) {
 				lista = lista + '<li>' + obj[0].text + '</li>';
