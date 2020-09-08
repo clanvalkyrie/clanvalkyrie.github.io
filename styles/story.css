@@ -1,3 +1,21 @@
+@-webkit-keyframes fade-in {
+    0%   { opacity: 0; }
+    50%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-moz-keyframes fade-in {
+    0%   { opacity: 0; }
+    50%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fade-in {
+    0%   { opacity: 0; }
+    50%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
 ul {
 	padding-left: 25px;
 	margin: 0;
@@ -151,8 +169,11 @@ input {
 }
 
 .typewriter-letter {
-    transition: opacity 1s;
+    -webkit-animation-name: fade-in;
+    -webkit-animation-duration: 0.5s;
 }
+
+
 
 .bubbleText {
     font-weight: bold;
@@ -167,6 +188,8 @@ input {
     border: 1px solid #8d7caa;
     font-size: 13px;
     box-shadow: 2px 2px 5px #8d7caa;
+    -webkit-animation-name: fade-in;
+    -webkit-animation-duration: 0.5s;
 }
 
 .bubbleInfo {
@@ -217,13 +240,15 @@ input {
 .choiceTextRpg .choice, .adminChoiceTextRpg .choice {
     cursor: pointer;
     line-height: 100%;
-    -webkit-transition: all 0.2s ease-in-out;
+    /*-webkit-transition: all 0.2s ease-in-out;*/
     word-break: break-word;
     padding-right: 15%;
+    -webkit-animation-name: fade-in;
+    -webkit-animation-duration: 0.5s;
 }
 
 .choice:hover {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.1);
     -webkit-transition: all 0.2s ease-in-out;
 }
 
@@ -233,6 +258,8 @@ input {
     display: block;
     position: absolute;
     text-align: center;
+    -webkit-animation-name: fade-in;
+    -webkit-animation-duration: 0.1s;
 }
 
 .npc img {

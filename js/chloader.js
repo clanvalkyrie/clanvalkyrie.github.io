@@ -15,6 +15,7 @@ function getList(db) {
         li.innerHTML = "<div class=\"episode-title\"><b>" + chList[c].title + "</b></div><div class=\"episode-description\"><p>" + chList[c].description + "</p></div><div style=\"text-align: center;\"><div id=\"" + chList[c].episode + "\" class=\"button\">Jugar</div></div>";
         ul.appendChild(li);
     };
+    document.getElementsByClassName("cont")[0].style.display = "flex";
 };
 
 $(function() { 
