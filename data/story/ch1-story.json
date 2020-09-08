@@ -49,7 +49,7 @@
 		"place":100,
 		"npc":[],
 		"self":1100,
-		"choices":["(... ¿Qué pasó?)"], 
+		"choices":["(... ¿Qué fue lo que pasó?)"], 
 		"nextStory":[10004],
 		"setInventory":[], 
 		"setObjective":[],

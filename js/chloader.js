@@ -27,7 +27,7 @@ $(function() {
         chapterSelected = parseInt(chapterSelected);
 
         document.getElementsByClassName("cont")[0].style.display = "none";
-        document.getElementsByClassName("cont")[1].style.display = "block";
+        document.getElementsByClassName("cont")[1].style.display = "flex";
         $(document).scrollTop(0)
 
         // Cargar el episodio.
@@ -41,7 +41,7 @@ $(function() {
     })});
 
     $("#episode-back").click(function() { 
-        document.getElementsByClassName("cont")[0].style.display = "block";
+        document.getElementsByClassName("cont")[0].style.display = "flex";
         document.getElementsByClassName("cont")[1].style.display = "none";
         $(document).scrollTop(0);
         $("#episode-code").val($("code:first").text());
@@ -83,7 +83,7 @@ $(function() {
                             //Iniciar capítulo
                             cargarStory(chk[0].id);
                             document.getElementsByClassName("cont")[0].style.display = "none";
-                            document.getElementsByClassName("cont")[1].style.display = "block";
+                            document.getElementsByClassName("cont")[1].style.display = "flex";
                         };
 
                     } else {
@@ -107,7 +107,7 @@ $(function() {
                                 //Iniciar capítulo
                                 cargarStory(chk[0].id);
                                 document.getElementsByClassName("cont")[0].style.display = "none";
-                                document.getElementsByClassName("cont")[1].style.display = "block";
+                                document.getElementsByClassName("cont")[1].style.display = "flex";
 
                             };
 

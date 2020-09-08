@@ -50,12 +50,12 @@ input {
 .episode {
     padding: 15px;
     border: 1px solid #b492a8;
-    width: 339px;
+    width: calc(50% - 42px);
     margin-bottom: 20px;
 }
 
 .episode.code {
-    width: 730px;
+    width: 733px;
     text-align: center;
 }
 
@@ -170,7 +170,7 @@ input {
 }
 
 .bubbleInfo {
-    width: 762px;
+    width: 765px;
     height: 450px;
     text-align: center;
     vertical-align: middle;
@@ -228,7 +228,7 @@ input {
 }
 
 .npc, .pet {
-    width: 762px;
+    width: 765px;
     height: 450px;
     display: block;
     position: absolute;
