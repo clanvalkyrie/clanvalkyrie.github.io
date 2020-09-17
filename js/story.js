@@ -2,7 +2,7 @@ var contenedor, current, nextTemp, currentPlace = [];
 var OBJmoves = false, OBJplaces = false;
 var REMOTE = "https://zunnay.github.io";
 var storyDB = [], objectiveDB = [], inventoryDB = [], npcDB = [], placeDB = [];
-var dbCount = 0;
+var dbCount = 0, currentNPC;
 
 // -----------------------------------------------------------------------------------------------------
 $(document).ready(function(){
@@ -89,6 +89,8 @@ function cargarStory(id) {
 					img.setAttribute("style", gardie[0].style);
 				};
 
+				gardie[0].id != currentNPC ? div.setAttribute("style", "-webkit-animation-name: fade-in;") : "";
+				currentNPC = gardie[0].id;
 				contenedor.appendChild(div);
 				(gardie[0].type == "pet") ? document.getElementsByClassName("pet")[n].appendChild(img) : document.getElementsByClassName("npc")[n].appendChild(img);
 			};

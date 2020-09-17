@@ -258,8 +258,8 @@ input {
     display: block;
     position: absolute;
     text-align: center;
-    -webkit-animation-name: fade-in;
-    -webkit-animation-duration: 0.1s;
+    /*-webkit-animation-name: fade-in;*/
+    -webkit-animation-duration: 0.2s;
 }
 
 .npc img {
