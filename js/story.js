@@ -203,12 +203,29 @@ function setDesplazamientos(id) {
 		var div = document.createElement("div");
 		div.setAttribute("id", place[0].places[p]);
 		div.setAttribute("class","changeLocation tooltip");
-		div.setAttribute("style", place[0].style[p])
+		div.setAttribute("style", place[0].style[p]);
 
 		var temp = placeDB.filter(function(v) {return v.id == place[0].places[p]});
 
 		div.innerHTML = "<span class=tooltiptext>" + temp[0].name + "</span>"
 		contenedor.appendChild(div);
+
+		var tooltip = document.getElementsByClassName[p];
+
+		switch (place[0].tooltip[p]) {
+			case "left":
+				tooltip.style.left = "-145px";
+				tooltip.clientHeight == "28px" ? tooltip.style.top = "-7px" : tooltip.style.top = "-18px";
+			break;
+			case "right":
+				tooltip.style.left = "30px";
+				tooltip.clientHeight == "28px" ? tooltip.style.top = "-7px" : tooltip.style.top = "-18px";
+			break;
+			default:
+				tooltip.style.bottom: "200%";
+    			tooltip.style.left: "50%";
+    			tooltip.style.marginLeft: "-70px";
+		};
 	};
 };
 
