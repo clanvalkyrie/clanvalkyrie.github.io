@@ -207,7 +207,7 @@ function setDesplazamientos(id) {
 
 		var temp = placeDB.filter(function(v) {return v.id == place[0].places[p]});
 
-		div.innerHTML = "<span class=tooltiptext>" + temp[0].name + "</span>"
+		div.innerHTML = "<span class=tooltiptext>" + temp[0].name + "</span>";
 		contenedor.appendChild(div);
 
 		var tooltip = document.getElementsByClassName("tooltiptext")[p];
