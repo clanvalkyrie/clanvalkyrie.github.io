@@ -9,99 +9,99 @@
 	{
 		"id":101, "name":"Sala de Alquimia", 
 		"imgURL":"/valkyrieclub/assets/img/places/sala-alquimia.png",
-		"places":[107], 
-		"style":["top: 180px;left: 400px;"],
-		"tooltip":["top"]
+		"places":[107,119], 
+		"style":["top: 180px;left: 430px;", "top: 370px;left: 110px;"],
+		"tooltip":["top","top"]
 	},
 	{
 		"id":102, "name":"Sala de Alquimia,<br>de noche", 
 		"imgURL":"/valkyrieclub/assets/img/places/sala-alquimia-noche.png",
 		"places":[108], 
-		"style":["top: 180px;left: 400px;"],
+		"style":["top: 180px;left: 430px;"],
 		"tooltip":["top"]
 	},
 	{
 		"id":103, "name":"Enfermería", 
 		"imgURL":"/valkyrieclub/assets/img/places/enfermeria.png",
 		"places":[107], 
-		"style":["top: 200px;left: 235px;"],
-		"tooltip":["top"]
+		"style":["top: 220px;left: 722px;"],
+		"tooltip":["left"]
 	},
 	{
 		"id":104, "name":"Enfermería, de noche", 
 		"imgURL":"/valkyrieclub/assets/img/places/enfermeria-noche.png", 
 		"places":[108], 
-		"style":["top: 200px;left: 235px;"],
-		"tooltip":["top"]
+		"style":["top: 220px;left: 722px;"],
+		"tooltip":["left"]
 	},
 	{
 		"id":105, "name":"Biblioteca", 
 		"imgURL":"/valkyrieclub/assets/img/places/biblioteca.png",
 		"places":[107], 
-		"style":["top: 230px;left: 445px;"],
+		"style":["top: 220px;left: 483px;"],
 		"tooltip":["top"]
 	},
 	{
-		"id":106, "name":"Biblioteca, de noche", 
+		"id":106, "name":"Biblioteca, de noche (BLOQUEADO)",
 		"imgURL":"/valkyrieclub/assets/img/places/biblioteca-noche.png",
 		"places":[108], 
 		"style":["top: 230px;left: 445px;"],
 		"tooltip":["top"]
 	},
 	{
-		"id":107, "name":"Ala Derecha", 
-		"imgURL":"/valkyrieclub/assets/img/places/ala-derecha.png",
+		"id":107, "name":"Ala Izquierda", 
+		"imgURL":"/valkyrieclub/assets/img/places/ala-izquierda.png",
 		"places":[101,103,105,109], 
-		"style":["top: 206px;right: 102px;","top: 200px;left: 537px;","top: 190px;left: 225px;","top: 390px;right: 150px;"],
+		"style":["top: 212px;left: 531px;","top: 210px;left: 444px;","top: 210px;left: 123px;","top: 370px;right: 120px;"],
 		"tooltip":["top","top","top","top"]
 	},
 	{
-		"id":108, "name":"Ala Derecha, de noche", 
-		"imgURL":"/valkyrieclub/assets/img/places/ala-derecha-noche.png",
-		"places":[102,104,106,110], 
-		"style":["top: 206px;right: 102px;","top: 200px;left: 537px;","top: 190px;left: 225px;","top: 390px;right: 150px;"],
-		"tooltip":["top","top","top","top"]
+		"id":108, "name":"Ala Izquierda,<br>de noche", 
+		"imgURL":"/valkyrieclub/assets/img/places/ala-izquierda-noche.png",
+		"places":[102,104,110], 
+		"style":["top: 212px;left: 531px;","top: 210px;left: 444px;","top: 370px;right: 120px;"],
+		"tooltip":["top","top","top"]
 	},
 	{
 		"id":109, "name":"Vestíbulo", 
 		"imgURL":"/valkyrieclub/assets/img/places/vestibulo.png",
-		"places":[107,111], 
-		"style":["top: 235px;left: 577px;","top: 240px;left: 160px;"],
-		"tooltip":["top","top"]
+		"places":[107,111,120], 
+		"style":["top: 220px;left: 220px;","top: 360px;left: 700px;","top: 205px;left: 20px;"],
+		"tooltip":["top","left","right"]
 	},
 	{
 		"id":110, "name":"Vestíbulo, de noche", 
 		"imgURL":"/valkyrieclub/assets/img/places/vestibulo-noche.png",
 		"places":[108,112], 
-		"style":["top: 235px;left: 577px;","top: 240px;left: 160px;"],
-		"tooltip":["top","top"]
+		"style":["top: 220px;left: 220px;","top: 360px;left: 700px;"],
+		"tooltip":["top","left"]
 	},
 	{
-		"id":111, "name":"Ala Izquierda", 
-		"imgURL":"/valkyrieclub/assets/img/places/ala-izquierda.png",
+		"id":111, "name":"Ala Derecha", 
+		"imgURL":"/valkyrieclub/assets/img/places/ala-derecha.png",
 		"places":[109,113], 
-		"style":["top: 370px;left: 130px;","top: 250px;left: 515px;"],
-		"tooltip":["top","top"]
+		"style":["top: 280px;left: 70px;","top: 240px;left: 625px;"],
+		"tooltip":["right","top"]
 	},
 	{
-		"id":112, "name":"Ala Izquierda, de noche", 
-		"imgURL":"/valkyrieclub/assets/img/places/ala-izquierda-noche.png",
+		"id":112, "name":"Ala Derecha, de noche", 
+		"imgURL":"/valkyrieclub/assets/img/places/ala-derecha-noche.png",
 		"places":[110,114], 
-		"style":["top: 370px;left: 130px;","top: 250px;left: 515px;"],
-		"tooltip":["top","top"]
+		"style":["top: 280px;left: 70px;","top: 240px;left: 625px;"],
+		"tooltip":["right","top"]
 	},
 	{
 		"id":113, "name":"Comedor", 
 		"imgURL":"/valkyrieclub/assets/img/places/comedor.png",
-		"places":[111], 
-		"style":["top: 250px;left: 230px;"],
-		"tooltip":["top"]
+		"places":[111,121], 
+		"style":["top: 250px;left: 180px;","top: 230px;left: 555px;"],
+		"tooltip":["top","top"]
 	},
 	{
 		"id":114, "name":"Comedor, de noche", 
 		"imgURL":"/valkyrieclub/assets/img/places/comedor-noche.png",
 		"places":[112], 
-		"style":["top: 250px;left: 230px;"],
+		"style":["top: 250px;left: 180px;"],
 		"tooltip":["top"]
 	},
 	{
@@ -131,5 +131,26 @@
 		"places":[117], 
 		"style":["top: 230px;left: 80px;"],
 		"tooltip":["right"]
+	},
+	{
+		"id":119, "name":"Calderos",
+		"imgURL":"/valkyrieclub/assets/img/places/sala-alquimia-calderos.png",
+		"places":[101], 
+		"style":["top: 390px;left: 170px;"],
+		"tooltip":["top"]
+	},
+	{
+		"id":120, "name":"Noticias",
+		"imgURL":"/valkyrieclub/assets/img/places/noticias.png",
+		"places":[109], 
+		"style":["top: 390px;left: 392px;"],
+		"tooltip":["top"]
+	},
+	{
+		"id":121, "name":"Cocina",
+		"imgURL":"/valkyrieclub/assets/img/places/cocina.png",
+		"places":[113], 
+		"style":["top: 410px;left: 450px;"],
+		"tooltip":["top"]
 	}
 ]
