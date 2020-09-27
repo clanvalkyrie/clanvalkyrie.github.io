@@ -1,0 +1,47 @@
+Escenarios Modificados (tanto de noche como de día, incluido el borroso):
+Cocina
+Biblioteca
+Comedor
+Sala de Alquimia
+Noticias
+Enfermería
+Ala Izquierda
+Ala Derecha
+Vestíbulo
+Noticias
+Callejón 1
+Callejón 2
+Callejón 3
+
+Exteriores Agregados (pero que aún no hay que agregar el juego):
+Claro del bosque
+Entrada del bosque
+Bosque 1
+Bosque 2
+Bosque 3
+Bosque 4
+
+Para que no te confundas les agregué un guión "-" a los nombres de las imágenes para que sepas cuáles son las nuevas, jiji
+
+1: Grata Bienvenida
+Keiko acaba de llegar a las tierras eldaryanas, pero de una forma que alertó al Clan Valkyrie. Tras ser rescatada, recibe un poco de orientación por parte de sus nuevas compañeras quiénes les ayudará a averiguar el propósito de su llegada.
+
+Personajes por orden de aparición:
+Keiko
+Ailikamp
+Chenmi
+Melany 
+Vidalia (ex-Vidhalye)
+Lara (ex-Jean)
+Dalfelí
+Jenna (ex-Jennen)
+
+Escenarios por orden de aparición:
+Claro del Bosque
+Enfermería, borrosa
+Enfermería, de noche
+Ala izquierda, de noche
+Vestíbulo, de noche
+Ala Derecha, de noche
+Comedor, de noche
+
