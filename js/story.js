@@ -215,16 +215,16 @@ function setDesplazamientos(id) {
 		switch (place[0].tooltip[p]) {
 			case "left":
 				tooltip.style.left = "-145px";
-				tooltip.clientHeight == "28px" ? tooltip.style.top = "-7px" : tooltip.style.top = "-18px";
+				tooltip.clientHeight > "28" ? tooltip.style.top = "-18px" : tooltip.style.top = "-7px";
 			break;
 			case "right":
 				tooltip.style.left = "30px";
-				tooltip.clientHeight == "28px" ? tooltip.style.top = "-7px" : tooltip.style.top = "-18px";
+				tooltip.clientHeight > "28" ? tooltip.style.top = "-18px" : tooltip.style.top = "-7px";
 			break;
 			default:
-				tooltip.style.bottom: "200%";
-    			tooltip.style.left: "50%";
-    			tooltip.style.marginLeft: "-70px";
+				tooltip.style.bottom = "200%";
+    			tooltip.style.left = "50%";
+    			tooltip.style.marginLeft = "-70px";
 		};
 	};
 };
