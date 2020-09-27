@@ -210,7 +210,7 @@ function setDesplazamientos(id) {
 		div.innerHTML = "<span class=tooltiptext>" + temp[0].name + "</span>"
 		contenedor.appendChild(div);
 
-		var tooltip = document.getElementsByClassName[p];
+		var tooltip = document.getElementsByClassName("tooltiptext")[p];
 
 		switch (place[0].tooltip[p]) {
 			case "left":
