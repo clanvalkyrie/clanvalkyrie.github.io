@@ -491,7 +491,7 @@
 	},
 	{
 		"id":10035,
-		"text":"No, perdona. Soy Jean, y ella es Vidhalye. ¿Y tú eres?",
+		"text":"No, perdona. Soy Lara, y ella es Vidalia. ¿Y tú eres?",
 		"type":"npc_dialog",
 		"closeDialog":false,
 		"place":108,
@@ -1771,7 +1771,7 @@
 		"place":114,
 		"npc":[1001],
 		"self":1100,
-		"choices":["(Justo en ese instante llega Jean, con una acompañante, ambas dirigidas a mi mesa.)"],
+		"choices":["(Justo en ese instante llega Lara, con una acompañante, ambas dirigidas a mi mesa.)"],
 		"nextStory":[10128],
 		"setInventory":[],
 		"setObjective":[-102],
@@ -1785,7 +1785,7 @@
 		"place":114,
 		"npc":[1200],
 		"self":1100,
-		"choices":["(Mientras Jean se sentaba en la mesa, su acompañante se dirigió a la barra, aparentemente para pedirle algo a la cocinera.)"],
+		"choices":["(Mientras Lara se sentaba en la mesa, su acompañante se dirigió a la barra, aparentemente para pedirle algo a la cocinera.)"],
 		"nextStory":[10129],
 		"setInventory":[],
 		"setObjective":[-102],
@@ -1821,7 +1821,7 @@
 	},
 	{
 		"id":10131,
-		"text":"Soy Jennen, por cierto.",
+		"text":"Soy Jenna, por cierto.",
 		"type":"npc_dialog",
 		"closeDialog":false,
 		"place":114,
@@ -2003,7 +2003,7 @@
 	},
 	{
 		"id":10144,
-		"text":"Verás, yo soy Jennen, de raza Erinia.",
+		"text":"Verás, yo soy Jenna, de raza Erinia.",
 		"type":"npc_dialog",
 		"closeDialog":false,
 		"place":114,
@@ -2059,7 +2059,7 @@
 	},
 	{
 		"id":10148,
-		"text":"Mientras que yo soy la hada Jean, y junto a Vidhalye y otras miembros, pertenecemos a la guardia Absenta: nos centramos específicamente en la herbología.",
+		"text":"Mientras que yo soy la hada Lara, y junto a Vidalia y otras miembros, pertenecemos a la guardia Absenta: nos centramos específicamente en la herbología.",
 		"type":"npc_dialog",
 		"closeDialog":false,
 		"place":114,
@@ -2409,7 +2409,7 @@
 	},
 	{
 		"id":10172,
-		"text":"Verás, yo soy Jennen, de raza Erinia.",
+		"text":"Verás, yo soy Jenna, de raza Erinia.",
 		"type":"npc_dialog",
 		"closeDialog":false,
 		"place":114,
@@ -2465,7 +2465,7 @@
 	},
 	{
 		"id":10176,
-		"text":"Mientras que yo soy la hada Jean, y junto a Vidhalye y otras miembros, pertenecemos a la guardia Absenta: nos centramos específicamente en la herbología.",
+		"text":"Mientras que yo soy la hada Lara, y junto a Vidalia y otras miembros, pertenecemos a la guardia Absenta: nos centramos específicamente en la herbología.",
 		"type":"npc_dialog",
 		"closeDialog":false,
 		"place":114,
@@ -2535,7 +2535,7 @@
 	},
 	{
 		"id":10181,
-		"text":"Verás, yo soy Jennen, de raza Erinia.",
+		"text":"Verás, yo soy Jenna, de raza Erinia.",
 		"type":"npc_dialog",
 		"closeDialog":false,
 		"place":114,
@@ -2591,7 +2591,7 @@
 	},
 	{
 		"id":10185,
-		"text":"Mientras que yo soy la hada Jean, y junto a Vidhalye y otras miembros, pertenecemos a la guardia Absenta: nos centramos específicamente en la herbología.",
+		"text":"Mientras que yo soy la hada Lara, y junto a Vidalia y otras miembros, pertenecemos a la guardia Absenta: nos centramos específicamente en la herbología.",
 		"type":"npc_dialog",
 		"closeDialog":false,
 		"place":114,
@@ -3322,7 +3322,7 @@
 	},
 	{
 		"id":10237,
-		"text":"Verás, yo soy Jennen, de raza Erinia.",
+		"text":"Verás, yo soy Jenna, de raza Erinia.",
 		"type":"npc_dialog",
 		"closeDialog":false,
 		"place":114,
@@ -3378,7 +3378,7 @@
 	},
 	{
 		"id":10241,
-		"text":"Mientras que yo soy la hada Jean, y junto a Vidhalye y otras miembros, pertenecemos a la guardia Absenta: nos centramos específicamente en la herbología.",
+		"text":"Mientras que yo soy la hada Lara, y junto a Vidalia y otras miembros, pertenecemos a la guardia Absenta: nos centramos específicamente en la herbología.",
 		"type":"npc_dialog",
 		"closeDialog":false,
 		"place":114,
