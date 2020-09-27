@@ -1,6 +1,4 @@
-[ Nuevo campo necesario:
-	tooltip > top (default) / left / right
-	// Ubicación del tooltip en relación al punto de desplazamiento.
+[
 	{
 		"id":100, "name":"Claro del Bosque",
 		"imgURL":"/valkyrieclub/assets/img/places/claro-bosque.png",
