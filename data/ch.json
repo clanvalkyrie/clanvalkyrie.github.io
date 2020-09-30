@@ -1,9 +1,24 @@
 [
 	{
-		"episode":"N0J0G1WAUGIF2IW83R2","title":"1 - Grata Bienvenida","char":["Keiko"],
+		"episode":1,"title":"1 - Grata Bienvenida","char":["Keiko"], "visible":false,
+		"description":"Keiko acaba de llegar a las tierras eldaryanas, pero de una forma que alertó al Clan Valkyrie. Tras ser rescatada, recibe un poco de orientación por parte de sus nuevas compañeras quiénes les ayudará a averiguar el propósito de su llegada.",
+		"story":"https://zunnay.github.io/valkyrieclub/data/story/ch0-story.json",
+		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch0-objectives.json",
+		"current":"","next":""
+	},
+	{
+		"episode":1,"title":"1 - Grata Bienvenida","char":["Keiko"], "visible":true,
 		"description":"Keiko acaba de llegar a las tierras eldaryanas, pero de una forma que alertó al Clan Valkyrie. Tras ser rescatada, recibe un poco de orientación por parte de sus nuevas compañeras quiénes les ayudará a averiguar el propósito de su llegada.",
 		"story":"https://zunnay.github.io/valkyrieclub/data/story/ch1-story.json",
 		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch1-objectives.json",
-		"next":"50E0H2JAOZZ4R7AP46O"
+		"current":"N0J0G1WAUGIF2IW83R2","next":"50E0H2JAOZZ4R7AP46O"
+	},
+
+	{
+		"episode":300,"title":"x - Historia de prueba","char":["Keiko"], "visible":false,
+		"description":"Episodio de prueba",
+		"story":"https://zunnay.github.io/valkyrieclub/data/story/ch1-test-story.json",
+		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch1-test-objectives.json",
+		"current":"93Y0G04ALBZWCVR5KTG","next":""
 	}
 ]

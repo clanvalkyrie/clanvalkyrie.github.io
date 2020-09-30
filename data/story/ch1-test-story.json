@@ -4,24 +4,28 @@
 		"text":"Bienvenido al mundo pokéLDARYA, bienvenido a Eldarya osiosi", 
 		"type":"story_general", 
 		"closeDialog":false,
-		"place":103,
-		"npc":[], 
+		"place":101,
+		"npc":[],
+		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10001], 
 		"setInventory":[], 
-		"setObjetive":[]
+		"setObjetive":[],
+		"checkpoint":"93Y0G04ALBZWCVR5KTG"
 	},
 	{
 		"id":10001, 
 		"text":"El día de hoy estamos realizando algunas pruebas, es gratis, así que desplázate con confianza ;)", 
 		"type":"story_general", 
 		"closeDialog":true, 
-		"place":103,
+		"place":101,
 		"npc":[], 
+		"self":1100,
 		"choices":["(Terminar conversación)"], 
 		"nextStory":[10002], 
 		"setInventory":[], 
-		"setObjetive":[100]
+		"setObjetive":[100],
+		"checkpoint":"23H0L0JAYUH3B5D2DH3"
 	},
 	{
 		"id":10002,
@@ -30,10 +34,12 @@
 		"closeDialog":false,
 		"place": "auto",
 		"npc":[],
+		"self":1100,
 		"choices":["¿Y si no quiero?", "Aquí tienes."],
 		"nextStory":[10003, 10005],
 		"setInventory":[],
-		"setObjetive":[-100]
+		"setObjetive":[-100],
+		"checkpoint":"53Q0V0DALQTF9TML"
 	},
 	{
 		"id":10003,
@@ -42,10 +48,12 @@
 		"closeDialog":false,
 		"place": "auto",
 		"npc":[],
+		"self":1100,
 		"choices":["En ese caso, yo también voy a hacer larga mi respuesta para ver si esta cosa se adapta también."],
 		"nextStory":[10004],
 		"setInventory":[],
-		"setObjetive":[-100]
+		"setObjetive":[-100],
+		"checkpoint":"K3Z0J0JAU9F6KWSN"
 	},
 	{
 		"id":10004,
@@ -54,10 +62,12 @@
 		"closeDialog":false,
 		"place":"auto",
 		"npc":[],
+		"self":1100,
 		"choices":["¿De nada?"],
 		"nextStory":[10007],
 		"setInventory":[],
-		"setObjetive":[-100]
+		"setObjetive":[-100],
+		"checkpoint":"Y3Y0Z0EA2RQX2MMQ"
 	},
 	{
 		"id":10005,
@@ -66,10 +76,12 @@
 		"closeDialog":false,
 		"place":"auto",
 		"npc":[],
+		"self":1100,
 		"choices":["(Fingí sacar dinero invisible de mi bolsillo y extendí la mano para que alguien lo alcanzara.)"],
 		"nextStory":[10006],
 		"setInventory":[],
-		"setObjetive":[-100]
+		"setObjetive":[-100],
+		"checkpoint":"M3E0G0JAU2VFNHJC"
 	},
 	{
 		"id":10006,
@@ -78,10 +90,12 @@
 		"closeDialog":false,
 		"place":"auto",
 		"npc":[],
+		"self":1100,
 		"choices":["¿¡Cómo que imbécil!?"],
 		"nextStory":[10007],
 		"setInventory":[],
-		"setObjetive":[-100]
+		"setObjetive":[-100],
+		"checkpoint":"73G0B02AZ9DWZ5WF"
 	},
 	{
 		"id":10007,
@@ -90,10 +104,12 @@
 		"closeDialog":false,
 		"place":"auto",
 		"npc":[],
+		"self":1100,
 		"choices":["Vaya, que amable."],
 		"nextStory":[10008],
 		"setInventory":[],
-		"setObjetive":[-100]
+		"setObjetive":[-100],
+		"checkpoint":"Q3L0L0GA8T5U6522"
 	},
 	{
 		"id":10008,
@@ -102,10 +118,12 @@
 		"closeDialog":false,
 		"place":"auto",
 		"npc":[],
+		"self":1100,
 		"choices":["Ya se fue."],
 		"nextStory":[10009],
 		"setInventory":[],
-		"setObjetive":[-100]
+		"setObjetive":[-100],
+		"checkpoint":"Z3D0N05A3VZ3GGPW"
 	},
 	{
 		"id":10009,
@@ -114,405 +132,473 @@
 		"closeDialog":true,
 		"place":"auto",
 		"npc":[],
+		"self":1100,
 		"choices":["Dijo que había alguien más, será mejor que de una vuelta."],
 		"nextStory":[10010],
 		"setInventory":[],
-		"setObjetive":[101,-100]
+		"setObjetive":[101,-100],
+		"checkpoint":"43D0704ADSTWP3ZB"
 	},
 	{
 		"id":10010,
 		"text":"Tu debes ser nueva.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":105,
+		"place":121,
 		"npc":[],
+		"self":1100,
 		"choices":["¿Qué?"],
 		"nextStory":[10011],
 		"setInventory":[],
-		"setObjetive":[101,-100]
+		"setObjetive":[101,-100],
+		"checkpoint":"A3L0V08AP25ZHA4BRLY"
 	},
 	{
 		"id":10011,
 		"text":"",
 		"type":"answer_only",
 		"closeDialog":false,
-		"place":105,
+		"place":121,
 		"npc":[1050],
+		"self":1100,
 		"choices":["(Giré en dirección a la voz que que detuvo mi recorrido y me encontré una joven guerrera.)"],
 		"nextStory":[10012],
 		"setInventory":[],
-		"setObjetive":[-101,-100]
+		"setObjetive":[-101,-100],
+		"checkpoint":"P320N0NAL6RSU26V3YA"
 	},
 	{
 		"id":10012,
 		"text":"Lo siento, no quería asustarte.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":105,
+		"place":121,
 		"npc":[1050],
+		"self":1100,
 		"choices":["Oh no, no es nada."],
 		"nextStory":[10013],
 		"setInventory":[],
-		"setObjetive":[-101,-100]
+		"setObjetive":[-101,-100],
+		"checkpoint":"A3R0X0QAY8DANFPAVJX"
 	},
 	{
 		"id":10013,
-		"text":"Soy Zunay. Soy viuda :(",
+		"text":"Soy Keiko. Soy viuda :(",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":105,
+		"place":121,
 		"npc":[1050],
+		"self":1100,
 		"choices":["Ah caray, lo siento. Yo soy Chenmi."],
 		"nextStory":[10014],
 		"setInventory":[],
-		"setObjetive":[-101,-100]
+		"setObjetive":[-101,-100],
+		"checkpoint":"43T0N0MA2KZ2VYDCYH5"
 	},
 	{
 		"id":10014,
 		"text":"Me encantaría conocerte mejor, pero antes tengo un trabajo importante que hacer.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":105,
+		"place":121,
 		"npc":[1050],
+		"self":1100,
 		"choices":["¿Qué es?", "¿Necesitas ayuda?", "(No decir nada.)"],
 		"nextStory":[10015, 10017, 10018],
 		"setInventory":[],
-		"setObjetive":[-101,-100]
+		"setObjetive":[-101,-100],
+		"checkpoint":"S3U0K0GAQMNC6R3U6ZK"
 	},
 	{
 		"id":10015,
 		"text":"Veo que eres curiosa.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":105,
+		"place":121,
 		"npc":[1050],
+		"self":1100,
 		"choices":["Si... Un poco."],
 		"nextStory":[10016],
 		"setInventory":[],
-		"setObjetive":[-101,-100]
+		"setObjetive":[-101,-100],
+		"checkpoint":"A330W0UA5VZ35RL65UC"
 	},
 	{
 		"id":10016,
 		"text":"En ese caso ten, sujeta esto.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":105,
+		"place":121,
 		"npc":[1050],
+		"self":1100,
 		"choices":["(Me entregó una manzana.)"],
 		"nextStory":[10020],
 		"setInventory":[],
-		"setObjetive":[-101,-100]
+		"setObjetive":[-101,-100],
+		"checkpoint":"E3V060UAG4TESKX8F6Z"
 	},
 	{
 		"id":10017,
 		"text":"De hecho sí. Sujeta esto.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":105,
+		"place":121,
 		"npc":[1050],
+		"self":1100,
 		"choices":["(Me entregó una manzana.)"],
 		"nextStory":[10020],
 		"setInventory":[],
-		"setObjetive":[-101,-100]
+		"setObjetive":[-101,-100],
+		"checkpoint":"93U0R05A8XPPZ5GM2VH"
 	},
 	{
 		"id":10018,
 		"text":"Necesito tu ayuda para esto.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":105,
+		"place":121,
 		"npc":[1050],
+		"self":1100,
 		"choices":["¿Qué puedo hacer por tí?"],
 		"nextStory":[10019],
 		"setInventory":[],
-		"setObjetive":[-101,-100]
+		"setObjetive":[-101,-100],
+		"checkpoint":"C360V0AAACLKDT3AVET"
 	},
 	{
 		"id":10019,
 		"text":"Necesito que sostengas esto.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":105,
+		"place":121,
 		"npc":[1050],
+		"self":1100,
 		"choices":["(Me entregó una manzana.)"],
 		"nextStory":[10020],
 		"setInventory":[],
-		"setObjetive":[-101,-100]
+		"setObjetive":[-101,-100],
+		"checkpoint":"Q3Y080TAVX3V3UVPYJB"
 	},
 	{
 		"id":10020,
 		"text":"",
 		"type":"answer_only",
 		"closeDialog":false,
-		"place":105,
+		"place":121,
 		"npc":[1050],
+		"self":1100,
 		"choices":["¿Qué tengo que hacer con esto?"],
 		"nextStory":[10021],
 		"setInventory":[106],
-		"setObjetive":[-101,-100]
+		"setObjetive":[-101,-100],
+		"checkpoint":"Z380L04A59CL2E7RPMM"
 	},
 	{
 		"id":10021,
 		"text":"Nada, solo es para probar si funciona el inventario.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":105,
+		"place":121,
 		"npc":[1050],
+		"self":1100,
 		"choices":["Oh, ¿y funciona?"],
 		"nextStory":[10022],
 		"setInventory":[106],
-		"setObjetive":[-101,-100]
+		"setObjetive":[-101,-100],
+		"checkpoint":"4350S0GA7MBR2A76L5Z"
 	},
 	{
 		"id":10022,
 		"text":"No lo sé, tu dime.jpg",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":105,
+		"place":121,
 		"npc":[1050],
+		"self":1100,
 		"choices":["¡Sí funciona!", "No, no funciona."],
 		"nextStory":[10023, 10024],
 		"setInventory":[106],
-		"setObjetive":[-101,-100]
+		"setObjetive":[-101,-100],
+		"checkpoint":"R3Y080PAEHV2XLHQ866"
 	},
 	{
 		"id":10023,
 		"text":"Lo sabía.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":105,
+		"place":121,
 		"npc":[1050],
+		"self":1100,
 		"choices":["¿Y entonces porqué preguntas?"],
 		"nextStory":[10025],
 		"setInventory":[106],
-		"setObjetive":[-101,-100]
+		"setObjetive":[-101,-100],
+		"checkpoint":"63H080RAN9LKGZBB7HH"
 	},
 	{
 		"id":10024,
 		"text":"¡No mientas! Mamá no te dejaría estar aquí si no funcionara.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":105,
+		"place":121,
 		"npc":[1050],
+		"self":1100,
 		"choices":["¿Qué? ¿Tu mamá?"],
 		"nextStory":[10025],
 		"setInventory":[106],
-		"setObjetive":[-101,-100]
+		"setObjetive":[-101,-100],
+		"checkpoint":"Q390F0RAZMNZDNXHJLR"
 	},
 	{
 		"id":10025,
-		"text":"Como sea, ahora ven, sígueme al Jardín.",
+		"text":"Como sea, ahora ven, sígueme a la biblioteca.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":105,
+		"place":121,
 		"npc":[1050],
+		"self":1100,
 		"choices":["Eh, vale."],
 		"nextStory":[10026],
 		"setInventory":[106],
-		"setObjetive":[-101,-100]
+		"setObjetive":[-101,-100],
+		"checkpoint":"43Y0P0EAFYGKW8MACCF"
 	},
 	{
 		"id":10026,
 		"text":"",
 		"type":"answer_only",
 		"closeDialog":true,
-		"place":105,
+		"place":121,
 		"npc":[],
+		"self":1100,
 		"choices":["(Es una chica extraña, será mejor que le siga la corriente.)"],
 		"nextStory":[10027],
 		"setInventory":[106],
-		"setObjetive":[102,-101,-100]
+		"setObjetive":[102,-101,-100],
+		"checkpoint":"M3T0N0AATV93JEBURRY"
 	},
 	{
 		"id":10027,
 		"text":"Hasta que llegas.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":100,
+		"place":105,
 		"npc":[1050],
+		"self":1100,
 		"choices":["Pero si venía atrás de tí."],
 		"nextStory":[10028],
 		"setInventory":[106],
-		"setObjetive":[102,-101,-100]
+		"setObjetive":[102,-101,-100],
+		"checkpoint":"V3T060EANTHQ4BZCC69"
 	},
 	{
 		"id":10028,
 		"text":"Sisi ya ala chingada. Sostén mi hacha.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":100,
+		"place":105,
 		"npc":[1050],
+		"self":1100,
 		"choices":["¿Qué?"],
 		"nextStory":[10029],
 		"setInventory":[106],
-		"setObjetive":[-102,-101,-100]
+		"setObjetive":[-102,-101,-100],
+		"checkpoint":"B390J02A66DMU58SQUF"
 	},
 	{
 		"id":10029,
 		"text":"Ten cuidado, es pesada.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":100,
+		"place":105,
 		"npc":[1050],
+		"self":1100,
 		"choices":["(Se acercó a mi y esperó a que la sujetara.)"],
 		"nextStory":[10030],
 		"setInventory":[106],
-		"setObjetive":[-102,-101,-100]
+		"setObjetive":[-102,-101,-100],
+		"checkpoint":"L360E0HAWT3W726FVBR"
 	},
 	{
 		"id":10030,
 		"text":"",
 		"type":"answer_only",
 		"closeDialog":false,
-		"place":100,
+		"place":105,
 		"npc":[1050],
+		"self":1100,
 		"choices":["Uhm... Vale."],
 		"nextStory":[10031],
 		"setInventory":[106],
-		"setObjetive":[-102,-101,-100]
+		"setObjetive":[-102,-101,-100],
+		"checkpoint":"63J090JARRBB9R4JMEV"
 	},
 	{
 		"id":10031,
 		"text":"",
 		"type":"answer_only",
 		"closeDialog":false,
-		"place":100,
+		"place":105,
 		"npc":[1050],
+		"self":1100,
 		"choices":["(Sujeté su hacha con cierto miedo de hacerla caer, mientras ella la soltaba lentamente.)"],
 		"nextStory":[10032],
 		"setInventory":[106],
-		"setObjetive":[-102,-101,-100]
+		"setObjetive":[-102,-101,-100],
+		"checkpoint":"S350H0HA36BYLM3MNPH"
 	},
 	{
 		"id":10032,
 		"text":"",
 		"type":"answer_only",
 		"closeDialog":false,
-		"place":100,
+		"place":105,
 		"npc":[1051],
+		"self":1100,
 		"choices":["¿Y bien? ¿Qué hago con ella?"],
 		"nextStory":[10033],
 		"setInventory":[106,107],
-		"setObjetive":[-102,-101,-100]
+		"setObjetive":[-102,-101,-100],
+		"checkpoint":"43R0W08AWWSPVPWTYQ7"
 	},
 	{
 		"id":10033,
 		"text":"Nada, solo quería comprobar si se añadía a tu inventario.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":100,
+		"place":105,
 		"npc":[1051],
+		"self":1100,
 		"choices":["(Continuar)"],
 		"nextStory":[10034],
 		"setInventory":[106,107],
-		"setObjetive":[-102,-101,-100]
+		"setObjetive":[-102,-101,-100],
+		"checkpoint":"83P0U0ZA94WJMDKNFF3"
 	},
 	{
 		"id":10034,
 		"text":"Ya puedes devolvérmela.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":100,
+		"place":105,
 		"npc":[1051],
+		"self":1100,
 		"choices":["Oh, sí claro, toma."],
 		"nextStory":[10035],
 		"setInventory":[106,107],
-		"setObjetive":[-102,-101,-100]
+		"setObjetive":[-102,-101,-100],
+		"checkpoint":"83X0407APTREVEYGW65"
 	},
 	{
 		"id":10035,
 		"text":"",
 		"type":"answer_only",
 		"closeDialog":false,
-		"place":100,
+		"place":105,
 		"npc":[1051],
+		"self":1100,
 		"choices":["(Cuando sus manos tocaron el frío acero del hacha, se aferró a ella como si su vida dependiera de la misma.)"],
 		"nextStory":[10036],
 		"setInventory":[106,107],
-		"setObjetive":[-102,-101,-100]
+		"setObjetive":[-102,-101,-100],
+		"checkpoint":"J320B05A7U8LD358DN4"
 	},
 	{
 		"id":10036,
 		"text":"",
 		"type":"answer_only",
 		"closeDialog":false,
-		"place":100,
+		"place":105,
 		"npc":[1050],
+		"self":1100,
 		"choices":["¿La manzana también la quieres?"],
 		"nextStory":[10037],
 		"setInventory":[106],
-		"setObjetive":[-102,-101,-100]
+		"setObjetive":[-102,-101,-100],
+		"checkpoint":"U3C0T0RA3CCSQB5TGCM"
 	},
 	{
 		"id":10037,
 		"text":"No, puedes quedártela.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":100,
+		"place":105,
 		"npc":[1050],
+		"self":1100,
 		"choices":["Está bien. ¿Y ahora qué?"],
 		"nextStory":[10038],
 		"setInventory":[106],
-		"setObjetive":[-102,-101,-100]
+		"setObjetive":[-102,-101,-100],
+		"checkpoint":"J350N0QA2NB8Q48N26K"
 	},
 	{
 		"id":10038,
 		"text":"Bueno, todavía quedan algunas pruebas, pero mamá está cansada.",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":100,
+		"place":105,
 		"npc":[1050],
+		"self":1100,
 		"choices":["(¿Otra vez mamá?)"],
 		"nextStory":[10039],
 		"setInventory":[106],
-		"setObjetive":[-102,-101,-100]
+		"setObjetive":[-102,-101,-100],
+		"checkpoint":"73Y0N0QA48NGTQX69DB"
 	},
 	{
 		"id":10039,
 		"text":"Otro día seguimos, ¿te parece?",
 		"type":"npc_dialog",
 		"closeDialog":false,
-		"place":100,
+		"place":105,
 		"npc":[1050],
+		"self":1100,
 		"choices":["Claro, gracias por la manzana."],
 		"nextStory":[10040],
 		"setInventory":[106],
-		"setObjetive":[-102,-101,-100]
+		"setObjetive":[-102,-101,-100],
+		"checkpoint":"Y3E0T04AWSCD6EHHR9K"
 	},
 	{
 		"id":10040,
 		"text":"",
 		"type":"answer_only",
 		"closeDialog":false,
-		"place":100,
+		"place":105,
 		"npc":[1050],
-		"choices":["(Zunay me dedicó una sonrisa y se marchó.)"],
+		"self":1100,
+		"choices":["(Keiko me dedicó una sonrisa y se marchó.)"],
 		"nextStory":[10041],
 		"setInventory":[106],
-		"setObjetive":[-102,-101,-100]
+		"setObjetive":[-102,-101,-100],
+		"checkpoint":"V3P0V02A577TPW7CXMG"
 	},
 	{
 		"id":10041,
 		"text":"",
 		"type":"answer_only",
 		"closeDialog":false,
-		"place":100,
+		"place":105,
 		"npc":[],
+		"self":1100,
 		"choices":["(¡Sólo espero que esta sea una manzana normal!)"],
 		"nextStory":[10042],
 		"setInventory":[106],
-		"setObjetive":[-102,-101,-100]
+		"setObjetive":[-102,-101,-100],
+		"checkpoint":"K3X0Y0EADQEZADT68NU"
 	},
 	{
 		"id":10042,
 		"text":"",
 		"type":"answer_only",
 		"closeDialog":true,
-		"place":100,
+		"place":105,
 		"npc":[],
+		"self":1100,
 		"choices":["(FINALIZAR EPISODIO)"],
 		"nextStory":[],
 		"setInventory":[106],
-		"setObjetive":[-102,-101,-100]
+		"setObjetive":[-102,-101,-100],
+		"checkpoint":"W36090JA34T7UAQN8S4"
 	}
 ]

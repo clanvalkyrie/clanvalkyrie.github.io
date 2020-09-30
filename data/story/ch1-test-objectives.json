@@ -1,0 +1,5 @@
+[
+	{"id":100, "text":"Desplázate.", "type":"moves", "value":10},
+	{"id":101, "text":"Encuentra a alguien.", "type": "place", "value":121},
+	{"id":102, "text":"Sigue a Keiko hasta la biblioteca.", "type":"place", "value":105}
+] 

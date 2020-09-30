@@ -10,10 +10,12 @@ function getList(db) {
     chList = db;
     var ul = document.getElementById("episode-list");
     for (c = 0; c < chList.length; c++) {
-        var li = document.createElement("li");
-        li.setAttribute("class","episode");
-        li.innerHTML = "<div class=\"episode-title\"><b>" + chList[c].title + "</b></div><div class=\"episode-description\"><p>" + chList[c].description + "</p></div><div style=\"text-align: center;\"><div id=\"" + chList[c].episode + "\" class=\"button\">Jugar</div></div>";
-        ul.appendChild(li);
+        if (chList[c].visible == true) {
+            var li = document.createElement("li");
+            li.setAttribute("class","episode");
+            li.innerHTML = "<div class=\"episode-title\"><b>" + chList[c].title + "</b></div><div class=\"episode-description\"><p>" + chList[c].description + "</p></div><div style=\"text-align: center;\"><div id=\"" + chList[c].current + "\" class=\"button\">Jugar</div></div>";
+            ul.appendChild(li);
+        };
     };
     document.getElementsByClassName("cont")[0].style.display = "flex";
 };
@@ -24,19 +26,20 @@ $(function() {
         dbCount == 5 ? dbCount = 3 : "";
         var checkpoint = $(this).attr("id");
 
-        var chapterSelected = checkpoint[1] + checkpoint[3] + checkpoint[5];
-        chapterSelected = parseInt(chapterSelected);
+        var episodio = checkpoint[1] + checkpoint[3] + checkpoint[5];
+        episodio = parseInt(chapterSelected);
+        chapterSelected = chList.filter(function(v){return v.episode == episodio});
 
         document.getElementsByClassName("cont")[0].style.display = "none";
         document.getElementsByClassName("cont")[1].style.display = "flex";
         $(document).scrollTop(0)
 
         // Cargar el episodio.
-        const requestStory = new XMLHttpRequest();requestStory.open("GET", chList[chapterSelected - 1].story);requestStory.responseType = "json";requestStory.send();
+        const requestStory = new XMLHttpRequest();requestStory.open("GET", chapterSelected[0].story);requestStory.responseType = "json";requestStory.send();
         requestStory.onload = function() {tempDB = requestStory.response;almacena(tempDB, "story");}
 
         // Objetivos del capítulo
-        const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", chList[chapterSelected - 1].objective);requestObjectives.responseType = "json";requestObjectives.send();
+        const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", chapterSelected[0].objective);requestObjectives.responseType = "json";requestObjectives.send();
         requestObjectives.onload = function() {tempDB = requestObjectives.response;almacena(tempDB, "objective");};
 
     })});
