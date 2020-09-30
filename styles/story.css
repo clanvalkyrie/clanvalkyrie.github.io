@@ -16,16 +16,43 @@
     100% { opacity: 1; }
 }
 
+@-webkit-keyframes alert-obj {
+    0%   { opacity: 0; left: -751px;}
+    25%  { opacity: 1; left: 0;}
+    50%  { opacity: 1; left: 0;}
+    75%  { opacity: 1; left: 0;}
+    100% { opacity: 0; left: -751px;}
+}
+
+@-moz-keyframes alert-obj {
+    0%   { opacity: 0; left: -751px;}
+    25%  { opacity: 1; left: 0;}
+    50%  { opacity: 1; left: 0;}
+    75%  { opacity: 1; left: 0;}
+    100% { opacity: 0; left: -751px;}
+}
+
+@keyframes alert-obj {
+    0%   { opacity: 0; left: -751px;}
+    25%  { opacity: 1; left: 0;}
+    50%  { opacity: 1; left: 0;}
+    75%  { opacity: 1; left: 0;}
+    100% { opacity: 0; left: -751px;}
+}
+
 ul {
-	padding-left: 25px;
-	margin: 0;
+    padding-left: 25px;
+    margin: 0;
 }
 
 code {
 	display: block;
 	text-align: center;
-	padding: 15px;
-    padding-bottom: 0;
+	margin: 15px;
+    margin-bottom: 0;
+    background: transparent;
+    /*-webkit-animation-name: code-on;*/
+    -webkit-animation-duration: 2s;
 }
 
 input {
@@ -118,6 +145,23 @@ input {
     height: 60px;
     overflow-y: auto;
     margin: 10px 0;
+}
+
+.tooltip-objective {
+    position: absolute;
+    background: rgba(0,0,0,0.4);
+    font-weight: bold;
+    max-width: 690px;
+    color: #fff;
+    padding: 10px 25px;
+    z-index: 1;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #8d7caa;
+    border-left: 0;
+    top: 11px;
+    opacity: 0;
+    -webkit-animation-name: alert-obj;
+    -webkit-animation-duration: 4s;
 }
 
 #episode-container {

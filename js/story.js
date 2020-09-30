@@ -3,6 +3,7 @@ var OBJmoves = false, OBJplaces = false;
 var REMOTE = "https://zunnay.github.io";
 var storyDB = [], objectiveDB = [], inventoryDB = [], npcDB = [], placeDB = [];
 var dbCount = 0, currentNPC;
+var objActive = document.createElement("div");
 
 // -----------------------------------------------------------------------------------------------------
 $(document).ready(function(){
@@ -47,11 +48,11 @@ function cargarStory(id) {
 	current = id;
 	contenedor = document.getElementById("episode-container");
 	contenedor.style.backgroundColor = "#000";
-	contenedor.innerHTML = "";
 
 	var currentStory = storyDB.filter(function(v) {return v.id == id});
 
 	if (currentStory[0].id != nextTemp) {
+		contenedor.innerHTML = "";
 
 		// Cargar fondo
 		if (!isNaN(currentStory[0].place)) {
@@ -247,11 +248,16 @@ function setMenu (id) {
 	if (currentStory[0].setObjective.length != 0) {
 		var ul = document.createElement("ul");
 		var lista = ""; 
+		var cuentaPositivo = 0;
 
+		// Menu lateral
 		for (o = 0; o < currentStory[0].setObjective.length; o++) {
-			var objId = currentStory[0].setObjective[o]
+			var objId = currentStory[0].setObjective[o];
 			var obj = objectiveDB.filter(function(v) {return v.id == Math.abs(objId)});
+
 			if (objId > 0) {
+				cuentaPositivo++;
+
 				lista = lista + '<li>' + obj[0].text + '</li>';
 
 				//Revisar
@@ -270,6 +276,26 @@ function setMenu (id) {
 		
 		ul.innerHTML = lista;
 		objectives.appendChild(ul);
+
+		// Mostrar tooltip en container
+		var div = document.createElement("div");
+		div.setAttribute("class", "tooltip-objective");
+		var obj = objectiveDB.filter(function(v) {return v.id == currentStory[0].setObjective[0]});
+
+		if (cuentaPositivo > 1) {
+			div.innerHTML = "Nuevos objetivos disponibles.";
+
+		} else if (cuentaPositivo == 1) {
+			div.innerHTML = "<b><u>Nuevo objetivo:</u> " + obj[0].text + "</b>";
+		} else if (cuentaPositivo == 0) {
+			div.innerHTML = "<b>Objetivo completado.</b>";
+			cuentaPositivo = 0;
+		};
+
+		if (objActive.innerHTML != div.innerHTML) {
+			document.getElementById("episode-container").appendChild(div);
+			objActive = div;
+		};
 	};
 
 	if (currentStory[0].setInventory.length != 0) {
@@ -316,9 +342,10 @@ $(function() {
 			finalizaEpisodio();
 		} else {
 			if (choiceSeleted == nextTemp) {
-				setMenu(current);
+				
 				var temp = storyDB.filter(function(v) {return v.id == current});
 				setDesplazamientos(temp[0].place);
+				setMenu(current);
 			} else {
 				cargarStory(choiceSeleted);
 			};
