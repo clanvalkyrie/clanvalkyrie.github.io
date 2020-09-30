@@ -27,7 +27,7 @@ $(function() {
         var checkpoint = $(this).attr("id");
 
         var episodio = checkpoint[1] + checkpoint[3] + checkpoint[5];
-        episodio = parseInt(chapterSelected);
+        episodio = parseInt(episodio);
         chapterSelected = chList.filter(function(v){return v.episode == episodio});
 
         document.getElementsByClassName("cont")[0].style.display = "none";
@@ -66,10 +66,11 @@ $(function() {
             indexCP = parseInt(loadCP[1] + loadCP[3] + loadCP[5]);
 
             // Comprobar si el episodio existe
-            if (indexCP <= chList.length) {
+            indexCP = chList.filter(function(v) {return v.episode == indexCP});
+            if (indexCP.length == 1) {
 
                 // Cargar el episodio
-                const requestStory = new XMLHttpRequest();requestStory.open("GET", chList[indexCP - 1].story);requestStory.responseType = "json";requestStory.send();
+                const requestStory = new XMLHttpRequest();requestStory.open("GET", indexCP[0].story);requestStory.responseType = "json";requestStory.send();
                 requestStory.onload = function() {
 
                     tempDB = requestStory.response;
@@ -80,7 +81,7 @@ $(function() {
                         storyDB = tempDB;
 
                         // Cargar los objetivos del capítulo
-                        const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", chList[indexCP - 1].objective);requestObjectives.responseType = "json";requestObjectives.send();
+                        const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", indexCP[0].objective);requestObjectives.responseType = "json";requestObjectives.send();
                         requestObjectives.onload = function() {
                             objectiveDB = requestObjectives.response;
 
@@ -104,7 +105,7 @@ $(function() {
                             currentPlace = placeDB.filter(function (v) {return v.id == placeIndex});
 
                             // Cargar los objetivos del capítulo
-                            const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", chList[indexCP - 1].objective);requestObjectives.responseType = "json";requestObjectives.send();
+                            const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", indexCP[0].objective);requestObjectives.responseType = "json";requestObjectives.send();
                             requestObjectives.onload = function() {
                                 objectiveDB = requestObjectives.response;
 
