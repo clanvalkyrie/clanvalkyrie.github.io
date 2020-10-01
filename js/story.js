@@ -63,8 +63,8 @@ function cargarStory(id) {
 				currentStory[0].place == "white" ? contenedor.style.backgroundColor = "#fff" : "";
 				contenedor.style.backgroundImage = "url('')";
 			} else {
-				// Revisar !
-				(currentPlace.length == 1) ? (contenedor.style.backgroundImage = "url('" + REMOTE + backIMG[0].imgURL + "')") : "";
+				// Obtener url
+				(currentPlace.length == 1) ? (contenedor.style.backgroundImage = "url('" + REMOTE + currentPlace[0].imgURL + "')") : "";
 			};
 		};
 
@@ -314,7 +314,7 @@ function setMenu (id) {
 	if (currentStory[0].checkpoint.length == 19) {
 		checkpoint.innerHTML = currentStory[0].checkpoint;
 	} else {
-		// El lugar no está establecido, debe asignarse.
+		checkpoint.innerHTML = currentStory[0].checkpoint + currentPlace[0].id;
 	};
 };
 
