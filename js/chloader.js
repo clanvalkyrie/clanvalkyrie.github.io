@@ -35,6 +35,7 @@ $(function() {
         $(document).scrollTop(0)
 
         // Cargar el episodio.
+        document.getElementById("ongoing-episode-title").innerHTML = chapterSelected[0].title;
         const requestStory = new XMLHttpRequest();requestStory.open("GET", chapterSelected[0].story);requestStory.responseType = "json";requestStory.send();
         requestStory.onload = function() {tempDB = requestStory.response;almacena(tempDB, "story");}
 
@@ -86,6 +87,7 @@ $(function() {
                             objectiveDB = requestObjectives.response;
 
                             //Iniciar capítulo
+                            document.getElementById("ongoing-episode-title").innerHTML = indexCP[0].title;
                             cargarStory(chk[0].id);
                             document.getElementsByClassName("cont")[0].style.display = "none";
                             document.getElementsByClassName("cont")[1].style.display = "flex";

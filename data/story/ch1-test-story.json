@@ -289,7 +289,7 @@
 		"self":1100,
 		"choices":["¿Qué tengo que hacer con esto?"],
 		"nextStory":[10021],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-101,-100],
 		"checkpoint":"Z380L04A59CL2E7RPMM"
 	},
@@ -303,7 +303,7 @@
 		"self":1100,
 		"choices":["Oh, ¿y funciona?"],
 		"nextStory":[10022],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-101,-100],
 		"checkpoint":"4350S0GA7MBR2A76L5Z"
 	},
@@ -317,7 +317,7 @@
 		"self":1100,
 		"choices":["¡Sí funciona!", "No, no funciona."],
 		"nextStory":[10023, 10024],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-101,-100],
 		"checkpoint":"R3Y080PAEHV2XLHQ866"
 	},
@@ -331,7 +331,7 @@
 		"self":1100,
 		"choices":["¿Y entonces porqué preguntas?"],
 		"nextStory":[10025],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-101,-100],
 		"checkpoint":"63H080RAN9LKGZBB7HH"
 	},
@@ -345,7 +345,7 @@
 		"self":1100,
 		"choices":["¿Qué? ¿Tu mamá?"],
 		"nextStory":[10025],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-101,-100],
 		"checkpoint":"Q390F0RAZMNZDNXHJLR"
 	},
@@ -359,7 +359,7 @@
 		"self":1100,
 		"choices":["Eh, vale."],
 		"nextStory":[10026],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-101,-100],
 		"checkpoint":"43Y0P0EAFYGKW8MACCF"
 	},
@@ -373,7 +373,7 @@
 		"self":1100,
 		"choices":["(Es una chica extraña, será mejor que le siga la corriente.)"],
 		"nextStory":[10027],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[102,-101,-100],
 		"checkpoint":"M3T0N0AATV93JEBURRY"
 	},
@@ -387,7 +387,7 @@
 		"self":1100,
 		"choices":["Pero si venía atrás de tí."],
 		"nextStory":[10028],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[102,-101,-100],
 		"checkpoint":"V3T060EANTHQ4BZCC69"
 	},
@@ -401,7 +401,7 @@
 		"self":1100,
 		"choices":["¿Qué?"],
 		"nextStory":[10029],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-102,-101,-100],
 		"checkpoint":"B390J02A66DMU58SQUF"
 	},
@@ -415,7 +415,7 @@
 		"self":1100,
 		"choices":["(Se acercó a mi y esperó a que la sujetara.)"],
 		"nextStory":[10030],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-102,-101,-100],
 		"checkpoint":"L360E0HAWT3W726FVBR"
 	},
@@ -429,7 +429,7 @@
 		"self":1100,
 		"choices":["Uhm... Vale."],
 		"nextStory":[10031],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-102,-101,-100],
 		"checkpoint":"63J090JARRBB9R4JMEV"
 	},
@@ -443,7 +443,7 @@
 		"self":1100,
 		"choices":["(Sujeté su hacha con cierto miedo de hacerla caer, mientras ella la soltaba lentamente.)"],
 		"nextStory":[10032],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-102,-101,-100],
 		"checkpoint":"S350H0HA36BYLM3MNPH"
 	},
@@ -457,7 +457,7 @@
 		"self":1100,
 		"choices":["¿Y bien? ¿Qué hago con ella?"],
 		"nextStory":[10033],
-		"setInventory":[106,107],
+		"setInventory":[200,201],
 		"setObjective":[-102,-101,-100],
 		"checkpoint":"43R0W08AWWSPVPWTYQ7"
 	},
@@ -471,7 +471,7 @@
 		"self":1100,
 		"choices":["(Continuar)"],
 		"nextStory":[10034],
-		"setInventory":[106,107],
+		"setInventory":[200,201],
 		"setObjective":[-102,-101,-100],
 		"checkpoint":"83P0U0ZA94WJMDKNFF3"
 	},
@@ -485,7 +485,7 @@
 		"self":1100,
 		"choices":["Oh, sí claro, toma."],
 		"nextStory":[10035],
-		"setInventory":[106,107],
+		"setInventory":[200,201],
 		"setObjective":[-102,-101,-100],
 		"checkpoint":"83X0407APTREVEYGW65"
 	},
@@ -499,7 +499,7 @@
 		"self":1100,
 		"choices":["(Cuando sus manos tocaron el frío acero del hacha, se aferró a ella como si su vida dependiera de la misma.)"],
 		"nextStory":[10036],
-		"setInventory":[106,107],
+		"setInventory":[200,201],
 		"setObjective":[-102,-101,-100],
 		"checkpoint":"J320B05A7U8LD358DN4"
 	},
@@ -513,7 +513,7 @@
 		"self":1100,
 		"choices":["¿La manzana también la quieres?"],
 		"nextStory":[10037],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-102,-101,-100],
 		"checkpoint":"U3C0T0RA3CCSQB5TGCM"
 	},
@@ -527,7 +527,7 @@
 		"self":1100,
 		"choices":["Está bien. ¿Y ahora qué?"],
 		"nextStory":[10038],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-102,-101,-100],
 		"checkpoint":"J350N0QA2NB8Q48N26K"
 	},
@@ -541,7 +541,7 @@
 		"self":1100,
 		"choices":["(¿Otra vez mamá?)"],
 		"nextStory":[10039],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-102,-101,-100],
 		"checkpoint":"73Y0N0QA48NGTQX69DB"
 	},
@@ -555,7 +555,7 @@
 		"self":1100,
 		"choices":["Claro, gracias por la manzana."],
 		"nextStory":[10040],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-102,-101,-100],
 		"checkpoint":"Y3E0T04AWSCD6EHHR9K"
 	},
@@ -569,7 +569,7 @@
 		"self":1100,
 		"choices":["(Keiko me dedicó una sonrisa y se marchó.)"],
 		"nextStory":[10041],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-102,-101,-100],
 		"checkpoint":"V3P0V02A577TPW7CXMG"
 	},
@@ -583,7 +583,7 @@
 		"self":1100,
 		"choices":["(¡Sólo espero que esta sea una manzana normal!)"],
 		"nextStory":[10042],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-102,-101,-100],
 		"checkpoint":"K3X0Y0EADQEZADT68NU"
 	},
@@ -597,7 +597,7 @@
 		"self":1100,
 		"choices":["(FINALIZAR EPISODIO)"],
 		"nextStory":[],
-		"setInventory":[106],
+		"setInventory":[200],
 		"setObjective":[-102,-101,-100],
 		"checkpoint":"W36090JA34T7UAQN8S4"
 	}

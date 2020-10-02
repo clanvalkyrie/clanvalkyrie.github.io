@@ -1,11 +1,7 @@
 [
-	{"id":100, "text":"Fragmento de mapa"},
-	{"id":101, "text":"Fragmento de mapa (x2)"},
-	{"id":102, "text":"Fragmento de mapa (x3)"},
-	{"id":103, "text":"Fragmento de mapa (x4)"},
-	{"id":104, "text":"Fragmento de mapa (x5)"},
-	{"id":105, "text":"Mapa"},
+	{"id":100, "text":"Hierba Silbadora."},
 
-	{"id":106, "text":"Manzana."},
-	{"id":107, "text":"Hacha de Zunay."}
+
+	{"id":200, "text":"Manzana."},
+	{"id":201, "text":"Hacha de Zunay."}
 ]
