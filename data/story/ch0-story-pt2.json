@@ -246,7 +246,7 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Luego procedió a sentarse junto a su compañera. Una vez acomodada, me<br>dirigió una mirada dulce la cual me trasmitía confianza.)"], 
-		"nextStory":[11017], 
+		"nextStory":[11018], 
 		"setInventory":[], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH11017"
