@@ -1,13 +1,13 @@
 [
 	{
-		"episode":0,"title":"0 - Grata Bienvenida (1/2)","char":["Keiko"], "visible":false,
+		"episode":12,"title":"0 - Grata Bienvenida (1/2)","char":["Keiko"], "visible":false,
 		"description":"Keiko acaba de llegar a las tierras eldaryanas, pero de una forma que alertó al Clan Valkyrie. Tras ser rescatada, recibe un poco de orientación por parte de sus nuevas compañeras quiénes les ayudará a averiguar el propósito de su llegada.",
 		"story":"https://zunnay.github.io/valkyrieclub/data/story/ch0-story.json",
 		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch1-objectives.json",
 		"current":"A0A1A2ABCDEFGH10000","next":""
 	},
 	{
-		"episode":0,"title":"0 - Grata Bienvenida (2/2)","char":["Keiko"], "visible":false,
+		"episode":22,"title":"0 - Grata Bienvenida (2/2)","char":["Keiko"], "visible":false,
 		"description":"Keiko acaba de llegar a las tierras eldaryanas, pero de una forma que alertó al Clan Valkyrie. Tras ser rescatada, recibe un poco de orientación por parte de sus nuevas compañeras quiénes les ayudará a averiguar el propósito de su llegada.",
 		"story":"https://zunnay.github.io/valkyrieclub/data/story/ch0-story-pt2.json",
 		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch1-objectives.json",
