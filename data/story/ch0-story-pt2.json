@@ -10,7 +10,7 @@
 		"choices":["(¡Qué amplio se ve este lugar! Y parece bastante tranquilo.)"], 
 		"nextStory":[11001], 
 		"setInventory":[], 
-		"setObjective":[110],
+		"setObjective":[101],
 		"checkpoint":"A0A2A2ABCDEFGH11000"
 	},
 	{
