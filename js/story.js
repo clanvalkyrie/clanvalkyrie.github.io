@@ -231,8 +231,49 @@ function setDesplazamientos(id) {
 };
 
 function finalizaEpisodio() {
-	// Volver a la lista de episodios
-	// Mostrar CHECKPOINT
+
+    $(".cont").eq(0).css("display","flex");
+	$(".cont").eq(1).css("display","none");
+    $(document).scrollTop(0);
+    $("#episode-code").val($("code:first").text());
+
+	// Comprobar si el próximo episodio está disponible
+	if (currentCH[0].next != "") {
+
+		var nextCH = chList.filter(function(v) {return v.current == currentCH[0].next});
+
+		if (nextCH.length != 0) {
+			if (nextCH[0].visible == true) {
+
+				alert("Pendiente");
+				// Mostrar popup para jugar episodio siguiente.
+
+			} else {
+				// El episodio está en la lista pero está oculto
+				$(".popup-title").text("¡Enhorabuena!");
+				$(".popup-body").html("<p>¡Has finalizado el episodio!</p>" +
+						"<p>Has llegado al final de la historia. Conserva el siguiente código y utilízalo para reanudar la historia cuando esté disponible:</p>");
+
+				$("#next-code").val(currentCH[0].next);
+			};
+
+		} else {
+			// El episodio no está en la lista.
+			$(".popup-title").text("¡Enhorabuena!");
+			$(".popup-body").html("<p>¡Has finalizado el episodio!</p>" +
+					"<p>Has llegado al final de la historia. Conserva el siguiente código y utilízalo para reanudar la historia cuando esté disponible:</p>");
+
+			$("#next-code").val(currentCH[0].next);
+		};
+
+		$("body").css("overflow","hidden");
+		$("#popup-bg").fadeIn(600);
+
+	// El episodio no existe
+	} else {
+		alert("Falta especificar el capítulo siguiente.");
+
+	};
 };
 
 function setMenu (id) {

@@ -65,6 +65,7 @@
 							<input id="episode-code" value="" >
 							<input id="load-episode" class="button" type="submit" value="Continuar" >
 						</form>
+						<p id="error-msg"></p>
 					</div>
 				</div>
 
@@ -122,6 +123,18 @@
 				</div>
 			</section>
 
+		</div>
+		<div id="popup-bg">
+			<div id="popup">
+				<span class="popup-title"></span>
+				<span class="popup-body"></span>
+				<form onsubmit="return false;" style="margin: 0px auto 15px;">
+					<input id="next-code" value="" >
+				</form>
+				<div style="text-align: center;margin: 20px 0;">
+					<div id="close-popup" class="button">Cerrar</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
