@@ -1,6 +1,6 @@
 [
 	{
-		"id":11000, 
+		"id":10121,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -8,13 +8,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(¡Qué amplio se ve este lugar! Y parece bastante tranquilo.)"], 
-		"nextStory":[11001], 
+		"nextStory":[10122],
 		"setInventory":[], 
 		"setObjective":[101],
-		"checkpoint":"A0A2A2ABCDEFGH11000"
+		"checkpoint":"A0A2A2ABCDEFGH10121"
 	},
 	{
-		"id":11001, 
+		"id":10122,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":true,
@@ -22,13 +22,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(Me hace sentir tranquila.)"], 
-		"nextStory":[11002], 
+		"nextStory":[10123],
 		"setInventory":[], 
 		"setObjective":[101],
-		"checkpoint":"A0A2A2ABCDEFGH11001"
+		"checkpoint":"A0A2A2ABCDEFGH10122"
 	},
 	{
-		"id":11002, 
+		"id":10123,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":true,
@@ -36,13 +36,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(...Aunque puede ser que sea por el efecto que mencionó aquella chica...)"], 
-		"nextStory":[11003], 
+		"nextStory":[10124],
 		"setInventory":[], 
 		"setObjective":[102],
-		"checkpoint":"A0A2A2ABCDEFGH11002"
+		"checkpoint":"A0A2A2ABCDEFGH10123"
 	},
 	{
-		"id":11003, 
+		"id":10124,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -50,13 +50,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(Al encontrar el comedor pude notar que no solamente estaba casi a oscuras...)"], 
-		"nextStory":[11004], 
+		"nextStory":[10125],
 		"setInventory":[], 
 		"setObjective":[102],
-		"checkpoint":"A0A2A2ABCDEFGH11003"
+		"checkpoint":"A0A2A2ABCDEFGH10124"
 	},
 	{
-		"id":11004, 
+		"id":10125,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -64,13 +64,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(Sino que estaba completamente vacío.)"], 
-		"nextStory":[11005], 
+		"nextStory":[10126],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11004"
+		"checkpoint":"A0A2A2ABCDEFGH10125"
 	},
 	{
-		"id":11005, 
+		"id":10126,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -78,13 +78,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(O eso creí...)"], 
-		"nextStory":[11006], 
+		"nextStory":[10127],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11005"
+		"checkpoint":"A0A2A2ABCDEFGH10126"
 	},
 	{
-		"id":11006, 
+		"id":10127,
 		"text":"Oh, eres Keiko, ¿verdad?", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -92,13 +92,13 @@
 		"npc":[1001],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11007], 
+		"nextStory":[10128],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11006"
+		"checkpoint":"A0A2A2ABCDEFGH10127"
 	},
 	{
-		"id":11007, 
+		"id":10128,
 		"text":"¡Un gusto en conocerte, linda! Soy Dalfeli. Hace mucho que no vemos caras nuevas por aquí.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -106,13 +106,13 @@
 		"npc":[1001],
 		"self":1100,
 		"choices":["(Una dulce mujer se presentó en frente mío, de inmediato supe que se<br>trataba de la cocinera.)"], 
-		"nextStory":[11008], 
+		"nextStory":[10129],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11007"
+		"checkpoint":"A0A2A2ABCDEFGH10128"
 	},
 	{
-		"id":11008, 
+		"id":10129,
 		"text":"¡No seas tímida, preciosa! ¡Vamos, siéntate! Debes estar hambrienta, te prepararé algo de comer mientras las demás llegan.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -120,13 +120,13 @@
 		"npc":[1001],
 		"self":1100,
 		"choices":["Esto... Gracias. (¿Las... demás?)"], 
-		"nextStory":[11009], 
+		"nextStory":[10130],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11008"
+		"checkpoint":"A0A2A2ABCDEFGH10129"
 	},
 	{
-		"id":11009, 
+		"id":10130,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -134,13 +134,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(Tomé asiento en una de las mesas más cercanas a la puerta de la cocina.)"], 
-		"nextStory":[11010], 
+		"nextStory":[10131],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11009"
+		"checkpoint":"A0A2A2ABCDEFGH10130"
 	},
 	{
-		"id":11010, 
+		"id":10131,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -148,13 +148,13 @@
 		"npc":[1001],
 		"self":1100,
 		"choices":["Oiga... ¿Puedo preguntarle algo?"], 
-		"nextStory":[11011], 
+		"nextStory":[10132],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11010"
+		"checkpoint":"A0A2A2ABCDEFGH10131"
 	},
 	{
-		"id":11011, 
+		"id":10132,
 		"text":"Lo que quieras, linda.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -162,13 +162,13 @@
 		"npc":[1001],
 		"self":1100,
 		"choices":["¿A qué se refería cuando dijo que no habían visto caras nuevas por aquí?"], 
-		"nextStory":[11012], 
+		"nextStory":[10133],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11011"
+		"checkpoint":"A0A2A2ABCDEFGH10132"
 	},
 	{
-		"id":11012, 
+		"id":10133,
 		"text":"Oh... no impacientes, cariño. Esas preguntas serán respondidas en su debido momento.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -176,13 +176,13 @@
 		"npc":[1001],
 		"self":1100,
 		"choices":["(Vaya...)"], 
-		"nextStory":[11013], 
+		"nextStory":[10134],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11012"
+		"checkpoint":"A0A2A2ABCDEFGH10133"
 	},
 	{
-		"id":11013, 
+		"id":10134,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -190,13 +190,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(Justo en ese momento llegó Lara con una acompañante. Ambas tomaron<br>dirección de acercarse.)"], 
-		"nextStory":[11014], 
+		"nextStory":[10135],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11013"
+		"checkpoint":"A0A2A2ABCDEFGH10134"
 	},
 	{
-		"id":11014, 
+		"id":10135,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -204,13 +204,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(Mientras Lara tomaba asiento, la otra joven tomó rumbo hacia la barra,<br>aparentemente para pedir algo.)"], 
-		"nextStory":[11015], 
+		"nextStory":[10136],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11014"
+		"checkpoint":"A0A2A2ABCDEFGH10135"
 	},
 	{
-		"id":11015, 
+		"id":10136,
 		"text":"Lamento la demora, Keiko... tuve un contratiempo, pero por lo visto, has conocido a Dalfelí.",
 		"type":"npc_dialog",
 		"closeDialog":false,
@@ -218,13 +218,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["Sí, ha sido muy amable conmigo."], 
-		"nextStory":[11016], 
+		"nextStory":[10137],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11015"
+		"checkpoint":"A0A2A2ABCDEFGH10136"
 	},
 	{
-		"id":11016, 
+		"id":10137,
 		"text":"Ten, Keiko. Aquí tienes tu comida. Provecho.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -232,13 +232,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Aquella extraña chica me sorprendió por detrás mía, mientras dejaba<br>mi plato sobre la mesa.)"], 
-		"nextStory":[11017], 
+		"nextStory":[10138],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11016"
+		"checkpoint":"A0A2A2ABCDEFGH10137"
 	},
 	{
-		"id":11017, 
+		"id":10138,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -246,13 +246,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Luego procedió a sentarse junto a su compañera. Una vez acomodada, me<br>dirigió una mirada dulce la cual me trasmitía confianza.)"], 
-		"nextStory":[11018], 
+		"nextStory":[10139],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11017"
+		"checkpoint":"A0A2A2ABCDEFGH10138"
 	},
 	{
-		"id":11018,
+		"id":10139,
 		"text":"Mi nombre es Jenna, por cierto.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -260,13 +260,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["... Hola. Gracias."], 
-		"nextStory":[11019],
+		"nextStory":[10140],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11018"
+		"checkpoint":"A0A2A2ABCDEFGH10139"
 	},
 	{
-		"id":11019,
+		"id":10140,
 		"text":"Bueno, Keiko, aún tenías preguntas, ¿No? Puedes continuar.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -274,13 +274,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["Esto... ¿Es normal que reciban chicas a menudo?","Esto... ¿Quiénes son?","Esto... ¿Qué es éste lugar?"], 
-		"nextStory":[11020,11066,11101],
+		"nextStory":[10141,10187,10222],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11019"
+		"checkpoint":"A0A2A2ABCDEFGH10140"
 	},
 	{
-		"id":11020,
+		"id":10141,
 		"text":"Hace algunos meses sí, era muy normal; Se las podía conocer como \"turistas\". A toda hora llegaban, todos los días. Algunas decidían quedarse, pero la mayoría se marchaba.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -288,13 +288,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11021],
+		"nextStory":[10142],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11020"
+		"checkpoint":"A0A2A2ABCDEFGH10141"
 	},
 	{
-		"id":11021,
+		"id":10142,
 		"text":"Sin embargo... un día, las turistas dejaron de llegar.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -302,13 +302,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11022],
+		"nextStory":[10143],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11021"
+		"checkpoint":"A0A2A2ABCDEFGH10142"
 	},
 	{
-		"id":11022,
+		"id":10143,
 		"text":"La última chica llegó hace algunas semanas. Decidió quedarse, pero ahora pertenece a otra comunidad.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -316,13 +316,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11023],
+		"nextStory":[10144],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11022"
+		"checkpoint":"A0A2A2ABCDEFGH10143"
 	},
 	{
-		"id":11023,
+		"id":10144,
 		"text":"Aún no sabemos por qué el número de turistas bajó tan drásticamente, pero trabajamos con otras comunidades para llegar al fondo de esto.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -330,13 +330,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11024],
+		"nextStory":[10145],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11023"
+		"checkpoint":"A0A2A2ABCDEFGH10144"
 	},
 	{
-		"id":11024,
+		"id":10145,
 		"text":"Y ahora con tu<br>llegada... la cual fue bastante particular. Que despertaras después de tantas horas, y además sin recuerdos nos hace ruido.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -344,13 +344,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["¿A qué te refieres?"], 
-		"nextStory":[11025],
+		"nextStory":[10146],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11024"
+		"checkpoint":"A0A2A2ABCDEFGH10145"
 	},
 	{
-		"id":11025,
+		"id":10146,
 		"text":"Por lo general, las chicas no sufren de amnesia al llegar y, además, suelen estar despiertas al momento del \"viaje\".", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -358,13 +358,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11026],
+		"nextStory":[10147],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11025"
+		"checkpoint":"A0A2A2ABCDEFGH10146"
 	},
 	{
-		"id":11026,
+		"id":10147,
 		"text":"Tenemos algunas suposiciones, pero como todavía no es nada claro no tiene sentido darle vueltas.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -372,13 +372,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11027],
+		"nextStory":[10148],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11026"
+		"checkpoint":"A0A2A2ABCDEFGH10147"
 	},
 	{
-		"id":11027,
+		"id":10148,
 		"text":"De igual forma trata de permanecer tranquila mientras tanto, ten por seguro que estás en buenas manos.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -386,13 +386,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["¿Y quiénes son?","¿Y qué es éste lugar?"], 
-		"nextStory":[11028,11047],
+		"nextStory":[10149,10168],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11027"
+		"checkpoint":"A0A2A2ABCDEFGH10148"
 	},
 	{
-		"id":11028,
+		"id":10149,
 		"text":"Oh... eso fue muy directo, me agrada.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -400,13 +400,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11029],
+		"nextStory":[10150],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11028"
+		"checkpoint":"A0A2A2ABCDEFGH10149"
 	},
 	{
-		"id":11029,
+		"id":10150,
 		"text":"Bueno, tomemos<br>en cuenta que la información que le dimos fue bastante... concisa.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -414,13 +414,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11030],
+		"nextStory":[10151],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11029"
+		"checkpoint":"A0A2A2ABCDEFGH10150"
 	},
 	{
-		"id":11030,
+		"id":10151,
 		"text":"Como te dije antes, soy Jenna, de raza Erinia.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -428,13 +428,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11031],
+		"nextStory":[10152],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11030"
+		"checkpoint":"A0A2A2ABCDEFGH10151"
 	},
 	{
-		"id":11031,
+		"id":10152,
 		"text":"Soy la encargada de los miembros de la guardia obsidiana que por cierto, para que me entiendas, somos aquellas personas encargadas de defender a los nuestros, y que, por ende, debemos tener un gran manejo de las armas.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -442,13 +442,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11032],
+		"nextStory":[10153],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11031"
+		"checkpoint":"A0A2A2ABCDEFGH10152"
 	},
 	{
-		"id":11032,
+		"id":10153,
 		"text":"Soy quien los entrena adecuadamente en caso de un posible combate.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -456,13 +456,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11033],
+		"nextStory":[10154],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11032"
+		"checkpoint":"A0A2A2ABCDEFGH10153"
 	},
 	{
-		"id":11033,
+		"id":10154,
 		"text":"¡Si quieres aprender a dar una patada de manera correcta, no dudes en encontrarme en al sala de entrenamientos!", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -470,13 +470,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11034],
+		"nextStory":[10155],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11033"
+		"checkpoint":"A0A2A2ABCDEFGH10154"
 	},
 	{
-		"id":11034,
+		"id":10155,
 		"text":"Mientras que yo, Lara; junto a Vidalia y otros miembros, pertenecemos a la guardia absenta que, para no complicarla demasiado, se centra en la herbología, la creación de pociones, el estudio de la flora y fauna eldaryana, entre otras cosas.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -484,13 +484,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11035],
+		"nextStory":[10156],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11034"
+		"checkpoint":"A0A2A2ABCDEFGH10155"
 	},
 	{
-		"id":11035,
+		"id":10156,
 		"text":"Si quieres conocer el origen o cómo eclosionar un familiar, puedes encontrarme en la sala de alquimia.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -498,13 +498,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["¿Qué es éste lugar?"], 
-		"nextStory":[11036],
+		"nextStory":[10157],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11035"
+		"checkpoint":"A0A2A2ABCDEFGH10156"
 	},
 	{
-		"id":11036,
+		"id":10157,
 		"text":"Esta es la Residencia Valkyrie, la cual pertenece a la Comunidad Valquírica.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -512,13 +512,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11037],
+		"nextStory":[10158],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11036"
+		"checkpoint":"A0A2A2ABCDEFGH10157"
 	},
 	{
-		"id":11037,
+		"id":10158,
 		"text":"Aquí es donde vivimos las Valkyries, aunque por el día encontrarás a muchas personas trabajando, yendo y viniendo.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -526,13 +526,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11038],
+		"nextStory":[10159],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11037"
+		"checkpoint":"A0A2A2ABCDEFGH10158"
 	},
 	{
-		"id":11038,
+		"id":10159,
 		"text":"En cambio, en la noche casi siempre tiende a ser más calmada.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -540,13 +540,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11039],
+		"nextStory":[10160],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11038"
+		"checkpoint":"A0A2A2ABCDEFGH10159"
 	},
 	{
-		"id":11039,
+		"id":10160,
 		"text":"A veces llegan a ser un verdadero caos...", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -554,13 +554,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11040],
+		"nextStory":[10161],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11039"
+		"checkpoint":"A0A2A2ABCDEFGH10160"
 	},
 	{
-		"id":11040,
+		"id":10161,
 		"text":"No hace mucho que hemos abierto nuestras puertas para que nuestros miembros puedan participar en estudios, entrenamientos e incluso dar sus servicios aquí.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -568,13 +568,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11041],
+		"nextStory":[10162],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11040"
+		"checkpoint":"A0A2A2ABCDEFGH10161"
 	},
 	{
-		"id":11041,
+		"id":10162,
 		"text":"Por ejemplo, tenemos a Dalfelí, aunque no es una Valkyrie, pertenece a la Comunidad Valquírica y nos brinda su ayuda en la cocina.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -582,13 +582,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11042],
+		"nextStory":[10163],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11041"
+		"checkpoint":"A0A2A2ABCDEFGH10162"
 	},
 	{
-		"id":11042,
+		"id":10163,
 		"text":"A decir verdad, gracias a la Comunidad Valquírica, Eldarya ha conseguido grandes avances.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -596,13 +596,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11043],
+		"nextStory":[10164],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11042"
+		"checkpoint":"A0A2A2ABCDEFGH10163"
 	},
 	{
-		"id":11043,
+		"id":10164,
 		"text":"Y de hecho seguimos contribuyendo en constantes estudios y hallazgos. Pero va, ya habrá oportunidad de tocar el tema.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -610,13 +610,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11044],
+		"nextStory":[10165],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11043"
+		"checkpoint":"A0A2A2ABCDEFGH10164"
 	},
 	{
-		"id":11044,
+		"id":10165,
 		"text":"Por otra parte, en lo que a Valkyries \"reales\" se trata, solo somos... diez miembros, ¿No?", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -624,13 +624,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11045],
+		"nextStory":[10166],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11044"
+		"checkpoint":"A0A2A2ABCDEFGH10165"
 	},
 	{
-		"id":11045,
+		"id":10166,
 		"text":"Siendo sincera, no sabemos si somos más o menos que diez.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -638,13 +638,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["Entiendo..."], 
-		"nextStory":[11046],
+		"nextStory":[10167],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11045"
+		"checkpoint":"A0A2A2ABCDEFGH10166"
 	},
 	{
-		"id":11046,
+		"id":10167,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -652,13 +652,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["Tengo una última pregunta: ¿Qué son las Valkyries?"], 
-		"nextStory":[11128],
+		"nextStory":[10249],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11046"
+		"checkpoint":"A0A2A2ABCDEFGH10167"
 	},
 	{
-		"id":11047,
+		"id":10168,
 		"text":"Esta es la Residencia Valkyrie, la cual pertenece a la Comunidad Valquírica.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -666,13 +666,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11048],
+		"nextStory":[10169],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11047"
+		"checkpoint":"A0A2A2ABCDEFGH10168"
 	},
 	{
-		"id":11048,
+		"id":10169,
 		"text":"Aquí es donde vivimos las Valkyries, aunque por el día encontrarás a muchas personas trabajando, yendo y viniendo.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -680,13 +680,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11049],
+		"nextStory":[10170],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11048"
+		"checkpoint":"A0A2A2ABCDEFGH10169"
 	},
 	{
-		"id":11049,
+		"id":10170,
 		"text":"En cambio, en la noche casi siempre tiende a ser más calmada.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -694,13 +694,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11050],
+		"nextStory":[10171],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11049"
+		"checkpoint":"A0A2A2ABCDEFGH10170"
 	},
 	{
-		"id":11050,
+		"id":10171,
 		"text":"A veces llegan a ser un verdadero caos...", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -708,13 +708,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11051],
+		"nextStory":[10172],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11050"
+		"checkpoint":"A0A2A2ABCDEFGH10171"
 	},
 	{
-		"id":11051,
+		"id":10172,
 		"text":"No hace mucho que hemos abierto nuestras puertas para que nuestros miembros puedan participar en estudios, entrenamientos e incluso dar sus servicios aquí.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -722,13 +722,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11052],
+		"nextStory":[10173],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11051"
+		"checkpoint":"A0A2A2ABCDEFGH10172"
 	},
 	{
-		"id":11052,
+		"id":10173,
 		"text":"Por ejemplo, tenemos a Dalfelí, aunque no es una Valkyrie, pertenece a la Comunidad Valquírica y nos brinda su ayuda en la cocina.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -736,13 +736,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11053],
+		"nextStory":[10174],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11052"
+		"checkpoint":"A0A2A2ABCDEFGH10173"
 	},
 	{
-		"id":11053,
+		"id":10174,
 		"text":"A decir verdad, gracias a la Comunidad Valquírica, Eldarya ha conseguido grandes avances.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -750,13 +750,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11054],
+		"nextStory":[10175],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11053"
+		"checkpoint":"A0A2A2ABCDEFGH10174"
 	},
 	{
-		"id":11054,
+		"id":10175,
 		"text":"Y de hecho seguimos contribuyendo en constantes estudios y hallazgos. Pero va, ya habrá oportunidad de tocar el tema.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -764,13 +764,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11055],
+		"nextStory":[10176],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11054"
+		"checkpoint":"A0A2A2ABCDEFGH10175"
 	},
 	{
-		"id":11055,
+		"id":10176,
 		"text":"Por otra parte, en lo que a Valkyries \"reales\" se trata, solo somos... diez miembros, ¿No?", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -778,13 +778,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11056],
+		"nextStory":[10177],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11055"
+		"checkpoint":"A0A2A2ABCDEFGH10176"
 	},
 	{
-		"id":11056,
+		"id":10177,
 		"text":"Siendo sincera, no sabemos si somos más o menos que diez.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -792,13 +792,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["Entiendo..."], 
-		"nextStory":[11057],
+		"nextStory":[10178],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11056"
+		"checkpoint":"A0A2A2ABCDEFGH10177"
 	},
 	{
-		"id":11057,
+		"id":10178,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -806,13 +806,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["¿Quiénes son?"], 
-		"nextStory":[11058],
+		"nextStory":[10179],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11057"
+		"checkpoint":"A0A2A2ABCDEFGH10178"
 	},
 	{
-		"id":11058,
+		"id":10179,
 		"text":"Oh... eso fue muy directo, me agrada.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -820,13 +820,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11059],
+		"nextStory":[10180],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11058"
+		"checkpoint":"A0A2A2ABCDEFGH10179"
 	},
 	{
-		"id":11059,
+		"id":10180,
 		"text":"Bueno, tomemos<br>en cuenta que la información que le dimos fue bastante... concisa.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -834,13 +834,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11060],
+		"nextStory":[10181],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11059"
+		"checkpoint":"A0A2A2ABCDEFGH10180"
 	},
 	{
-		"id":11060,
+		"id":10181,
 		"text":"Como te dije antes, soy Jenna, de raza Erinia.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -848,13 +848,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11061],
+		"nextStory":[10182],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11060"
+		"checkpoint":"A0A2A2ABCDEFGH10181"
 	},
 	{
-		"id":11061,
+		"id":10182,
 		"text":"Soy la encargada de los miembros de la guardia obsidiana que por cierto, para que me entiendas, somos aquellas personas encargadas de defender a los nuestros, y que, por ende, debemos tener un gran manejo de las armas.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -862,13 +862,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11062],
+		"nextStory":[10183],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11061"
+		"checkpoint":"A0A2A2ABCDEFGH10182"
 	},
 	{
-		"id":11062,
+		"id":10183,
 		"text":"Soy quien los entrena adecuadamente en caso de un posible combate.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -876,13 +876,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11063],
+		"nextStory":[10184],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11062"
+		"checkpoint":"A0A2A2ABCDEFGH10183"
 	},
 	{
-		"id":11063,
+		"id":10184,
 		"text":"¡Si quieres aprender a dar una patada de manera correcta, no dudes en encontrarme en al sala de entrenamientos!", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -890,13 +890,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11064],
+		"nextStory":[10185],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11063"
+		"checkpoint":"A0A2A2ABCDEFGH10184"
 	},
 	{
-		"id":11064,
+		"id":10185,
 		"text":"Mientras que yo, Lara; junto a Vidalia y otros miembros, pertenecemos a la guardia absenta que, para no complicarla demasiado, se centra en la herbología, la creación de pociones, el estudio de la flora y fauna eldaryana, entre otras cosas.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -904,13 +904,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11065],
+		"nextStory":[10186],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11064"
+		"checkpoint":"A0A2A2ABCDEFGH10185"
 	},
 	{
-		"id":11065,
+		"id":10186,
 		"text":"Si quieres conocer el origen o cómo eclosionar un familiar, puedes encontrarme en la sala de alquimia.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -918,13 +918,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["Tengo una última pregunta: ¿Qué son las Valkyries?"], 
-		"nextStory":[11128],
+		"nextStory":[10249],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11065"
+		"checkpoint":"A0A2A2ABCDEFGH10186"
 	},
 	{
-		"id":11066,
+		"id":10187,
 		"text":"Oh... eso fue muy directo, me agrada.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -932,13 +932,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11067],
+		"nextStory":[10188],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11066"
+		"checkpoint":"A0A2A2ABCDEFGH10187"
 	},
 	{
-		"id":11067,
+		"id":10188,
 		"text":"Bueno, tomemos<br>en cuenta que la información que le dimos fue bastante... concisa.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -946,13 +946,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11068],
+		"nextStory":[10189],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11067"
+		"checkpoint":"A0A2A2ABCDEFGH10188"
 	},
 	{
-		"id":11068,
+		"id":10189,
 		"text":"Como te dije antes, soy Jenna, de raza Erinia.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -960,13 +960,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11069],
+		"nextStory":[10190],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11068"
+		"checkpoint":"A0A2A2ABCDEFGH10189"
 	},
 	{
-		"id":11069,
+		"id":10190,
 		"text":"Soy la encargada de los miembros de la guardia obsidiana que por cierto, para que me entiendas, somos aquellas personas encargadas de defender a los nuestros, y que, por ende, debemos tener un gran manejo de las armas.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -974,13 +974,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11070],
+		"nextStory":[10191],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11069"
+		"checkpoint":"A0A2A2ABCDEFGH10190"
 	},
 	{
-		"id":11070,
+		"id":10191,
 		"text":"Soy quien los entrena adecuadamente en caso de un posible combate.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -988,13 +988,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11071],
+		"nextStory":[10192],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11070"
+		"checkpoint":"A0A2A2ABCDEFGH10191"
 	},
 	{
-		"id":11071,
+		"id":10192,
 		"text":"¡Si quieres aprender a dar una patada de manera correcta, no dudes en encontrarme en al sala de entrenamientos!", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1002,13 +1002,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11072],
+		"nextStory":[10193],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11071"
+		"checkpoint":"A0A2A2ABCDEFGH10192"
 	},
 	{
-		"id":11072,
+		"id":10193,
 		"text":"Mientras que yo, Lara; junto a Vidalia y otros miembros, pertenecemos a la guardia absenta que, para no complicarla demasiado, se centra en la herbología, la creación de pociones, el estudio de la flora y fauna eldaryana, entre otras cosas.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1016,13 +1016,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11073],
+		"nextStory":[10194],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11072"
+		"checkpoint":"A0A2A2ABCDEFGH10193"
 	},
 	{
-		"id":11073,
+		"id":10194,
 		"text":"Si quieres conocer el origen o cómo eclosionar un familiar, puedes encontrarme en la sala de alquimia.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1030,13 +1030,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["¿Y es normal que reciban chicas a menudo?","¿Y qué es éste lugar?"], 
-		"nextStory":[11074,11082],
+		"nextStory":[10195,10203],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11073"
+		"checkpoint":"A0A2A2ABCDEFGH10194"
 	},
 	{
-		"id":11074,
+		"id":10195,
 		"text":"Hace algunos meses sí, era muy normal; Se las podía conocer como \"turistas\". A toda hora llegaban, todos los días. Algunas decidían quedarse, pero la mayoría se marchaba.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1044,13 +1044,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11075],
+		"nextStory":[10196],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11074"
+		"checkpoint":"A0A2A2ABCDEFGH10195"
 	},
 	{
-		"id":11075,
+		"id":10196,
 		"text":"Sin embargo... un día, las turistas dejaron de llegar.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1058,13 +1058,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11076],
+		"nextStory":[10197],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11075"
+		"checkpoint":"A0A2A2ABCDEFGH10196"
 	},
 	{
-		"id":11076,
+		"id":10197,
 		"text":"La última chica llegó hace algunas semanas. Decidió quedarse, pero ahora pertenece a otra comunidad.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1072,13 +1072,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11077],
+		"nextStory":[10198],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11076"
+		"checkpoint":"A0A2A2ABCDEFGH10197"
 	},
 	{
-		"id":11077,
+		"id":10198,
 		"text":"Aún no sabemos por qué el número de turistas bajó tan drásticamente, pero trabajamos con otras comunidades para llegar al fondo de esto.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1086,13 +1086,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11078],
+		"nextStory":[10199],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11077"
+		"checkpoint":"A0A2A2ABCDEFGH10198"
 	},
 	{
-		"id":11078,
+		"id":10199,
 		"text":"Y ahora con tu<br>llegada... la cual fue bastante particular. Que despertaras después de tantas horas, y además sin recuerdos nos hace ruido.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1100,13 +1100,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["¿A qué te refieres?"], 
-		"nextStory":[11079],
+		"nextStory":[10200],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11078"
+		"checkpoint":"A0A2A2ABCDEFGH10199"
 	},
 	{
-		"id":11079,
+		"id":10200,
 		"text":"Por lo general, las chicas no sufren de amnesia al llegar y, además, suelen estar despiertas al momento del \"viaje\".", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1114,13 +1114,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11080],
+		"nextStory":[10201],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11079"
+		"checkpoint":"A0A2A2ABCDEFGH10200"
 	},
 	{
-		"id":11080,
+		"id":10201,
 		"text":"Tenemos algunas suposiciones, pero como todavía no es nada claro no tiene sentido darle vueltas.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1128,13 +1128,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11081],
+		"nextStory":[10202],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11080"
+		"checkpoint":"A0A2A2ABCDEFGH10201"
 	},
 	{
-		"id":11081,
+		"id":10202,
 		"text":"De igual forma trata de permanecer tranquila mientras tanto, ten por seguro que estás en buenas manos.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1142,13 +1142,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["¿Qué es éste lugar?"], 
-		"nextStory":[11036],
+		"nextStory":[10157],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11081"
+		"checkpoint":"A0A2A2ABCDEFGH10202"
 	},
 	{
-		"id":11082,
+		"id":10203,
 		"text":"Esta es la Residencia Valkyrie, la cual pertenece a la Comunidad Valquírica.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1156,13 +1156,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11083],
+		"nextStory":[10204],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11082"
+		"checkpoint":"A0A2A2ABCDEFGH10203"
 	},
 	{
-		"id":11083,
+		"id":10204,
 		"text":"Aquí es donde vivimos las Valkyries, aunque por el día encontrarás a muchas personas trabajando, yendo y viniendo.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1170,13 +1170,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11084],
+		"nextStory":[10205],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11083"
+		"checkpoint":"A0A2A2ABCDEFGH10204"
 	},
 	{
-		"id":11084,
+		"id":10205,
 		"text":"En cambio, en la noche casi siempre tiende a ser más calmada.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1184,13 +1184,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11085],
+		"nextStory":[10206],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11084"
+		"checkpoint":"A0A2A2ABCDEFGH10205"
 	},
 	{
-		"id":11085,
+		"id":10206,
 		"text":"A veces llegan a ser un verdadero caos...", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1198,13 +1198,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11086],
+		"nextStory":[10207],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11085"
+		"checkpoint":"A0A2A2ABCDEFGH10206"
 	},
 	{
-		"id":11086,
+		"id":10207,
 		"text":"No hace mucho que hemos abierto nuestras puertas para que nuestros miembros puedan participar en estudios, entrenamientos e incluso dar sus servicios aquí.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1212,13 +1212,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11087],
+		"nextStory":[10208],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11086"
+		"checkpoint":"A0A2A2ABCDEFGH10207"
 	},
 	{
-		"id":11087,
+		"id":10208,
 		"text":"Por ejemplo, tenemos a Dalfelí, aunque no es una Valkyrie, pertenece a la Comunidad Valquírica y nos brinda su ayuda en la cocina.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1226,13 +1226,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11088],
+		"nextStory":[10209],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11087"
+		"checkpoint":"A0A2A2ABCDEFGH10208"
 	},
 	{
-		"id":11088,
+		"id":10209,
 		"text":"A decir verdad, gracias a la Comunidad Valquírica, Eldarya ha conseguido grandes avances.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1240,13 +1240,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11089],
+		"nextStory":[10210],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11088"
+		"checkpoint":"A0A2A2ABCDEFGH10209"
 	},
 	{
-		"id":11089,
+		"id":10210,
 		"text":"Y de hecho seguimos contribuyendo en constantes estudios y hallazgos. Pero va, ya habrá oportunidad de tocar el tema.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1254,13 +1254,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11090],
+		"nextStory":[10211],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11089"
+		"checkpoint":"A0A2A2ABCDEFGH10210"
 	},
 	{
-		"id":11090,
+		"id":10211,
 		"text":"Por otra parte, en lo que a Valkyries \"reales\" se trata, solo somos... diez miembros, ¿No?", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1268,13 +1268,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11091],
+		"nextStory":[10212],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11090"
+		"checkpoint":"A0A2A2ABCDEFGH10211"
 	},
 	{
-		"id":11091,
+		"id":10212,
 		"text":"Siendo sincera, no sabemos si somos más o menos que diez.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1282,13 +1282,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["Entiendo..."], 
-		"nextStory":[11092],
+		"nextStory":[10213],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11091"
+		"checkpoint":"A0A2A2ABCDEFGH10212"
 	},
 	{
-		"id":11092,
+		"id":10213,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -1296,13 +1296,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["¿Es normal que reciban chicas a menudo?"], 
-		"nextStory":[11093],
+		"nextStory":[10214],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11092"
+		"checkpoint":"A0A2A2ABCDEFGH10213"
 	},
 	{
-		"id":11093,
+		"id":10214,
 		"text":"Hace algunos meses sí, era muy normal; Se las podía conocer como \"turistas\". A toda hora llegaban, todos los días. Algunas decidían quedarse, pero la mayoría se marchaba.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1310,13 +1310,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11094],
+		"nextStory":[10215],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11093"
+		"checkpoint":"A0A2A2ABCDEFGH10214"
 	},
 	{
-		"id":11094,
+		"id":10215,
 		"text":"Sin embargo... un día, las turistas dejaron de llegar.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1324,13 +1324,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11095],
+		"nextStory":[10216],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11094"
+		"checkpoint":"A0A2A2ABCDEFGH10215"
 	},
 	{
-		"id":11095,
+		"id":10216,
 		"text":"La última chica llegó hace algunas semanas. Decidió quedarse, pero ahora pertenece a otra comunidad.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1338,13 +1338,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11096],
+		"nextStory":[10217],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11095"
+		"checkpoint":"A0A2A2ABCDEFGH10216"
 	},
 	{
-		"id":11096,
+		"id":10217,
 		"text":"Aún no sabemos por qué el número de turistas bajó tan drásticamente, pero trabajamos con otras comunidades para llegar al fondo de esto.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1352,13 +1352,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11097],
+		"nextStory":[10218],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11096"
+		"checkpoint":"A0A2A2ABCDEFGH10217"
 	},
 	{
-		"id":11097,
+		"id":10218,
 		"text":"Y ahora con tu<br>llegada... la cual fue bastante particular. Que despertaras después de tantas horas, y además sin recuerdos nos hace ruido.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1366,13 +1366,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["¿A qué te refieres?"], 
-		"nextStory":[11098],
+		"nextStory":[10219],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11097"
+		"checkpoint":"A0A2A2ABCDEFGH10218"
 	},
 	{
-		"id":11098,
+		"id":10219,
 		"text":"Por lo general, las chicas no sufren de amnesia al llegar y, además, suelen estar despiertas al momento del \"viaje\".", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1380,13 +1380,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11099],
+		"nextStory":[10220],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11098"
+		"checkpoint":"A0A2A2ABCDEFGH10219"
 	},
 	{
-		"id":11099,
+		"id":10220,
 		"text":"Tenemos algunas suposiciones, pero como todavía no es nada claro no tiene sentido darle vueltas.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1394,13 +1394,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11100],
+		"nextStory":[10221],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11099"
+		"checkpoint":"A0A2A2ABCDEFGH10220"
 	},
 	{
-		"id":11100,
+		"id":10221,
 		"text":"De igual forma trata de permanecer tranquila mientras tanto, ten por seguro que estás en buenas manos.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1408,13 +1408,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["Tengo una última pregunta: ¿Qué son las Valkyries?"], 
-		"nextStory":[11128],
+		"nextStory":[10249],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11100"
+		"checkpoint":"A0A2A2ABCDEFGH10221"
 	},
 	{
-		"id":11101,
+		"id":10222,
 		"text":"Esta es la Residencia Valkyrie, la cual pertenece a la Comunidad Valquírica.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1422,13 +1422,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11102],
+		"nextStory":[10223],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11101"
+		"checkpoint":"A0A2A2ABCDEFGH10222"
 	},
 	{
-		"id":11102,
+		"id":10223,
 		"text":"Aquí es donde vivimos las Valkyries, aunque por el día encontrarás a muchas personas trabajando, yendo y viniendo.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1436,13 +1436,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11103],
+		"nextStory":[10224],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11102"
+		"checkpoint":"A0A2A2ABCDEFGH10223"
 	},
 	{
-		"id":11103,
+		"id":10224,
 		"text":"En cambio, en la noche casi siempre tiende a ser más calmada.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1450,13 +1450,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11104],
+		"nextStory":[10225],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11103"
+		"checkpoint":"A0A2A2ABCDEFGH10224"
 	},
 	{
-		"id":11104,
+		"id":10225,
 		"text":"A veces llegan a ser un verdadero caos...", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1464,13 +1464,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11105],
+		"nextStory":[10226],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11104"
+		"checkpoint":"A0A2A2ABCDEFGH10225"
 	},
 	{
-		"id":11105,
+		"id":10226,
 		"text":"No hace mucho que hemos abierto nuestras puertas para que nuestros miembros puedan participar en estudios, entrenamientos e incluso dar sus servicios aquí.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1478,13 +1478,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11106],
+		"nextStory":[10227],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11105"
+		"checkpoint":"A0A2A2ABCDEFGH10226"
 	},
 	{
-		"id":11106,
+		"id":10227,
 		"text":"Por ejemplo, tenemos a Dalfelí, aunque no es una Valkyrie, pertenece a la Comunidad Valquírica y nos brinda su ayuda en la cocina.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1492,13 +1492,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11107],
+		"nextStory":[10228],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11106"
+		"checkpoint":"A0A2A2ABCDEFGH10227"
 	},
 	{
-		"id":11107,
+		"id":10228,
 		"text":"A decir verdad, gracias a la Comunidad Valquírica, Eldarya ha conseguido grandes avances.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1506,13 +1506,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11108],
+		"nextStory":[10229],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11107"
+		"checkpoint":"A0A2A2ABCDEFGH10228"
 	},
 	{
-		"id":11108,
+		"id":10229,
 		"text":"Y de hecho seguimos contribuyendo en constantes estudios y hallazgos. Pero va, ya habrá oportunidad de tocar el tema.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1520,13 +1520,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11109],
+		"nextStory":[10230],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11108"
+		"checkpoint":"A0A2A2ABCDEFGH10229"
 	},
 	{
-		"id":11109,
+		"id":10230,
 		"text":"Por otra parte, en lo que a Valkyries \"reales\" se trata, solo somos... diez miembros, ¿No?", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1534,13 +1534,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11110],
+		"nextStory":[10231],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11109"
+		"checkpoint":"A0A2A2ABCDEFGH10230"
 	},
 	{
-		"id":11110,
+		"id":10231,
 		"text":"Siendo sincera, no sabemos si somos más o menos que diez.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1548,13 +1548,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["Entiendo..."], 
-		"nextStory":[11111],
+		"nextStory":[10232],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11110"
+		"checkpoint":"A0A2A2ABCDEFGH10231"
 	},
 	{
-		"id":11111,
+		"id":10232,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -1562,13 +1562,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["¿Y es normal que reciban chicas a menudo?","¿Y quiénes son?"], 
-		"nextStory":[11112,11120],
+		"nextStory":[10233,10241],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11111"
+		"checkpoint":"A0A2A2ABCDEFGH10232"
 	},
 	{
-		"id":11112,
+		"id":10233,
 		"text":"Hace algunos meses sí, era muy normal; Se las podía conocer como \"turistas\". A toda hora llegaban, todos los días. Algunas decidían quedarse, pero la mayoría se marchaba.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1576,13 +1576,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11113],
+		"nextStory":[10234],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11112"
+		"checkpoint":"A0A2A2ABCDEFGH10233"
 	},
 	{
-		"id":11113,
+		"id":10234,
 		"text":"Sin embargo... un día, las turistas dejaron de llegar.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1590,13 +1590,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11114],
+		"nextStory":[10235],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11113"
+		"checkpoint":"A0A2A2ABCDEFGH10234"
 	},
 	{
-		"id":11114,
+		"id":10235,
 		"text":"La última chica llegó hace algunas semanas. Decidió quedarse, pero ahora pertenece a otra comunidad.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1604,13 +1604,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11115],
+		"nextStory":[10236],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11114"
+		"checkpoint":"A0A2A2ABCDEFGH10235"
 	},
 	{
-		"id":11115,
+		"id":10236,
 		"text":"Aún no sabemos por qué el número de turistas bajó tan drásticamente, pero trabajamos con otras comunidades para llegar al fondo de esto.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1618,13 +1618,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11116],
+		"nextStory":[10237],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11115"
+		"checkpoint":"A0A2A2ABCDEFGH10236"
 	},
 	{
-		"id":11116,
+		"id":10237,
 		"text":"Y ahora con tu<br>llegada... la cual fue bastante particular. Que despertaras después de tantas horas, y además sin recuerdos nos hace ruido.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1632,13 +1632,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["¿A qué te refieres?"], 
-		"nextStory":[11117],
+		"nextStory":[10238],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11116"
+		"checkpoint":"A0A2A2ABCDEFGH10237"
 	},
 	{
-		"id":11117,
+		"id":10238,
 		"text":"Por lo general, las chicas no sufren de amnesia al llegar y, además, suelen estar despiertas al momento del \"viaje\".", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1646,13 +1646,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11118],
+		"nextStory":[10239],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11117"
+		"checkpoint":"A0A2A2ABCDEFGH10238"
 	},
 	{
-		"id":11118,
+		"id":10239,
 		"text":"Tenemos algunas suposiciones, pero como todavía no es nada claro no tiene sentido darle vueltas.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1660,13 +1660,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11119],
+		"nextStory":[10240],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11118"
+		"checkpoint":"A0A2A2ABCDEFGH10239"
 	},
 	{
-		"id":11119,
+		"id":10240,
 		"text":"De igual forma trata de permanecer tranquila mientras tanto, ten por seguro que estás en buenas manos.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1674,13 +1674,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["¿Quiénes son?"], 
-		"nextStory":[11058],
+		"nextStory":[10179],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11119"
+		"checkpoint":"A0A2A2ABCDEFGH10240"
 	},
 	{
-		"id":11120,
+		"id":10241,
 		"text":"Oh... eso fue muy directo, me agrada.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1688,13 +1688,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11121],
+		"nextStory":[10242],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11120"
+		"checkpoint":"A0A2A2ABCDEFGH10241"
 	},
 	{
-		"id":11121,
+		"id":10242,
 		"text":"Bueno, tomemos<br>en cuenta que la información que le dimos fue bastante... concisa.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1702,13 +1702,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11122],
+		"nextStory":[10243],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11121"
+		"checkpoint":"A0A2A2ABCDEFGH10242"
 	},
 	{
-		"id":11122,
+		"id":10243,
 		"text":"Como te dije antes, soy Jenna, de raza Erinia.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1716,13 +1716,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11123],
+		"nextStory":[10244],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11122"
+		"checkpoint":"A0A2A2ABCDEFGH10243"
 	},
 	{
-		"id":11123,
+		"id":10244,
 		"text":"Soy la encargada de los miembros de la guardia obsidiana que por cierto, para que me entiendas, somos aquellas personas encargadas de defender a los nuestros, y que, por ende, debemos tener un gran manejo de las armas.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1730,13 +1730,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11124],
+		"nextStory":[10245],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11123"
+		"checkpoint":"A0A2A2ABCDEFGH10244"
 	},
 	{
-		"id":11124,
+		"id":10245,
 		"text":"Soy quien los entrena adecuadamente en caso de un posible combate.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1744,13 +1744,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11125],
+		"nextStory":[10246],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11124"
+		"checkpoint":"A0A2A2ABCDEFGH10245"
 	},
 	{
-		"id":11125,
+		"id":10246,
 		"text":"¡Si quieres aprender a dar una patada de manera correcta, no dudes en encontrarme en al sala de entrenamientos!", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1758,13 +1758,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11126],
+		"nextStory":[10247],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11125"
+		"checkpoint":"A0A2A2ABCDEFGH10246"
 	},
 	{
-		"id":11126,
+		"id":10247,
 		"text":"Mientras que yo, Lara; junto a Vidalia y otros miembros, pertenecemos a la guardia absenta que, para no complicarla demasiado, se centra en la herbología, la creación de pociones, el estudio de la flora y fauna eldaryana, entre otras cosas.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1772,13 +1772,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11127],
+		"nextStory":[10248],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11126"
+		"checkpoint":"A0A2A2ABCDEFGH10247"
 	},
 	{
-		"id":11127,
+		"id":10248,
 		"text":"Si quieres conocer el origen o cómo eclosionar un familiar, puedes encontrarme en la sala de alquimia.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1786,13 +1786,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["¿Es normal que reciban chicas a menudo?"], 
-		"nextStory":[11093],
+		"nextStory":[10214],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11127"
+		"checkpoint":"A0A2A2ABCDEFGH10248"
 	},
 	{
-		"id":11128,
+		"id":10249,
 		"text":"Y la más importante, diría yo.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1800,13 +1800,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11129],
+		"nextStory":[10250],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11128"
+		"checkpoint":"A0A2A2ABCDEFGH10249"
 	},
 	{
-		"id":11129,
+		"id":10250,
 		"text":"Bien, verás: nosotras somos un clan: El Clan Valkyrie, somos guardianas hermanas, elegidas por nuestra madre, la diosa Freyja.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1814,13 +1814,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11130],
+		"nextStory":[10251],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11129"
+		"checkpoint":"A0A2A2ABCDEFGH10250"
 	},
 	{
-		"id":11130,
+		"id":10251,
 		"text":"Básicamente, somos una familia, nos apoyamos las unas a las otras desde que iniciamos nuestra travesía aquí, en Eldarya.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1828,13 +1828,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11131],
+		"nextStory":[10252],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11130"
+		"checkpoint":"A0A2A2ABCDEFGH10251"
 	},
 	{
-		"id":11131,
+		"id":10252,
 		"text":"No tenemos en claro<br>cuál es nuestra misión, nuestra madre no es muy clara en ese aspecto<br>que digamos...", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1842,13 +1842,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11132],
+		"nextStory":[10253],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11131"
+		"checkpoint":"A0A2A2ABCDEFGH10252"
 	},
 	{
-		"id":11132,
+		"id":10253,
 		"text":"Así que, mientras<br>tanto, ayudamos a la comunidad Eldaryana tanto como podemos.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1856,13 +1856,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["Eso suena increíble."], 
-		"nextStory":[11133],
+		"nextStory":[10254],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11132"
+		"checkpoint":"A0A2A2ABCDEFGH10253"
 	},
 	{
-		"id":11133,
+		"id":10254,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -1870,13 +1870,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Jenna sonrió con ternura y dejó escapar una sonrisa.) "], 
-		"nextStory":[11134],
+		"nextStory":[10255],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11133"
+		"checkpoint":"A0A2A2ABCDEFGH10254"
 	},
 	{
-		"id":11134,
+		"id":10255,
 		"text":"Y bien, dime ¿Cómo te sientes ahora?", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1884,13 +1884,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["La verdad, aún me siento bastante tranquila ¿Puede ser que aún siga<br>ése \"efecto\" aquí?"], 
-		"nextStory":[11135],
+		"nextStory":[10256],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11134"
+		"checkpoint":"A0A2A2ABCDEFGH10255"
 	},
 	{
-		"id":11135,
+		"id":10256,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -1898,13 +1898,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Lara soltó una carcajada y negó con la cabeza.)"], 
-		"nextStory":[11136],
+		"nextStory":[10257],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11135"
+		"checkpoint":"A0A2A2ABCDEFGH10256"
 	},
 	{
-		"id":11136,
+		"id":10257,
 		"text":"No, el efecto debió<br>pasar hace algún tiempo, además, en la cocina no puede surtir efecto debido a la cantidad<br>de olores...", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1912,13 +1912,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11137],
+		"nextStory":[10258],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11136"
+		"checkpoint":"A0A2A2ABCDEFGH10257"
 	},
 	{
-		"id":11137,
+		"id":10258,
 		"text":"Eres tú quien se mantiene tranquila<br>por si sola.",
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1926,13 +1926,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["(Los ojos de Jenna se abrieron de par en par.)"], 
-		"nextStory":[11138],
+		"nextStory":[10259],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11137"
+		"checkpoint":"A0A2A2ABCDEFGH10258"
 	},
 	{
-		"id":11138,
+		"id":10259,
 		"text":"¿Es eso cierto?<br>¡Eres toda una luchadora, Keiko!", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1940,13 +1940,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11139],
+		"nextStory":[10260],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11138"
+		"checkpoint":"A0A2A2ABCDEFGH10259"
 	},
 	{
-		"id":11139,
+		"id":10260,
 		"text":"Recuerdo que, cuando llegué aquí, perdí los estribos... En aquel tiempo no tenían esa poción.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1954,13 +1954,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Ella continuó relatando su llegada, sus inicios en la residencia y cómo era la vida aquí. Al darnos cuenta, Dalfelí ya se había ido y todo estaba a oscuras ¡El tiempo había pasado realmente rápido!)"], 
-		"nextStory":[11140],
+		"nextStory":[10261],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11139"
+		"checkpoint":"A0A2A2ABCDEFGH10260"
 	},
 	{
-		"id":11140,
+		"id":10261,
 		"text":"Es hora de terminar con la charla, amanecerá en cualquier momento y debemos descansar aunque sea un poco.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1968,13 +1968,13 @@
 		"npc":[1250],
 		"self":1100,
 		"choices":["(Continuar)"], 
-		"nextStory":[11141],
+		"nextStory":[10262],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11140"
+		"checkpoint":"A0A2A2ABCDEFGH10261"
 	},
 	{
-		"id":11141,
+		"id":10262,
 		"text":"Keiko, esta noche descansarás en la enfermería, ¿de acuerdo? Será solo hasta que preparemos tu habitación.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -1982,13 +1982,13 @@
 		"npc":[1200],
 		"self":1100,
 		"choices":["No hay problema. Gracias."], 
-		"nextStory":[11142],
+		"nextStory":[10263],
 		"setInventory":[], 
 		"setObjective":[-102],
-		"checkpoint":"A0A2A2ABCDEFGH11141"
+		"checkpoint":"A0A2A2ABCDEFGH10262"
 	},
 	{
-		"id":11142,
+		"id":10263,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":true,
@@ -1996,13 +1996,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(Entre las tres, en pocos minutos ordenamos la mesa que habíamos utilizado. Seguido, salimos del comedor.)"], 
-		"nextStory":[11143],
+		"nextStory":[10264],
 		"setInventory":[], 
 		"setObjective":[103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11142"
+		"checkpoint":"A0A2A2ABCDEFGH10263"
 	},
 	{
-		"id":11143,
+		"id":10264,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2010,13 +2010,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(Entre ambas me acompañaron hasta la enfermería, se despidieron y siguieron<br>su camino.)"], 
-		"nextStory":[11144],
+		"nextStory":[10265],
 		"setInventory":[], 
 		"setObjective":[-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11143"
+		"checkpoint":"A0A2A2ABCDEFGH10264"
 	},
 	{
-		"id":11144,
+		"id":10265,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2024,13 +2024,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(Tras recostarme en la misma cama de la que me había levantado, recordé<br>el grato momento que había pasado junto a Lara y Jenna.)"], 
-		"nextStory":[11145],
+		"nextStory":[10266],
 		"setInventory":[], 
 		"setObjective":[-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11144"
+		"checkpoint":"A0A2A2ABCDEFGH10265"
 	},
 	{
-		"id":11145,
+		"id":10266,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2038,13 +2038,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(A pesar de conocerlas desde hace poco, realmente me sentía en calma<br>junto a ellas...)"], 
-		"nextStory":[11146],
+		"nextStory":[10267],
 		"setInventory":[], 
 		"setObjective":[-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11145"
+		"checkpoint":"A0A2A2ABCDEFGH10266"
 	},
 	{
-		"id":11146,
+		"id":10267,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2052,13 +2052,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(De hecho, ¿habían mencionado una habitación para mi? no sabía cómo<br>sentirme con respecto a eso.)"], 
-		"nextStory":[11147],
+		"nextStory":[10268],
 		"setInventory":[], 
 		"setObjective":[-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11146"
+		"checkpoint":"A0A2A2ABCDEFGH10267"
 	},
 	{
-		"id":11147,
+		"id":10268,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2066,13 +2066,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(No estaba segura de cómo me sentía tras la idea de que me iba a quedar...)"], 
-		"nextStory":[11148],
+		"nextStory":[10269],
 		"setInventory":[], 
 		"setObjective":[-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11147"
+		"checkpoint":"A0A2A2ABCDEFGH10268"
 	},
 	{
-		"id":11148,
+		"id":10269,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2080,13 +2080,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(Cerré mis ojos, intentando conciliar el sueño, sin embargo...)"], 
-		"nextStory":[11149],
+		"nextStory":[10270],
 		"setInventory":[], 
 		"setObjective":[-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11148"
+		"checkpoint":"A0A2A2ABCDEFGH10269"
 	},
 	{
-		"id":11149,
+		"id":10270,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2094,13 +2094,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["Yo... ¡Nicolas!"], 
-		"nextStory":[11150],
+		"nextStory":[10271],
 		"setInventory":[], 
 		"setObjective":[-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11149"
+		"checkpoint":"A0A2A2ABCDEFGH10270"
 	},
 	{
-		"id":11150,
+		"id":10271,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2108,13 +2108,13 @@
 		"npc":[1004],
 		"self":1100,
 		"choices":["(Antes de poder reaccionar ante lo que ocurría, pude ver dos manchones de<br>sangre en el pecho de mi compañero.)"], 
-		"nextStory":[11151],
+		"nextStory":[10272],
 		"setInventory":[], 
 		"setObjective":[-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11150"
+		"checkpoint":"A0A2A2ABCDEFGH10271"
 	},
 	{
-		"id":11151,
+		"id":10272,
 		"text":"Agghh... ", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -2122,13 +2122,13 @@
 		"npc":[1002],
 		"self":1100,
 		"choices":["¡No! (Nicolás sacó una pistola de entre sus ropas, apuntó a nuestro agresor<br>y disparó, la bala fue a parar a una de sus piernas.)"], 
-		"nextStory":[11152],
+		"nextStory":[10273],
 		"setInventory":[], 
 		"setObjective":[-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11151"
+		"checkpoint":"A0A2A2ABCDEFGH10272"
 	},
 	{
-		"id":11152,
+		"id":10273,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":true,
@@ -2136,13 +2136,13 @@
 		"npc":[1002],
 		"self":1100,
 		"choices":["(Aprovechando el dolor de aquel hombre y la adrenalina que me corría por<br>las venas, levanté a Nicolas y empezamos a alejarnos.)"], 
-		"nextStory":[11153],
+		"nextStory":[10274],
 		"setInventory":[], 
 		"setObjective":[104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11152"
+		"checkpoint":"A0A2A2ABCDEFGH10273"
 	},
 	{
-		"id":11153,
+		"id":10274,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2150,13 +2150,13 @@
 		"npc":[1004],
 		"self":1100,
 		"choices":["(Escuché un nuevo disparo, pero lo ignoré, lo único en lo que podía pensar<br>era en sacar a Nicolás de ahí con vida.)"], 
-		"nextStory":[11154],
+		"nextStory":[10275],
 		"setInventory":[], 
 		"setObjective":[-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11153"
+		"checkpoint":"A0A2A2ABCDEFGH10274"
 	},
 	{
-		"id":11154,
+		"id":10275,
 		"text":"Keiko... no sirve de nada... si no me dejas, ninguno de los dos lo contará.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -2164,13 +2164,13 @@
 		"npc":[1002],
 		"self":1100,
 		"choices":["¡No! ¡Me niego a dejarte aquí!"], 
-		"nextStory":[11155],
+		"nextStory":[10276],
 		"setInventory":[], 
 		"setObjective":[-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11154"
+		"checkpoint":"A0A2A2ABCDEFGH10275"
 	},
 	{
-		"id":11155,
+		"id":10276,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2178,13 +2178,13 @@
 		"npc":[1005],
 		"self":1100,
 		"choices":["(Continuamos avanzando, escuchaba a varias personas a nuestras espaldas,<br>habían traído refuerzos...)"], 
-		"nextStory":[11156],
+		"nextStory":[10277],
 		"setInventory":[], 
 		"setObjective":[-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11155"
+		"checkpoint":"A0A2A2ABCDEFGH10276"
 	},
 	{
-		"id":11156,
+		"id":10277,
 		"text":"¡KEIKO, LARGO!", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -2192,13 +2192,13 @@
 		"npc":[1002],
 		"self":1100,
 		"choices":["(Tras gritar, me empujó con las pocas fuerzas que tenía.)"], 
-		"nextStory":[11157],
+		"nextStory":[10278],
 		"setInventory":[], 
 		"setObjective":[-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11156"
+		"checkpoint":"A0A2A2ABCDEFGH10277"
 	},
 	{
-		"id":11157,
+		"id":10278,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2206,13 +2206,13 @@
 		"npc":[1002],
 		"self":1100,
 		"choices":["(¿En serio tenía que dejarlo aquí?)"], 
-		"nextStory":[11158],
+		"nextStory":[10279],
 		"setInventory":[], 
 		"setObjective":[-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11157"
+		"checkpoint":"A0A2A2ABCDEFGH10278"
 	},
 	{
-		"id":11158,
+		"id":10279,
 		"text":"¡VETE!", 
 		"type":"npc_dialog", 
 		"closeDialog":true,
@@ -2220,13 +2220,13 @@
 		"npc":[1002],
 		"self":1100,
 		"choices":["(Sintiendo un nudo en la garganta, me debatí por un segundo entre quedarme<br>o no, finalmente obedecí... corrí sin mirar atrás, solo corrí.)"], 
-		"nextStory":[11159],
+		"nextStory":[10280],
 		"setInventory":[], 
 		"setObjective":[105,-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11158"
+		"checkpoint":"A0A2A2ABCDEFGH10279"
 	},
 	{
-		"id":11159,
+		"id":10280,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2234,13 +2234,13 @@
 		"npc":[1005],
 		"self":1100,
 		"choices":["(A pesar de la distancia que había recorrido, aún los sentía tras de mí. Estaba<br>segura de que ese era mi fin...)"], 
-		"nextStory":[11160],
+		"nextStory":[10281],
 		"setInventory":[], 
 		"setObjective":[-105,-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11159"
+		"checkpoint":"A0A2A2ABCDEFGH10280"
 	},
 	{
-		"id":11160,
+		"id":10281,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2248,13 +2248,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(Entonces una fuerte luz se hizo presente a lo lejos.)"], 
-		"nextStory":[11161],
+		"nextStory":[10282],
 		"setInventory":[], 
 		"setObjective":[-105,-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11160"
+		"checkpoint":"A0A2A2ABCDEFGH10281"
 	},
 	{
-		"id":11161,
+		"id":10282,
 		"text":"Ven... Atraviesa la luz.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -2262,13 +2262,13 @@
 		"npc":[1006],
 		"self":1100,
 		"choices":["(Aquella voz era suave, casi angelical. Me hizo preguntarme si ya habría muerto.)"], 
-		"nextStory":[11162],
+		"nextStory":[10283],
 		"setInventory":[], 
 		"setObjective":[-105,-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11161"
+		"checkpoint":"A0A2A2ABCDEFGH10282"
 	},
 	{
-		"id":11162,
+		"id":10283,
 		"text":"Busca a las Valkyries.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
@@ -2276,13 +2276,13 @@
 		"npc":[1006],
 		"self":1100,
 		"choices":["(Qué)"], 
-		"nextStory":[11163],
+		"nextStory":[10284],
 		"setInventory":[], 
 		"setObjective":[-105,-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11162"
+		"checkpoint":"A0A2A2ABCDEFGH10283"
 	},
 	{
-		"id":11163,
+		"id":10284,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2290,13 +2290,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(Antes de darme cuenta, aquella luz cegadora me envolvió por completo,<br>segundos después, esta empezó a atenuarse, permitiéndome divisar un<br>poco de mi alrededor...)"], 
-		"nextStory":[11164],
+		"nextStory":[10285],
 		"setInventory":[], 
 		"setObjective":[-105,-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11163"
+		"checkpoint":"A0A2A2ABCDEFGH10284"
 	},
 	{
-		"id":11164,
+		"id":10285,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2304,13 +2304,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(Estaba en lo que parecía ser un bosque. La cabeza me daba vueltas.)"], 
-		"nextStory":[11165],
+		"nextStory":[10286],
 		"setInventory":[], 
 		"setObjective":[-105,-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11164"
+		"checkpoint":"A0A2A2ABCDEFGH10285"
 	},
 	{
-		"id":11165,
+		"id":10286,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2318,13 +2318,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(La luz desapareció por completo y, efectivamente, me encontraba en un bosque.)"], 
-		"nextStory":[11166],
+		"nextStory":[10287],
 		"setInventory":[], 
 		"setObjective":[-105,-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11165"
+		"checkpoint":"A0A2A2ABCDEFGH10286"
 	},
 	{
-		"id":11166,
+		"id":10287,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2332,13 +2332,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(¿Dónde estoy?)"], 
-		"nextStory":[11167],
+		"nextStory":[10288],
 		"setInventory":[], 
 		"setObjective":[-105,-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11166"
+		"checkpoint":"A0A2A2ABCDEFGH10287"
 	},
 	{
-		"id":11167,
+		"id":10288,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2346,13 +2346,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(...)"], 
-		"nextStory":[11168],
+		"nextStory":[10289],
 		"setInventory":[], 
 		"setObjective":[-105,-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11167"
+		"checkpoint":"A0A2A2ABCDEFGH10288"
 	},
 	{
-		"id":11168,
+		"id":10289,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":false,
@@ -2360,13 +2360,13 @@
 		"npc":[],
 		"self":1100,
 		"choices":["(... ¿Qué pasó?)"], 
-		"nextStory":[11169],
+		"nextStory":[10290],
 		"setInventory":[], 
 		"setObjective":[-105,-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11168"
+		"checkpoint":"A0A2A2ABCDEFGH10289"
 	},
 	{
-		"id":11169,
+		"id":10290,
 		"text":"", 
 		"type":"answer_only", 
 		"closeDialog":true,
@@ -2377,6 +2377,6 @@
 		"nextStory":[],
 		"setInventory":[], 
 		"setObjective":[-105,-104,-103,-102],
-		"checkpoint":"A0A2A2ABCDEFGH11169"
+		"checkpoint":"A0A2A2ABCDEFGH10290"
 	}
 ]
