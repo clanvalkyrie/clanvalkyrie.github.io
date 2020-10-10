@@ -988,7 +988,7 @@
         "npc":[1200],
         "self":1100,
         "choices":["(Ha mirado hacia un lado y disimulado una risita traviesa, en un segundo volvió<br>a verme con expresión serena.)"], 
-        "nextStory":[10072], 
+        "nextStory":[10117], 
         "setInventory":[100], 
         "setObjective":[],
         "checkpoint":"A0A1A2ABCDEFGH10070"
