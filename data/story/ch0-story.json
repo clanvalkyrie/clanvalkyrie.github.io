@@ -988,24 +988,10 @@
         "npc":[1200],
         "self":1100,
         "choices":["(Ha mirado hacia un lado y disimulado una risita traviesa, en un segundo volvió<br>a verme con expresión serena.)"], 
-        "nextStory":[10071], 
+        "nextStory":[10072], 
         "setInventory":[100], 
         "setObjective":[],
         "checkpoint":"A0A1A2ABCDEFGH10070"
-    },
-    {
-        "id":10071, 
-        "text":"", 
-        "type":"answer_only", 
-        "closeDialog":false,
-        "place":108,
-        "npc":[1200],
-        "self":1100,
-        "choices":["(Continuar)"], 
-        "nextStory":[10117],
-        "setInventory":[100], 
-        "setObjective":[],
-        "checkpoint":"A0A1A2ABCDEFGH10071"
     },
     {
         "id":10072, 

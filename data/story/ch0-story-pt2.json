@@ -9,7 +9,7 @@
 		"self":1100,
 		"choices":["(¡Qué amplio se ve este lugar! Y parece bastante tranquilo.)"], 
 		"nextStory":[10122],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[101],
 		"checkpoint":"A0A2A2ABCDEFGH10121"
 	},
@@ -23,7 +23,7 @@
 		"self":1100,
 		"choices":["(Me hace sentir tranquila.)"], 
 		"nextStory":[10123],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[101],
 		"checkpoint":"A0A2A2ABCDEFGH10122"
 	},
@@ -37,7 +37,7 @@
 		"self":1100,
 		"choices":["(...Aunque puede ser que sea por el efecto que mencionó aquella chica...)"], 
 		"nextStory":[10124],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[102],
 		"checkpoint":"A0A2A2ABCDEFGH10123"
 	},
@@ -51,7 +51,7 @@
 		"self":1100,
 		"choices":["(Al encontrar el comedor pude notar que no solamente estaba casi a oscuras...)"], 
 		"nextStory":[10125],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[102],
 		"checkpoint":"A0A2A2ABCDEFGH10124"
 	},
@@ -65,7 +65,7 @@
 		"self":1100,
 		"choices":["(Sino que estaba completamente vacío.)"], 
 		"nextStory":[10126],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10125"
 	},
@@ -79,7 +79,7 @@
 		"self":1100,
 		"choices":["(O eso creí...)"], 
 		"nextStory":[10127],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10126"
 	},
@@ -93,7 +93,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10128],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10127"
 	},
@@ -107,7 +107,7 @@
 		"self":1100,
 		"choices":["(Una dulce mujer se presentó en frente mío, de inmediato supe que se<br>trataba de la cocinera.)"], 
 		"nextStory":[10129],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10128"
 	},
@@ -121,7 +121,7 @@
 		"self":1100,
 		"choices":["Esto... Gracias. (¿Las... demás?)"], 
 		"nextStory":[10130],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10129"
 	},
@@ -135,7 +135,7 @@
 		"self":1100,
 		"choices":["(Tomé asiento en una de las mesas más cercanas a la puerta de la cocina.)"], 
 		"nextStory":[10131],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10130"
 	},
@@ -149,7 +149,7 @@
 		"self":1100,
 		"choices":["Oiga... ¿Puedo preguntarle algo?"], 
 		"nextStory":[10132],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10131"
 	},
@@ -163,7 +163,7 @@
 		"self":1100,
 		"choices":["¿A qué se refería cuando dijo que no habían visto caras nuevas por aquí?"], 
 		"nextStory":[10133],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10132"
 	},
@@ -177,7 +177,7 @@
 		"self":1100,
 		"choices":["(Vaya...)"], 
 		"nextStory":[10134],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10133"
 	},
@@ -191,7 +191,7 @@
 		"self":1100,
 		"choices":["(Justo en ese momento llegó Lara con una acompañante. Ambas tomaron<br>dirección de acercarse.)"], 
 		"nextStory":[10135],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10134"
 	},
@@ -205,7 +205,7 @@
 		"self":1100,
 		"choices":["(Mientras Lara tomaba asiento, la otra joven tomó rumbo hacia la barra,<br>aparentemente para pedir algo.)"], 
 		"nextStory":[10136],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10135"
 	},
@@ -219,7 +219,7 @@
 		"self":1100,
 		"choices":["Sí, ha sido muy amable conmigo."], 
 		"nextStory":[10137],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10136"
 	},
@@ -233,7 +233,7 @@
 		"self":1100,
 		"choices":["(Aquella extraña chica me sorprendió por detrás mía, mientras dejaba<br>mi plato sobre la mesa.)"], 
 		"nextStory":[10138],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10137"
 	},
@@ -247,7 +247,7 @@
 		"self":1100,
 		"choices":["(Luego procedió a sentarse junto a su compañera. Una vez acomodada, me<br>dirigió una mirada dulce la cual me trasmitía confianza.)"], 
 		"nextStory":[10139],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10138"
 	},
@@ -261,7 +261,7 @@
 		"self":1100,
 		"choices":["... Hola. Gracias."], 
 		"nextStory":[10140],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10139"
 	},
@@ -275,7 +275,7 @@
 		"self":1100,
 		"choices":["Esto... ¿Es normal que reciban chicas a menudo?","Esto... ¿Quiénes son?","Esto... ¿Qué es éste lugar?"], 
 		"nextStory":[10141,10187,10222],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10140"
 	},
@@ -289,7 +289,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10142],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10141"
 	},
@@ -303,7 +303,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10143],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10142"
 	},
@@ -317,7 +317,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10144],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10143"
 	},
@@ -331,7 +331,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10145],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10144"
 	},
@@ -345,7 +345,7 @@
 		"self":1100,
 		"choices":["¿A qué te refieres?"], 
 		"nextStory":[10146],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10145"
 	},
@@ -359,7 +359,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10147],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10146"
 	},
@@ -373,7 +373,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10148],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10147"
 	},
@@ -387,7 +387,7 @@
 		"self":1100,
 		"choices":["¿Y quiénes son?","¿Y qué es éste lugar?"], 
 		"nextStory":[10149,10168],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10148"
 	},
@@ -401,7 +401,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10150],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10149"
 	},
@@ -415,7 +415,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10151],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10150"
 	},
@@ -429,7 +429,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10152],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10151"
 	},
@@ -443,7 +443,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10153],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10152"
 	},
@@ -457,7 +457,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10154],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10153"
 	},
@@ -471,7 +471,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10155],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10154"
 	},
@@ -485,7 +485,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10156],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10155"
 	},
@@ -499,7 +499,7 @@
 		"self":1100,
 		"choices":["¿Qué es éste lugar?"], 
 		"nextStory":[10157],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10156"
 	},
@@ -513,7 +513,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10158],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10157"
 	},
@@ -527,7 +527,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10159],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10158"
 	},
@@ -541,7 +541,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10160],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10159"
 	},
@@ -555,7 +555,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10161],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10160"
 	},
@@ -569,7 +569,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10162],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10161"
 	},
@@ -583,7 +583,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10163],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10162"
 	},
@@ -597,7 +597,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10164],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10163"
 	},
@@ -611,7 +611,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10165],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10164"
 	},
@@ -625,7 +625,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10166],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10165"
 	},
@@ -639,7 +639,7 @@
 		"self":1100,
 		"choices":["Entiendo..."], 
 		"nextStory":[10167],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10166"
 	},
@@ -653,7 +653,7 @@
 		"self":1100,
 		"choices":["Tengo una última pregunta: ¿Qué son las Valkyries?"], 
 		"nextStory":[10249],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10167"
 	},
@@ -667,7 +667,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10169],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10168"
 	},
@@ -681,7 +681,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10170],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10169"
 	},
@@ -695,7 +695,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10171],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10170"
 	},
@@ -709,7 +709,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10172],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10171"
 	},
@@ -723,7 +723,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10173],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10172"
 	},
@@ -737,7 +737,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10174],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10173"
 	},
@@ -751,7 +751,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10175],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10174"
 	},
@@ -765,7 +765,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10176],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10175"
 	},
@@ -779,7 +779,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10177],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10176"
 	},
@@ -793,7 +793,7 @@
 		"self":1100,
 		"choices":["Entiendo..."], 
 		"nextStory":[10178],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10177"
 	},
@@ -807,7 +807,7 @@
 		"self":1100,
 		"choices":["¿Quiénes son?"], 
 		"nextStory":[10179],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10178"
 	},
@@ -821,7 +821,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10180],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10179"
 	},
@@ -835,7 +835,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10181],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10180"
 	},
@@ -849,7 +849,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10182],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10181"
 	},
@@ -863,7 +863,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10183],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10182"
 	},
@@ -877,7 +877,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10184],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10183"
 	},
@@ -891,7 +891,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10185],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10184"
 	},
@@ -905,7 +905,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10186],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10185"
 	},
@@ -919,7 +919,7 @@
 		"self":1100,
 		"choices":["Tengo una última pregunta: ¿Qué son las Valkyries?"], 
 		"nextStory":[10249],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10186"
 	},
@@ -933,7 +933,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10188],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10187"
 	},
@@ -947,7 +947,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10189],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10188"
 	},
@@ -961,7 +961,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10190],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10189"
 	},
@@ -975,7 +975,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10191],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10190"
 	},
@@ -989,7 +989,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10192],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10191"
 	},
@@ -1003,7 +1003,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10193],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10192"
 	},
@@ -1017,7 +1017,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10194],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10193"
 	},
@@ -1031,7 +1031,7 @@
 		"self":1100,
 		"choices":["¿Y es normal que reciban chicas a menudo?","¿Y qué es éste lugar?"], 
 		"nextStory":[10195,10203],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10194"
 	},
@@ -1045,7 +1045,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10196],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10195"
 	},
@@ -1059,7 +1059,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10197],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10196"
 	},
@@ -1073,7 +1073,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10198],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10197"
 	},
@@ -1087,7 +1087,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10199],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10198"
 	},
@@ -1101,7 +1101,7 @@
 		"self":1100,
 		"choices":["¿A qué te refieres?"], 
 		"nextStory":[10200],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10199"
 	},
@@ -1115,7 +1115,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10201],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10200"
 	},
@@ -1129,7 +1129,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10202],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10201"
 	},
@@ -1143,7 +1143,7 @@
 		"self":1100,
 		"choices":["¿Qué es éste lugar?"], 
 		"nextStory":[10157],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10202"
 	},
@@ -1157,7 +1157,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10204],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10203"
 	},
@@ -1171,7 +1171,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10205],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10204"
 	},
@@ -1185,7 +1185,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10206],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10205"
 	},
@@ -1199,7 +1199,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10207],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10206"
 	},
@@ -1213,7 +1213,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10208],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10207"
 	},
@@ -1227,7 +1227,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10209],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10208"
 	},
@@ -1241,7 +1241,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10210],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10209"
 	},
@@ -1255,7 +1255,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10211],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10210"
 	},
@@ -1269,7 +1269,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10212],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10211"
 	},
@@ -1283,7 +1283,7 @@
 		"self":1100,
 		"choices":["Entiendo..."], 
 		"nextStory":[10213],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10212"
 	},
@@ -1297,7 +1297,7 @@
 		"self":1100,
 		"choices":["¿Es normal que reciban chicas a menudo?"], 
 		"nextStory":[10214],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10213"
 	},
@@ -1311,7 +1311,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10215],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10214"
 	},
@@ -1325,7 +1325,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10216],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10215"
 	},
@@ -1339,7 +1339,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10217],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10216"
 	},
@@ -1353,7 +1353,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10218],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10217"
 	},
@@ -1367,7 +1367,7 @@
 		"self":1100,
 		"choices":["¿A qué te refieres?"], 
 		"nextStory":[10219],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10218"
 	},
@@ -1381,7 +1381,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10220],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10219"
 	},
@@ -1395,7 +1395,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10221],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10220"
 	},
@@ -1409,7 +1409,7 @@
 		"self":1100,
 		"choices":["Tengo una última pregunta: ¿Qué son las Valkyries?"], 
 		"nextStory":[10249],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10221"
 	},
@@ -1423,7 +1423,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10223],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10222"
 	},
@@ -1437,7 +1437,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10224],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10223"
 	},
@@ -1451,7 +1451,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10225],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10224"
 	},
@@ -1465,7 +1465,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10226],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10225"
 	},
@@ -1479,7 +1479,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10227],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10226"
 	},
@@ -1493,7 +1493,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10228],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10227"
 	},
@@ -1507,7 +1507,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10229],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10228"
 	},
@@ -1521,7 +1521,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10230],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10229"
 	},
@@ -1535,7 +1535,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10231],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10230"
 	},
@@ -1549,7 +1549,7 @@
 		"self":1100,
 		"choices":["Entiendo..."], 
 		"nextStory":[10232],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10231"
 	},
@@ -1563,7 +1563,7 @@
 		"self":1100,
 		"choices":["¿Y es normal que reciban chicas a menudo?","¿Y quiénes son?"], 
 		"nextStory":[10233,10241],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10232"
 	},
@@ -1577,7 +1577,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10234],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10233"
 	},
@@ -1591,7 +1591,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10235],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10234"
 	},
@@ -1605,7 +1605,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10236],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10235"
 	},
@@ -1619,7 +1619,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10237],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10236"
 	},
@@ -1633,7 +1633,7 @@
 		"self":1100,
 		"choices":["¿A qué te refieres?"], 
 		"nextStory":[10238],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10237"
 	},
@@ -1647,7 +1647,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10239],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10238"
 	},
@@ -1661,7 +1661,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10240],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10239"
 	},
@@ -1675,7 +1675,7 @@
 		"self":1100,
 		"choices":["¿Quiénes son?"], 
 		"nextStory":[10179],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10240"
 	},
@@ -1689,7 +1689,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10242],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10241"
 	},
@@ -1703,7 +1703,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10243],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10242"
 	},
@@ -1717,7 +1717,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10244],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10243"
 	},
@@ -1731,7 +1731,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10245],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10244"
 	},
@@ -1745,7 +1745,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10246],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10245"
 	},
@@ -1759,7 +1759,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10247],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10246"
 	},
@@ -1773,7 +1773,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10248],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10247"
 	},
@@ -1787,7 +1787,7 @@
 		"self":1100,
 		"choices":["¿Es normal que reciban chicas a menudo?"], 
 		"nextStory":[10214],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10248"
 	},
@@ -1801,7 +1801,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10250],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10249"
 	},
@@ -1815,7 +1815,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10251],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10250"
 	},
@@ -1829,7 +1829,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10252],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10251"
 	},
@@ -1843,7 +1843,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10253],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10252"
 	},
@@ -1857,7 +1857,7 @@
 		"self":1100,
 		"choices":["Eso suena increíble."], 
 		"nextStory":[10254],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10253"
 	},
@@ -1871,7 +1871,7 @@
 		"self":1100,
 		"choices":["(Jenna sonrió con ternura y dejó escapar una sonrisa.) "], 
 		"nextStory":[10255],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10254"
 	},
@@ -1885,7 +1885,7 @@
 		"self":1100,
 		"choices":["La verdad, aún me siento bastante tranquila ¿Puede ser que aún siga<br>ése \"efecto\" aquí?"], 
 		"nextStory":[10256],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10255"
 	},
@@ -1899,7 +1899,7 @@
 		"self":1100,
 		"choices":["(Lara soltó una carcajada y negó con la cabeza.)"], 
 		"nextStory":[10257],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10256"
 	},
@@ -1913,7 +1913,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10258],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10257"
 	},
@@ -1927,7 +1927,7 @@
 		"self":1100,
 		"choices":["(Los ojos de Jenna se abrieron de par en par.)"], 
 		"nextStory":[10259],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10258"
 	},
@@ -1941,7 +1941,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10260],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10259"
 	},
@@ -1955,7 +1955,7 @@
 		"self":1100,
 		"choices":["(Ella continuó relatando su llegada, sus inicios en la residencia y cómo era la vida aquí. Al darnos cuenta, Dalfelí ya se había ido y todo estaba a oscuras ¡El tiempo había pasado realmente rápido!)"], 
 		"nextStory":[10261],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10260"
 	},
@@ -1969,7 +1969,7 @@
 		"self":1100,
 		"choices":["(Continuar)"], 
 		"nextStory":[10262],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10261"
 	},
@@ -1983,7 +1983,7 @@
 		"self":1100,
 		"choices":["No hay problema. Gracias."], 
 		"nextStory":[10263],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-102],
 		"checkpoint":"A0A2A2ABCDEFGH10262"
 	},
@@ -1997,7 +1997,7 @@
 		"self":1100,
 		"choices":["(Entre las tres, en pocos minutos ordenamos la mesa que habíamos utilizado. Seguido, salimos del comedor.)"], 
 		"nextStory":[10264],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10263"
 	},
@@ -2011,7 +2011,7 @@
 		"self":1100,
 		"choices":["(Entre ambas me acompañaron hasta la enfermería, se despidieron y siguieron<br>su camino.)"], 
 		"nextStory":[10265],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10264"
 	},
@@ -2025,7 +2025,7 @@
 		"self":1100,
 		"choices":["(Tras recostarme en la misma cama de la que me había levantado, recordé<br>el grato momento que había pasado junto a Lara y Jenna.)"], 
 		"nextStory":[10266],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10265"
 	},
@@ -2039,7 +2039,7 @@
 		"self":1100,
 		"choices":["(A pesar de conocerlas desde hace poco, realmente me sentía en calma<br>junto a ellas...)"], 
 		"nextStory":[10267],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10266"
 	},
@@ -2053,7 +2053,7 @@
 		"self":1100,
 		"choices":["(De hecho, ¿habían mencionado una habitación para mi? no sabía cómo<br>sentirme con respecto a eso.)"], 
 		"nextStory":[10268],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10267"
 	},
@@ -2067,7 +2067,7 @@
 		"self":1100,
 		"choices":["(No estaba segura de cómo me sentía tras la idea de que me iba a quedar...)"], 
 		"nextStory":[10269],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10268"
 	},
@@ -2081,7 +2081,7 @@
 		"self":1100,
 		"choices":["(Cerré mis ojos, intentando conciliar el sueño, sin embargo...)"], 
 		"nextStory":[10270],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10269"
 	},
@@ -2095,7 +2095,7 @@
 		"self":1100,
 		"choices":["Yo... ¡Nicolas!"], 
 		"nextStory":[10271],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10270"
 	},
@@ -2109,7 +2109,7 @@
 		"self":1100,
 		"choices":["(Antes de poder reaccionar ante lo que ocurría, pude ver dos manchones de<br>sangre en el pecho de mi compañero.)"], 
 		"nextStory":[10272],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10271"
 	},
@@ -2123,7 +2123,7 @@
 		"self":1100,
 		"choices":["¡No! (Nicolás sacó una pistola de entre sus ropas, apuntó a nuestro agresor<br>y disparó, la bala fue a parar a una de sus piernas.)"], 
 		"nextStory":[10273],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10272"
 	},
@@ -2137,7 +2137,7 @@
 		"self":1100,
 		"choices":["(Aprovechando el dolor de aquel hombre y la adrenalina que me corría por<br>las venas, levanté a Nicolas y empezamos a alejarnos.)"], 
 		"nextStory":[10274],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10273"
 	},
@@ -2151,7 +2151,7 @@
 		"self":1100,
 		"choices":["(Escuché un nuevo disparo, pero lo ignoré, lo único en lo que podía pensar<br>era en sacar a Nicolás de ahí con vida.)"], 
 		"nextStory":[10275],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10274"
 	},
@@ -2165,7 +2165,7 @@
 		"self":1100,
 		"choices":["¡No! ¡Me niego a dejarte aquí!"], 
 		"nextStory":[10276],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10275"
 	},
@@ -2179,7 +2179,7 @@
 		"self":1100,
 		"choices":["(Continuamos avanzando, escuchaba a varias personas a nuestras espaldas,<br>habían traído refuerzos...)"], 
 		"nextStory":[10277],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10276"
 	},
@@ -2193,7 +2193,7 @@
 		"self":1100,
 		"choices":["(Tras gritar, me empujó con las pocas fuerzas que tenía.)"], 
 		"nextStory":[10278],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10277"
 	},
@@ -2207,7 +2207,7 @@
 		"self":1100,
 		"choices":["(¿En serio tenía que dejarlo aquí?)"], 
 		"nextStory":[10279],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10278"
 	},
@@ -2221,7 +2221,7 @@
 		"self":1100,
 		"choices":["(Sintiendo un nudo en la garganta, me debatí por un segundo entre quedarme<br>o no, finalmente obedecí... corrí sin mirar atrás, solo corrí.)"], 
 		"nextStory":[10280],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[105,-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10279"
 	},
@@ -2235,7 +2235,7 @@
 		"self":1100,
 		"choices":["(A pesar de la distancia que había recorrido, aún los sentía tras de mí. Estaba<br>segura de que ese era mi fin...)"], 
 		"nextStory":[10281],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-105,-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10280"
 	},
@@ -2249,7 +2249,7 @@
 		"self":1100,
 		"choices":["(Entonces una fuerte luz se hizo presente a lo lejos.)"], 
 		"nextStory":[10282],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-105,-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10281"
 	},
@@ -2263,7 +2263,7 @@
 		"self":1100,
 		"choices":["(Aquella voz era suave, casi angelical. Me hizo preguntarme si ya habría muerto.)"], 
 		"nextStory":[10283],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-105,-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10282"
 	},
@@ -2277,7 +2277,7 @@
 		"self":1100,
 		"choices":["(Qué)"], 
 		"nextStory":[10284],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-105,-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10283"
 	},
@@ -2291,7 +2291,7 @@
 		"self":1100,
 		"choices":["(Antes de darme cuenta, aquella luz cegadora me envolvió por completo,<br>segundos después, esta empezó a atenuarse, permitiéndome divisar un<br>poco de mi alrededor...)"], 
 		"nextStory":[10285],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-105,-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10284"
 	},
@@ -2305,7 +2305,7 @@
 		"self":1100,
 		"choices":["(Estaba en lo que parecía ser un bosque. La cabeza me daba vueltas.)"], 
 		"nextStory":[10286],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-105,-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10285"
 	},
@@ -2319,7 +2319,7 @@
 		"self":1100,
 		"choices":["(La luz desapareció por completo y, efectivamente, me encontraba en un bosque.)"], 
 		"nextStory":[10287],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-105,-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10286"
 	},
@@ -2333,7 +2333,7 @@
 		"self":1100,
 		"choices":["(¿Dónde estoy?)"], 
 		"nextStory":[10288],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-105,-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10287"
 	},
@@ -2347,7 +2347,7 @@
 		"self":1100,
 		"choices":["(...)"], 
 		"nextStory":[10289],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-105,-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10288"
 	},
@@ -2361,7 +2361,7 @@
 		"self":1100,
 		"choices":["(... ¿Qué pasó?)"], 
 		"nextStory":[10290],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-105,-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10289"
 	},
@@ -2375,7 +2375,7 @@
 		"self":1100,
 		"choices":["(FINALIZAR EPISODIO)"], 
 		"nextStory":[],
-		"setInventory":[], 
+		"setInventory":[100], 
 		"setObjective":[-105,-104,-103,-102],
 		"checkpoint":"A0A2A2ABCDEFGH10290"
 	}
