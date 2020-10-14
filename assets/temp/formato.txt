@@ -1,0 +1,118 @@
+############ Referencias ############
+#Historia - cuadro violeta
+#Info - cuadro blanco
+(*texto*) - fondos, objetivos, inventario
+>> - texto de abajo (lo que diría Keiko)
+
+// - Aclaraciones o explicaciones mías (?
+
+
+############ Ejemplo 1 : Fondos, historia, info ############
+
+(*Fondo negro*)
+
+#Info: Bienvenida a la ruta de Keiko , desde este punto de vista podrás..... >> (Continuar)
+
+(*Claro del bosque*) o (#id_del_fondo)
+
+#Historia : Sus ojos se abrieron lentamente con un único...... >> (Continuar)
+
+
+
+############ Ejemplo 2 : Monólogos ############
+
+#Narra: Keiko
+... >> (... ¿Qué pasó?)
+... >> (No tengo fuerzas... estoy cansada...)
+... >> (Ni siquiera puedo pararme, el cuerpo me pesa demasiado.)
+... >> (...)
+... >> (Sentí una presencia allí conmigo.)
+
+
+
+############ Ejemplo 3 : Diálogos de terceros ############
+
+#Historia: Keiko despertó aún sintiéndose exhausta... >> (Continuar)
+
+Chenmi: ¿Alguna novedad? >> (Continuar)
+Melany: ... nada >> (Continuar)
+Melany: Pobrecilla... menos mal.... Ailikamp... avisar... >> (Continuar)
+Chenmi: ..., de momento ... dejarla descansar... >> (Continuar)
+Keiko: (Intenté moverme, quería hacerles saber que estaba despierta, pero mi cuerpo no cooperaba.) >> (Continuar)
+Melany: ¡Oh... despierta! >> (Continuar)
+Keiko: (Nuevamente tenía la impresión de volver a sentir destellos borrosos que rápidamente inundaron mi visión, escuchaba como alguien se me acercó al oído.) >> (Continuar)
+Chenmi: Tranquila, todo estará bien. >> (...)
+
+// Podes omitir los "(Continuar)" pero no los simbolos ">>", así como hacías con los "->"
+
+
+
+############ Ejemplo 4 : Diálogos normales ############
+
+#Narra Keiko
+
+... >> ¿Acaso... las conozco?
+Lara: No, perdona. Mi nombre es Lara, y ella es Vidalia. ¿Recuerdas tu nombre?
+>> Sí... me llamo Keiko.
+Vidalia: Un placer, Keiko. 
+>> (leve reverencia respondiendo a la presentación)
+Vidalia: Entonces... ¿Cómo te encuentras?
+>> Me siento un poco confundida. 
+
+
+
+############ Ejemplo 5 : ¿Expresiones? ############
+
+Lara (default): No, perdona. Mi nombre es Lara, y ella.....
+o
+Lara (#id_de_expresion): No, perdona. Mi nombre es Lara, y ella.....
+
+>> (default) Me siento un poco confundida. 
+>> (#id_de_expresion) Me siento un poco confundida. 
+
+
+############ Ejemplo 6 : Objetivos / Inventario ############
+
+// Sin cambios
+(*Inventario: Hierba Silbadora.*)
+(*Objetivo: ¡Ve al comedor, Lara te estará esperando para seguir aprendiendo más acerca de este mágico mundo!*)
+
+
+
+############ Ejemplo 7 : Opciones múltiples ############
+
+// Normal
+... >> (Aparté la vista en dirección a los extremos del pasillo; el primero conducía.....)
+
+... >> #Multiple : Normal
+a) Abrir la puerta.
+b) Seguir el pasillo.
+
+
+
+// Cíclica
+
+Lara: Bueno, Keiko, aún tenías preguntas, ¿No? Puedes continuar. 
+
+>> #Multiple : Cíclica
+a) Esto... ¿Es normal que reciban chicas a menudo?.
+b) Esto... ¿Qué es éste lugar?
+c) Esto... ¿Quiénes son?
+
+
+
+############ Ejemplo 9 : Desarrollo de opciones ############
+
+>> #Multiple : Cíclica
+a) Esto... ¿Es normal que reciban chicas a menudo?.
+b) Esto... ¿Qué es éste lugar?
+c) Esto... ¿Quiénes son?
+
+- Opcion A -
+// Desarrolla opcion
+- Opción B -
+// Desarrolla opcion
+- Opcion C - 
+// Desarrolla opción
+
+# Fin de múltiple.
