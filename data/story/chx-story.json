@@ -1,0 +1,138 @@
+[
+	{
+		"id":15000, 
+		"playChar":[1150,1200,1250],
+		"goto":[15001,15005,15010],
+		"checkpoint":"X3X0X1AXCDEFGH15000"
+		
+	},
+
+	{
+		"id":15001, 
+		"text":"", 
+		"type":"answer_only", 
+		"closeDialog":false,
+		"place":101,
+		"npc":[],
+		"self":1150,
+		"choices":["Hola, soy Vidalia."], 
+		"nextStory":[15002], 
+		"setInventory":[], 
+		"setObjective":[],
+		"checkpoint":"X3X0X1AACDEFGH15001"
+	},
+	{
+		"id":15002, 
+		"text":"", 
+		"type":"answer_only", 
+		"closeDialog":false,
+		"place":101,
+		"npc":[],
+		"self":1150,
+		"choices":["Y tengo polvos mágicos :D"], 
+		"nextStory":[15003], 
+		"setInventory":[], 
+		"setObjective":[],
+		"checkpoint":"X3X0X1AACDEFGH15002"
+	},
+	{
+		"id":15003, 
+		"text":"", 
+		"type":"answer_only", 
+		"closeDialog":true,
+		"place":101,
+		"npc":[],
+		"self":1150,
+		"choices":["(FINALIZAR EPISODIO)"], 
+		"nextStory":[], 
+		"setInventory":[], 
+		"setObjective":[],
+		"checkpoint":"X3X0X1AACDEFGH15003"
+	},
+
+	{
+		"id":15005, 
+		"text":"", 
+		"type":"answer_only", 
+		"closeDialog":false,
+		"place":101,
+		"npc":[],
+		"self":1200,
+		"choices":["Hola, soy Lara."], 
+		"nextStory":[15006], 
+		"setInventory":[], 
+		"setObjective":[],
+		"checkpoint":"X3X0X1ABCDEFGH15005"
+	},
+	{
+		"id":15006, 
+		"text":"", 
+		"type":"answer_only", 
+		"closeDialog":false,
+		"place":101,
+		"npc":[],
+		"self":1200,
+		"choices":["Vidalia no quiere darme de sus polvos mágicos :("], 
+		"nextStory":[15007], 
+		"setInventory":[], 
+		"setObjective":[],
+		"checkpoint":"X3X0X1ABCDEFGH15006"
+	},
+	{
+		"id":15007, 
+		"text":"", 
+		"type":"answer_only", 
+		"closeDialog":true,
+		"place":101,
+		"npc":[],
+		"self":1200,
+		"choices":["(FINALIZAR EPISODIO)"], 
+		"nextStory":[], 
+		"setInventory":[], 
+		"setObjective":[],
+		"checkpoint":"X3X0X1ABCDEFGH15007"
+	},
+
+	{
+		"id":15010, 
+		"text":"", 
+		"type":"answer_only", 
+		"closeDialog":false,
+		"place":109,
+		"npc":[],
+		"self":1250,
+		"choices":["Hola, soy Jenna."], 
+		"nextStory":[15011], 
+		"setInventory":[], 
+		"setObjective":[],
+		"checkpoint":"X3X0X1ACCDEFGH15010"
+	},
+	{
+		"id":15011, 
+		"text":"", 
+		"type":"answer_only", 
+		"closeDialog":false,
+		"place":109,
+		"npc":[],
+		"self":1250,
+		"choices":["Te vua patear en el hocico."], 
+		"nextStory":[15012], 
+		"setInventory":[], 
+		"setObjective":[],
+		"checkpoint":"X3X0X1ACCDEFGH15011"
+	},
+	{
+		"id":15012, 
+		"text":"", 
+		"type":"answer_only", 
+		"closeDialog":true,
+		"place":109,
+		"npc":[],
+		"self":1250,
+		"choices":["(FINALIZAR EPISODIO)"], 
+		"nextStory":[], 
+		"setInventory":[], 
+		"setObjective":[],
+		"checkpoint":"X3X0X1ACCDEFGH15012"
+	}
+]

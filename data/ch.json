@@ -1,31 +1,25 @@
 [
 	{
-		"episode":12,"title":"0 - Grata Bienvenida (1/2)","char":["Keiko"], "visible":false,
-		"description":"Keiko acaba de llegar a las tierras eldaryanas, pero de una forma que alertó al Clan Valkyrie. Tras ser rescatada, recibe un poco de orientación por parte de sus nuevas compañeras quiénes les ayudará a averiguar el propósito de su llegada.",
-		"story":"https://zunnay.github.io/valkyrieclub/data/story/ch0-story.json",
-		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch1-objectives.json",
-		"current":"A0A1A2ABCDEFGH10000","next":"A0A2A2ABCDEFGH10121"
-	},
-	{
-		"episode":22,"title":"0 - Grata Bienvenida (2/2)","char":["Keiko"], "visible":false,
-		"description":"Keiko acaba de llegar a las tierras eldaryanas, pero de una forma que alertó al Clan Valkyrie. Tras ser rescatada, recibe un poco de orientación por parte de sus nuevas compañeras quiénes les ayudará a averiguar el propósito de su llegada.",
-		"story":"https://zunnay.github.io/valkyrieclub/data/story/ch0-story-pt2.json",
-		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch1-objectives.json",
-		"current":"A0A2A2ABCDEFGH10121","next":""
-	},
-	{
 		"episode":1,"title":"1 - Grata Bienvenida","char":["Keiko"], "visible":true,
 		"description":"Keiko acaba de llegar a las tierras eldaryanas, pero de una forma que alertó al Clan Valkyrie. Tras ser rescatada, recibe un poco de orientación por parte de sus nuevas compañeras quiénes les ayudará a averiguar el propósito de su llegada.",
 		"story":"https://zunnay.github.io/valkyrieclub/data/story/ch1-story.json",
 		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch1-objectives.json",
-		"current":"N0J0G1WAUGIF2IW83R2","next":"50E0H2JAOZZ4R7AP46O"
+		"current":"20E0F1GX7DSXY37R21P","next":"50E0H2JXOZZ4R7AP46O"
 	},
+
 
 	{
 		"episode":300,"title":"x - Historia de prueba","char":["Keiko"], "visible":false,
 		"description":"Episodio de prueba",
 		"story":"https://zunnay.github.io/valkyrieclub/data/story/ch1-test-story.json",
 		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch1-test-objectives.json",
-		"current":"93Y0G04ALBZWCVR5KTG","next":""
+		"current":"F3M0E0BXGXV327H30RH","next":""
+	},
+	{
+		"episode":301,"title":"x - Prueba POVs","char":["Vidalia","Lara","Jenna"], "visible":false,
+		"description":"Episodio de prueba",
+		"story":"https://zunnay.github.io/valkyrieclub/data/story/chx-story.json",
+		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch1-test-objectives.json",
+		"current":"X3X0X1AXCDEFGH15000","next":"F3M0E0BXGXV327H30RH"
 	}
 ]

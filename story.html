@@ -84,7 +84,7 @@
 			<aside>
 				<div class="block">
 					<div class="tai" href="/">Comunidad Valquírica</div>
-					&gt; Historia principal: Keiko.
+					<span class="main-char"></span>
 				</div>
 				
 				<div class="block">
@@ -114,10 +114,17 @@
 					<div id="ongoing-episode-title" class="title"></div>
 					<div id="episode-container">
 
+						<div id="qwe" style="display:none">http://127.0.0.1/vc/ch.json</div>
+						<!--
 						<div id="qwe" style="display:none">https://zunnay.github.io/valkyrieclub/data/ch.json</div>
+						-->
 						<div id="ert" style="display:none">https://zunnay.github.io/valkyrieclub/data/common/general-inventory.json</div>
 						<div id="rty" style="display:none">https://zunnay.github.io/valkyrieclub/data/common/general-npcs.json</div>
 						<div id="tyu" style="display:none">https://zunnay.github.io/valkyrieclub/data/common/general-places.json</div>
+					</div>
+					<div id="char-container">
+						<p>Este capítulo puede leerse desde diferentes puntos de vista, elige uno para iniciarlo:</p>
+						<div id="char-select"></div>
 					</div>
 
 				</div>
@@ -133,6 +140,8 @@
 				</form>
 				<div style="text-align: center;margin: 20px 0;">
 					<div id="close-popup" class="button">Cerrar</div>
+					<div id="replay-popup" class="button">Reiniciar</div>
+					<div id="next-popup" class="button">Continuar</div>
 				</div>
 			</div>
 		</div>

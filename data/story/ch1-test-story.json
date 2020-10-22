@@ -1,5 +1,12 @@
 [
 	{
+		"id":99999, 
+		"playChar":[1100],
+		"goto":[10000],
+		"checkpoint":"F3M0E0BXGXV327H30RH"
+		
+	},
+	{
 		"id":10000, 
 		"text":"Bienvenido al mundo pokéLDARYA, bienvenido a Eldarya osiosi", 
 		"type":"story_general", 

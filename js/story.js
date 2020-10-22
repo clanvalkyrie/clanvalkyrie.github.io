@@ -51,134 +51,143 @@ function cargarStory(id) {
 
 	var currentStory = storyDB.filter(function(v) {return v.id == id});
 
+	
+
+
 	if (currentStory[0].id != nextTemp) {
 		contenedor.innerHTML = "";
 
-		// Cargar fondo
-		if (!isNaN(currentStory[0].place)) {
-			var backIMG = placeDB.filter(function(v) {return v.id == currentStory[0].place});
-			contenedor.style.backgroundImage = "url('" + REMOTE + backIMG[0].imgURL + "')";
-		} else {
-			if (currentStory[0].place != "auto") {
-				currentStory[0].place == "white" ? contenedor.style.backgroundColor = "#fff" : "";
-				contenedor.style.backgroundImage = "url('')";
+		if (currentStory[0].checkpoint[7] != "X") {
+
+			// Cargar fondo
+			if (!isNaN(currentStory[0].place)) {
+				var backIMG = placeDB.filter(function(v) {return v.id == currentStory[0].place});
+				contenedor.style.backgroundImage = "url('" + REMOTE + backIMG[0].imgURL + "')";
 			} else {
-				// Obtener url
-				(currentPlace.length == 1) ? (contenedor.style.backgroundImage = "url('" + REMOTE + currentPlace[0].imgURL + "')") : "";
-			};
-		};
-
-		// Cargar NPC si existe.
-		if (currentStory[0].npc.length != 0) {
-			// Cargar NPC
-			var div = document.createElement("div");
-
-			for (n = 0; n < currentStory[0].npc.length; n++) {
-
-				div.setAttribute("id",currentStory[0].npc[n]);
-				var gardie = npcDB.filter(function(v) {return v.id == currentStory[0].npc[n]});
-
-				var img = document.createElement("img");
-				img.src = REMOTE + gardie[0].imgURL;
-
-				if (gardie[0].type == "char" || gardie[0].type == "extra") {
-					div.setAttribute("class", "npc");
-					//(currentStory[0].npc.length == 1)?(div.style.width = "550px"):"";
-					gardie[0].type == "char" ? img.style.width = "550px" : img.setAttribute("style", gardie[0].style);
+				if (currentStory[0].place != "auto") {
+					currentStory[0].place == "white" ? contenedor.style.backgroundColor = "#fff" : "";
+					contenedor.style.backgroundImage = "url('')";
 				} else {
-					div.setAttribute("class", "pet");
-					img.setAttribute("style", gardie[0].style);
+					// Obtener url
+					(currentPlace.length == 1) ? (contenedor.style.backgroundImage = "url('" + REMOTE + currentPlace[0].imgURL + "')") : "";
+				};
+			};
+
+			// Cargar NPC si existe.
+			if (currentStory[0].npc.length != 0) {
+				// Cargar NPC
+				var div = document.createElement("div");
+
+				for (n = 0; n < currentStory[0].npc.length; n++) {
+
+					div.setAttribute("id",currentStory[0].npc[n]);
+					var gardie = npcDB.filter(function(v) {return v.id == currentStory[0].npc[n]});
+
+					var img = document.createElement("img");
+					img.src = REMOTE + gardie[0].imgURL;
+
+					if (gardie[0].type == "char" || gardie[0].type == "extra") {
+						div.setAttribute("class", "npc");
+						//(currentStory[0].npc.length == 1)?(div.style.width = "550px"):"";
+						gardie[0].type == "char" ? img.style.width = "550px" : img.setAttribute("style", gardie[0].style);
+					} else {
+						div.setAttribute("class", "pet");
+						img.setAttribute("style", gardie[0].style);
+					};
+
+					gardie[0].id != currentNPC ? div.setAttribute("style", "-webkit-animation-name: fade-in;") : "";
+					currentNPC = gardie[0].id;
+					contenedor.appendChild(div);
+					(gardie[0].type == "pet") ? document.getElementsByClassName("pet")[n].appendChild(img) : document.getElementsByClassName("npc")[n].appendChild(img);
+				};
+			};
+
+			// Cargar texto
+			if (currentStory[0].type != "answer_only") {
+
+				if (currentStory[0].type == "story_general") {
+					// Texto general
+					var div = document.createElement("div");
+					div.setAttribute("id", currentStory[0].id);
+					div.setAttribute("class","text undefined");
+					div.style.top = "50px";
+					div.style.left = "81px";
+					contenedor.appendChild(div);
+
+					div = document.createElement("div");
+					div.style.width = "600px";
+					document.getElementById(currentStory[0].id).appendChild(div);
+
+					div = document.createElement("i");
+					document.querySelector(".text.undefined div").appendChild(div);
+
+					var siglas = currentStory[0].text;
+					for (s = 0; s < siglas.length; s++) {
+						var span = document.createElement("span");
+						span.setAttribute("class", "typewriter-letter");
+						//span.style.opacity = 0;
+						span.innerHTML = siglas[s];
+						document.querySelector(".text.undefined div i").appendChild(span);
+					};
+
+				} else if (currentStory[0].type == "npc_dialog") {
+					// Diálogo de NPC
+					var div = document.createElement("div");
+					div.setAttribute("class", "bubbleText undefined");
+					div.setAttribute("id", currentStory[0].id);
+					div.innerHTML = currentStory[0].text;
+					contenedor.appendChild(div);
+
+				} else if (currentStory[0].type == "info_general") {
+					var div = document.createElement("div");
+					div.setAttribute("class", "bubbleInfo");
+					div.setAttribute("id", currentStory[0].id);
+					div.innerHTML = "<div>" + currentStory[0].text + "</div>";
+					contenedor.appendChild(div);
+				};
+			};
+
+			// Cargar opciones
+			if (currentStory[0].choices.length != 0) {
+				var div = document.createElement("div");
+				div.setAttribute("class","choiceTextRpg");
+				div.setAttribute("id","choiceText");
+				contenedor.appendChild(div);
+
+				for (x = 0; x < currentStory[0].choices.length; x++) {
+
+					div = document.createElement("div");
+					div.setAttribute("class","choice");
+					div.setAttribute("id", currentStory[0].nextStory[x]);
+
+					div.innerHTML = currentStory[0].choices[x];
+					document.getElementById("choiceText").appendChild(div);
+
 				};
 
-				gardie[0].id != currentNPC ? div.setAttribute("style", "-webkit-animation-name: fade-in;") : "";
-				currentNPC = gardie[0].id;
-				contenedor.appendChild(div);
-				(gardie[0].type == "pet") ? document.getElementsByClassName("pet")[n].appendChild(img) : document.getElementsByClassName("npc")[n].appendChild(img);
-			};
-		};
+				if (currentStory[0].self != "") {
+					div = document.createElement("div");
+					div.setAttribute("class", "own-npc");
+					document.getElementById("choiceText").appendChild(div);
 
-		// Cargar texto
-		if (currentStory[0].type != "answer_only") {
-
-			if (currentStory[0].type == "story_general") {
-				// Texto general
-				var div = document.createElement("div");
-				div.setAttribute("id", currentStory[0].id);
-				div.setAttribute("class","text undefined");
-				div.style.top = "50px";
-				div.style.left = "81px";
-				contenedor.appendChild(div);
-
-				div = document.createElement("div");
-				div.style.width = "600px";
-				document.getElementById(currentStory[0].id).appendChild(div);
-
-				div = document.createElement("i");
-				document.querySelector(".text.undefined div").appendChild(div);
-
-				var siglas = currentStory[0].text;
-				for (s = 0; s < siglas.length; s++) {
-					var span = document.createElement("span");
-					span.setAttribute("class", "typewriter-letter");
-					//span.style.opacity = 0;
-					span.innerHTML = siglas[s];
-					document.querySelector(".text.undefined div i").appendChild(span);
+					var gardie = npcDB.filter(function(v) {return v.id == currentStory[0].self});
+					var img = document.createElement("img");
+					img.setAttribute("class", "npcRpg");
+					img.src = REMOTE + gardie[0].imgURL;
+					document.getElementsByClassName("own-npc")[0].appendChild(img);
 				};
-
-			} else if (currentStory[0].type == "npc_dialog") {
-				// Diálogo de NPC
-				var div = document.createElement("div");
-				div.setAttribute("class", "bubbleText undefined");
-				div.setAttribute("id", currentStory[0].id);
-				div.innerHTML = currentStory[0].text;
-				contenedor.appendChild(div);
-
-			} else if (currentStory[0].type == "info_general") {
-				var div = document.createElement("div");
-				div.setAttribute("class", "bubbleInfo");
-				div.setAttribute("id", currentStory[0].id);
-				div.innerHTML = "<div>" + currentStory[0].text + "</div>";
-				contenedor.appendChild(div);
-			};
-		};
-
-		// Cargar opciones
-		if (currentStory[0].choices.length != 0) {
-			var div = document.createElement("div");
-			div.setAttribute("class","choiceTextRpg");
-			div.setAttribute("id","choiceText");
-			contenedor.appendChild(div);
-
-			for (x = 0; x < currentStory[0].choices.length; x++) {
-
-				div = document.createElement("div");
-				div.setAttribute("class","choice");
-				div.setAttribute("id", currentStory[0].nextStory[x]);
-
-				div.innerHTML = currentStory[0].choices[x];
-				document.getElementById("choiceText").appendChild(div);
-
 			};
 
-			if (currentStory[0].self != "") {
-				div = document.createElement("div");
-				div.setAttribute("class", "own-npc");
-				document.getElementById("choiceText").appendChild(div);
-
-				var gardie = npcDB.filter(function(v) {return v.id == currentStory[0].self});
-				var img = document.createElement("img");
-				img.setAttribute("class", "npcRpg");
-				img.src = REMOTE + gardie[0].imgURL;
-				document.getElementsByClassName("own-npc")[0].appendChild(img);
+			if (currentStory[0].closeDialog == true) {
+				nextTemp = currentStory[0].nextStory[0];
+				(nextTemp == [])?(finalizaEpisodio()):"";
+			} else {
+				nextTemp = 0;
+				setMenu(currentStory[0].id);
 			};
-		};
 
-		if (currentStory[0].closeDialog == true) {
-			nextTemp = currentStory[0].nextStory[0];
-			(nextTemp == [])?(finalizaEpisodio()):"";
 		} else {
-			nextTemp = 0;
-			setMenu(currentStory[0].id);
+			currentStory[0].playChar.length == 1 ? cargarStory(currentStory[0].goto[0]) : setMenu(currentStory[0].id);
 		};
 
 	} else {
@@ -237,119 +246,161 @@ function finalizaEpisodio() {
     $(document).scrollTop(0);
     $("#episode-code").val($("code:first").text());
 
-	// Comprobar si el próximo episodio está disponible
-	if (currentCH[0].next != "") {
+    // Comprobar si el próximo episodio está disponible
+    var REINICIAR = false, CONTINUAR = false; // CERRAR = true
+    var nextCH = chList.filter(function(v) {return v.current == currentCH[0].next});
+    
+    (currentCH[0].char.length > 1) ? REINICIAR = true : REINICIAR = false;
 
-		var nextCH = chList.filter(function(v) {return v.current == currentCH[0].next});
+    if ((nextCH.length == 1)) 
+	    (nextCH[0].visible == true) ? CONTINUAR = true : CONTINUAR = false;
+    
+    if (CONTINUAR && REINICIAR) {
+    	popupmsg = "<p>¡Has finalizado el episodio!</p>" +
+		"<p>Puedes reiniciar el capítulo para leerlo desde otro punto de vista, leer el próximo episodio o conservar el siguiente código para reanudar la historia más tarde.</p>";
 
-		if (nextCH.length != 0) {
-			if (nextCH[0].visible == true) {
+    } else if (CONTINUAR && !REINICIAR) {
+    	popupmsg = "<p>¡Has finalizado el episodio!</p>" +
+		"<p>El episodio siguiente está disponible. Puedes continuar tu historia o puedes conservar este código para reanudarla más tarde.</p>";
 
-				alert("Pendiente");
-				// Mostrar popup para jugar episodio siguiente.
+    } else if (!CONTINUAR && REINICIAR) {
+    	popupmsg = "<p>¡Has finalizado el episodio!</p>" +
+		"<p>Has llegado al final de la historia. Puedes reiniciar el capítulo para leerlo desde otro punto de vista, o puedes conservar el siguiente código y utilízalo para reanudar la historia cuando esté disponible:</p>";
 
-			} else {
-				// El episodio está en la lista pero está oculto
-				$(".popup-title").text("¡Enhorabuena!");
-				$(".popup-body").html("<p>¡Has finalizado el episodio!</p>" +
-						"<p>Has llegado al final de la historia. Conserva el siguiente código y utilízalo para reanudar la historia cuando esté disponible:</p>");
+    } else if (!CONTINUAR && !REINICIAR) {
+    	popupmsg = "<p>¡Has finalizado el episodio!</p>" +
+		"<p>Has llegado al final de la historia. Conserva el siguiente código y utilízalo para reanudar la historia cuando esté disponible:</p>";
 
-				$("#next-code").val(currentCH[0].next);
-			};
+    } else {
+    	alert ("Se ha producido un error.");
+    }
 
-		} else {
-			// El episodio no está en la lista.
-			$(".popup-title").text("¡Enhorabuena!");
-			$(".popup-body").html("<p>¡Has finalizado el episodio!</p>" +
-					"<p>Has llegado al final de la historia. Conserva el siguiente código y utilízalo para reanudar la historia cuando esté disponible:</p>");
+    $(".popup-title").html("¡Enhorabuena!");
+	$(".popup-body").html(popupmsg);
+    $("#next-code").val(currentCH[0].next);
+    
+    REINICIAR == true ? document.getElementById("replay-popup").style.display = "inline-block" : document.getElementById("replay-popup").style.display = "none";
+    CONTINUAR == true ? document.getElementById("next-popup").style.display = "inline-block" : document.getElementById("next-popup").style.display = "none";
 
-			$("#next-code").val(currentCH[0].next);
-		};
-
-		$("body").css("overflow","hidden");
-		$("#popup-bg").fadeIn(600);
-
-	// El episodio no existe
-	} else {
-		alert("Falta especificar el capítulo siguiente.");
-
-	};
+    $("body").css("overflow","hidden");
+	$("#popup-bg").fadeIn(600);
 };
 
 function setMenu (id) {
 	var currentStory = storyDB.filter(function(v) {return v.id == id});
 
+	var mainchar = document.getElementsByClassName("main-char")[0];
 	var objectives = document.getElementsByClassName("objectives")[0];
 	var inventory = document.getElementsByClassName("inventory")[0];
 	var checkpoint = document.getElementsByTagName("code")[0];
+
+	mainchar.innerHTML = "";
 	objectives.innerHTML = "";
 	inventory.innerHTML = "";
 	checkpoint.innerHTML = "";
 
-	if (currentStory[0].setObjective.length != 0) {
-		var ul = document.createElement("ul");
-		var lista = ""; 
-		var cuentaPositivo = 0;
+	// Main char
+	
+	switch (currentStory[0].checkpoint[7]) {
+		case "X": mainchar.innerHTML = "&gt; Historia principal.";
 
-		// Menu lateral
-		for (o = 0; o < currentStory[0].setObjective.length; o++) {
-			var objId = currentStory[0].setObjective[o];
-			var obj = objectiveDB.filter(function(v) {return v.id == Math.abs(objId)});
+			//Primera ejecución, ocultar episode-container y mostrar char-select
+			if(currentStory[0].playChar.length > 1) {				
+				var charSelect = document.getElementById("char-select");
+				charSelect.innerHTML = "";
 
-			if (objId > 0) {
-				cuentaPositivo++;
+				for (p = 0; p < currentStory[0].playChar.length; p++) {
+					var selectChar = npcDB.filter(function(v) {return v.id == currentStory[0].playChar[p]});
 
-				lista = lista + '<li>' + obj[0].text + '</li>';
+					var div = document.createElement("div");
+					div.setAttribute("class","play-char");
+					div.setAttribute("id", currentStory[0].goto[p]);
+					div.setAttribute("title", currentCH[0].char[p]);
+					div.style.backgroundImage = "url('" + REMOTE + selectChar[0].imgURL + "')"
 
-				//Revisar
-				if(obj[0].type == "moves") {
-					OBJmoves = obj[0].value;
-					OBJplaces = false;
-				} else {
-					OBJplaces = obj[0].value;
-					OBJmoves = false;
+					charSelect.appendChild(div);
 				};
-
 			} else {
-				lista = lista + '<li class="done">' + obj[0].text + '</li>';
+				break;
 			};
-		};
-		
-		ul.innerHTML = lista;
-		objectives.appendChild(ul);
+		break;
 
-		// Mostrar tooltip en container
-		var div = document.createElement("div");
-		div.setAttribute("class", "tooltip-objective");
-		var obj = objectiveDB.filter(function(v) {return v.id == currentStory[0].setObjective[0]});
-
-		if (cuentaPositivo > 1) {
-			div.innerHTML = "Nuevos objetivos disponibles.";
-
-		} else if (cuentaPositivo == 1) {
-			div.innerHTML = "<b><u>Nuevo objetivo:</u> " + obj[0].text + "</b>";
-		} else if (cuentaPositivo == 0) {
-			div.innerHTML = "<b>Objetivo completado.</b>";
-			cuentaPositivo = 0;
-		};
-
-		if (objActive.innerHTML != div.innerHTML) {
-			document.getElementById("episode-container").appendChild(div);
-			objActive = div;
-		};
+		case "A": mainchar.innerHTML = "&gt; Historia principal: " + currentCH[0].char[0];break;
+		case "B": mainchar.innerHTML = "&gt; Historia principal: " + currentCH[0].char[1];break;
+		case "C": mainchar.innerHTML = "&gt; Historia principal: " + currentCH[0].char[2];
 	};
 
-	if (currentStory[0].setInventory.length != 0) {
-		var ul = document.createElement("ul");
-		var lista = ""; 
+	if (currentStory[0].checkpoint[7] != "X") {
 
-		for (o = 0; o < currentStory[0].setInventory.length; o++) {
-			var obj = inventoryDB.filter(function(v) {return v.id == currentStory[0].setInventory[o]});
-			lista = lista + '<li>' + obj[0].text + '</li>';
+		if (currentStory[0].setObjective.length != 0) {
+			var ul = document.createElement("ul");
+			var lista = ""; 
+			var cuentaPositivo = 0;
+
+			// Menu lateral
+			for (o = 0; o < currentStory[0].setObjective.length; o++) {
+				var objId = currentStory[0].setObjective[o];
+				var obj = objectiveDB.filter(function(v) {return v.id == Math.abs(objId)});
+
+				if (objId > 0) {
+					cuentaPositivo++;
+
+					lista = lista + '<li>' + obj[0].text + '</li>';
+
+					//Revisar
+					if(obj[0].type == "moves") {
+						OBJmoves = obj[0].value;
+						OBJplaces = false;
+					} else {
+						OBJplaces = obj[0].value;
+						OBJmoves = false;
+					};
+
+				} else {
+					lista = lista + '<li class="done">' + obj[0].text + '</li>';
+				};
+			};
+			
+			ul.innerHTML = lista;
+			objectives.appendChild(ul);
+
+			// Mostrar tooltip en container
+			var div = document.createElement("div");
+			div.setAttribute("class", "tooltip-objective");
+			var obj = objectiveDB.filter(function(v) {return v.id == currentStory[0].setObjective[0]});
+
+			if (cuentaPositivo > 1) {
+				div.innerHTML = "Nuevos objetivos disponibles.";
+
+			} else if (cuentaPositivo == 1) {
+				div.innerHTML = "<b><u>Nuevo objetivo:</u> " + obj[0].text + "</b>";
+			} else if (cuentaPositivo == 0) {
+				div.innerHTML = "<b>Objetivo completado.</b>";
+				cuentaPositivo = 0;
+			};
+
+			if (objActive.innerHTML != div.innerHTML) {
+				document.getElementById("episode-container").appendChild(div);
+				objActive = div;
+			};
 		};
 
-		ul.innerHTML = lista;
-		inventory.appendChild(ul);
+		if (currentStory[0].setInventory.length != 0) {
+			var ul = document.createElement("ul");
+			var lista = ""; 
+
+			for (o = 0; o < currentStory[0].setInventory.length; o++) {
+				var obj = inventoryDB.filter(function(v) {return v.id == currentStory[0].setInventory[o]});
+				lista = lista + '<li>' + obj[0].text + '</li>';
+			};
+
+			ul.innerHTML = lista;
+			inventory.appendChild(ul);
+		};
+
+	} else {
+		document.getElementById("episode-container").style.display = "none";
+		document.getElementById("char-container").style.display = "block";
 	};
 
 	if (currentStory[0].checkpoint.length == 19) {
@@ -357,6 +408,7 @@ function setMenu (id) {
 	} else {
 		checkpoint.innerHTML = currentStory[0].checkpoint + currentPlace[0].id;
 	};
+
 };
 
 function changeLocation(id) {
@@ -394,10 +446,30 @@ $(function() {
 
 	})});
 
+	$("#char-select").each(function(){$(this).on("click", ".play-char", function() {
+		var selectedChar = $(this).attr("id");
+		$("#char-container").fadeOut(200);
+		cargarStory(selectedChar);
+		$("#episode-container").delay(200).fadeIn(400);
+
+	})});
+
 	$("#episode-container").each(function(){$(this).on("click", ".changeLocation", function() {
 		var mov = $(this).attr("id");
 		changeLocation(mov);
 
 	})});
+
+	$("#replay-popup").click(function() { 
+		$("#popup-bg").fadeOut(400);
+        $("body").css("overflow","auto");
+		cargarCheckpoint(currentCH[0].current);
+	});
+
+	$("#next-popup").click(function() { 
+		$("#popup-bg").fadeOut(400);
+        $("body").css("overflow","auto");
+		cargarCheckpoint(currentCH[0].next);
+	});
 
 });

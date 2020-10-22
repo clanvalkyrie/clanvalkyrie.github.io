@@ -106,19 +106,19 @@ $(function() {
 
         var episodio = checkpoint[1] + checkpoint[3] + checkpoint[5];
         episodio = parseInt(episodio);
-        chapterSelected = chList.filter(function(v){return v.episode == episodio});
+        currentCH = chList.filter(function(v){return v.episode == episodio});
 
         $(".cont").eq(0).css("display","none");
         $(".cont").eq(1).css("display","flex");
         $(document).scrollTop(0)
 
         // Cargar el episodio.
-        $("#ongoing-episode-title").text(chapterSelected[0].title);
-        const requestStory = new XMLHttpRequest();requestStory.open("GET", chapterSelected[0].story);requestStory.responseType = "json";requestStory.send();
+        $("#ongoing-episode-title").text(currentCH[0].title);
+        const requestStory = new XMLHttpRequest();requestStory.open("GET", currentCH[0].story);requestStory.responseType = "json";requestStory.send();
         requestStory.onload = function() {tempDB = requestStory.response;almacena(tempDB, "story");}
 
         // Objetivos del capítulo
-        const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", chapterSelected[0].objective);requestObjectives.responseType = "json";requestObjectives.send();
+        const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", currentCH[0].objective);requestObjectives.responseType = "json";requestObjectives.send();
         requestObjectives.onload = function() {tempDB = requestObjectives.response;almacena(tempDB, "objective");};
 
     })});
