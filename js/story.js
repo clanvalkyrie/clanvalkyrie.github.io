@@ -1,6 +1,6 @@
 var contenedor, current, nextTemp, currentPlace = [];
 var OBJmoves = false, OBJplaces = false;
-var REMOTE = "https://zunnay.github.io";
+var REMOTE = "https://zunnay.github.io",cc = 0;
 var storyDB = [], objectiveDB = [], inventoryDB = [], npcDB = [], placeDB = [];
 var dbCount = 0, currentNPC;
 var objActive = document.createElement("div");
@@ -117,6 +117,8 @@ function cargarStory(id) {
 					div = document.createElement("div");
 					div.style.width = "600px";
 					document.getElementById(currentStory[0].id).appendChild(div);
+					$("#" + currentStory[0].id).css("display", "none");
+					$("#" + currentStory[0].id).fadeIn(500);
 
 					div = document.createElement("i");
 					document.querySelector(".text.undefined div").appendChild(div);
@@ -125,9 +127,14 @@ function cargarStory(id) {
 					for (s = 0; s < siglas.length; s++) {
 						var span = document.createElement("span");
 						span.setAttribute("class", "typewriter-letter");
-						//span.style.opacity = 0;
 						span.innerHTML = siglas[s];
 						document.querySelector(".text.undefined div i").appendChild(span);
+					};
+
+					for (t = 1; t <= (siglas.length); t++) {
+						time = t + "00";
+						time = parseInt(time) / 3;
+						$(".typewriter-letter").eq(t-1).delay(time + 500).animate({opacity:1},100);
 					};
 
 				} else if (currentStory[0].type == "npc_dialog") {
@@ -177,6 +184,8 @@ function cargarStory(id) {
 					document.getElementsByClassName("own-npc")[0].appendChild(img);
 				};
 			};
+
+			currentStory[0].type == "story_general" ? $(".choiceTextRpg").delay(siglas.length * 34 + 500).fadeIn(500) : currentStory[0].type == "npc_dialog" ? $(".choiceTextRpg").delay(500).fadeIn(500) : $(".choiceTextRpg").fadeIn(500);
 
 			if (currentStory[0].closeDialog == true) {
 				nextTemp = currentStory[0].nextStory[0];
@@ -430,7 +439,9 @@ function changeLocation(id) {
 $(function() { 
 
 	$("#episode-container").each(function(){$(this).on("click", ".choice", function() {
+
 		var choiceSeleted = $(this).attr("id");
+		cc = 0;
 		if (choiceSeleted == "undefined") {
 			finalizaEpisodio();
 		} else {
@@ -470,6 +481,17 @@ $(function() {
 		$("#popup-bg").fadeOut(400);
         $("body").css("overflow","auto");
 		cargarCheckpoint(currentCH[0].next);
+	});
+
+	$("#episode-container").click(function() {
+		if (cc == 1) {
+			$(".typewriter-letter").css("opacity", "1");
+			$(".choiceTextRpg").show();
+			cc = 0;
+		} else {
+			cc++;
+		};
+
 	});
 
 });

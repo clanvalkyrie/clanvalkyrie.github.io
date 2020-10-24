@@ -179,7 +179,7 @@ input {
 
 #episode-container {
     width: auto;
-    background-size: cover;
+    background-size: 765px 450px;
     height: 450px;
     position: relative;
     overflow: hidden;
@@ -189,7 +189,9 @@ input {
     -moz-user-select: none;
     -khtml-user-select: none;
     -ms-user-select:none;
-    background-size: 765px 450px;
+
+    display: flex;
+    align-items: center;
 }
 
 #episode-back {
@@ -227,18 +229,15 @@ input {
 }
 
 .typewriter-letter {
-    -webkit-animation-name: fade-in;
-    -webkit-animation-duration: 0.5s;
+    opacity: 0;
 }
-
-
 
 .bubbleText {
     font-weight: bold;
     background: rgba(247, 247, 247, 0.85);
     max-width: 150px;
-    top: 100px;
-    position: absolute;
+    top: -40px;
+    position: relative;
     left: 90px;
     border-radius: 10px;
     text-align: center;
@@ -252,17 +251,19 @@ input {
 
 .bubbleInfo {
     width: 765px;
-    height: 450px;
+    height: auto;
     text-align: center;
     vertical-align: middle;
     display: table-cell;
+    top: -30px;
+    position: relative;
 }
 
 .bubbleInfo div {
     max-width: 350px;
     background: #fff;
     position: relative;
-    top: -50px;
+    top: 0;
     display: inline-block;
     padding: 20px;
     border: 1px solid #000;
@@ -293,6 +294,7 @@ input {
     padding: 1%;
     font-size: 15px;
     width: 88%;
+    display: none;
 }
 
 .choiceTextRpg .choice, .adminChoiceTextRpg .choice {
@@ -301,8 +303,8 @@ input {
     /*-webkit-transition: all 0.2s ease-in-out;*/
     word-break: break-word;
     padding-right: 15%;
-    -webkit-animation-name: fade-in;
-    -webkit-animation-duration: 0.5s;
+    /*-webkit-animation-name: fade-in;
+    -webkit-animation-duration: 0.5s;*/
 }
 
 .choice:hover {
