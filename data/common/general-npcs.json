@@ -9,10 +9,13 @@
 	{"id":1006, "name":"Diosa", "type":"extra", "style":"left: 125px;top: 30px;", "imgURL":"/valkyrieclub/assets/img/extra/diosa.png"},
 	{"id":1050, "name":"Chenmi, borrosa", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/chenmi-borrosa.png"},
 	{"id":1051, "name":"Melany, borrosa", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/melany-borrosa.png"},
+
 	{"id":1100, "name":"Keiko, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/keiko-default.png"},
 	{"id":1150, "name":"Vidalia, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/vidalia-default.png"},
 	{"id":1200, "name":"Lara, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/lara-default.png"},
-	{"id":1250, "name":"Jenna, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/jenna-default.png"}
+	{"id":1250, "name":"Jenna, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/jenna-default.png"},
+	{"id":1300, "name":"Chenmi, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/chenmi-default.png"},
+	{"id":1350, "name":"Gisany, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/gisany-default.png"}
 
 ]
 
