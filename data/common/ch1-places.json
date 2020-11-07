@@ -165,7 +165,7 @@
 		"places":[109],
 		"style":["top: 230px;left: 373px;"],
 		"tooltip":["top"],
-		"tag":"Residencia",
+		"tag":"Residencia"
 	},
 	{
 		"id":123, "name":"Jardines, de noche",
@@ -173,18 +173,18 @@
 		"places":[110],
 		"style":["top: 230px;left: 373px;"],
 		"tooltip":["top"],
-		"tag":"Residencia",
+		"tag":"Residencia"
 	},
 	{
 		"id":124, "name":"Mesa de Junta",
 		"imgURL":"/valkyrieclub/assets/img/places/mesa-junta.png",
 		"places":[],"style":[],"tooltip":[],
-		"tag":"Residencia",
+		"tag":"Residencia"
 	},
 	{
 		"id":125, "name":"Mesa de Junta,<br>de noche",
 		"imgURL":"/valkyrieclub/assets/img/places/mesa-junta-noche.png",
 		"places":[],"style":[],"tooltip":[],
-		"tag":"Residencia",
+		"tag":"Residencia"
 	}
 ]
