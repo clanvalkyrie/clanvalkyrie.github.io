@@ -4,6 +4,7 @@
 		"description":"Keiko acaba de llegar a las tierras eldaryanas, pero de una forma que alertó al Clan Valkyrie. Tras ser rescatada, recibe un poco de orientación por parte de sus nuevas compañeras quiénes les ayudará a averiguar el propósito de su llegada.",
 		"story":"https://zunnay.github.io/valkyrieclub/data/story/ch1-story.json",
 		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch1-objectives.json",
+		"places":"https://zunnay.github.io/valkyrieclub/data/common/ch1-places.json",
 		"current":"20E0F1GX7DSXY37R21P","next":"50E0H2JXOZZ4R7AP46O"
 	},
 
@@ -13,6 +14,7 @@
 		"description":"Episodio de prueba",
 		"story":"https://zunnay.github.io/valkyrieclub/data/story/ch1-test-story.json",
 		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch1-test-objectives.json",
+		"places":"https://zunnay.github.io/valkyrieclub/data/common/general-places.json",
 		"current":"F3M0E0BXGXV327H30RH","next":""
 	},
 	{
@@ -20,6 +22,7 @@
 		"description":"Episodio de prueba",
 		"story":"https://zunnay.github.io/valkyrieclub/data/story/chx-story.json",
 		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch1-test-objectives.json",
+		"places":"https://zunnay.github.io/valkyrieclub/data/common/general-places.json",
 		"current":"X3X0X1AXCDEFGH15000","next":"F3M0E0BXGXV327H30RH"
 	}
 ]
