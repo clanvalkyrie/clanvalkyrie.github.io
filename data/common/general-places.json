@@ -74,17 +74,17 @@
 	{
 		"id":109, "name":"Vestíbulo", 
 		"imgURL":"/valkyrieclub/assets/img/places/vestibulo.png",
-		"places":[107,111,120], 
-		"style":["top: 220px;left: 220px;","top: 360px;left: 700px;","top: 205px;left: 20px;"],
-		"tooltip":["top","left","right"],
+		"places":[107,111,120,122], 
+		"style":["top: 220px;left: 220px;","top: 360px;left: 700px;","top: 205px;left: 20px;","top: 210px;left: 695px;"],
+		"tooltip":["top","left","right","left"],
 		"tag":"Residencia"
 	},
 	{
 		"id":110, "name":"Vestíbulo, de noche", 
 		"imgURL":"/valkyrieclub/assets/img/places/vestibulo-noche.png",
-		"places":[108,112], 
-		"style":["top: 220px;left: 220px;","top: 360px;left: 700px;"],
-		"tooltip":["top","left"],
+		"places":[108,112,123], 
+		"style":["top: 220px;left: 220px;","top: 360px;left: 700px;","top: 210px;left: 695px;"],
+		"tooltip":["top","left","left"],
 		"tag":"Residencia"
 	},
 	{
@@ -122,9 +122,7 @@
 	{
 		"id":115, "name":"Enfermería, borrosa", 
 		"imgURL":"/valkyrieclub/assets/img/places/enfermeria-borrosa.png",
-		"places":[], 
-		"style":[""],
-		"tooltip":[],
+		"places":[],"style":[],"tooltip":[],
 		"tag":"Especial"
 	},
 	{
@@ -175,6 +173,36 @@
 		"tooltip":["top"],
 		"tag":"Residencia"
 	},
+	{
+		"id":122, "name":"Jardines",
+		"imgURL":"/valkyrieclub/assets/img/places/jardines.png",
+		"places":[109],
+		"style":["top: 230px;left: 373px;"],
+		"tooltip":["top"],
+		"tag":"Residencia",
+	},
+	{
+		"id":123, "name":"Jardines, de noche",
+		"imgURL":"/valkyrieclub/assets/img/places/jardines-noche.png",
+		"places":[110],
+		"style":["top: 230px;left: 373px;"],
+		"tooltip":["top"],
+		"tag":"Residencia",
+	},
+	{
+		"id":124, "name":"Mesa de Junta",
+		"imgURL":"/valkyrieclub/assets/img/places/mesa-junta.png",
+		"places":[],"style":[],"tooltip":[],
+		"tag":"Residencia",
+	},
+	{
+		"id":125, "name":"Mesa de Junta,<br>de noche",
+		"imgURL":"/valkyrieclub/assets/img/places/mesa-junta-noche.png",
+		"places":[],"style":[],"tooltip":[],
+		"tag":"Residencia",
+	},
+
+
 
 
 
