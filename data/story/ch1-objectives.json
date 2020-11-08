@@ -4,5 +4,11 @@
 	{"id":102, "text":"¡Ve al comedor, Lara te estará esperando para seguir sabiendo más de este mágico mundo!", "type":"place", "value":114},
 	{"id":103, "text":"Es hora de dormir, vuelve a la enfermería para descansar.", "type":"place", "value":104},
 	{"id":104, "text":"¡Aléjate de aquí!", "type":"place", "value":117},
-	{"id":105, "text":"¡HUYE!", "type":"place", "value":118}
+	{"id":105, "text":"¡HUYE!", "type":"place", "value":118},
+
+	{"id":106, "text":"Busca a Eulalí y pídele permiso para trabajar en la sala de alquimia.", "type":"moves", "value":7},
+	{"id":107, "text":"Busca a Eulalí y pídele permiso para trabajar en la sala de alquimia.", "type":"place", "value":107},
+	{"id":108, "text":"Sal y toma algo de aire, necesitas despejarte.", "type":"place", "value":122},
+	{"id":109, "text":"Una posible turista ha llegado, ¡infórmalo ahora mismo!", "type":"place", "value":107},
+	{"id":110, "text":"Parece que alguien se despertó: ¡acércate a ver!", "type":"place", "value":108}
 ]
