@@ -82,9 +82,9 @@
 	{
 		"id":110, "name":"Vestíbulo, de noche", 
 		"imgURL":"/valkyrieclub/assets/img/places/vestibulo-noche.png",
-		"places":[108,112,123], 
-		"style":["top: 220px;left: 220px;","top: 360px;left: 700px;","top: 210px;left: 695px;"],
-		"tooltip":["top","left","left"],
+		"places":[108,112,127,123],
+		"style":["top: 220px;left: 220px;","top: 360px;left: 700px;","top: 205px;left: 20px;","top: 210px;left: 695px;"],
+		"tooltip":["top","left","right","left"],
 		"tag":"Residencia"
 	},
 	{

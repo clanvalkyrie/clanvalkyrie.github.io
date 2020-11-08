@@ -41,15 +41,15 @@
 		"id":107, "name":"Ala Izquierda", 
 		"imgURL":"/valkyrieclub/assets/img/places/ala-izquierda.png",
 		"places":[103,109], 
-		"style":["top: 212px;left: 531px;","top: 210px;left: 444px;","top: 210px;left: 123px;","top: 370px;right: 120px;"],
-		"tooltip":["top","top","top","top"],
+		"style":["top: 212px;left: 531px;","top: 370px;right: 120px;"],
+		"tooltip":["top","top"],
 		"tag":"Residencia"
 	},
 	{
 		"id":108, "name":"Ala Izquierda,<br>de noche", 
 		"imgURL":"/valkyrieclub/assets/img/places/ala-izquierda-noche.png",
-		"places":[102,104,110], 
-		"style":["top: 212px;left: 531px;","top: 210px;left: 444px;","top: 370px;right: 120px;"],
+		"places":[104,110], 
+		"style":["top: 210px;left: 444px;","top: 370px;right: 120px;"],
 		"tooltip":["top","top","top"],
 		"tag":"Residencia"
 	},
@@ -64,9 +64,9 @@
 	{
 		"id":110, "name":"Vestíbulo, de noche", 
 		"imgURL":"/valkyrieclub/assets/img/places/vestibulo-noche.png",
-		"places":[108,112,123], 
-		"style":["top: 220px;left: 220px;","top: 360px;left: 700px;","top: 210px;left: 695px;"],
-		"tooltip":["top","left","left"],
+		"places":[108,112,127,123],
+		"style":["top: 220px;left: 220px;","top: 360px;left: 700px;","top: 205px;left: 20px;","top: 210px;left: 695px;"],
+		"tooltip":["top","left","right","left"],
 		"tag":"Residencia"
 	},
 	{
@@ -175,13 +175,13 @@
 	},
 	{
 		"id":124, "name":"Mesa de Juntas",
-		"imgURL":"/valkyrieclub/assets/img/places/mesa-junta.png",
+		"imgURL":"/valkyrieclub/assets/img/places/mesa-juntas.png",
 		"places":[],"style":[],"tooltip":[],
 		"tag":"Residencia"
 	},
 	{
 		"id":125, "name":"Mesa de Juntas,<br>de noche",
-		"imgURL":"/valkyrieclub/assets/img/places/mesa-junta-noche.png",
+		"imgURL":"/valkyrieclub/assets/img/places/mesa-juntas-noche.png",
 		"places":[],"style":[],"tooltip":[],
 		"tag":"Residencia"
 	},
