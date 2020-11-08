@@ -18,11 +18,6 @@ $(document).ready(function(){
 	// NPC
 	const requestNPC = new XMLHttpRequest();requestNPC.open("GET", $("#rty").text());requestNPC.responseType = "json";requestNPC.send();
 	requestNPC.onload = function() {tempDB = requestNPC.response;almacena(tempDB, "npc");};
-
-	// Places
-	const requestPlaces = new XMLHttpRequest();requestPlaces.open("GET", $("#tyu").text());requestPlaces.responseType = "json";requestPlaces.send();
-	requestPlaces.onload = function() {tempDB = requestPlaces.response;almacena(tempDB, "place");};
-
 });
 
 function almacena(db, name) {

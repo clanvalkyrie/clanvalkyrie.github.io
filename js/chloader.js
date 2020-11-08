@@ -37,34 +37,15 @@ function cargarCheckpoint(loadCP){
                 tempDB = requestStory.response;
                 var chk = tempDB.filter(function(v) {return v.checkpoint == loadCP});
 
-                // Verificar si el checkpoint existe
-                if (chk.length == 1) {
-                    storyDB = tempDB;
+                //Cargar ubicaciones
+                const requestPlaces = new XMLHttpRequest();requestPlaces.open("GET", currentCH[0].places);requestPlaces.responseType = "json";requestPlaces.send();
+                requestPlaces.onload = function() {
 
-                    // Cargar los objetivos del capítulo
-                    const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", currentCH[0].objective);requestObjectives.responseType = "json";requestObjectives.send();
-                    requestObjectives.onload = function() {
-                        objectiveDB = requestObjectives.response;
+                    placeDB = requestPlaces.response;
 
-                        //Iniciar capítulo
-                        $("#ongoing-episode-title").text(currentCH[0].title);
-                        cargarStory(chk[0].id);
-                        $(".cont").eq(0).css("display","none");
-                        $(".cont").eq(1).css("display","flex");
-                    };
-
-                } else {
-                    // Buscar checkpoint sin ubicación
-                    var cptemp = loadCP.slice(0,-3);
-                    chk = tempDB.filter(function(v) {return v.checkpoint == cptemp});
-
-                    // Verificar si el checkpoint sin ubicacion existe
+                    // Verificar si el checkpoint existe
                     if (chk.length == 1) {
                         storyDB = tempDB;
-
-                        // Obtiene y asigna ubicación
-                        var placeIndex = loadCP.slice(-3);
-                        currentPlace = placeDB.filter(function (v) {return v.id == placeIndex});
 
                         // Cargar los objetivos del capítulo
                         const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", currentCH[0].objective);requestObjectives.responseType = "json";requestObjectives.send();
@@ -72,15 +53,40 @@ function cargarCheckpoint(loadCP){
                             objectiveDB = requestObjectives.response;
 
                             //Iniciar capítulo
+                            $("#ongoing-episode-title").text(currentCH[0].title);
                             cargarStory(chk[0].id);
                             $(".cont").eq(0).css("display","none");
                             $(".cont").eq(1).css("display","flex");
                         };
-
                     } else {
-                        //alert("El código ingresado no es válido.");
-                        $("#error-msg").text("El código ingresado no es válido.");
-                        $("#error-msg").show().delay(5000).fadeOut(300);
+                        // Buscar checkpoint sin ubicación
+                        var cptemp = loadCP.slice(0,-3);
+                        chk = tempDB.filter(function(v) {return v.checkpoint == cptemp});
+
+                        // Verificar si el checkpoint sin ubicacion existe
+                        if (chk.length == 1) {
+                            storyDB = tempDB;
+
+                            // Obtiene y asigna ubicación
+                            var placeIndex = loadCP.slice(-3);
+                            currentPlace = placeDB.filter(function (v) {return v.id == placeIndex});
+
+                            // Cargar los objetivos del capítulo
+                            const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", currentCH[0].objective);requestObjectives.responseType = "json";requestObjectives.send();
+                            requestObjectives.onload = function() {
+                                objectiveDB = requestObjectives.response;
+
+                                //Iniciar capítulo
+                                cargarStory(chk[0].id);
+                                $(".cont").eq(0).css("display","none");
+                                $(".cont").eq(1).css("display","flex");
+                            };
+
+                        } else {
+                            //alert("El código ingresado no es válido.");
+                            $("#error-msg").text("El código ingresado no es válido.");
+                            $("#error-msg").show().delay(5000).fadeOut(300);
+                        };
                     };
                 };
             };
@@ -101,7 +107,7 @@ function cargarCheckpoint(loadCP){
 $(function() { 
 
     $("#episode-list").each(function(){$(this).on("click", ".button", function() {
-        dbCount == 5 ? dbCount = 3 : "";
+        dbCount == 5 ? dbCount = 2 : "";
         var checkpoint = $(this).attr("id");
 
         var episodio = checkpoint[1] + checkpoint[3] + checkpoint[5];
@@ -120,6 +126,10 @@ $(function() {
         // Objetivos del capítulo
         const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", currentCH[0].objective);requestObjectives.responseType = "json";requestObjectives.send();
         requestObjectives.onload = function() {tempDB = requestObjectives.response;almacena(tempDB, "objective");};
+
+        // Ubicaciones del capítulo
+        const requestPlaces = new XMLHttpRequest();requestPlaces.open("GET", currentCH[0].places);requestPlaces.responseType = "json";requestPlaces.send();
+        requestPlaces.onload = function() {tempDB = requestPlaces.response;almacena(tempDB, "place");};
 
     })});
 
