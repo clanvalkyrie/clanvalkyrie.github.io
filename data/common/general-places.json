@@ -18,9 +18,9 @@
 	{
 		"id":102, "name":"Sala de Alquimia,<br>de noche", 
 		"imgURL":"/valkyrieclub/assets/img/places/sala-alquimia-noche.png",
-		"places":[108], 
-		"style":["top: 180px;left: 430px;"],
-		"tooltip":["top"],
+		"places":[108,126], 
+		"style":["top: 180px;left: 430px;", "top: 370px;left: 110px;"],
+		"tooltip":["top","top"],
 		"tag":"Residencia"
 	},
 	{
