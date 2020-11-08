@@ -41,7 +41,7 @@
 		"id":107, "name":"Ala Izquierda", 
 		"imgURL":"/valkyrieclub/assets/img/places/ala-izquierda.png",
 		"places":[103,109], 
-		"style":["top: 212px;left: 531px;","top: 370px;right: 120px;"],
+		"style":["top: 210px;left: 444px;","top: 370px;right: 120px;"],
 		"tooltip":["top","top"],
 		"tag":"Residencia"
 	},
