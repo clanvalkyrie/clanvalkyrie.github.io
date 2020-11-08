@@ -58,16 +58,16 @@
 	{
 		"id":107, "name":"Ala Izquierda", 
 		"imgURL":"/valkyrieclub/assets/img/places/ala-izquierda.png",
-		"places":[101,103,105,109], 
-		"style":["top: 212px;left: 531px;","top: 210px;left: 444px;","top: 210px;left: 123px;","top: 370px;right: 120px;"],
+		"places":[101,103,105,109,124], 
+		"style":["top: 212px;left: 531px;","top: 210px;left: 444px;","top: 210px;left: 123px;","top: 370px;right: 120px;","top: 410px;left: 275px;"],
 		"tooltip":["top","top","top","top"],
 		"tag":"Residencia"
 	},
 	{
 		"id":108, "name":"Ala Izquierda,<br>de noche", 
 		"imgURL":"/valkyrieclub/assets/img/places/ala-izquierda-noche.png",
-		"places":[102,104,110], 
-		"style":["top: 212px;left: 531px;","top: 210px;left: 444px;","top: 370px;right: 120px;"],
+		"places":[102,104,110,125], 
+		"style":["top: 212px;left: 531px;","top: 210px;left: 444px;","top: 370px;right: 120px;","top: 410px;left: 275px;"],
 		"tooltip":["top","top","top"],
 		"tag":"Residencia"
 	},
@@ -150,8 +150,8 @@
 		"tag":"Otros"
 	},
 	{
-		"id":119, "name":"Sala de Alquimia, al fondo",
-		"imgURL":"/valkyrieclub/assets/img/places/sala-alquimia-calderos.png",
+		"id":119, "name":"Sala de Alquimia,<br>al fondo",
+		"imgURL":"/valkyrieclub/assets/img/places/sala-alquimia-fondo.png",
 		"places":[101], 
 		"style":["top: 390px;left: 170px;"],
 		"tooltip":["top"],
@@ -190,18 +190,37 @@
 		"tag":"Residencia"
 	},
 	{
-		"id":124, "name":"Mesa de Junta",
-		"imgURL":"/valkyrieclub/assets/img/places/mesa-junta.png",
-		"places":[],"style":[],"tooltip":[],
+		"id":124, "name":"Mesa de Juntas",
+		"imgURL":"/valkyrieclub/assets/img/places/mesa-juntas.png",
+		"places":[107],
+		"style":["top: 350px;left: 690px;"],
+		"tooltip":["left"],
 		"tag":"Residencia"
 	},
 	{
-		"id":125, "name":"Mesa de Junta,<br>de noche",
-		"imgURL":"/valkyrieclub/assets/img/places/mesa-junta-noche.png",
-		"places":[],"style":[],"tooltip":[],
+		"id":125, "name":"Mesa de Juntas,<br>de noche",
+		"imgURL":"/valkyrieclub/assets/img/places/mesa-juntas-noche.png",
+		"places":[108],
+		"style":["top: 350px;left: 690px;"],
+		"tooltip":["left"],
 		"tag":"Residencia"
 	},
-
+	{
+		"id":126, "name":"Sala de Alquimia<br>al fondo, de noche",
+		"imgURL":"/valkyrieclub/assets/img/places/sala-alquimia-fondo-noche.png",
+		"places":[102], 
+		"style":["top: 390px;left: 170px;"],
+		"tooltip":["top"],
+		"tag":"Residencia"
+	},
+	{
+		"id":127, "name":"Noticias, de noche",
+		"imgURL":"/valkyrieclub/assets/img/places/noticias-noche.png",
+		"places":[110], 
+		"style":["top: 390px;left: 392px;"],
+		"tooltip":["top"],
+		"tag":"Residencia"
+	},
 
 
 
