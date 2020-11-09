@@ -3424,7 +3424,7 @@
     },
     {
         "id":10246,
-        "text":"¡Si quieres aprender a dar una patada de manera correcta, no dudes en encontrarme en al sala de entrenamientos!", 
+        "text":"¡Si quieres aprender a dar una patada de manera correcta, no dudes en encontrarme en la sala de entrenamientos!", 
         "type":"npc_dialog", 
         "closeDialog":false,
         "place":114,
@@ -4402,7 +4402,7 @@
         "place":124,
         "npc":[1350],
         "self":1150,
-        "choices":["Pues... Estuve trabajando con cierto elemento y ella...)"],
+        "choices":["Pues... Estuve trabajando con cierto elemento y ella..."],
         "nextStory":[10315], 
         "setInventory":[], 
         "setObjective":[-107],
@@ -4732,7 +4732,7 @@
     },
     {
         "id":10337, 
-        "text":"A Jena se le dio la tarea de hacer guardia junto con Gisany, mientras que Lara y yo nos encargaríamos de recibirla e informar de su estado de salud.", 
+        "text":"A Jenna se le dio la tarea de hacer guardia junto con Gisany, mientras que Lara y yo nos encargaríamos de recibirla e informar de su estado de salud.", 
         "type":"story_general", 
         "closeDialog":false,
         "place":124,
