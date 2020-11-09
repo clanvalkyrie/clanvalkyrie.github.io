@@ -153,6 +153,15 @@ $(function() {
     $("#load-episode").click(function() {
         $(document).scrollTop(0);
         var tempcp = $("#episode-code").val();
+        
+        if (tempcp[7] == "X") {
+            document.getElementById("episode-container").style.display = "none";
+            document.getElementById("char-container").style.display = "inline-block";
+        } else {
+            document.getElementById("episode-container").style.display = "flex";
+            document.getElementById("char-container").style.display = "none";
+        };
+
         cargarCheckpoint(tempcp);
    });
 

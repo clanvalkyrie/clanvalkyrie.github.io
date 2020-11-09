@@ -46,14 +46,10 @@ function cargarStory(id) {
 
 	var currentStory = storyDB.filter(function(v) {return v.id == id});
 
-	
-
-
 	if (currentStory[0].id != nextTemp) {
 		contenedor.innerHTML = "";
 
 		if (currentStory[0].checkpoint[7] != "X") {
-
 			// Cargar fondo
 			if (!isNaN(currentStory[0].place)) {
 				var backIMG = placeDB.filter(function(v) {return v.id == currentStory[0].place});
@@ -196,8 +192,8 @@ function cargarStory(id) {
 
 	} else {
 		// Cargar puntos de desplazamiento
-		alert("Esta función no está disponible 2");
-		setDesplazamientos ();
+		alert("Se ha producido un error.");
+		//setDesplazamientos (); ????
 	};
 };
 
@@ -404,7 +400,7 @@ function setMenu (id) {
 
 	} else {
 		document.getElementById("episode-container").style.display = "none";
-		document.getElementById("char-container").style.display = "block";
+		document.getElementById("char-container").style.display = "inline-block";
 	};
 
 	if (currentStory[0].checkpoint.length == 19) {
