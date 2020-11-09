@@ -187,7 +187,13 @@ function cargarStory(id) {
 			};
 
 		} else {
-			currentStory[0].playChar.length == 1 ? cargarStory(currentStory[0].goto[0]) : setMenu(currentStory[0].id);
+			if (currentStory[0].playChar.length == 1) {
+				cargarStory(currentStory[0].goto[0]);
+				document.getElementById("episode-container").style.display = "flex";
+            	document.getElementById("char-container").style.display = "none";
+			} else {
+				setMenu(currentStory[0].id);
+			}
 		};
 
 	} else {
