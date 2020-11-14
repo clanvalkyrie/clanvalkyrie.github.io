@@ -1,5 +1,6 @@
-body {
-/*    min-height: 1000px;*/
+html {
+    min-width: 1090px;
+    overflow: auto;
 }
 
 body {
@@ -19,7 +20,6 @@ body {
 body, a, a:hover {
     cursor: url('../assets/cursor.cur'), auto;
 }
-
 
 a {
     color: #888888;
@@ -201,7 +201,7 @@ article, #story, #episodes {
 .ti {
     padding-top: 10px;
     margin-bottom: 10px;
-    border-top: 1px solid #f8f8f8;
+    border-top: 1px solid #86649b;
 }
 
 .nn a {
