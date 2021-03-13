@@ -1,6 +1,5 @@
 var contenedor, current, nextTemp, currentPlace = [];
-var OBJmoves = false, OBJplaces = false;
-var REMOTE = "https://zunnay.github.io",cc = 0;
+var OBJmoves = false, OBJplaces = false, cc = 0;
 var storyDB = [], objectiveDB = [], inventoryDB = [], npcDB = [], placeDB = [];
 var dbCount = 0, currentNPC;
 var objActive = document.createElement("div");
@@ -53,14 +52,14 @@ function cargarStory(id) {
 			// Cargar fondo
 			if (!isNaN(currentStory[0].place)) {
 				var backIMG = placeDB.filter(function(v) {return v.id == currentStory[0].place});
-				contenedor.style.backgroundImage = "url('" + REMOTE + backIMG[0].imgURL + "')";
+				contenedor.style.backgroundImage = "url('" + backIMG[0].imgURL + "')";
 			} else {
 				if (currentStory[0].place != "auto") {
 					currentStory[0].place == "white" ? contenedor.style.backgroundColor = "#fff" : "";
 					contenedor.style.backgroundImage = "url('')";
 				} else {
 					// Obtener url
-					(currentPlace.length == 1) ? (contenedor.style.backgroundImage = "url('" + REMOTE + currentPlace[0].imgURL + "')") : "";
+					(currentPlace.length == 1) ? (contenedor.style.backgroundImage = "url('" + currentPlace[0].imgURL + "')") : "";
 				};
 			};
 
@@ -75,7 +74,7 @@ function cargarStory(id) {
 					var gardie = npcDB.filter(function(v) {return v.id == currentStory[0].npc[n]});
 
 					var img = document.createElement("img");
-					img.src = REMOTE + gardie[0].imgURL;
+					img.src = gardie[0].imgURL;
 
 					if (gardie[0].type == "char" || gardie[0].type == "extra") {
 						div.setAttribute("class", "npc");
@@ -171,7 +170,7 @@ function cargarStory(id) {
 					var gardie = npcDB.filter(function(v) {return v.id == currentStory[0].self});
 					var img = document.createElement("img");
 					img.setAttribute("class", "npcRpg");
-					img.src = REMOTE + gardie[0].imgURL;
+					img.src = gardie[0].imgURL;
 					document.getElementsByClassName("own-npc")[0].appendChild(img);
 				};
 			};
@@ -322,7 +321,7 @@ function setMenu (id) {
 					div.setAttribute("class","play-char");
 					div.setAttribute("id", currentStory[0].goto[p]);
 					div.setAttribute("title", currentCH[0].char[p]);
-					div.style.backgroundImage = "url('" + REMOTE + selectChar[0].imgURL + "')"
+					div.style.backgroundImage = "url('" + selectChar[0].imgURL + "')"
 
 					charSelect.appendChild(div);
 				};
@@ -420,7 +419,7 @@ function setMenu (id) {
 function changeLocation(id) {
 	// Fijar fondo
 	currentPlace = placeDB.filter(function(v) {return v.id == id});
-	contenedor.style.backgroundImage = "url('" + REMOTE + currentPlace[0].imgURL + "')";
+	contenedor.style.backgroundImage = "url('" + currentPlace[0].imgURL + "')";
 
 	// Verificar si se completan los objetivos
 	
