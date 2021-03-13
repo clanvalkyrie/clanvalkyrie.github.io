@@ -176,17 +176,17 @@
 	{
 		"id":122, "name":"Jardines",
 		"imgURL":"assets/img/places/jardines.png",
-		"places":[109,111],
-		"style":["top: 230px;left: 464px;", "top: 240px;left: 75px;"],
-		"tooltip":["top"],
+		"places":[109,111,139],
+		"style":["top: 230px;left: 464px;", "top: 240px;left: 75px;","top: 390px;left: 80px;"],
+		"tooltip":["top","top","top"],
 		"tag":"Residencia"
 	},
 	{
 		"id":123, "name":"Jardines, de noche",
 		"imgURL":"assets/img/places/jardines-noche.png",
-		"places":[110,112],
-		"style":["top: 230px;left: 464px;", "top: 240px;left: 75px;"],
-		"tooltip":["top"],
+		"places":[110,112,140],
+		"style":["top: 230px;left: 464px;", "top: 240px;left: 75px;","top: 390px;left: 80px;"],
+		"tooltip":["top","top","top"],
 		"tag":"Residencia"
 	},
 	{
@@ -225,16 +225,16 @@
 		"id":128, "name":"Vestíbulo secundario",
 		"imgURL":"assets/img/places/vestibulo-secundario.png",
 		"places":[109,130], 
-		"style":["top: 280px;left: 572px;","top: 350px;left: 692px;"],
-		"tooltip":["top","left"],
+		"style":["top: 280px;left: 170px;","top: 350px;left: 62px;"],
+		"tooltip":["top","right"],
 		"tag":"Residencia"
 	},
 	{
 		"id":129, "name":"Vestíbulo secundario, de noche",
 		"imgURL":"assets/img/places/vestibulo-secundario-noche.png",
 		"places":[110,131], 
-		"style":["top: 280px;left: 572px;","top: 350px;left: 692px;"],
-		"tooltip":["top","left"],
+		"style":["top: 280px;left: 170px;","top: 350px;left: 62px;"],
+		"tooltip":["top","right"],
 		"tag":"Residencia"
 	},
 	{
@@ -312,18 +312,18 @@
 	{
 		"id":139, "name":"Delante de la Capilla",
 		"imgURL":"assets/img/places/frente-capilla.png",
-		"places":[141], 
-		"style":["top: 350px;left: 372px;"],
-		"tooltip":["top"],
-		"tag":"Otros"
+		"places":[141,122], 
+		"style":["top: 350px;left: 372px;","top: 390px;left: 680px;"],
+		"tooltip":["top","left"],
+		"tag":"Residencia"
 	},
 	{
 		"id":140, "name":"Delante de la Capilla, de noche",
 		"imgURL":"assets/img/places/frente-capilla-noche.png",
-		"places":[142], 
-		"style":["top: 350px;left: 372px;"],
-		"tooltip":["top"],
-		"tag":"Otros"
+		"places":[142,123], 
+		"style":["top: 350px;left: 372px;","top: 390px;left: 680px;"],
+		"tooltip":["top","left"],
+		"tag":"Residencia"
 	},
 	{
 		"id":141, "name":"Interior de la Capilla",
@@ -331,7 +331,7 @@
 		"places":[139], 
 		"style":["top: 410px;left: 375px;"],
 		"tooltip":["top"],
-		"tag":"Otros"
+		"tag":"Residencia"
 	},
 	{
 		"id":142, "name":"Interior de la Capilla, de noche",
@@ -339,9 +339,8 @@
 		"places":[140], 
 		"style":["top: 410px;left: 375px;"],
 		"tooltip":["top"],
-		"tag":"Otros"
+		"tag":"Residencia"
 	},
-
 	{
 		"id":143, "name":"Senderos",
 		"imgURL":"assets/img/places/senderos.png",
@@ -359,8 +358,8 @@
 		"tag":"Bosque"
 	},
 	{
-		"id":145, "name":"Camino de tierra",
-		"imgURL":"assets/img/places/camino-tierra.png",
+		"id":145, "name":"Paso de las Campanas",
+		"imgURL":"assets/img/places/paso-campanas.png",
 		"places":[144,146], 
 		"style":["top: 250px;left: 50px;","top: 290px;left: 710px;"],
 		"tooltip":["right","left"],
@@ -399,7 +398,7 @@
 		"tag":"Bosque"
 	},
 	{
-		"id":150, "name":"Sendero de las pierdas",
+		"id":150, "name":"Sendero de las piedras",
 		"imgURL":"assets/img/places/sendero-piedras.png",
 		"places":[143,151], 
 		"style":["top: 400px;left: 360px;","top: 290px;left: 700px;"],
