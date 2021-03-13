@@ -4,7 +4,7 @@ $(document).ready(function(){
     requestBG.onload = function() {json = requestBG.response;cargarLista(json);};
 });
 
-var REMOTE = "https://zunnay.github.io";
+var REMOTE = "https://zunnay.github.io/valkyrieclub/";
 
 function cargarLista(lista) {
 	var select = document.getElementsByTagName("select")[0].value;
