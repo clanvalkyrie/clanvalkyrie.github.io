@@ -22,5 +22,13 @@
 		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch1-test-objectives.json",
 		"places":"https://zunnay.github.io/valkyrieclub/data/common/general-places.json",
 		"current":"X3X0X1AXCDEFGH15000","next":"F3M0E0BXGXV327H30RH"
+	},
+	{
+		"episode":302, "title":"Prueba desplazamientos", "char":["Eulalí"], "visible":false,
+		"description":"Episodio invisible de prueba: Desplazamientos",
+		"story":"https://zunnay.github.io/valkyrieclub/data/story/chx-desplazamientos-story.json",
+		"objective":"https://zunnay.github.io/valkyrieclub/data/story/chx-desplazamientos-objectives.json",
+		"places":"https://zunnay.github.io/valkyrieclub/data/common/general-places.json",
+		"current":"X3X0X2AXCDEFGH10000", "next":"X3X0X1AXCDEFGH15000"
 	}
 ]
