@@ -1,21 +1,22 @@
 [
 
-	{"id":1000, "name":"Ailikamp, borroso", "type":"pet", "style":"top: 50px;", "imgURL":"/valkyrieclub/assets/img/pet/ailikamp-borroso.png"},
-	{"id":1001, "name":"Dalfelí, silueta", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/dalfeli-silueta.png"},
-	{"id":1002, "name":"Nicolás, silueta", "type":"extra", "style":"top: 10px;", "imgURL":"/valkyrieclub/assets/img/extra/nicolas-silueta.png"},
-	{"id":1003, "name":"Mafia, conversación", "type":"extra", "style":"top: 30px;", "imgURL":"/valkyrieclub/assets/img/extra/mafia-conversacion.png"},
-	{"id":1004, "name":"Mafia, conversación y disparo", "type":"extra", "style":"top: 30px;", "imgURL":"/valkyrieclub/assets/img/extra/mafia-conversacion-disparo.png"},
-	{"id":1005, "name":"Mafia, enfrentamiento", "type":"extra", "style":"top: 30px;", "imgURL":"/valkyrieclub/assets/img/extra/mafia-enfrentamiento.png"},
-	{"id":1006, "name":"Diosa", "type":"extra", "style":"left: 125px;top: 30px;", "imgURL":"/valkyrieclub/assets/img/extra/diosa.png"},
-	{"id":1050, "name":"Eulalí, borrosa", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/eulali-borrosa.png"},
-	{"id":1051, "name":"Melany, borrosa", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/melany-borrosa.png"},
+	{"id":1000, "name":"Ailikamp, borroso", "type":"pet", "style":"top: 50px;", "imgURL":"assets/img/pet/ailikamp-borroso.png"},
+	{"id":1001, "name":"Dalfelí, silueta", "type":"char", "imgURL":"assets/img/char/dalfeli-silueta.png"},
+	{"id":1002, "name":"Nicolás, silueta", "type":"extra", "style":"top: 10px;", "imgURL":"assets/img/extra/nicolas-silueta.png"},
+	{"id":1003, "name":"Mafia, conversación", "type":"extra", "style":"top: 30px;", "imgURL":"assets/img/extra/mafia-conversacion.png"},
+	{"id":1004, "name":"Mafia, conversación y disparo", "type":"extra", "style":"top: 30px;", "imgURL":"assets/img/extra/mafia-conversacion-disparo.png"},
+	{"id":1005, "name":"Mafia, enfrentamiento", "type":"extra", "style":"top: 30px;", "imgURL":"assets/img/extra/mafia-enfrentamiento.png"},
+	{"id":1006, "name":"Diosa", "type":"extra", "style":"left: 125px;top: 30px;", "imgURL":"assets/img/extra/diosa.png"},
+	{"id":1007, "name":"Zunay", "type":"char", "imgURL":"https://docs.zoho.com/docs/orig/7tprs71a4b1731dde473fb2b4c7792ded4c80"},
+	{"id":1050, "name":"Eulalí, borrosa", "type":"char", "imgURL":"assets/img/char/eulali-borrosa.png"},
+	{"id":1051, "name":"Melany, borrosa", "type":"char", "imgURL":"assets/img/char/melany-borrosa.png"},
 
-	{"id":1100, "name":"Keiko, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/keiko-default.png"},
-	{"id":1150, "name":"Vidalia, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/vidalia-default.png"},
-	{"id":1200, "name":"Lara, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/lara-default.png"},
-	{"id":1250, "name":"Jenna, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/jenna-default.png"},
-	{"id":1300, "name":"Melany, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/melany-default.png"},
-	{"id":1350, "name":"Eulalí, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/eulali-default.png"},
-	{"id":1400, "name":"Gisany, Default", "type":"char", "imgURL":"/valkyrieclub/assets/img/char/gisany-default.png"}
+	{"id":1100, "name":"Keiko, Default", "type":"char", "imgURL":"assets/img/char/keiko-default.png"},
+	{"id":1150, "name":"Vidalia, Default", "type":"char", "imgURL":"assets/img/char/vidalia-default.png"},
+	{"id":1200, "name":"Lara, Default", "type":"char", "imgURL":"assets/img/char/lara-default.png"},
+	{"id":1250, "name":"Jenna, Default", "type":"char", "imgURL":"assets/img/char/jenna-default.png"},
+	{"id":1300, "name":"Melany, Default", "type":"char", "imgURL":"assets/img/char/melany-default.png"},
+	{"id":1350, "name":"Eulalí, Default", "type":"char", "imgURL":"assets/img/char/eulali-default.png"},
+	{"id":1400, "name":"Gisany, Default", "type":"char", "imgURL":"assets/img/char/gisany-default.png"}
 ]
 
