@@ -1,0 +1,18 @@
+[
+	{"id":100, "text":"Empieza tu día. Ve a ver qué misiones te esperan para hoy.", "type":"place", "value":120},
+	{"id":101, "text":"Eulalí, en serio, empieza tu día AHORA. Dirígete ya mismo a la pizarra de noticias.", "type":"place", "value":120},
+	{"id":102, "text":"Es hora de trabajar, ve a la biblioteca a cumplir tu tarea.", "type":"place", "value":105},
+	{"id":103, "text":"Junta y ordena todas las hojas que encuentres.", "type":"special", "value":"2A", "place":105},
+	{"id":104, "text":"¿Visitas? Ve a ver quien llama.", "type":"place", "value":109},
+	{"id":105, "text":"Ve a la cocina, ofrécele algo para comer a tu invitada.", "type":"place", "value":113},
+	{"id":106, "text":"Retoma con tus tareas y ve a la biblioteca.", "type":"place", "value":105},
+	{"id":107, "text":"Deja los informes en la sala de enfermería.", "type":"place", "value":104},
+	{"id":108, "text":"Ve a ver a Lerisha.", "type":"place", "value":108},
+	{"id":109, "text":"Melany tiene razón, ve a tomar algo de aire. No luces nada bien.", "type":"place", "value":123},
+	{"id":110, "text":"Tus compañeras te están esperando, ve a verlas.", "type":"place", "value":125},
+	{"id":111, "text":"Algo está pasando, ve a ver de qué se trata.", "type":"place", "value":110},
+	{"id":112, "text":"Aléjate del tumulto y ventila tus ideas. Quizás comer algo te siente mejor.", "type":"place", "value":114},
+	{"id":113, "text":"Habla con Melany, está en la biblioteca.", "type":"place", "value":107},
+	{"id":114, "text":"Habla con Melany, está en la biblioteca.", "type":"place", "value":105},
+	{"id":115, "text":"Busca a Vidalia.", "type":"place", "value":107}
+]

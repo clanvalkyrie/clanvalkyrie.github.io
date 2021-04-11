@@ -48,10 +48,10 @@
 		"tag":"Residencia"
 	},
 	{
-		"id":106, "name":"Biblioteca, de noche (BLOQUEADO)",
-		"imgURL":"assets/img/places/biblioteca-noche.png",
+		"id":106, "name":"Biblioteca, de noche",
+		"imgURL":"assets/img/places/biblioteca.png",
 		"places":[108], 
-		"style":["top: 230px;left: 445px;"],
+		"style":["top: 220px;left: 483px;"],
 		"tooltip":["top"],
 		"tag":"Residencia"
 	},
@@ -60,15 +60,15 @@
 		"imgURL":"assets/img/places/ala-izquierda.png",
 		"places":[101,103,105,109,124], 
 		"style":["top: 212px;left: 531px;","top: 210px;left: 444px;","top: 210px;left: 123px;","top: 370px;right: 120px;","top: 410px;left: 275px;"],
-		"tooltip":["top","top","top","top"],
+		"tooltip":["top","top","top","top","top"],
 		"tag":"Residencia"
 	},
 	{
 		"id":108, "name":"Ala Izquierda,<br>de noche", 
 		"imgURL":"assets/img/places/ala-izquierda-noche.png",
-		"places":[102,104,110,125], 
-		"style":["top: 212px;left: 531px;","top: 210px;left: 444px;","top: 370px;right: 120px;","top: 410px;left: 275px;"],
-		"tooltip":["top","top","top"],
+		"places":[102,104,106,110,125], 
+		"style":["top: 212px;left: 531px;","top: 210px;left: 444px;","top: 210px;left: 123px;","top: 370px;right: 120px;","top: 410px;left: 275px;"],
+		"tooltip":["top","top","top","top","top"],
 		"tag":"Residencia"
 	},
 	{

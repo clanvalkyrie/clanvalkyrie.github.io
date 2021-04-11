@@ -1,4 +1,9 @@
 [
-	{"id":100, "placeId":101, "style":"top:150px; left:25px"},
-	{"id":101, "placeId":104, "style":"top:300px; left:200px"}
+	{"id":"2A", "chapter":2, "objective":103, "place":105, "click":5, "img":[
+		{"url":"assets/img/special/ch2-paper-2.png", "style":"width: 20px;left: 270px;top: 220px;"},
+		{"url":"assets/img/special/ch2-paper-1.png", "style":"width: 20px;left: 392px;top: 270px;height: 8px;"},
+		{"url":"assets/img/special/ch2-paper-4.png", "style":"width: 30px;left: 630px;top: 250px;"},
+		{"url":"assets/img/special/ch2-paper-7.png", "style":"width: 30px;left: 700px;top: 130px;"},
+		{"url":"assets/img/special/ch2-paper-5.png", "style":"width: 70px;left: 260px;top: 365px;"}
+	]}
 ]

@@ -8,6 +8,10 @@
 	{"id":1005, "name":"Mafia, enfrentamiento", "type":"extra", "style":"top: 30px;", "imgURL":"assets/img/extra/mafia-enfrentamiento.png"},
 	{"id":1006, "name":"Diosa", "type":"extra", "style":"left: 125px;top: 30px;", "imgURL":"assets/img/extra/diosa.png"},
 	{"id":1007, "name":"Zunay", "type":"char", "imgURL":"https://docs.zoho.com/docs/orig/7tprs71a4b1731dde473fb2b4c7792ded4c80"},
+	{"id":1008, "name":"Lerisha, silueta", "type":"extra", "style":"top: 120px;", "imgURL":"assets/img/extra/lerisha-silueta.png"},
+	{"id":1009, "name":"Faery, silueta", "type":"char", "imgURL":"assets/img/extra/faery-silueta.png"},
+	{"id":1010, "name":"Tumulto, siluetas", "type":"extra", "style":"top: 30px;", "imgURL":"assets/img/extra/tumulto-siluetas.png"},
+	{"id":1011, "name":"Faery 2, silueta", "type":"char", "imgURL":"assets/img/extra/faery-silueta-2.png"},
 	{"id":1050, "name":"Eulalí, borrosa", "type":"char", "imgURL":"assets/img/char/eulali-borrosa.png"},
 	{"id":1051, "name":"Melany, borrosa", "type":"char", "imgURL":"assets/img/char/melany-borrosa.png"},
 
@@ -19,4 +23,3 @@
 	{"id":1350, "name":"Eulalí, Default", "type":"char", "imgURL":"assets/img/char/eulali-default.png"},
 	{"id":1400, "name":"Gisany, Default", "type":"char", "imgURL":"assets/img/char/gisany-default.png"}
 ]
-

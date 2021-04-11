@@ -2,33 +2,45 @@
 	{
 		"episode":1,"title":"1 - Grata Bienvenida","char":["Keiko","Vidalia"], "visible":true,
 		"description":"Keiko acaba de llegar a las tierras eldaryanas, pero de una forma que alertó al Clan Valkyrie. Tras ser rescatada, recibe un poco de orientación por parte de sus nuevas compañeras quiénes les ayudará a averiguar el propósito de su llegada.",
-		"story":"https://zunnay.github.io/valkyrieclub/data/story/ch1-story.json",
-		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch1-objectives.json",
-		"places":"https://zunnay.github.io/valkyrieclub/data/common/ch1-places.json",
+		"story":"data/story/ch1-story.json",
+		"objective":"data/story/ch1-objectives.json",
+		"places":"data/common/ch1-places.json",
 		"current":"20E0F1GX7DSXY37R21P","next":"50E0H2JXOZZ4R7AP46O"
 	},
 	{
+		"episode":2,"title":"2 - La usurpación a un aposento","char":["Eulalí","Melany","Gisany"], "visible":false,
+		"description":"",
+		"story":"data/story/ch2-story.json",
+		"objective":"data/story/ch2-objectives.json",
+		"places":"data/common/general-places.json",
+		"current":"50E0H2JXOZZ4R7AP46O","next":"50E0A3JXOZZ4R7AP46O"
+	},
+
+
+
+
+	{
 		"episode":300,"title":"x - Historia de prueba","char":["Keiko"], "visible":false,
 		"description":"Episodio de prueba",
-		"story":"https://zunnay.github.io/valkyrieclub/data/story/ch1-test-story.json",
-		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch1-test-objectives.json",
-		"places":"https://zunnay.github.io/valkyrieclub/data/common/general-places.json",
+		"story":"data/story/ch1-test-story.json",
+		"objective":"data/story/ch1-test-objectives.json",
+		"places":"data/common/general-places.json",
 		"current":"F3M0E0BXGXV327H30RH","next":""
 	},
 	{
 		"episode":301,"title":"x - Prueba POVs","char":["Vidalia","Lara","Jenna"], "visible":false,
 		"description":"Episodio de prueba",
-		"story":"https://zunnay.github.io/valkyrieclub/data/story/chx-story.json",
-		"objective":"https://zunnay.github.io/valkyrieclub/data/story/ch1-test-objectives.json",
-		"places":"https://zunnay.github.io/valkyrieclub/data/common/general-places.json",
+		"story":"data/story/chx-story.json",
+		"objective":"data/story/ch1-test-objectives.json",
+		"places":"data/common/general-places.json",
 		"current":"X3X0X1AXCDEFGH15000","next":"F3M0E0BXGXV327H30RH"
 	},
 	{
 		"episode":302, "title":"Prueba desplazamientos", "char":["Eulalí"], "visible":false,
 		"description":"Episodio invisible de prueba: Desplazamientos",
-		"story":"https://zunnay.github.io/valkyrieclub/data/story/chx-desplazamientos-story.json",
-		"objective":"https://zunnay.github.io/valkyrieclub/data/story/chx-desplazamientos-objectives.json",
-		"places":"https://zunnay.github.io/valkyrieclub/data/common/general-places.json",
+		"story":"data/story/chx-desplazamientos-story.json",
+		"objective":"data/story/chx-desplazamientos-objectives.json",
+		"places":"data/common/general-places.json",
 		"current":"X3X0X2AXCDEFGH10000", "next":"X3X0X1AXCDEFGH15000"
 	}
 ]
