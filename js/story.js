@@ -1,6 +1,6 @@
 var contenedor, current, nextTemp, currentPlace = [];
-var OBJmoves = false, OBJplaces = false, cc = 0;
-var storyDB = [], objectiveDB = [], inventoryDB = [], npcDB = [], placeDB = [];
+var OBJmoves = false, OBJplaces = false, OBJsp = "", cc = 0;
+var storyDB = [], objectiveDB = [], inventoryDB = [], npcDB = [], placeDB = [], specialDB = [];
 var dbCount = 0, currentNPC;
 var objActive = document.createElement("div");
 
@@ -11,12 +11,24 @@ $(document).ready(function(){
 	// Cargar base de datos.
 
 	// Inventario
-	const requestInventory = new XMLHttpRequest();requestInventory.open("GET", $("#ert").text());requestInventory.responseType = "json";requestInventory.send();
-	requestInventory.onload = function() {tempDB = requestInventory.response;almacena(tempDB, "inventory");};
+	const requestInventory = new XMLHttpRequest();requestInventory.open("GET", $("#ert").text());requestInventory.responseType = "json";
+	requestInventory.send();requestInventory.onload = function() {
+		
+		// NPC
+		const requestNPC = new XMLHttpRequest();requestNPC.open("GET", $("#rty").text());requestNPC.responseType = "json";
+		requestNPC.send();requestNPC.onload = function() {
 
-	// NPC
-	const requestNPC = new XMLHttpRequest();requestNPC.open("GET", $("#rty").text());requestNPC.responseType = "json";requestNPC.send();
-	requestNPC.onload = function() {tempDB = requestNPC.response;almacena(tempDB, "npc");};
+			// Especial
+			const requestSpecial = new XMLHttpRequest();requestSpecial.open("GET", $("#yui").text());requestSpecial.responseType = "json";
+			requestSpecial.send();requestSpecial.onload = function() {
+				inventoryDB = requestInventory.response;
+				npcDB = requestNPC.response;
+				specialDB = requestSpecial.response;
+
+				iniciarCapitulo();
+			};
+		};
+	};
 });
 
 function almacena(db, name) {
@@ -66,10 +78,11 @@ function cargarStory(id) {
 			// Cargar NPC si existe.
 			if (currentStory[0].npc.length != 0) {
 				// Cargar NPC
-				var div = document.createElement("div");
+				var num = currentStory[0].npc.length;
+				
 
 				for (n = 0; n < currentStory[0].npc.length; n++) {
-
+					var div = document.createElement("div");
 					div.setAttribute("id",currentStory[0].npc[n]);
 					var gardie = npcDB.filter(function(v) {return v.id == currentStory[0].npc[n]});
 
@@ -80,9 +93,25 @@ function cargarStory(id) {
 						div.setAttribute("class", "npc");
 						//(currentStory[0].npc.length == 1)?(div.style.width = "550px"):"";
 						gardie[0].type == "char" ? img.style.width = "550px" : img.setAttribute("style", gardie[0].style);
+
+						// 3 gardis
+						if (num == 2) {
+							switch (n) {
+								case 0:img.style.left = "-130px"; img.style.zIndex = 1;break;
+								case 1:img.style.left = "120px";break;
+							};
+
+						} else if (num == 3) {
+							switch (n) {
+								case 0:img.style.left = "-180px";break;
+								case 1:img.style.left = "170px";break;
+								case 2:img.style.left = 0;break;
+							};
+						};
+
 					} else {
 						div.setAttribute("class", "pet");
-						img.setAttribute("style", gardie[0].style);
+						img.setAttribute("style", gardie[0].style);	
 					};
 
 					gardie[0].id != currentNPC ? div.setAttribute("style", "-webkit-animation-name: fade-in;") : "";
@@ -129,11 +158,34 @@ function cargarStory(id) {
 
 				} else if (currentStory[0].type == "npc_dialog") {
 					// Diálogo de NPC
-					var div = document.createElement("div");
-					div.setAttribute("class", "bubbleText undefined");
-					div.setAttribute("id", currentStory[0].id);
-					div.innerHTML = currentStory[0].text;
-					contenedor.appendChild(div);
+
+					if (currentStory[0].multiText) {
+						// Múltiples burbujas
+						for (m = 0; m < currentStory[0].text.length; m++) {
+							var div = document.createElement("div");
+							div.setAttribute("class", "bubbleText multi");
+
+							div.setAttribute("id", currentStory[0].id + "-" + m);
+							div.innerHTML = currentStory[0].text[m].text;
+							div.setAttribute("style", currentStory[0].text[m].style);
+							contenedor.appendChild(div);		
+						};
+
+					} else {
+						// Solo una burbuja
+						var div = document.createElement("div");
+						switch (currentStory[0].npc.length) {
+							case 1:div.setAttribute("class", "bubbleText undefined");break;
+							case 2:div.setAttribute("class", "bubbleText duo");break;
+							case 3:div.setAttribute("class", "bubbleText trio");break;
+						};
+
+						div.setAttribute("id", currentStory[0].id);
+						div.innerHTML = currentStory[0].text;
+						contenedor.appendChild(div);	
+					}
+
+					
 
 				} else if (currentStory[0].type == "info_general") {
 					var div = document.createElement("div");
@@ -353,12 +405,22 @@ function setMenu (id) {
 					lista = lista + '<li>' + obj[0].text + '</li>';
 
 					//Revisar
+					
+					
 					if(obj[0].type == "moves") {
 						OBJmoves = obj[0].value;
 						OBJplaces = false;
 					} else {
-						OBJplaces = obj[0].value;
 						OBJmoves = false;
+						
+						if (obj[0].type == "special") {
+							OBJsp = obj[0].value;
+							var temp = specialDB.filter(v => {return v.id == OBJsp});
+							OBJplaces = temp[0].place;
+						} else {
+							OBJsp = "";
+							OBJplaces = obj[0].value;	
+						};
 					};
 
 				} else {
@@ -379,6 +441,10 @@ function setMenu (id) {
 
 			} else if (cuentaPositivo == 1) {
 				div.innerHTML = "<b><u>Nuevo objetivo:</u> " + obj[0].text + "</b>";
+				/*
+					if (OBJsp != "") { // Objetivo especial
+						cargarClicker(OBJsp);
+					};*/
 			} else if (cuentaPositivo == 0) {
 				div.innerHTML = "<b>Objetivo completado.</b>";
 				cuentaPositivo = 0;
@@ -422,15 +488,34 @@ function changeLocation(id) {
 	contenedor.style.backgroundImage = "url('" + currentPlace[0].imgURL + "')";
 
 	// Verificar si se completan los objetivos
-	
+
 	if (OBJplaces == false) { // Objetivo por movimientos
 		OBJmoves--;
 		(OBJmoves == 0)?(cargarStory(nextTemp--)):(setDesplazamientos(id));
 
-	} else { // Objetivo por ubicación
-		(OBJplaces == id)?(cargarStory(nextTemp--)):(setDesplazamientos(id));
-	};
+	} else {
+
+		if (OBJsp == "") { // Objetivo por ubicación
+			(OBJplaces == id)?(cargarStory(nextTemp--)):(setDesplazamientos(id));	
+		} else { // Objetivo especial
+			cargarClicker(OBJsp);
+		};
+	};	
 };
+
+function cargarClicker(id) {
+	contenedor.innerHTML = "";
+	var temp = specialDB.filter(v => {return v.id == id});
+
+	for (c = 0; c < temp[0].click; c++) {
+		var html = '<img class="special" src="' + temp[0].img[c].url + '" style="'+ temp[0].img[c].style + '">';
+		$("#episode-container").append(html);
+	};	
+};
+
+function checkClicker() {
+
+}
 
 $(function() { 
 
@@ -442,15 +527,41 @@ $(function() {
 			finalizaEpisodio();
 		} else {
 			if (choiceSeleted == nextTemp) {
-				
+
 				var temp = storyDB.filter(function(v) {return v.id == current});
-				setDesplazamientos(temp[0].place);
+
+				// Objetivos únicos, comprueba si es especial
+				var obj = objectiveDB.filter(v => {return v.id == temp[0].setObjective[0]});
+				if (obj[0].type == "special") {
+					OBJsp = obj[0].value;
+					obj = specialDB.filter(v => {return v.id == OBJsp});
+					cc -= obj[0].click;
+				} else {
+					OBJsp = "";
+				}
+				
+				
+
+				if (OBJsp == "") {
+					setDesplazamientos(temp[0].place);
+				} else {
+					cargarClicker(OBJsp);
+				}
+				
 				setMenu(current);
 			} else {
+				// Comprobar si es un objetivo especial
 				cargarStory(choiceSeleted);
 			};
 		};
 
+	})});
+
+	$("#episode-container").each(function(){$(this).on("click", ".special", function() {
+		$(this).remove();
+		if ($(".special").length == 0) {
+			cargarStory(nextTemp--);
+		};
 	})});
 
 	$("#char-select").each(function(){$(this).on("click", ".play-char", function() {

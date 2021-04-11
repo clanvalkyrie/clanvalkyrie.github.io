@@ -120,16 +120,25 @@ $(function() {
 
         // Cargar el episodio.
         $("#ongoing-episode-title").text(currentCH[0].title);
-        const requestStory = new XMLHttpRequest();requestStory.open("GET", currentCH[0].story);requestStory.responseType = "json";requestStory.send();
-        requestStory.onload = function() {tempDB = requestStory.response;almacena(tempDB, "story");}
+        const requestStory = new XMLHttpRequest();requestStory.open("GET", currentCH[0].story);requestStory.responseType = "json";
+        requestStory.send();requestStory.onload = function() {
 
-        // Objetivos del capítulo
-        const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", currentCH[0].objective);requestObjectives.responseType = "json";requestObjectives.send();
-        requestObjectives.onload = function() {tempDB = requestObjectives.response;almacena(tempDB, "objective");};
+            // Objetivos del capítulo
+            const requestObjectives = new XMLHttpRequest();requestObjectives.open("GET", currentCH[0].objective);requestObjectives.responseType = "json";
+            requestObjectives.send();requestObjectives.onload = function() {
 
-        // Ubicaciones del capítulo
-        const requestPlaces = new XMLHttpRequest();requestPlaces.open("GET", currentCH[0].places);requestPlaces.responseType = "json";requestPlaces.send();
-        requestPlaces.onload = function() {tempDB = requestPlaces.response;almacena(tempDB, "place");};
+                // Ubicaciones del capítulo
+                const requestPlaces = new XMLHttpRequest();requestPlaces.open("GET", currentCH[0].places);requestPlaces.responseType = "json";
+                requestPlaces.send();requestPlaces.onload = function() {
+
+                    storyDB = requestStory.response;
+                    objectiveDB = requestObjectives.response;
+                    placeDB = requestPlaces.response;    
+
+                    iniciarCapitulo();
+                };
+            };    
+        };
 
     })});
 

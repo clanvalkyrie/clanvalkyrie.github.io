@@ -228,6 +228,11 @@ input {
     box-sizing: border-box;
 }
 
+#episode-container img.special {
+    position: absolute;
+    cursor: pointer;
+}
+
 .typewriter-letter {
     opacity: 0;
 }
@@ -247,7 +252,25 @@ input {
     box-shadow: 2px 2px 5px #8d7caa;
     -webkit-animation-name: fade-in;
     -webkit-animation-duration: 0.5s;
+    z-index: 2;
 }
+
+.bubbleText.duo {
+    left: 0;
+    top: -80px;
+    margin: auto;
+}
+
+.bubbleText.trio {
+    top: -120px;
+    left: 100px;
+    margin: auto;
+}
+
+.bubbleText.multi {
+    position: absolute;
+}
+
 
 .bubbleInfo {
     width: 765px;
