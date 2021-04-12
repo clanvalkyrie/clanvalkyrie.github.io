@@ -224,17 +224,17 @@
 	{
 		"id":128, "name":"Vestíbulo secundario",
 		"imgURL":"assets/img/places/vestibulo-secundario.png",
-		"places":[109,130], 
-		"style":["top: 280px;left: 170px;","top: 350px;left: 62px;"],
-		"tooltip":["top","right"],
+		"places":[109,130,135], 
+		"style":["top: 280px;left: 170px;","top: 350px;left: 62px;","top: 140px;left: 190px;"],
+		"tooltip":["top","right","top"],
 		"tag":"Residencia"
 	},
 	{
 		"id":129, "name":"Vestíbulo secundario, de noche",
 		"imgURL":"assets/img/places/vestibulo-secundario-noche.png",
-		"places":[110,131], 
-		"style":["top: 280px;left: 170px;","top: 350px;left: 62px;"],
-		"tooltip":["top","right"],
+		"places":[110,131,136], 
+		"style":["top: 280px;left: 170px;","top: 350px;left: 62px;","top: 140px;left: 190px;"],
+		"tooltip":["top","right","top"],
 		"tag":"Residencia"
 	},
 	{
@@ -280,7 +280,7 @@
 	{
 		"id":135, "name":"Habitación de Eulalí",
 		"imgURL":"assets/img/places/habitacion-eulali.png",
-		"places":[], 
+		"places":[128], 
 		"style":["top: 200px;left: 452px;"],
 		"tooltip":["top"],
 		"tag":"Residencia"
@@ -288,7 +288,7 @@
 	{
 		"id":136, "name":"Habitación de Eulalí,<br>de noche",
 		"imgURL":"assets/img/places/habitacion-eulali-noche.png",
-		"places":[], 
+		"places":[129], 
 		"style":["top: 200px;left: 452px;"],
 		"tooltip":["top"],
 		"tag":"Residencia"

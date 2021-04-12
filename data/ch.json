@@ -12,7 +12,7 @@
 		"description":"",
 		"story":"data/story/ch2-story.json",
 		"objective":"data/story/ch2-objectives.json",
-		"places":"data/common/general-places.json",
+		"places":"data/common/ch2-places.json",
 		"current":"50E0H2JXOZZ4R7AP46O","next":"50E0A3JXOZZ4R7AP46O"
 	},
 

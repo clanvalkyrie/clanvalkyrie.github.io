@@ -3,7 +3,7 @@
         "id":10368, 
         "playChar":[1350,1300,1400],
         "goto":[10369,"",""],
-        "checkpoint":"50E0H2JXOZZ4R7AP46O"
+        "checkpoint":"Z0Z0Z2ZXZZZZZZZZZZZ"
     },
 
     {
@@ -207,7 +207,7 @@
         "text":"", 
         "type":"answer_only", 
         "closeDialog":false,
-        "place":130,
+        "place":135,
         "npc":[],
         "self":1350,
         "choices":["(Menudas amigas, gracias por ayudarme a ser responsable.)"], 
@@ -221,7 +221,7 @@
         "text":"", 
         "type":"answer_only", 
         "closeDialog":false,
-        "place":130,
+        "place":135,
         "npc":[],
         "self":1350,
         "choices":["YA VOY."], 
@@ -235,7 +235,7 @@
         "text":"", 
         "type":"answer_only", 
         "closeDialog":true,
-        "place":130,
+        "place":135,
         "npc":[],
         "self":1350,
         "choices":["Que impaciente."], 
@@ -836,7 +836,7 @@
         "id":10428, 
         "text":"",
         "type":"answer_only", 
-        "closeDialog":false,
+        "closeDialog":true,
         "place":130,
         "npc":[],
         "self":1350,
@@ -854,7 +854,7 @@
         "place":105,
         "npc":[],
         "self":1350,
-        "choices":["Bien... Melody me pidió que me encargara de los informes de... ¿la semana pasada? Vaya, qué atrasadas estamos."], 
+        "choices":["Bien... Melany me pidió que me encargara de los informes de... ¿la semana pasada? Vaya, qué atrasadas estamos."], 
         "nextStory":[10430], 
         "setInventory":[], 
         "setObjective":[-106,-105,-104,-103,-102,-101,-100],
@@ -2838,14 +2838,14 @@
         "id":10570, 
         "text":"",
         "type":"answer_only", 
-        "closeDialog":false,
-        "place":128,
+        "closeDialog":true,
+        "place":135,
         "npc":[],
         "self":1350,
         "choices":["(Venga Eulalí, puedes hacerlo.)"], 
         "nextStory":[10571], 
         "setInventory":[], 
-        "setObjective":[-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[113,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10570"
     },
     {
@@ -2859,7 +2859,7 @@
         "choices":["Hola, Jenna. Buen día."], 
         "nextStory":[10572], 
         "setInventory":[], 
-        "setObjective":[-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10571"
     },
     {
@@ -2873,7 +2873,7 @@
         "choices":["Dime, ¿alguna novedad?"], 
         "nextStory":[10573], 
         "setInventory":[], 
-        "setObjective":[-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10572"
     },
     {
@@ -2887,7 +2887,7 @@
         "choices":["(Continuar)"], 
         "nextStory":[10574], 
         "setInventory":[], 
-        "setObjective":[-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10573"
     },
     {
@@ -2901,7 +2901,7 @@
         "choices":["Sí, es verdad que ayer no tuvimos tiempo para comentar nada. Comienzo a pensar que no fue una buena idea haber pospuesto la investigación."], 
         "nextStory":[10575], 
         "setInventory":[], 
-        "setObjective":[-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10574"
     },
     {
@@ -2915,7 +2915,7 @@
         "choices":["Pues adelante, que vengan."], 
         "nextStory":[10576], 
         "setInventory":[], 
-        "setObjective":[-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10575"
     },
     {
@@ -2929,7 +2929,7 @@
         "choices":["(Continuar)"], 
         "nextStory":[10577], 
         "setInventory":[], 
-        "setObjective":[-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10576"
     },
     {
@@ -2943,7 +2943,7 @@
         "choices":["Siendo honesta también me preocupa que aun no se sepa nada, pero de momento nos limitaremos a esperar a la investigación."], 
         "nextStory":[10578], 
         "setInventory":[], 
-        "setObjective":[-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10577"
     },
     {
@@ -2957,7 +2957,7 @@
         "choices":["Por cierto... ¿sabés dónde está Vidalia, la has visto?"], 
         "nextStory":[10579], 
         "setInventory":[], 
-        "setObjective":[-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10578"
     },
     {
@@ -2971,7 +2971,7 @@
         "choices":["Va. Gracias."], 
         "nextStory":[10580], 
         "setInventory":[], 
-        "setObjective":[113,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[115,114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10579"
     },
     {
@@ -2982,10 +2982,10 @@
         "place":107,
         "npc":[],
         "self":1350,
-        "choices":["Oh, ahí está Gisany, le pregunteré si ha visto a Vid."], 
+        "choices":["Oh, ahí está Gisany, le preguntaré si ha visto a Vid."], 
         "nextStory":[10581], 
         "setInventory":[], 
-        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[115,114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10580"
     },
     {
@@ -2999,7 +2999,7 @@
         "choices":["Gis, buen día."], 
         "nextStory":[10582], 
         "setInventory":[], 
-        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[115,114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10581"
     },
     {
@@ -3013,7 +3013,7 @@
         "choices":["Bueno, trato de poner la mejor cara. Gracias."], 
         "nextStory":[10583], 
         "setInventory":[], 
-        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[115,114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10582"
     },
     {
@@ -3027,7 +3027,7 @@
         "choices":["Por cierto, ¿has visto a Vidalia?"], 
         "nextStory":[10584], 
         "setInventory":[], 
-        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[115,114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10583"
     },
     {
@@ -3041,7 +3041,7 @@
         "choices":["Vale, gracias."], 
         "nextStory":[10585], 
         "setInventory":[], 
-        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[115,114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10584"
     },
     {
@@ -3055,7 +3055,7 @@
         "choices":["(Mejor consulto con Mel.)"], 
         "nextStory":[10586], 
         "setInventory":[], 
-        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[115,114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10585"
     },
     {
@@ -3069,7 +3069,7 @@
         "choices":["(...Vaya, no hay nadie.)"], 
         "nextStory":[10587], 
         "setInventory":[], 
-        "setObjective":[-114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[116,-115,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10586"
     },
     {
@@ -3083,7 +3083,7 @@
         "choices":["(Tendré que seguir buscando por mi cuenta.)"], 
         "nextStory":[10588], 
         "setInventory":[], 
-        "setObjective":[115,-114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[116,-115,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10587"
     },
     {
@@ -3097,7 +3097,7 @@
         "choices":["Lo siento, Lara. Ando buscando a Vidalia."], 
         "nextStory":[10589], 
         "setInventory":[], 
-        "setObjective":[115,-114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[116,-115,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10588"
     },
     {
@@ -3111,7 +3111,7 @@
         "choices":["(Continuar)"], 
         "nextStory":[10590], 
         "setInventory":[], 
-        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[116,-115,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10589"
     },
     {
@@ -3125,7 +3125,7 @@
         "choices":["(La seguí sin chistar. ¿Una junta de urgencia?)"], 
         "nextStory":[10591], 
         "setInventory":[], 
-        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "setObjective":[116,-115,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
         "checkpoint":"Z0Z0Z2ZAZZZZZZ10590"
     },
     {
@@ -3137,9 +3137,23 @@
         "npc":[],
         "self":1350,
         "choices":["(FINALIZAR EPISODIO)"], 
+        "nextStory":[10592], 
+        "setInventory":[], 
+        "setObjective":[116,-115,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "checkpoint":"Z0Z0Z2ZAZZZZZZ10591"
+    },
+    {
+        "id":10592, 
+        "text":"<b>¡ESPERA!</b><br><br>Este capítulo tiene un POV secreto, aquí tienes su checkpoint ;)<br><br>ZZZZZZZZZZZZZZ",
+        "type":"info_general", 
+        "closeDialog":false,
+        "place":"black",
+        "npc":[],
+        "self":"",
+        "choices":["(¡Gracias!)"], 
         "nextStory":[], 
         "setInventory":[], 
-        "setObjective":[114,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
-        "checkpoint":"Z0Z0Z2ZAZZZZZZ10591"
+        "setObjective":[116,-115,-112,-111,-110,-109,-108,-107,-106,-105,-104,-103,-102,-101,-100],
+        "checkpoint":"Z0Z0Z2ZAZZZZZZ10592"
     }
 ]
