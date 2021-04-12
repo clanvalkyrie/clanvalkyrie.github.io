@@ -13,7 +13,10 @@ function getList(db) {
         if (chList[c].visible == true) {
             var li = document.createElement("li");
             li.setAttribute("class","episode");
-            li.innerHTML = "<div class=\"episode-title\"><b>" + chList[c].title + "</b></div><div class=\"episode-description\"><p>" + chList[c].description + "</p></div><div style=\"text-align: center;\"><div id=\"" + chList[c].current + "\" class=\"button\">Jugar</div></div>";
+            var html = "<div class=\"episode-title\"><b>" + chList[c].title + "</b></div><div class=\"episode-description\"><p>" + chList[c].description + "</p></div><div style=\"text-align: center;\">";
+            if (c == 0) html += "<div id=\"" + chList[c].current + "\" class=\"button\">Jugar</div>";
+            html += "</div>";
+            li.innerHTML = html;
             ul.appendChild(li);
         };
     };
@@ -84,7 +87,7 @@ function cargarCheckpoint(loadCP){
 
                         } else {
                             //alert("El código ingresado no es válido.");
-                            $("#error-msg").text("El código ingresado no es válido.");
+                            $("#error-msg").text("El episodio no está disponible.");
                             $("#error-msg").show().delay(5000).fadeOut(300);
                         };
                     };
