@@ -14,6 +14,9 @@
 	{"id":1011, "name":"Faery 2, silueta", "type":"char", "imgURL":"assets/img/extra/faery-silueta-2.png"},
 	{"id":1050, "name":"Eulalí, borrosa", "type":"char", "imgURL":"assets/img/char/eulali-borrosa.png"},
 	{"id":1051, "name":"Melany, borrosa", "type":"char", "imgURL":"assets/img/char/melany-borrosa.png"},
+	{"id":1052, "name":"Pluvialily", "type":"pet", "style":"top: 210px;", "imgURL":"assets/img/pet/pluvialily.png"},
+	{"id":1053, "name":"Blobbiathan (Gisany)", "type":"pet", "style":"top:-60px;", "imgURL":"https://www.eldarya.com/assets/img/pet/mood/profile/1c6521bb2a846174117468567e66ea28.png"},
+	{"id":1054, "name":"Valkyries", "type":"extra", "style":"top: 0", "imgURL":"assets/img/extra/valkyries.png"},
 
 	{"id":1100, "name":"Keiko, Default", "type":"char", "imgURL":"assets/img/char/keiko-default.png"},
 	{"id":1150, "name":"Vidalia, Default", "type":"char", "imgURL":"assets/img/char/vidalia-default.png"},

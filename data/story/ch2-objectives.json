@@ -15,5 +15,20 @@
 	{"id":113, "text":"Busca a Vidalia, le debes una charla.", "type":"place", "value":128, "next":10571},
 	{"id":114, "text":"Busca a Vidalia, le debes una charla.", "type":"place", "value":107, "next":10580},
 	{"id":115, "text":"Habla con Melany, está en la biblioteca.", "type":"place", "value":105, "next":10586},
-	{"id":116, "text":"Busca a Vidalia, le debes una charla.", "type":"place", "value":107, "next":10588}
+	{"id":116, "text":"Busca a Vidalia, le debes una charla.", "type":"place", "value":107, "next":10588},
+
+	{"id":117, "text":"Ve a buscar a Vid donde la sala de alquimia.", "type":"place", "value":107, "next":10604},
+	{"id":118, "text":"Ve a buscar a Vid donde la sala de alquimia.", "type":"place", "value":101, "next":10607},
+	{"id":119, "text":"Parece que Vidalia se te adelantó. Ve al vestíbulo.", "type":"place", "value":109, "next":10610},
+	{"id":120, "text":"¡Sigue a Vidalia: Ve a la sala de alquimia!", "type":"place", "value":108, "next":10651},
+	{"id":121, "text":"¡Informa a tus compañeras de lo sucedido!", "type":"place", "value":131, "next":10657},
+	{"id":122, "text":"Busca a Keiko, no debe estar lejos.", "type":"place", "value":110, "next":10676},
+	{"id":123, "text":"Dirígete a la biblioteca, averigua más a fondo qué ha pasado.", "type":"place", "value":106, "next":10679},
+	{"id":124, "text":"Busca a Lara, a lo mejor puede ayudarte.", "type":"place", "value":108, "next":10683},
+	{"id":125, "text":"Una poderosa corazonada te llama desde la sala de los portales, ¡ve y averigua qué es!", "type":"place", "value":131, "next":10700},
+	{"id":126, "text":"Ve a buscar a Vid.", "type":"place", "value":101, "next":10778},
+
+	{"id":127, "text":"¡Sigue a Keiko: Ve a la biblioteca!", "type":"place", "value":107}
+
+	
 ]
