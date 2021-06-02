@@ -1,19 +1,11 @@
 [
 	{
-		"episode":1,"title":"1 - Grata Bienvenida","char":["Keiko","Vidalia"], "visible":true,
-		"description":"Keiko acaba de llegar a las tierras eldaryanas, pero de una forma que alertó al Clan Valkyrie. Tras ser rescatada, recibe un poco de orientación por parte de sus nuevas compañeras quiénes les ayudará a averiguar el propósito de su llegada.",
+		"episode":1,"title":"1 - Grata Bienvenida","char":["Chenmi"], "visible":true,
+		"description":"",
 		"story":"data/story/ch1-story.json",
 		"objective":"data/story/ch1-objectives.json",
 		"places":"data/common/ch1-places.json",
-		"current":"20E0F1GX7DSXY37R21P","next":"50E0H2JXOZZ4R7AP46O"
-	},
-	{
-		"episode":2,"title":"2 - La usurpación a un aposento","char":["Eulalí","Melany","Gisany"], "visible":false,
-		"description":"",
-		"story":"data/story/ch2-story.json",
-		"objective":"data/story/ch2-objectives.json",
-		"places":"data/common/ch2-places.json",
-		"current":"50E0H2JXOZZ4R7AP46O","next":"50E0A3JXOZZ4R7AP46O"
+		"current":"Z0Z0Z1ZXZLACHEMSUWU","next":"Z0Z0Z1ZXZZZZZZ20000"
 	},
 
 

@@ -109,14 +109,25 @@ function cargarStory(id) {
 					};
 
 				} else {
-					div.setAttribute("class", "pet");
-					img.setAttribute("style", gardie[0].style);	
+					if (gardie[0].type == "pet") {
+						div.setAttribute("class", "pet");
+						img.setAttribute("style", gardie[0].style);	
+					} else if (gardie[0].type == "sfx") {
+						div.setAttribute("class", "sfx");
+					};
+					
 				};
 
 				gardie[0].id != currentNPC ? div.setAttribute("style", "-webkit-animation-name: fade-in;") : "";
 				currentNPC = gardie[0].id;
 				contenedor.appendChild(div);
-				(gardie[0].type == "pet") ? document.getElementsByClassName("pet")[n].appendChild(img) : document.getElementsByClassName("npc")[n].appendChild(img);
+				
+				if (gardie[0].type == "char" || gardie[0].type == "extra") {
+					document.getElementsByClassName("npc")[n].appendChild(img)
+
+				} else {
+					document.getElementsByClassName(gardie[0].type)[n].appendChild(img)
+				}
 			};
 		};
 
@@ -504,6 +515,33 @@ function changeLocation(id) {
 					breakFor = true;
 				};
 			break;
+			/*
+			case "random":
+
+	{"id":112, "text":"Ve y esparce el líquido en cada habitación de la residencia.", "type":"random", 
+		"value":[107,103,105,109,111], "vfinal":113,
+		"next":[10156,10157,10158,10160,10162], "nfinal":10164
+	}
+
+
+				// Todos son por ubicación específica > "place"
+				for (b = 0; b < objetivosActivos[a].value.length; b++) {
+
+					if (objetivosActivos[a].value[b] == id) {
+						cargarStory(objetivosActivos[a].next[b]);
+						objetivosActivos.splice(a, 1);
+						breakFor = true;
+
+						// borrar el objetivo cumplido
+						objetivosActivos[a].value.splice(b,1);
+						objetivosActivos[a].next.splice(b,1);
+						b--;
+					};
+				};
+
+				if (objetivosActivos[a].value.length == 0) {cargarStory(objetivosActivos[a].nfinal)};
+				
+			break;*/
 			case "special":
 				cargarClicker(OBJsp);
 			break;

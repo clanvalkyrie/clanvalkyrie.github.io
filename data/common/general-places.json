@@ -278,16 +278,16 @@
 		"tag":"Especial"
 	},
 	{
-		"id":135, "name":"Habitación de Eulalí",
-		"imgURL":"assets/img/places/habitacion-eulali.png",
+		"id":135, "name":"Habitación de Chenmi",
+		"imgURL":"assets/img/places/habitacion-chenmi.png",
 		"places":[], 
 		"style":["top: 200px;left: 452px;"],
 		"tooltip":["top"],
 		"tag":"Residencia"
 	},
 	{
-		"id":136, "name":"Habitación de Eulalí,<br>de noche",
-		"imgURL":"assets/img/places/habitacion-eulali-noche.png",
+		"id":136, "name":"Habitación de Chenmi,<br>de noche",
+		"imgURL":"assets/img/places/habitacion-chenmi-noche.png",
 		"places":[], 
 		"style":["top: 200px;left: 452px;"],
 		"tooltip":["top"],
