@@ -154,8 +154,8 @@ input {
 }
 
 /* Episodio en curso */
-.objectives, .inventory {
-    height: 60px;
+.objectives {
+    height: 223.1px;
     overflow-y: auto;
     margin: 10px 0;
 }

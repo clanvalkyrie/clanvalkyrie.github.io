@@ -16,7 +16,6 @@
         "self":"",
         "choices":["(Continuar)"], 
         "nextStory":[10002], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10001"
     },
@@ -30,7 +29,6 @@
         "self":"",
         "choices":["(Continuar)"], 
         "nextStory":[10003], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10002"
     },
@@ -44,7 +42,6 @@
         "self":"",
         "choices":["(Continuar)"], 
         "nextStory":[10004], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10003"
     },
@@ -58,7 +55,6 @@
         "self":"",
         "choices":["(Continuar)"], 
         "nextStory":[10005], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10004"
     },
@@ -72,7 +68,6 @@
         "self":"",
         "choices":["(Continuar)"], 
         "nextStory":[10006], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10005"
     },
@@ -86,7 +81,6 @@
         "self":"",
         "choices":["(Continuar)"], 
         "nextStory":[10007], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10006"
     },
@@ -100,7 +94,6 @@
         "self":"",
         "choices":["(Continuar)"], 
         "nextStory":[10008], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10007"
     },
@@ -114,7 +107,6 @@
         "self":"",
         "choices":["(Continuar)"], 
         "nextStory":[10009], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10008"
     },
@@ -128,7 +120,6 @@
         "self":"",
         "choices":["(Continuar)"], 
         "nextStory":[10010], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10009"
     },
@@ -142,7 +133,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10011], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10010"
     },
@@ -156,7 +146,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10012], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10011"
     },
@@ -170,7 +159,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10013], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10012"
     },
@@ -184,7 +172,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10014], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10013"
     },
@@ -198,7 +185,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10015], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10014"
     },
@@ -212,7 +198,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10016], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10015"
     },
@@ -226,7 +211,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10017], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10016"
     },
@@ -240,7 +224,6 @@
         "self":1350,
         "choices":["Eh... Estabas hablando de que querías usar una oruga luminosa para tu.... ¿Lámpara de noche?","Eh... Estabas hablando de que necesitabas bayas ácidas para tu... ¿Beriflor?"], 
         "nextStory":[10018,10018], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10017"
     },
@@ -254,7 +237,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10019], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10018"
     },
@@ -268,7 +250,6 @@
         "self":1350,
         "choices":["Lo entiendo, sí. Perdón."], 
         "nextStory":[10020], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10019"
     },
@@ -282,7 +263,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10021], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10020"
     },
@@ -296,7 +276,6 @@
         "self":1350,
         "choices":["¿Y quién no me ha regañado a mi?"], 
         "nextStory":[10022], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10021"
     },
@@ -310,7 +289,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10023], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10022"
     },
@@ -324,7 +302,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10024], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10023"
     },
@@ -338,7 +315,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10025], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10024"
     },
@@ -352,7 +328,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10026], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10025"
     },
@@ -366,7 +341,6 @@
         "self":1350,
         "choices":["(Vid se ha quedado completamente paralizada frente a nosotras.)"], 
         "nextStory":[10027], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10026"
     },
@@ -380,7 +354,6 @@
         "self":1350,
         "choices":["¿Estás bien?"], 
         "nextStory":[10028], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10027"
     },
@@ -394,7 +367,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10029], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10028"
     },
@@ -408,7 +380,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10030], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10029"
     },
@@ -422,7 +393,6 @@
         "self":1350,
         "choices":["(De un momento a otro, Lara se las arregló para despachar a Vidalia en tan solo un chasquido.)"], 
         "nextStory":[10031], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10030"
     },
@@ -436,7 +406,6 @@
         "self":1350,
         "choices":["Vaya, sí que tienes ganas de enseñar, ¿O no, maestra?"], 
         "nextStory":[10032], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10031"
     },
@@ -450,7 +419,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10033], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10032"
     },
@@ -464,7 +432,6 @@
         "self":1350,
         "choices":["(¿Más apuntes?)"], 
         "nextStory":[10034], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10033"
     },
@@ -478,7 +445,6 @@
         "self":1350,
         "choices":["(Me ha soltado un guiño sarcástico, y procedió a salir de la sala.)"], 
         "nextStory":[10035], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10034"
     },
@@ -492,7 +458,6 @@
         "self":1350,
         "choices":["(Mientras que yo me quedé pensando en todo lo que había explicado, y que sin querer me distraje hablando a la nada.)"], 
         "nextStory":[10036], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10035"
     },
@@ -506,7 +471,6 @@
         "self":1350,
         "choices":["(Es increíble lo fácil que me distraigo... A veces soy tan despistada. Debería trabajar en ello.)"], 
         "nextStory":[10037], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10036"
     },
@@ -520,7 +484,6 @@
         "self":1350,
         "choices":["(Ay, por el Oráculo, me estoy distrayendo otra vez.)"], 
         "nextStory":[10038], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10037"
     },
@@ -534,7 +497,6 @@
         "self":1350,
         "choices":["(Concéntrate, Chenmi.)"], 
         "nextStory":[10039], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10038"
     },
@@ -548,7 +510,6 @@
         "self":1350,
         "choices":["(Ahora que lo pienso, hay mucho desorden aquí...)"], 
         "nextStory":[10040], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10039"
     },
@@ -562,7 +523,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10041], 
-        "setInventory":[], 
         "setObjective":[],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10040"
     },
@@ -576,7 +536,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10042], 
-        "setInventory":[], 
         "setObjective":[100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10041"
     },
@@ -590,7 +549,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10043], 
-        "setInventory":[], 
         "setObjective":[-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10042"
     },
@@ -604,7 +562,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10044], 
-        "setInventory":[], 
         "setObjective":[101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10043"
     },
@@ -618,7 +575,6 @@
         "self":1350,
         "choices":["(Ahí está Melany, le consultaré a ella.)"], 
         "nextStory":[10045], 
-        "setInventory":[], 
         "setObjective":[101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10044"
     },
@@ -632,7 +588,6 @@
         "self":1350,
         "choices":["Oye, Mel- (Vaya, ya se ha marchado.)"], 
         "nextStory":[10046], 
-        "setInventory":[], 
         "setObjective":[101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10045"
     },
@@ -646,7 +601,6 @@
         "self":1350,
         "choices":["Vid, ¿Qué pasa?"], 
         "nextStory":[10047], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10046"
     },
@@ -660,7 +614,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10048], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10047"
     },
@@ -674,7 +627,6 @@
         "self":1350,
         "choices":["(¡Claro, era el aviso de una nueva turista había llegado a Eldarya!)"], 
         "nextStory":[10049], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10048"
     },
@@ -688,7 +640,6 @@
         "self":1350,
         "choices":["(Melany hizo presencia, mientras daba unas palmadas para ganar la atención de todas.)"], 
         "nextStory":[10050], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10049"
     },
@@ -702,7 +653,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10051], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10050"
     },
@@ -716,7 +666,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10052], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10051"
     },
@@ -730,7 +679,6 @@
         "self":1350,
         "choices":["(Todas abrimos los ojos como platos; ¿Una nueva hermana había llegado?)"], 
         "nextStory":[10053], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10052"
     },
@@ -744,7 +692,6 @@
         "self":1350,
         "choices":["¡Ay, qué emocionante!"], 
         "nextStory":[10054], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10053"
     },
@@ -758,7 +705,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10055], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10054"
     },
@@ -772,7 +718,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10056], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10055"
     },
@@ -786,7 +731,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10057], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10056"
     },
@@ -800,7 +744,6 @@
         "self":1350,
         "choices":["¿Tumbada?"], 
         "nextStory":[10058], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10057"
     },
@@ -814,7 +757,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10059], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10058"
     },
@@ -828,7 +770,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10060], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10059"
     },
@@ -842,7 +783,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10061], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10060"
     },
@@ -856,7 +796,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10062], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10061"
     },
@@ -870,7 +809,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10063], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10062"
     },
@@ -884,7 +822,6 @@
         "self":1350,
         "choices":["¡Suerte, chicas!"], 
         "nextStory":[10064], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10063"
     },
@@ -898,7 +835,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10065], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10064"
     },
@@ -912,7 +848,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10066], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10065"
     },
@@ -926,7 +861,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10067], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10066"
     },
@@ -940,7 +874,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10068], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10067"
     },
@@ -954,7 +887,6 @@
         "self":1350,
         "choices":["Diablos. Las chicas ya se han marchado."], 
         "nextStory":[10069], 
-        "setInventory":[], 
         "setObjective":[-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10068"
     },
@@ -968,7 +900,6 @@
         "self":1350,
         "choices":["¡Las alcanzaré! Estén atentas, chicas."], 
         "nextStory":[10070], 
-        "setInventory":[], 
         "setObjective":[102,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10069"
     },
@@ -982,7 +913,6 @@
         "self":1350,
         "choices":["(¿Un Rawist?) Servirá."], 
         "nextStory":[10071], 
-        "setInventory":[], 
         "setObjective":[103,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10070"
     },
@@ -996,7 +926,6 @@
         "self":1350,
         "choices":["¡Andando!"], 
         "nextStory":[10072], 
-        "setInventory":[], 
         "setObjective":[103,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10071"
     },
@@ -1010,7 +939,6 @@
         "self":1350,
         "choices":["(¡Diablos! ¿Dónde están?)"], 
         "nextStory":[10073], 
-        "setInventory":[], 
         "setObjective":[104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10072"
     },
@@ -1024,7 +952,6 @@
         "self":1350,
         "choices":["¡Chicas! Hacia el claro del bosque, ¡Vamos!"], 
         "nextStory":[10074], 
-        "setInventory":[], 
         "setObjective":[-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10073"
     },
@@ -1038,7 +965,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10075], 
-        "setInventory":[], 
         "setObjective":[-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10074"
     },
@@ -1052,7 +978,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10076], 
-        "setInventory":[], 
         "setObjective":[-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10075"
     },
@@ -1066,7 +991,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10077], 
-        "setInventory":[], 
         "setObjective":[-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10076"
     },
@@ -1080,7 +1004,6 @@
         "self":1350,
         "choices":["(Gis agarró su cetro, y conjuró una especie de \"cama\", que hacía que la muchacha flotara, y a la misma vez que nos siguiera.)"], 
         "nextStory":[10078], 
-        "setInventory":[], 
         "setObjective":[-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10077"
     },
@@ -1094,7 +1017,6 @@
         "self":1350,
         "choices":["(Es verdad que las demás comunidades pudieron haberla sentido también.)"], 
         "nextStory":[10079], 
-        "setInventory":[], 
         "setObjective":[-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10078"
     },
@@ -1108,7 +1030,6 @@
         "self":1350,
         "choices":["(Generaría una gran discordia si nos encontramos con faéricos no deseados...)"], 
         "nextStory":[10080], 
-        "setInventory":[], 
         "setObjective":[-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10079"
     },
@@ -1122,7 +1043,6 @@
         "self":1350,
         "choices":["Seré su escolta. ¡Las sigo!"], 
         "nextStory":[10081], 
-        "setInventory":[], 
         "setObjective":[105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10080"
     },
@@ -1136,7 +1056,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10082], 
-        "setInventory":[], 
         "setObjective":[-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10081"
     },
@@ -1150,7 +1069,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10083], 
-        "setInventory":[], 
         "setObjective":[-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10082"
     },
@@ -1164,7 +1082,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10084], 
-        "setInventory":[], 
         "setObjective":[-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10083"
     },
@@ -1178,7 +1095,6 @@
         "self":1350,
         "choices":["(Terminar conversación)"], 
         "nextStory":[10085], 
-        "setInventory":[], 
         "setObjective":[106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10084"
     },
@@ -1192,7 +1108,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10086], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10085"
     },
@@ -1206,7 +1121,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10087], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10086"
     },
@@ -1220,7 +1134,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10088], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10087"
     },
@@ -1234,7 +1147,6 @@
         "self":1350,
         "choices":["Nunca una turista había tardado en despertar. ¿Crees que sea serio?"], 
         "nextStory":[10089], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10088"
     },
@@ -1248,7 +1160,6 @@
         "self":1350,
         "choices":["Pobrecilla... (Le he acariciado la cabeza.)"], 
         "nextStory":[10090], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10089"
     },
@@ -1262,7 +1173,6 @@
         "self":1350,
         "choices":["(Melany se ha puesto a revisar reportes antiguos de aquellas estanterías.)"], 
         "nextStory":[10091], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10090"
     },
@@ -1276,7 +1186,6 @@
         "self":1350,
         "choices":["¿Qué intentas decir?"], 
         "nextStory":[10092], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10091"
     },
@@ -1290,7 +1199,6 @@
         "self":1350,
         "choices":["(Mientras nos preparábamos para dejar la sala, la muchacha logró reaccionar.)"], 
         "nextStory":[10093], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10092"
     },
@@ -1304,7 +1212,6 @@
         "self":1350,
         "choices":["¡Oh, está despierta!"], 
         "nextStory":[10094], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10093"
     },
@@ -1318,7 +1225,6 @@
         "self":1350,
         "choices":["(Lucía agonizante. Su apariencia daba un mal semblante.)"], 
         "nextStory":[10095], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10094"
     },
@@ -1332,7 +1238,6 @@
         "self":1350,
         "choices":["Creo que lo mejor será sedarla con la pócima de calma. No sabemos con qué fuerzas está luchando, pero no luce nada bien."], 
         "nextStory":[10096], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10095"
     },
@@ -1346,7 +1251,6 @@
         "self":1350,
         "choices":["(Tomé un sorbo de una de las botellas que estaban sobre la estantería, y seguido me incliné hacia ella.)"], 
         "nextStory":[10097], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10096"
     },
@@ -1360,7 +1264,6 @@
         "self":1350,
         "choices":["(Una vez cerca de su oreja, soplé aquél líquido que había tomado previamente.)"], 
         "nextStory":[10098], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10097"
     },
@@ -1374,7 +1277,6 @@
         "self":1350,
         "choices":["Tranquila, linda. Estás con nosotras. Todo estará bien."], 
         "nextStory":[10099], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10098"
     },
@@ -1388,7 +1290,6 @@
         "self":1350,
         "choices":["(De forma inmediata su agonía cesó. Había quedado completamente dormida.)"], 
         "nextStory":[10100], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10099"
     },
@@ -1402,7 +1303,6 @@
         "self":1350,
         "choices":["La pócima de calma es sólo para efectuar el sueño profundo en un chasquido, pero no suele durar tanto. Espero pueda despertar pronto, me preocupa."], 
         "nextStory":[10101], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10100"
     },
@@ -1416,7 +1316,6 @@
         "self":1350,
         "choices":["¡Vale!"], 
         "nextStory":[10102], 
-        "setInventory":[], 
         "setObjective":[-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10101"
     },
@@ -1430,7 +1329,6 @@
         "self":1350,
         "choices":["(El problema es que no recuerdo quiénes iban a estar haciendo guardia...)"], 
         "nextStory":[10103], 
-        "setInventory":[], 
         "setObjective":[107,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10102"
     },
@@ -1444,7 +1342,6 @@
         "self":1350,
         "choices":["(Allí está Jenna, le preguntaré.)"], 
         "nextStory":[10104], 
-        "setInventory":[], 
         "setObjective":[108,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10103"
     },
@@ -1458,7 +1355,6 @@
         "self":1350,
         "choices":["Hola, Jenna. ¿A ti te tocaba hacer guardia en la enfermería?"], 
         "nextStory":[10105], 
-        "setInventory":[], 
         "setObjective":[108,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10104"
     },
@@ -1472,7 +1368,6 @@
         "self":1350,
         "choices":["(Me ha mirado algo extrañada cuando se lo mencioné.)"], 
         "nextStory":[10106], 
-        "setInventory":[], 
         "setObjective":[108,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10105"
     },
@@ -1486,7 +1381,6 @@
         "self":1350,
         "choices":["(Cierto que ella ha ido al bosque conmigo.)"], 
         "nextStory":[10107], 
-        "setInventory":[], 
         "setObjective":[108,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10106"
     },
@@ -1500,7 +1394,6 @@
         "self":1350,
         "choices":["Pues... No lucía muy bien. Le tuvimos que dar una pócima especial."], 
         "nextStory":[10108], 
-        "setInventory":[], 
         "setObjective":[108,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10107"
     },
@@ -1514,7 +1407,6 @@
         "self":1350,
         "choices":["Intentó, pero sigue dormida."], 
         "nextStory":[10109], 
-        "setInventory":[], 
         "setObjective":[108,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10108"
     },
@@ -1528,7 +1420,6 @@
         "self":1350,
         "choices":["Claro."], 
         "nextStory":[10110],
-        "setInventory":[], 
         "setObjective":[108,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10109"
     },
@@ -1542,7 +1433,6 @@
         "self":1350,
         "choices":["(Allí está Gis... Mm, no creo que Gis le toque hacer guardia. Ella ha ido conmigo al bosque.)"], 
         "nextStory":[10111], 
-        "setInventory":[], 
         "setObjective":[109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10110"
     },
@@ -1556,7 +1446,6 @@
         "self":1350,
         "choices":["Ha intentado despertar, pero tuve que darle una pócima de calma, pues parecía-"], 
         "nextStory":[10112], 
-        "setInventory":[], 
         "setObjective":[109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10111"
     },
@@ -1570,7 +1459,6 @@
         "self":1350,
         "choices":["Prometo que las estoy estudiando."], 
         "nextStory":[10113], 
-        "setInventory":[], 
         "setObjective":[109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10112"
     },
@@ -1584,7 +1472,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10114], 
-        "setInventory":[], 
         "setObjective":[109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10113"
     },
@@ -1598,7 +1485,6 @@
         "self":1350,
         "choices":["Buscaba a las chicas que les tocaba la guardia de ahora."], 
         "nextStory":[10115], 
-        "setInventory":[], 
         "setObjective":[109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10114"
     },
@@ -1612,7 +1498,6 @@
         "self":1350,
         "choices":["No las encuentro."], 
         "nextStory":[10116], 
-        "setInventory":[], 
         "setObjective":[109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10115"
     },
@@ -1626,7 +1511,6 @@
         "self":1350,
         "choices":["(Diablos.) Eh... No lo recuerdo."], 
         "nextStory":[10117], 
-        "setInventory":[], 
         "setObjective":[109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10116"
     },
@@ -1640,7 +1524,6 @@
         "self":1350,
         "choices":["Lo intento, ¿si?"], 
         "nextStory":[10118], 
-        "setInventory":[], 
         "setObjective":[109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10117"
     },
@@ -1654,7 +1537,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10119], 
-        "setInventory":[], 
         "setObjective":[109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10118"
     },
@@ -1668,7 +1550,6 @@
         "self":1350,
         "choices":["(Vaya, parece molesta...)"], 
         "nextStory":[10120], 
-        "setInventory":[], 
         "setObjective":[-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10119"
     },
@@ -1682,7 +1563,6 @@
         "self":1350,
         "choices":["(...)"], 
         "nextStory":[10121], 
-        "setInventory":[], 
         "setObjective":[-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10120"
     },
@@ -1696,7 +1576,6 @@
         "self":1350,
         "choices":["(Me ha sentado algo mal ese comentario... Pero, ¿Por qué siento que tiene razón?)"], 
         "nextStory":[10122], 
-        "setInventory":[], 
         "setObjective":[-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10121"
     },
@@ -1710,7 +1589,6 @@
         "self":1350,
         "choices":["(Ugh, no quiero centrarme en ello ahora. Mejor buscar algo qué hacer.)"], 
         "nextStory":[10123], 
-        "setInventory":[], 
         "setObjective":[110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10122"
     },
@@ -1724,7 +1602,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10124], 
-        "setInventory":[], 
         "setObjective":[110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10123"
     },
@@ -1738,7 +1615,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10125], 
-        "setInventory":[], 
         "setObjective":[110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10124"
     },
@@ -1752,7 +1628,6 @@
         "self":1350,
         "choices":["Claro. ¿Qué sucede?"], 
         "nextStory":[10126], 
-        "setInventory":[], 
         "setObjective":[-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10125"
     },
@@ -1766,7 +1641,6 @@
         "self":1350,
         "choices":["(Antes de decir algo, se ha limitado a soltarme una mirada algo... incómoda.)"], 
         "nextStory":[10127], 
-        "setInventory":[], 
         "setObjective":[-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10126"
     },
@@ -1780,7 +1654,6 @@
         "self":1350,
         "choices":["(Terminar conversación)"], 
         "nextStory":[10128], 
-        "setInventory":[], 
         "setObjective":[111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10127"
     },
@@ -1794,7 +1667,6 @@
         "self":1350,
         "choices":["¿De qué se trata? (Se ha puesto a revisar el gabinete.)"], 
         "nextStory":[10129], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10128"
     },
@@ -1808,7 +1680,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10130], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10129"
     },
@@ -1822,7 +1693,6 @@
         "self":1350,
         "choices":["(Uy, esta podría ser mi oportunidad para sentirme ÚTIL). Claro que sí. Cuenta con ello."], 
         "nextStory":[10131], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10130"
     },
@@ -1836,7 +1706,6 @@
         "self":1350,
         "choices":["Bien, veamos..."], 
         "nextStory":[10132], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10131"
     },
@@ -1850,7 +1719,6 @@
         "self":1350,
         "choices":["Si es para relajarse creo que nos faltan mariquitas venenosas.","Si es para relajarse creo que nos falta el estuche de tinta, el sospechoso."], 
         "nextStory":[10133,10135],
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10132"
     },
@@ -1864,7 +1732,6 @@
         "self":1350,
         "choices":["Oh, no. Lo siento. Esta receta pone \"Para sucumbir\". Mejor dejarla donde estaba."], 
         "nextStory":[10134], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10133"
     },
@@ -1878,7 +1745,6 @@
         "self":1350,
         "choices":["Es esta otra... Nos falta el estuche de tinta, el sospechoso."], 
         "nextStory":[10135], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10134"
     },
@@ -1892,7 +1758,6 @@
         "self":1350,
         "choices":["Voy."], 
         "nextStory":[10136], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10135"
     },
@@ -1906,7 +1771,6 @@
         "self":1350,
         "choices":["(Mientras buscaba los estuches, he oído a Lara carraspear su garganta detrás de mí.)"], 
         "nextStory":[10137], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10136"
     },
@@ -1920,7 +1784,6 @@
         "self":1350,
         "choices":["¿De qué estás hablando?","Así que estás al tanto..."], 
         "nextStory":[10138,10141],
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10137"
     },
@@ -1934,7 +1797,6 @@
         "self":1350,
         "choices":["Pues... ¿Qué te ha dicho Vidalia exactamente?"], 
         "nextStory":[10139], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10138"
     },
@@ -1948,7 +1810,6 @@
         "self":1350,
         "choices":["(Auch.)"], 
         "nextStory":[10140], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10139"
     },
@@ -1962,7 +1823,6 @@
         "self":1350,
         "choices":["¿Tú qué crees?"], 
         "nextStory":[10142],
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10140"
     },
@@ -1976,7 +1836,6 @@
         "self":1350,
         "choices":["¿Tú también crees que es verdad?"], 
         "nextStory":[10142], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10141"
     },
@@ -1990,7 +1849,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10143], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10142"
     },
@@ -2004,7 +1862,6 @@
         "self":1350,
         "choices":["(Uf... Esta vez sí estoy de acuerdo con ella.)"], 
         "nextStory":[10144], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10143"
     },
@@ -2018,7 +1875,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10145], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10144"
     },
@@ -2032,7 +1888,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10146], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10145"
     },
@@ -2046,7 +1901,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10147], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10146"
     },
@@ -2060,7 +1914,6 @@
         "self":1350,
         "choices":["(Menuda incertidumbre estoy sintiendo ahora.)"], 
         "nextStory":[10148], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10147"
     },
@@ -2074,7 +1927,6 @@
         "self":1350,
         "choices":["(Me ha soltado una leve sonrisa.)"], 
         "nextStory":[10149], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10148"
     },
@@ -2088,7 +1940,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10150], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10149"
     },
@@ -2102,7 +1953,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10151], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10150"
     },
@@ -2116,7 +1966,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10152], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10151"
     },
@@ -2130,7 +1979,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10153], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10152"
     },
@@ -2144,7 +1992,6 @@
         "self":1350,
         "choices":["(Ha salido de la sala, mientras Lara la seguía.)"], 
         "nextStory":[10154], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10153"
     },
@@ -2158,7 +2005,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10155], 
-        "setInventory":[], 
         "setObjective":[-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10154"
     },
@@ -2172,7 +2018,6 @@
         "self":1350,
         "choices":["Esto... De acuerdo."], 
         "nextStory":[10156], 
-        "setInventory":[], 
         "setObjective":[112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10155"
     },
@@ -2186,7 +2031,6 @@
         "self":1350,
         "choices":["(Vaya, qué bien huele.)"], 
         "nextStory":[10157], 
-        "setInventory":[], 
         "setObjective":[112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10156"
     },
@@ -2200,7 +2044,6 @@
         "self":1350,
         "choices":["(He soltado un poco más aquí en las otras habitaciones.)"], 
         "nextStory":[10158], 
-        "setInventory":[], 
         "setObjective":[112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10157"
     },
@@ -2214,7 +2057,6 @@
         "self":1350,
         "choices":["Perdón, Mel."], 
         "nextStory":[10159], 
-        "setInventory":[], 
         "setObjective":[112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10158"
     },
@@ -2228,7 +2070,6 @@
         "self":1350,
         "choices":["(He soltado un poco en la habitación y he salido antes de que pudiera responder.)"], 
         "nextStory":[10160], 
-        "setInventory":[], 
         "setObjective":[112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10159"
     },
@@ -2242,7 +2083,6 @@
         "self":1350,
         "choices":["(Es hasta divertido, me siento una princesa, ¡Jajaja!)"], 
         "nextStory":[10161], 
-        "setInventory":[], 
         "setObjective":[112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10160"
     },
@@ -2256,7 +2096,6 @@
         "self":1350,
         "choices":["(Me he puesto a girar mientras soltaba aquel ambientador.)"], 
         "nextStory":[10162], 
-        "setInventory":[], 
         "setObjective":[112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10161"
     },
@@ -2270,7 +2109,6 @@
         "self":1350,
         "choices":["(Y un poco más por aquí ~)"], 
         "nextStory":[10163], 
-        "setInventory":[], 
         "setObjective":[112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10162"
     },
@@ -2284,7 +2122,6 @@
         "self":1350,
         "choices":["(Más y más ~)"], 
         "nextStory":[10164], 
-        "setInventory":[], 
         "setObjective":[112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10163"
     },
@@ -2298,7 +2135,6 @@
         "self":1350,
         "choices":["(Por el Oráculo, qUé biEn me sientO...)"], 
         "nextStory":[10165], 
-        "setInventory":[], 
         "setObjective":[112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10164"
     },
@@ -2312,7 +2148,6 @@
         "self":1350,
         "choices":["(Me siento muuUUUuy relajada.)"], 
         "nextStory":[10166], 
-        "setInventory":[], 
         "setObjective":[112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10165"
     },
@@ -2326,7 +2161,6 @@
         "self":1350,
         "choices":["(Me sieNTo comO si LaRa me miRarA.)"], 
         "nextStory":[10167], 
-        "setInventory":[], 
         "setObjective":[112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10166"
     },
@@ -2340,7 +2174,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10168], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10167"
     },
@@ -2354,7 +2187,6 @@
         "self":1350,
         "choices":["Oye, siIí... Me siEnto hAsta drOgada. (Me tuMbé eN una sillA, miEntRas tOdo me dAba vUeltas.)","JAJAJA, QUÉ DIABLOS ES ESA COSA. (Me pUse a giRar, es qUe SOy Una pRincESaaaa.)"], 
         "nextStory":[10169,10169], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10168"
     },
@@ -2368,7 +2200,6 @@
         "self":1350,
         "choices":["(Me ha puesto un frasco con un líquido extraño en la boca, en contra de mi voluntad.)"], 
         "nextStory":[10170], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10169"
     },
@@ -2382,7 +2213,6 @@
         "self":1350,
         "choices":["(Tenía un gusto asquerosísim...) Creo que-"], 
         "nextStory":[10171], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10170"
     },
@@ -2396,7 +2226,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10172], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10171"
     },
@@ -2410,7 +2239,6 @@
         "self":1350,
         "choices":["(Me ha dado una palmadita en la espalda, mientras sostenía mi cabello.)"], 
         "nextStory":[10173], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10172"
     },
@@ -2424,7 +2252,6 @@
         "self":1350,
         "choices":["¡QUÉ DIABLOS, LARA!"], 
         "nextStory":[10174], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10173"
     },
@@ -2438,7 +2265,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10175], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10174"
     },
@@ -2452,7 +2278,6 @@
         "self":1350,
         "choices":["(Me he puesto a reír junto a Lara, sin una razón aparente.)"], 
         "nextStory":[10176], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10175"
     },
@@ -2466,7 +2291,6 @@
         "self":1350,
         "choices":["(Me he sobresaltado. Por alguna razón me he puesto seria de pronto.)"], 
         "nextStory":[10177], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10176"
     },
@@ -2480,7 +2304,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10178], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10177"
     },
@@ -2494,7 +2317,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10179], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10178"
     },
@@ -2508,7 +2330,6 @@
         "self":1350,
         "choices":["Per-"], 
         "nextStory":[10180], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10179"
     },
@@ -2522,7 +2343,6 @@
         "self":1350,
         "choices":["(Se ha movido de la entrada, como si nos estuviera cediendo el paso para que nos retiremos a nuestras habitaciones.)"], 
         "nextStory":[10181], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10180"
     },
@@ -2536,7 +2356,6 @@
         "self":1350,
         "choices":["(Lara ha tomado la iniciativa y salido de la sala con la cabeza cabizbaja; yo la he seguido.)"], 
         "nextStory":[10182], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10181"
     },
@@ -2550,7 +2369,6 @@
         "self":1350,
         "choices":["Entonces... ¿No haremos guardia?"], 
         "nextStory":[10183], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10182"
     },
@@ -2564,7 +2382,6 @@
         "self":1350,
         "choices":["(Lara se ha ido para su habitación, mientras que yo me limité a quedarme allí, parada, sola.)"], 
         "nextStory":[10184], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10183"
     },
@@ -2578,7 +2395,6 @@
         "self":1350,
         "choices":["(Será mejor que yo también desaparezca...)"], 
         "nextStory":[10185], 
-        "setInventory":[], 
         "setObjective":[-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10184"
     },
@@ -2592,7 +2408,6 @@
         "self":1350,
         "choices":["(No quiero seguir dando la nota.)"], 
         "nextStory":[10186], 
-        "setInventory":[], 
         "setObjective":[113,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10185"
     },
@@ -2606,7 +2421,6 @@
         "self":1350,
         "choices":["Ay, Vidalia. Me has asustado. Y no he hecho nada, ¿Por qué lo preguntas?"], 
         "nextStory":[10187], 
-        "setInventory":[], 
         "setObjective":[114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10186"
     },
@@ -2620,7 +2434,6 @@
         "self":1350,
         "choices":["(Vaya, ¿Tanto se oyó?)"], 
         "nextStory":[10188], 
-        "setInventory":[], 
         "setObjective":[114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10187"
     },
@@ -2634,7 +2447,6 @@
         "self":1350,
         "choices":["Pues... Lamento ser una chica risueña."], 
         "nextStory":[10189], 
-        "setInventory":[], 
         "setObjective":[114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10188"
     },
@@ -2648,7 +2460,6 @@
         "self":1350,
         "choices":["(Se ha ido sin decir nada más.)"], 
         "nextStory":[10190], 
-        "setInventory":[], 
         "setObjective":[114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10189"
     },
@@ -2662,7 +2473,6 @@
         "self":1350,
         "choices":["(Por un momento sentí un tardío coraje... Respira, Chenmi, respira...)"], 
         "nextStory":[10191], 
-        "setInventory":[], 
         "setObjective":[114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10190"
     },
@@ -2676,7 +2486,6 @@
         "self":1350,
         "choices":["(Menudo día más de mierda el de hoy.)"], 
         "nextStory":[10192], 
-        "setInventory":[], 
         "setObjective":[-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10191"
     },
@@ -2690,7 +2499,6 @@
         "self":1350,
         "choices":["(Quizás todas nos vimos saturadas, así que está bien, supongo...)"], 
         "nextStory":[10193], 
-        "setInventory":[], 
         "setObjective":[-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10192"
     },
@@ -2704,7 +2512,6 @@
         "self":1350,
         "choices":["(Y apenas puse mi cabeza sobre la almohada acabé profundamente dormida.)"], 
         "nextStory":[10194], 
-        "setInventory":[], 
         "setObjective":[-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10193"
     },
@@ -2718,7 +2525,6 @@
         "self":1350,
         "choices":["Ay, no, no, no, no..."], 
         "nextStory":[10195], 
-        "setInventory":[], 
         "setObjective":[-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10194"
     },
@@ -2732,7 +2538,6 @@
         "self":1350,
         "choices":["¡No puede ser, no me pude haber quedado dormida otra vez!"], 
         "nextStory":[10196], 
-        "setInventory":[], 
         "setObjective":[-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10195"
     },
@@ -2746,7 +2551,6 @@
         "self":1350,
         "choices":["(Me alisté a la velocidad de la luz, y salí a la reunión.)"], 
         "nextStory":[10197], 
-        "setInventory":[], 
         "setObjective":[115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10196"
     },
@@ -2760,7 +2564,6 @@
         "self":1350,
         "choices":["¿Y eso?, Parece que viene de la enfermería..."], 
         "nextStory":[10198], 
-        "setInventory":[], 
         "setObjective":[115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10197"
     },
@@ -2774,7 +2577,6 @@
         "self":1350,
         "choices":["No será qué..."], 
         "nextStory":[10199], 
-        "setInventory":[], 
         "setObjective":[116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10198"
     },
@@ -2788,7 +2590,6 @@
         "self":1350,
         "choices":["(Me acerqué hacia el corredor, y efectivamente allí estaba, nuestra huésped había despertado.)"], 
         "nextStory":[10200], 
-        "setInventory":[], 
         "setObjective":[-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10199"
     },
@@ -2802,7 +2603,6 @@
         "self":1350,
         "choices":["¡Oh, hasta que te despertaste!, ¡Qué gusto!"], 
         "nextStory":[10201], 
-        "setInventory":[], 
         "setObjective":[-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10200"
     },
@@ -2816,7 +2616,6 @@
         "self":1350,
         "choices":["(Se ha tambaleado en lo que intentó caminar, inmediatamente me acerqué para socorrerla.)"], 
         "nextStory":[10202], 
-        "setInventory":[], 
         "setObjective":[-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10201"
     },
@@ -2830,7 +2629,6 @@
         "self":1350,
         "choices":["Wow, tranquila. Me alegra que hayas despertado. ¿Cómo te encuentras?"], 
         "nextStory":[10203], 
-        "setInventory":[], 
         "setObjective":[-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10202"
     },
@@ -2844,7 +2642,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10204], 
-        "setInventory":[], 
         "setObjective":[-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10203"
     },
@@ -2858,7 +2655,6 @@
         "self":1350,
         "choices":["Soy Chenmi, es un placer conocerte."], 
         "nextStory":[10205], 
-        "setInventory":[], 
         "setObjective":[-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10204"
     },
@@ -2872,7 +2668,6 @@
         "self":1350,
         "choices":["Dime, ¿Recuerdas tu nombre?"], 
         "nextStory":[10206], 
-        "setInventory":[], 
         "setObjective":[-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10205"
     },
@@ -2886,7 +2681,6 @@
         "self":1350,
         "choices":["Es un gusto, Keiko. Tienes un precioso nombre."], 
         "nextStory":[10207], 
-        "setInventory":[], 
         "setObjective":[-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10206"
     },
@@ -2900,7 +2694,6 @@
         "self":1350,
         "choices":["Todas estábamos muy preocupadas por ti. ¿Cómo te sientes?, ¿Estás bien?"], 
         "nextStory":[10208], 
-        "setInventory":[], 
         "setObjective":[-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10207"
     },
@@ -2914,7 +2707,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10209], 
-        "setInventory":[], 
         "setObjective":[-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10208"
     },
@@ -2928,7 +2720,6 @@
         "self":1350,
         "choices":["(Antes de poder contestar, un sonido resonó en el ambiente.)"], 
         "nextStory":[10210], 
-        "setInventory":[], 
         "setObjective":[-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10209"
     },
@@ -2942,7 +2733,6 @@
         "self":1350,
         "choices":["(Era su estómago.)"], 
         "nextStory":[10211], 
-        "setInventory":[], 
         "setObjective":[-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10210"
     },
@@ -2956,7 +2746,6 @@
         "self":1350,
         "choices":["Vaya... Ya habrá espacio para las preguntas, ahora te toca comer algo, ¿Está bien?"], 
         "nextStory":[10212], 
-        "setInventory":[], 
         "setObjective":[-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10211"
     },
@@ -2970,7 +2759,6 @@
         "self":1350,
         "choices":["Ven, sígueme. Te llevaré hasta el comedor."], 
         "nextStory":[10213], 
-        "setInventory":[], 
         "setObjective":[117,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10212"
     },
@@ -2984,7 +2772,6 @@
         "self":1350,
         "choices":["Me agrada oír eso. Ven, es por aquí."], 
         "nextStory":[10214], 
-        "setInventory":[], 
         "setObjective":[118,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10213"
     },
@@ -2998,7 +2785,6 @@
         "self":1350,
         "choices":["(¿Dónde están mis compañeras?)"], 
         "nextStory":[10215], 
-        "setInventory":[], 
         "setObjective":[119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10214"
     },
@@ -3012,7 +2798,6 @@
         "self":1350,
         "choices":["Llegamos. Ven, acomódate por aquí."], 
         "nextStory":[10216], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10215"
     },
@@ -3026,7 +2811,6 @@
         "self":1350,
         "choices":["Hola, Dalfelí. De hecho es la nueva turista, acaba de despertar."], 
         "nextStory":[10217], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10216"
     },
@@ -3040,7 +2824,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10218], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10217"
     },
@@ -3054,7 +2837,6 @@
         "self":1350,
         "choices":["¿Puedes prepararle algo para comer, Dalfelí? Por favor."], 
         "nextStory":[10219], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10218"
     },
@@ -3068,7 +2850,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10220], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10219"
     },
@@ -3082,7 +2863,6 @@
         "self":1350,
         "choices":["Dalfelí es la luz de nuestras vidas, sí."], 
         "nextStory":[10221], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10220"
     },
@@ -3096,7 +2876,6 @@
         "self":1350,
         "choices":["Así es, fundadora de toda esta Residencia, del Clan también."], 
         "nextStory":[10222], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10221"
     },
@@ -3110,7 +2889,6 @@
         "self":1350,
         "choices":["(He notado cómo se me ha quedado viendo extrañada.)"], 
         "nextStory":[10223], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10222"
     },
@@ -3124,7 +2902,6 @@
         "self":1350,
         "choices":["La residencia fue creada para que aquí alberguemos las guardianas pertenecientes al Clan Valkyrie."], 
         "nextStory":[10224], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10223"
     },
@@ -3138,7 +2915,6 @@
         "self":1350,
         "choices":["(Chale, no soy muy buena explicando...)"], 
         "nextStory":[10225], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10224"
     },
@@ -3152,7 +2928,6 @@
         "self":1350,
         "choices":["A ver, vayamos por parte, ¿Bien?"], 
         "nextStory":[10226], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10225"
     },
@@ -3166,7 +2941,6 @@
         "self":1350,
         "choices":["(Antes de poder iniciar mi explicación, unas voces me interrumpen.)"], 
         "nextStory":[10227], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10226"
     },
@@ -3180,7 +2954,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10228], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10227"
     },
@@ -3194,7 +2967,6 @@
         "self":1350,
         "choices":["Chicas, les presento a Keiko."], 
         "nextStory":[10229], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10228"
     },
@@ -3208,7 +2980,6 @@
         "self":1350,
         "choices":["Keiko, ellas son Lara y  Vidalia. Alguna de las chicas del Clan Valkyrie."], 
         "nextStory":[10230], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10229"
     },
@@ -3222,7 +2993,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10231], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10230"
     },
@@ -3236,7 +3006,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10232], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10231"
     },
@@ -3250,7 +3019,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10233], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10232"
     },
@@ -3264,7 +3032,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10234], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10233"
     },
@@ -3278,7 +3045,6 @@
         "self":1350,
         "choices":["(Le he hecho seña de que aun tenía efecto del ambientador.)"], 
         "nextStory":[10235], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10234"
     },
@@ -3292,7 +3058,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10236], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10235"
     },
@@ -3306,7 +3071,6 @@
         "self":1350,
         "choices":["(La parte de las preguntas es la más tediosa, sin duda...)"], 
         "nextStory":[10237], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10236"
     },
@@ -3320,7 +3084,6 @@
         "self":1350,
         "choices":["(Quizás sea buena idea si empiezo hablando de la Residencia y la comunidad Valquírica.)"], 
         "nextStory":[10238], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10237"
     },
@@ -3334,7 +3097,6 @@
         "self":1350,
         "choices":["Bien... Como te comentaba, estás en la Residencia Valkyrie, la cual pertenece a la comunidad Valquírica."], 
         "nextStory":[10239], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10238"
     },
@@ -3348,7 +3110,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10240], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10239"
     },
@@ -3362,7 +3123,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10241], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10240"
     },
@@ -3376,7 +3136,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10242], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10241"
     },
@@ -3390,7 +3149,6 @@
         "self":1350,
         "choices":["(He carraspeado algo presumida.) No es por nada, pero a decir verdad, gracias a la Comunidad Valquírica, Eldarya ha conseguido grandes avances. Y de hecho, seguimos contribuyendo en constantes estudios y hallazgos."], 
         "nextStory":[10243], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10242"
     },
@@ -3404,7 +3162,6 @@
         "self":1350,
         "choices":["Así que lo que precises y quieras comentarnos no dudes en acudir a cualquiera de nosotras, ¿Bien?"], 
         "nextStory":[10244], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10243"
     },
@@ -3418,7 +3175,6 @@
         "self":1350,
         "choices":["(Mmm... Ahora debería comentarle qué es Eldarya.)"], 
         "nextStory":[10245], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10244"
     },
@@ -3432,7 +3188,6 @@
         "self":1350,
         "choices":["Bien... (Esta es, sin duda, una de las explicaciones más tediosas.)"], 
         "nextStory":[10246], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10245"
     },
@@ -3446,7 +3201,6 @@
         "self":1350,
         "choices":["Esto es algo extenso, pero básicamente estás en Eldarya."], 
         "nextStory":[10247], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10246"
     },
@@ -3460,7 +3214,6 @@
         "self":1350,
         "choices":["Es un raro y mágico mundo lleno de magia y fantasía."], 
         "nextStory":[10248], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10247"
     },
@@ -3474,7 +3227,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10249], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10248"
     },
@@ -3488,7 +3240,6 @@
         "self":1350,
         "choices":["Para tí es común. Para mi no. Soy humana, aún es todo un descubriendo. En cambio tú creciste aquí."], 
         "nextStory":[10250], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10249"
     },
@@ -3502,7 +3253,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10251], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10250"
     },
@@ -3516,7 +3266,6 @@
         "self":1350,
         "choices":["(Un fuerte carraspeo se oyó por detrás nuestra.)"], 
         "nextStory":[10252], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10251"
     },
@@ -3530,7 +3279,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10253], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10252"
     },
@@ -3544,7 +3292,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10254], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10253"
     },
@@ -3558,7 +3305,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10255], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10254"
     },
@@ -3572,7 +3318,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10256], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10255"
     },
@@ -3586,7 +3331,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10257], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10256"
     },
@@ -3600,7 +3344,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10258], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10257"
     },
@@ -3614,7 +3357,6 @@
         "self":1350,
         "choices":["(Omg, ¿¿¿Lo que dijo Gis???)"], 
         "nextStory":[10259], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10258"
     },
@@ -3628,7 +3370,6 @@
         "self":1350,
         "choices":["(Con las chicas nos miramos con una fuerte mirada de complicidad.)"], 
         "nextStory":[10260], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10259"
     },
@@ -3642,7 +3383,6 @@
         "self":1350,
         "choices":["(Dicho eso, ha corrido la mirada algo incómoda.)"], 
         "nextStory":[10261], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10260"
     },
@@ -3656,7 +3396,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10262], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10261"
     },
@@ -3670,7 +3409,6 @@
         "self":1350,
         "choices":["(Mmm... Ahora que lo pienso, Keiko es bastante corriente.)"], 
         "nextStory":[10263], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10262"
     },
@@ -3684,7 +3422,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10264], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10263"
     },
@@ -3698,7 +3435,6 @@
         "self":1350,
         "choices":["Quizás tienes talentos inexplicables, como la lucha con lanza, o-"], 
         "nextStory":[10265], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10264"
     },
@@ -3712,7 +3448,6 @@
         "self":1350,
         "choices":["(Le hemos hecho caso. Todas sabíamos que Jenna tenía un espíritu de liderazgo increíble.)"], 
         "nextStory":[10266], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10265"
     },
@@ -3726,7 +3461,6 @@
         "self":1350,
         "choices":["(De hecho ella era la primera en cuidar mi lugar de mandataria en lo que yo me entrenaba, pero desafortunadamente tenía algunas misiones de por medio.)"], 
         "nextStory":[10267], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10266"
     },
@@ -3740,7 +3474,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10268], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10267"
     },
@@ -3754,7 +3487,6 @@
         "self":1350,
         "choices":["Duh."], 
         "nextStory":[10269], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10268"
     },
@@ -3768,7 +3500,6 @@
         "self":1350,
         "choices":["(Vidalia y Jenna han soltado una ligera carcajada por debajo.)"], 
         "nextStory":[10270], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10269"
     },
@@ -3782,7 +3513,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10271], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10270"
     },
@@ -3796,7 +3526,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10272], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10271"
     },
@@ -3810,7 +3539,6 @@
         "self":1350,
         "choices":["¿Su mundo? Aún no sabemos si es humana."], 
         "nextStory":[10273], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10272"
     },
@@ -3824,7 +3552,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10274], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10273"
     },
@@ -3838,7 +3565,6 @@
         "self":1350,
         "choices":["JAJAJA. Sí, está bien."], 
         "nextStory":[10275], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10274"
     },
@@ -3852,7 +3578,6 @@
         "self":1350,
         "choices":["Bien... Volviendo a tu pregunta, en resumen Eldarya es un mundo fantástico el cual irás descubriendo por tus medios, ya verás. Te encantará... Eso claro, si decides quedarte."], 
         "nextStory":[10276], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10275"
     },
@@ -3866,7 +3591,6 @@
         "self":1350,
         "choices":["Tienes la opción de quedarte o de irte si gustas, pero generalmente cuando una guardiana llega aquí es porque tiene una misión muy importante que cumplir."], 
         "nextStory":[10277], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10276"
     },
@@ -3880,7 +3604,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10278], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10277"
     },
@@ -3894,7 +3617,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10279], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10278"
     },
@@ -3908,7 +3630,6 @@
         "self":1350,
         "choices":["(Nos hemos quedado en un silencio de muerte. Por alguna razón, ese comentario me llegó al corazón...)"], 
         "nextStory":[10280], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10279"
     },
@@ -3922,7 +3643,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10281], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10280"
     },
@@ -3936,7 +3656,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10282], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10281"
     },
@@ -3950,7 +3669,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10283], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10282"
     },
@@ -3964,7 +3682,6 @@
         "self":1350,
         "choices":["Mmm, bueno, HOLA."], 
         "nextStory":[10284], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10283"
     },
@@ -3978,7 +3695,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10285], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10284"
     },
@@ -3992,7 +3708,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10286], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10285"
     },
@@ -4006,7 +3721,6 @@
         "self":1350,
         "choices":["Yep."], 
         "nextStory":[10287], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10286"
     },
@@ -4020,7 +3734,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10288], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10287"
     },
@@ -4034,7 +3747,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10289], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10288"
     },
@@ -4048,7 +3760,6 @@
         "self":1350,
         "choices":["(He soltado un revoloteo de ojos al cielo.)"], 
         "nextStory":[10290], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10289"
     },
@@ -4062,7 +3773,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10291], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10290"
     },
@@ -4076,7 +3786,6 @@
         "self":1350,
         "choices":["(Aw, tkm, Lara.)"], 
         "nextStory":[10292], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10291"
     },
@@ -4090,7 +3799,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10293], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10292"
     },
@@ -4104,7 +3812,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10294], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10293"
     },
@@ -4118,7 +3825,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10295], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10294"
     },
@@ -4132,7 +3838,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10296], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10295"
     },
@@ -4146,7 +3851,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10297], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10296"
     },
@@ -4160,7 +3864,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10298], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10297"
     },
@@ -4174,7 +3877,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10299], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10298"
     },
@@ -4188,7 +3890,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10300], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10299"
     },
@@ -4202,7 +3903,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10301], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10300"
     },
@@ -4216,7 +3916,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10302], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10301"
     },
@@ -4230,7 +3929,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10303], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10302"
     },
@@ -4244,7 +3942,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10304], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10303"
     },
@@ -4258,7 +3955,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10305], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10304"
     },
@@ -4272,7 +3968,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10306], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10305"
     },
@@ -4286,7 +3981,6 @@
         "self":1350,
         "choices":["Oigan, sí lo somos."], 
         "nextStory":[10307], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10306"
     },
@@ -4300,7 +3994,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10308], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10307"
     },
@@ -4314,7 +4007,6 @@
         "self":1350,
         "choices":["Vaaale."], 
         "nextStory":[10309], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10308"
     },
@@ -4328,7 +4020,6 @@
         "self":1350,
         "choices":["(Ains <3)"], 
         "nextStory":[10310], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10309"
     },
@@ -4342,7 +4033,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10311], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10310"
     },
@@ -4356,7 +4046,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10312], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10311"
     },
@@ -4370,7 +4059,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10313], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10312"
     },
@@ -4384,7 +4072,6 @@
         "self":1350,
         "choices":["(Dicho eso, Ambas han desaparecido por la puerta.)"], 
         "nextStory":[10314], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10313"
     },
@@ -4398,7 +4085,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10315], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10314"
     },
@@ -4412,7 +4098,6 @@
         "self":1350,
         "choices":["Así es."], 
         "nextStory":[10316], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10315"
     },
@@ -4426,7 +4111,6 @@
         "self":1350,
         "choices":["Sé que tendrás muchísimas más preguntas, pero debes tener en cuenta que algunas solo pueden ser respondidas por ti, otras tomarán algún tiempo para que logren tener una respuesta clara, como la que hiciste ahora, por ejemplo."], 
         "nextStory":[10317], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10316"
     },
@@ -4440,7 +4124,6 @@
         "self":1350,
         "choices":["(Vaya pregunta más curiosa...) Hace algunos meses sí, era muy normal; Se las podía conocer como \"turistas\". A toda hora llegaban, todos los días. Algunas decidían quedarse, otras, por no decir la mayoría, se marchaban."], 
         "nextStory":[10318], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10317"
     },
@@ -4454,7 +4137,6 @@
         "self":1350,
         "choices":["Sin embargo... Un día, las turistas dejaron de llegar. La última chica llegó hace algunas semanas. Decidió quedarse, pero ahora pertenece a otra comunidad."], 
         "nextStory":[10319], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10318"
     },
@@ -4468,7 +4150,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10320], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10319"
     },
@@ -4482,7 +4163,6 @@
         "self":1350,
         "choices":["(Ups... Ese comentario crearía inquietud, Lari.)"], 
         "nextStory":[10321], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10320"
     },
@@ -4496,7 +4176,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10322], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10321"
     },
@@ -4510,7 +4189,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10323], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10322"
     },
@@ -4524,7 +4202,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10324], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10323"
     },
@@ -4538,7 +4215,6 @@
         "self":1350,
         "choices":["(Le ha soltado una sonrisa, y la niña se la ha devuelto algo tímida.)"], 
         "nextStory":[10325], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10324"
     },
@@ -4552,7 +4228,6 @@
         "self":1350,
         "choices":["(Con Lara hemos puesto los ojos como platos. Jamás esperaríamos esa pregunta, omg qué presión.)"], 
         "nextStory":[10326], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10325"
     },
@@ -4566,7 +4241,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10327], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10326"
     },
@@ -4580,7 +4254,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10328], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10327"
     },
@@ -4594,7 +4267,6 @@
         "self":1350,
         "choices":["Hola, Melany."], 
         "nextStory":[10329], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10328"
     },
@@ -4608,7 +4280,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10330], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10329"
     },
@@ -4622,7 +4293,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10331], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10330"
     },
@@ -4636,7 +4306,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10332], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10331"
     },
@@ -4650,7 +4319,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10333], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10332"
     },
@@ -4664,7 +4332,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10334], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10333"
     },
@@ -4678,7 +4345,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10335], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10334"
     },
@@ -4692,7 +4358,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10336], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10335"
     },
@@ -4706,7 +4371,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10337], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10336"
     },
@@ -4720,7 +4384,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10338], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10337"
     },
@@ -4734,7 +4397,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10339], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10338"
     },
@@ -4748,7 +4410,6 @@
         "self":1350,
         "choices":["Cabe aclarar que anoche puse demasiado, es por eso que duró tanto. Pero meh, creo que ya se disipó bastante."], 
         "nextStory":[10340], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10339"
     },
@@ -4762,7 +4423,6 @@
         "self":1350,
         "choices":["Tranquilas, no volverá a suceder."], 
         "nextStory":[10341], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10340"
     },
@@ -4776,7 +4436,6 @@
         "self":1350,
         "choices":["(Con Melany hemos soltado unas risitas por debajo.)"], 
         "nextStory":[10342], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10341"
     },
@@ -4790,7 +4449,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10343], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10342"
     },
@@ -4804,7 +4462,6 @@
         "self":1350,
         "choices":["¿Es eso cierto? ¡Waw, Keiko, mírate!"], 
         "nextStory":[10344], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10343"
     },
@@ -4818,7 +4475,6 @@
         "self":1350,
         "choices":["Recuerdo que, cuando llegué aquí, perdí los estribos... En aquel tiempo no habíamos creado esa poción, así que imagínate cómo fue para muchas turistas en aquellos tiempos."], 
         "nextStory":[10345], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10344"
     },
@@ -4832,7 +4488,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10346], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10345"
     },
@@ -4846,7 +4501,6 @@
         "self":1350,
         "choices":["¿Dónde han quedado tus modales, Señorita Melany?","Es nuestra queridísima comelibros."], 
         "nextStory":[10347,10347], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10346"
     },
@@ -4860,7 +4514,6 @@
         "self":1350,
         "choices":["(Melany me ha soltado una mirada de mil navajas juntas.)"], 
         "nextStory":[10348], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10347"
     },
@@ -4874,7 +4527,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10349], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10348"
     },
@@ -4888,7 +4540,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10350], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10349"
     },
@@ -4902,7 +4553,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10351], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10350"
     },
@@ -4916,7 +4566,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10352], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10351"
     },
@@ -4930,7 +4579,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10353], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10352"
     },
@@ -4944,7 +4592,6 @@
         "self":1350,
         "choices":["(Continuar)"], 
         "nextStory":[10354], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10353"
     },
@@ -4958,7 +4605,6 @@
         "self":1350,
         "choices":["¿Sientes una conexión con el mundo?"], 
         "nextStory":[10355], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10354"
     },
@@ -4972,7 +4618,6 @@
         "self":1350,
         "choices":["Oh."], 
         "nextStory":[10356], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10355"
     },
@@ -4986,7 +4631,6 @@
         "self":1350,
         "choices":["No es algo nuevo que te sientas conectada a nosotras."], 
         "nextStory":[10357], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10356"
     },
@@ -5000,7 +4644,6 @@
         "self":1350,
         "choices":["Ha pasado antes, yo misma me sentí conectada con cada una de las chicas aquí, así como contigo."], 
         "nextStory":[10358], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10357"
     },
@@ -5014,7 +4657,6 @@
         "self":1350,
         "choices":["En cualquier caso, Keiko, espero que puedas sentirte cómoda con nosotras."], 
         "nextStory":[10359], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10358"
     },
@@ -5028,7 +4670,6 @@
         "self":1350,
         "choices":["Bienvenida a la Residencia Valkyrie."], 
         "nextStory":[10360], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10359"
     },
@@ -5042,7 +4683,6 @@
         "self":1350,
         "choices":["(FINALIZAR EPISODIO)"], 
         "nextStory":[], 
-        "setInventory":[], 
         "setObjective":[-119,-116,-115,-114,-112,-111,-110,-109,-106,-105,-104,-101,-100],
         "checkpoint":"Z0Z0Z1ZAZZZZZZ10360"
     }

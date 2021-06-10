@@ -1,6 +1,6 @@
 var contenedor, current, currentPlace = [];
 var OBJmoves = false, OBJplaces = false, OBJsp = "", cc = 0, objetivosActivos = [];
-var storyDB = [], objectiveDB = [], inventoryDB = [], npcDB = [], placeDB = [], specialDB = [];
+var storyDB = [], objectiveDB = [], npcDB = [], placeDB = [], specialDB = [];
 var dbCount = 0, currentNPC;
 var objActive = document.createElement("div");
 
@@ -9,34 +9,27 @@ $(document).ready(function(){
     $('body').addClass('stick');
 
 	// Cargar base de datos.
-
-	// Inventario
-	const requestInventory = new XMLHttpRequest();requestInventory.open("GET", $("#ert").text());requestInventory.responseType = "json";
-	requestInventory.send();requestInventory.onload = function() {
 		
-		// NPC
-		const requestNPC = new XMLHttpRequest();requestNPC.open("GET", $("#rty").text());requestNPC.responseType = "json";
-		requestNPC.send();requestNPC.onload = function() {
+	// NPC
+	const requestNPC = new XMLHttpRequest();requestNPC.open("GET", $("#rty").text());requestNPC.responseType = "json";
+	requestNPC.send();requestNPC.onload = function() {
 
-			// Especial
-			const requestSpecial = new XMLHttpRequest();requestSpecial.open("GET", $("#yui").text());requestSpecial.responseType = "json";
-			requestSpecial.send();requestSpecial.onload = function() {
-				inventoryDB = requestInventory.response;
-				npcDB = requestNPC.response;
-				specialDB = requestSpecial.response;
+		// Especial
+		const requestSpecial = new XMLHttpRequest();requestSpecial.open("GET", $("#yui").text());requestSpecial.responseType = "json";
+		requestSpecial.send();requestSpecial.onload = function() {
+			npcDB = requestNPC.response;
+			specialDB = requestSpecial.response;
 
-				iniciarCapitulo();
-			};
+			iniciarCapitulo();
 		};
 	};
 });
 
 function almacena(db, name) {
-	
+
 	switch (name) {
 		case "story":storyDB = db;dbCount++;break;
 		case "objective":objectiveDB = db;dbCount++;break;
-		case "inventory":inventoryDB = db;dbCount++;break;
 		case "npc":npcDB = db;dbCount++;break;
 		case "place":placeDB = db;dbCount++;
 	};
@@ -350,12 +343,10 @@ function setMenu (id) {
 
 	var mainchar = document.getElementsByClassName("main-char")[0];
 	var objectives = document.getElementsByClassName("objectives")[0];
-	var inventory = document.getElementsByClassName("inventory")[0];
 	var checkpoint = document.getElementsByTagName("code")[0];
 
 	mainchar.innerHTML = "";
 	objectives.innerHTML = "";
-	inventory.innerHTML = "";
 	checkpoint.innerHTML = "";
 
 	// Main char
@@ -463,19 +454,6 @@ function setMenu (id) {
 				document.getElementById("episode-container").appendChild(div);
 				objActive = div;
 			};
-		};
-
-		if (currentStory[0].setInventory.length != 0) {
-			var ul = document.createElement("ul");
-			var lista = ""; 
-
-			for (o = 0; o < currentStory[0].setInventory.length; o++) {
-				var obj = inventoryDB.filter(function(v) {return v.id == currentStory[0].setInventory[o]});
-				lista = lista + '<li>' + obj[0].text + '</li>';
-			};
-
-			ul.innerHTML = lista;
-			inventory.appendChild(ul);
 		};
 
 	} else {
