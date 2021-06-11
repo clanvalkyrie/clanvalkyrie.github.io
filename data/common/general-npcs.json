@@ -17,6 +17,7 @@
 	{"id":1014, "name":"Esparcidor (3)", "type":"sfx", "imgURL":"assets/img/sfx/esparcidor-2.png"},
 	{"id":1015, "name":"Vómito", "type":"sfx", "imgURL":"assets/img/sfx/vomito.png"},
 	{"id":1016, "name":"Estómago", "type":"sfx", "imgURL":"assets/img/sfx/estomago.png"},
+	{"id":1017, "name":"Golpe", "type":"sfx", "imgURL":"assets/img/sfx/golpe.png"},
 
 	{"id":1050, "name":"Chenmi, borrosa", "type":"char", "imgURL":"assets/img/char/chenmi-borrosa.png"},
 	{"id":1051, "name":"Melany, borrosa", "type":"char", "imgURL":"assets/img/char/melany-borrosa.png"},

@@ -5,7 +5,15 @@
 		"story":"data/story/ch1-story.json",
 		"objective":"data/story/ch1-objectives.json",
 		"places":"data/common/ch1-places.json",
-		"current":"Z0Z0Z1ZXZLACHEMSUWU","next":"Z0Z0Z1ZXZZZZZZ20000"
+		"current":"Z0Z0Z1ZXZLACHEMSUWU","next":"Z0Z0Z2ZXLACHEMSUWU2"
+	},
+	{
+		"episode":2,"title":"2 - La usurpación a un aposento", "char":["Chenmi"], "visible":true,
+		"description":"",
+		"story":"data/story/ch2-story.json",
+		"objective":"data/story/ch2-objectives.json",
+		"places":"data/common/ch2-places.json",
+		"current":"Z0Z0Z2ZXLACHEMSUWU2","next":"Z0Z0Z2ZXLACHEMSUWU3"
 	},
 
 
