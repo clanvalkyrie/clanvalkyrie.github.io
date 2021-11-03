@@ -36,8 +36,8 @@
 		"current":"X3X0X1AXCDEFGH15000","next":"F3M0E0BXGXV327H30RH"
 	},
 	{
-		"episode":302, "title":"Prueba desplazamientos", "char":["Eulalí"], "visible":false,
-		"description":"Episodio invisible de prueba: Desplazamientos",
+		"episode":302, "title":"Visita la residencia", "char":["Eulalí"], "visible":true,
+		"description":"Desplázate libremente por la residencia.",
 		"story":"data/story/chx-desplazamientos-story.json",
 		"objective":"data/story/chx-desplazamientos-objectives.json",
 		"places":"data/common/general-places.json",

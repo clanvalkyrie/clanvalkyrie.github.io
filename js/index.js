@@ -12,6 +12,8 @@ $(document).ready(function(){
         var scrolled = $(document).scrollTop();
         if (scrolled < top.top) {$('body').removeClass('stick');}
         else {$('body').addClass('stick');}
-    });     
+    });
 
+    window.location.href = (window.location.href).replace("index", "story");
 });
+

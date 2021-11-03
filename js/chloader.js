@@ -14,7 +14,7 @@ function getList(db) {
             var li = document.createElement("li");
             li.setAttribute("class","episode");
             var html = "<div class=\"episode-title\"><b>" + chList[c].title + "</b></div><div class=\"episode-description\"><p>" + chList[c].description + "</p></div><div style=\"text-align: center;\">";
-            if (c == 0) html += "<div id=\"" + chList[c].current + "\" class=\"button\">Jugar</div>";
+            /*if (c == 0)*/ html += "<div id=\"" + chList[c].current + "\" class=\"button\">Jugar</div>";
             html += "</div>";
             li.innerHTML = html;
             ul.appendChild(li);
