@@ -1,0 +1,39 @@
+1. Descargar e instalar software necesario
+	-Visual Studio Code (https://code.visualstudio.com/download)
+	-Git (https://git-scm.com/downloads)
+
+2. Configurar GIT (se hace SOLO la primera vez)
+	-Abrir Git Bash
+	-escribir comandos
+		git config --global user.name "tu nombre/nick"
+		git config --global user.email tu@email.com
+
+3. Clonar el repositorio
+	-En la pagina del repositorio (https://github.com/clanvalkyrie/clanvalkyrie.github.io), boton verde, Clone HTTPS, copiar enlace
+	-En el explorador de windows, elegí una carpeta, botón derecho "Git Bash Here".
+	-escribir comando
+		git clone (pega el enlace con botón derecho CTRL+V no sirve. esto clona el repositorio remoto a tu PC)
+
+4. En el editor (Visual Estudio Code) abrir la carpeta descargada para editar y edita lo que quieras (?
+
+5. COMANDOS IMPORTANTES
+	a. Antes de empezar a editar (excepto la primera vez), se recomienda actualizar tu repositorio local.
+			usa: git pull
+	b. Ya actualizado, tenes que añadir los archivos editados a un "paquete".
+			usa: git add . (para añadir todos los archivos)
+			o
+			usa: git add "nombre-del-archivo.txt" (para añadir archivos especificos)
+	c. Una vez "armado el paquete", tenes que cerrarlo y etiquetarlo.
+			usa: git commit -m "escribi un mensaje descriptivo"
+	d. ¡El paquete está listo! Solo queda enviarlo. En repositorio grandes y con muchos colaboradores pueden surgir problemas, pero no debería pasar. La primera vez debería pedirte iniciar sesión en github.
+			usa: git push
+
+	BONUS: En cualquier momento podes revisar el estado de tus archivos editados y tus "paquetes".
+		usa: git status
+
+¡LISTO! 
+	En la página del repositorio, por encima de la lista de archivos, muestra quien realizó el último commit (o sea, quién envio el último paquete), su "etiqueta", su estado*, id del commit, hora y cantidad de commits.
+	* El estado puede ser:
+		cruz roja: hubo un error.
+		punto amarillo: procesando el commit
+		visto verde: commit listo y correcto. Aquí ya pueden verse los cambios en la página.
