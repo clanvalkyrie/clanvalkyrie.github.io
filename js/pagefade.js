@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
     var navH = $('nav').height();
     var barH = $('bar').outerHeight();
     if (navH > barH) {
@@ -14,6 +13,5 @@ $(document).ready(function(){
         else {$('body').addClass('stick');}
     });
 
-    window.location.href = (window.location.href).replace("index", "story");
+    $('body').addClass('stick');
 });
-
