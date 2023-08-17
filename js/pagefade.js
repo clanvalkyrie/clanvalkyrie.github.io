@@ -15,3 +15,9 @@ $(document).ready(function(){
 
     $('body').addClass('stick');
 });
+
+
+$(document).ready(function(){
+    $('body').tooltip({track:true});
+
+});

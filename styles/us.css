@@ -1,0 +1,234 @@
+
+.tai, .block .ti, nav, .title {
+    letter-spacing: 1.4px;
+    font-size: 11px;
+    line-height: 1.6em;
+}
+
+/* ---  Character Scrollbars ---  */
+
+div::-webkit-scrollbar {width:4px;background-color:#86649b;}
+div::-webkit-scrollbar-thumb {background-color:#86649b;}
+div::-webkit-scrollbar-corner {background-color:#86649b;}
+
+/* ---  General ---  */
+
+body {
+    margin:0px;
+    background-color:#8d7caa;
+    font-smooth:always;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+ 
+#et {
+    background:transparent;
+    color:#000000;
+    background:transparent;
+    right:0px;
+    bottom:0px;
+    padding:5px;
+    position:fixed;
+    letter-spacing:1px;
+    opacity:0.4;
+}
+
+#et a {
+    color:#000000;
+    text-decoration:none;
+    border:0px;
+}
+
+/* ---  Topbar ---  */
+
+#topbar {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:90px;
+    text-align:center;
+    background-color:#ffffff;
+    border-bottom:1px solid #86649b;
+    z-index:3;
+}
+
+.topbartitle {
+    margin-top:25px;
+    margin-bottom:20px;
+    font-family: 'Oswald', sans-serif;
+    font-size:.9emx;
+    text-transform:uppercase;
+    font-style:italic;
+    letter-spacing:1px;
+    color:#888888;
+}
+
+#topbar a {
+    background-color:#ffffff;
+    padding:4px 10px 4px 10px;
+    margin:0 3px 0 3px;
+    color:#888888;
+    text-transform:uppercase;  
+    text-decoration:none;
+    border:0px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#topbar a:hover {
+    background-color:#ffffff;
+    color:#b09bd5;
+}
+
+/* --- Character Boxes --- */
+
+.characters {
+float: left;
+width:235px;
+height: 283px;
+margin:0 0 15px;
+background-size:100%;
+font-family: 'Roboto', sans-serif;
+font-size:12px;
+letter-spacing:0.5px;
+color:#000;
+padding:5px;
+border:10px solid #ffffff;
+-webkit-transition: all 350ms linear;
+-moz-transition: all 350ms linear;
+-ms-transition: all 350ms linear;
+-o-transition: all 350ms linear;
+transition: all 350ms linear;
+}
+
+.characters:nth-child(3n+2) {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.characters:hover {
+border:10px solid #fff;
+}
+
+.characters:hover .charbio {
+opacity:1;
+-webkit-transition: all 50ms linear;
+-moz-transition: all 50ms linear;
+-ms-transition: all 50ms linear;
+-o-transition: all 50ms linear;
+transition: all 50ms linear;
+}
+
+.characterimg {
+margin:-5px;
+max-width:250px;
+height:293px;
+z-index:-1;
+overflow: hidden;
+}
+
+.characterimg img {
+width: 100%;
+}
+
+.charbio {
+padding:5px;
+border-top:5px solid #f8f8f8;
+border-left:5px solid #f8f8f8;
+border-right: 5px solid #f8f8f8;;
+margin-top:-274px;
+margin-left: 10px;
+width: 195px;
+height: 248px;
+text-align:center;
+background:#f8f8f8!important;
+z-index:100;
+position:absolute;
+overflow:auto;
+opacity:0;
+line-height: 12px;
+-webkit-transition: all 50ms linear;
+-moz-transition: all 50ms linear;
+-ms-transition: all 50ms linear;
+-o-transition: all 50ms linear;
+transition: all 50ms linear;
+}
+
+
+.charbio a{
+display:inline-block;
+font-size:12px;
+color:#000000;
+text-transform:lowercase;
+font-style:italic;
+margin:0 2px 3px 2px;
+letter-spacing:1px;
+padding:3px;
+border-bottom:1px solid #ffffff;
+}
+
+.charbio a:hover {
+color:#000000;
+border-bottom:1px solid #101010;
+}
+
+
+/* ---  Character Info ---  */
+
+#charinfo {
+    width: 410px;
+    height: 200px;
+    overflow: auto;
+    padding-left:5px;
+    font-style:normal;
+    margin-left:3px;
+    margin-bottom: 15px;
+}
+
+.charname {
+    font-family: 'Oswald', sans-serif;
+    color:#555;
+    padding:10px 0 10px 0;
+    font-size:20px;
+    font-style:italic;
+    text-align:center;
+    text-transform:uppercase;
+    margin-bottom:-9px!important;
+}
+
+a.charnav, a.charnav:visited, a.charnav:hover {
+    display: block;
+    padding-top:3px;
+    color:#222222;
+    text-transform:uppercase;
+    text-align:left;
+    border-right: solid 0px #fff;
+    font-style:italic;
+    text-decoration:none;
+}
+
+a.charnav:hover {color:#b09bd5;}
+
+
+.characters b {
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#000000;
+}
+
+.bio {
+    color:#555555;
+    text-transform:uppercase;
+    text-align:center!important;
+    font-weight:bold;
+}
+
+/** --- Cursor --- **/
+
+body, a, a:hover {
+    cursor:url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVjsAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMWIABfrz6emAAAAAAAAAAAAAAAAAAAAAAAAAADFcQBCw4QAFwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEktAAIAAAAAAAAAAAAA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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANVbAXYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHxpAAFnUAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1VsBdgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxosHFdKhOzgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADVWwF21VsBdgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL+BABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANVbAXbVWwF21VsBdtVbAXYAAAAAAAAAAAAAAACnbwAG7NCnj4NaABMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////////////////////////////f/////7//////////////////7/////+P//9+AL//ZgA//8QGH//AD4f/wAPX/8A/w//AX8n/gB/p/4A////AP///wf///+H////////////////////5////////////////////9///8='), auto 
+}
+
