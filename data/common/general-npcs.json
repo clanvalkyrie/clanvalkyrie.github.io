@@ -19,7 +19,6 @@
 	{"id":1016, "name":"Estómago", "type":"sfx", "imgURL":"assets/img/sfx/estomago.png"},
 	{"id":1017, "name":"Golpe", "type":"sfx", "imgURL":"assets/img/sfx/golpe.png"},
 	{"id":1018, "name":"Lovigis (Chenmi)", "type":"pet", "style":"top: 40px;", "imgURL":"https://www.eldarya.es/assets/img/pet/mood/profile/f9ba7cab437df22aa6d87a581b715cea.png"},
-	{"id":1019, "name":"Enya", "type":"char", "imgURL":"assets/img/char/enya-default.png"},
 
 	{"id":1050, "name":"Chenmi, borrosa", "type":"char", "imgURL":"assets/img/char/chenmi-borrosa.png"},
 	{"id":1051, "name":"Melany, borrosa", "type":"char", "imgURL":"assets/img/char/melany-borrosa.png"},
