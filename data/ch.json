@@ -1,5 +1,13 @@
 [
 	{
+		"episode":0, "title":"0 - Introducción", "char":["Chenmi"], "visible":true,
+		"description":"",
+		"story":"data/story/ch0-story.json",
+		"objective":"data/story/ch0-objectives.json",
+		"places":"data/common/general-places.json",
+		"current":"Z0Z0Z0ZXZLACHEMSUWU","next":"Z0Z0Z1ZXZLACHEMSUWU"
+	},
+	{
 		"episode":1,"title":"1 - Grata Bienvenida","char":["Chenmi"], "visible":true,
 		"description":"",
 		"story":"data/story/ch1-story.json",

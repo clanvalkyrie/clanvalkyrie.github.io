@@ -7,7 +7,7 @@
 	{"id":1004, "name":"Mafia, conversación y disparo", "type":"extra", "style":"top: 30px;", "imgURL":"assets/img/extra/mafia-conversacion-disparo.png"},
 	{"id":1005, "name":"Mafia, enfrentamiento", "type":"extra", "style":"top: 30px;", "imgURL":"assets/img/extra/mafia-enfrentamiento.png"},
 	{"id":1006, "name":"Diosa", "type":"extra", "style":"left: 125px;top: 30px;", "imgURL":"assets/img/extra/diosa.png"},
-	{"id":1007, "name":"Zunay", "type":"char", "imgURL":"https://docs.zoho.com/docs/orig/7tprs71a4b1731dde473fb2b4c7792ded4c80"},
+	{"id":1007, "name":"Zekai", "type":"char", "imgURL":"assets/img/char/zekai-default.png"},
 	{"id":1008, "name":"Lerisha, silueta", "type":"extra", "style":"top: 120px;", "imgURL":"assets/img/extra/lerisha-silueta.png"},
 	{"id":1009, "name":"Faery, silueta", "type":"char", "imgURL":"assets/img/extra/faery-silueta.png"},
 	{"id":1010, "name":"Tumulto, siluetas", "type":"extra", "style":"top: 30px;", "imgURL":"assets/img/extra/tumulto-siluetas.png"},
@@ -18,6 +18,8 @@
 	{"id":1015, "name":"Vómito", "type":"sfx", "imgURL":"assets/img/sfx/vomito.png"},
 	{"id":1016, "name":"Estómago", "type":"sfx", "imgURL":"assets/img/sfx/estomago.png"},
 	{"id":1017, "name":"Golpe", "type":"sfx", "imgURL":"assets/img/sfx/golpe.png"},
+	{"id":1018, "name":"Lovigis (Chenmi)", "type":"pet", "style":"top: 40px;", "imgURL":"https://www.eldarya.es/assets/img/pet/mood/profile/f9ba7cab437df22aa6d87a581b715cea.png"},
+	{"id":1019, "name":"Enya", "type":"char", "imgURL":"assets/img/char/enya-default.png"},
 
 	{"id":1050, "name":"Chenmi, borrosa", "type":"char", "imgURL":"assets/img/char/chenmi-borrosa.png"},
 	{"id":1051, "name":"Melany, borrosa", "type":"char", "imgURL":"assets/img/char/melany-borrosa.png"},

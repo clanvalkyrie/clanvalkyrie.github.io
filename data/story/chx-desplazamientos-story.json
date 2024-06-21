@@ -49,7 +49,7 @@
 	},
 	{
 		"id":10004, 
-		"text":"Bienvenida,<br>mi nombre es Zunay,<br>yo me encargaré de llevarte a la residencia.", 
+		"text":"Bienvenida,<br>mi nombre es Zekai,<br>yo me encargaré de llevarte a la residencia.", 
 		"type":"npc_dialog", 
 		"closeDialog":false,
 		"place":153,
