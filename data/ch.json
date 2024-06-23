@@ -1,14 +1,14 @@
 [
 	{
-		"episode":0, "title":"0 - Introducción", "char":["Chenmi"], "visible":true,
-		"description":"",
+		"episode":0, "title":"0 - La invitación", "char":["Chenmi"], "visible":true,
+		"description":"Chenmi, una de las Valkyries, está planeando un gran baile de gala para las comunidades de los alrededores, pues está convencida de que es momento de forjar alianzas y empezar a conocer a quiénes nos rodean en el entorno eldaryano. ¿Te sumarás?",
 		"story":"data/story/ch0-story.json",
 		"objective":"data/story/ch0-objectives.json",
 		"places":"data/common/general-places.json",
 		"current":"Z0Z0Z0ZXZLACHEMSUWU","next":"Z0Z0Z1ZXZLACHEMSUWU"
 	},
 	{
-		"episode":1,"title":"1 - Grata Bienvenida","char":["Chenmi"], "visible":true,
+		"episode":1,"title":"1 - Grata Bienvenida","char":["Chenmi"], "visible":false,
 		"description":"",
 		"story":"data/story/ch1-story.json",
 		"objective":"data/story/ch1-objectives.json",
@@ -16,7 +16,7 @@
 		"current":"Z0Z0Z1ZXZLACHEMSUWU","next":"Z0Z0Z2ZXLACHEMSUWU2"
 	},
 	{
-		"episode":2,"title":"2 - La usurpación a un aposento", "char":["Chenmi"], "visible":true,
+		"episode":2,"title":"2 - La usurpación a un aposento", "char":["Chenmi"], "visible":false,
 		"description":"",
 		"story":"data/story/ch2-story.json",
 		"objective":"data/story/ch2-objectives.json",
@@ -44,7 +44,7 @@
 		"current":"X3X0X1AXCDEFGH15000","next":"F3M0E0BXGXV327H30RH"
 	},
 	{
-		"episode":302, "title":"Visita la residencia", "char":["Eulalí"], "visible":true,
+		"episode":302, "title":"Visita la residencia", "char":["Chenmi"], "visible":true,
 		"description":"Desplázate libremente por la residencia.",
 		"story":"data/story/chx-desplazamientos-story.json",
 		"objective":"data/story/chx-desplazamientos-objectives.json",

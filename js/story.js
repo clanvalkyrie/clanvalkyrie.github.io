@@ -53,189 +53,203 @@ function cargarStory(id) {
 	contenedor.innerHTML = "";
 
 	if (currentStory[0].checkpoint[7] != "X") {
-		// Cargar fondo
-		if (!isNaN(currentStory[0].place)) {
-			var backIMG = placeDB.filter(function(v) {return v.id == currentStory[0].place});
-			contenedor.style.backgroundImage = "url('" + backIMG[0].imgURL + "')";
-		} else {
-			if (currentStory[0].place != "auto") {
-				currentStory[0].place == "white" ? contenedor.style.backgroundColor = "#fff" : "";
-				contenedor.style.backgroundImage = "url('')";
+
+		if (currentStory[0].type != "function") {
+
+			// Cargar fondo
+			if (!isNaN(currentStory[0].place)) {
+				var backIMG = placeDB.filter(function(v) {return v.id == currentStory[0].place});
+				contenedor.style.backgroundImage = "url('" + backIMG[0].imgURL + "')";
 			} else {
-				// Obtener url
-				(currentPlace.length == 1) ? (contenedor.style.backgroundImage = "url('" + currentPlace[0].imgURL + "')") : "";
-			};
-		};
-
-		// Cargar NPC si existe.
-		if (currentStory[0].npc.length != 0) {
-			// Cargar NPC
-			var num = currentStory[0].npc.length;
-			
-
-			for (n = 0; n < currentStory[0].npc.length; n++) {
-				var div = document.createElement("div");
-				div.setAttribute("id",currentStory[0].npc[n]);
-				var gardie = npcDB.filter(function(v) {return v.id == currentStory[0].npc[n]});
-
-				var img = document.createElement("img");
-				img.src = gardie[0].imgURL;
-
-				if (gardie[0].type == "char" || gardie[0].type == "extra") {
-					div.setAttribute("class", "npc");
-					//(currentStory[0].npc.length == 1)?(div.style.width = "550px"):"";
-					gardie[0].type == "char" ? img.style.width = "550px" : img.setAttribute("style", gardie[0].style);
-
-					// 3 gardis
-					if (num == 2) {
-						switch (n) {
-							case 0:img.style.left = "-130px"; img.style.zIndex = 1;break;
-							case 1:img.style.left = "120px";break;
-						};
-
-					} else if (num == 3) {
-						switch (n) {
-							case 0:img.style.left = "-180px";break;
-							case 1:img.style.left = "170px";break;
-							case 2:img.style.left = 0;break;
-						};
-					};
-
+				if (currentStory[0].place != "auto") {
+					currentStory[0].place == "white" ? contenedor.style.backgroundColor = "#fff" : "";
+					contenedor.style.backgroundImage = "url('')";
 				} else {
-					if (gardie[0].type == "pet") {
-						div.setAttribute("class", "pet");
-						img.setAttribute("style", gardie[0].style);	
-					} else if (gardie[0].type == "sfx") {
-						div.setAttribute("class", "sfx");
-					};
-					
+					// Obtener url
+					(currentPlace.length == 1) ? (contenedor.style.backgroundImage = "url('" + currentPlace[0].imgURL + "')") : "";
 				};
+			};
 
-				gardie[0].id != currentNPC ? div.setAttribute("style", "-webkit-animation-name: fade-in;") : "";
-				currentNPC = gardie[0].id;
-				contenedor.appendChild(div);
+			// Cargar NPC si existe.
+			if (currentStory[0].npc.length != 0) {
+				// Cargar NPC
+				var num = currentStory[0].npc.length;
 				
-				if (gardie[0].type == "char" || gardie[0].type == "extra") {
-					document.getElementsByClassName("npc")[n].appendChild(img)
 
-				} else {
-					document.getElementsByClassName(gardie[0].type)[n].appendChild(img)
-				}
-			};
-		};
-
-		// Cargar texto
-		if (currentStory[0].type != "answer_only") {
-
-			if (currentStory[0].type == "story_general") {
-				// Texto general
-				var div = document.createElement("div");
-				div.setAttribute("id", currentStory[0].id);
-				div.setAttribute("class","text undefined");
-				div.style.top = "50px";
-				div.style.left = "81px";
-				contenedor.appendChild(div);
-
-				div = document.createElement("div");
-				div.style.width = "600px";
-				document.getElementById(currentStory[0].id).appendChild(div);
-				$("#" + currentStory[0].id).css("display", "none");
-				$("#" + currentStory[0].id).fadeIn(500);
-
-				div = document.createElement("i");
-				document.querySelector(".text.undefined div").appendChild(div);
-
-				var siglas = currentStory[0].text;
-				for (s = 0; s < siglas.length; s++) {
-					var span = document.createElement("span");
-					span.setAttribute("class", "typewriter-letter");
-					span.innerHTML = siglas[s];
-					document.querySelector(".text.undefined div i").appendChild(span);
-				};
-
-				for (t = 1; t <= (siglas.length); t++) {
-					time = t + "00";
-					time = parseInt(time) / 3;
-					$(".typewriter-letter").eq(t-1).delay(time + 500).animate({opacity:1},100);
-				};
-
-			} else if (currentStory[0].type == "npc_dialog") {
-				// Diálogo de NPC
-
-				if (currentStory[0].multiText) {
-					// Múltiples burbujas
-					for (m = 0; m < currentStory[0].text.length; m++) {
-						var div = document.createElement("div");
-						div.setAttribute("class", "bubbleText multi");
-
-						div.setAttribute("id", currentStory[0].id + "-" + m);
-						div.innerHTML = currentStory[0].text[m].text;
-						div.setAttribute("style", currentStory[0].text[m].style);
-						contenedor.appendChild(div);		
-					};
-
-				} else {
-					// Solo una burbuja
+				for (n = 0; n < currentStory[0].npc.length; n++) {
 					var div = document.createElement("div");
-					switch (currentStory[0].npc.length) {
-						case 2:div.setAttribute("class", "bubbleText duo");break;
-						case 3:div.setAttribute("class", "bubbleText trio");break;
-						default:div.setAttribute("class", "bubbleText undefined");
+					div.setAttribute("id",currentStory[0].npc[n]);
+					var gardie = npcDB.filter(function(v) {return v.id == currentStory[0].npc[n]});
+
+					var img = document.createElement("img");
+					img.src = gardie[0].imgURL;
+
+					if (gardie[0].type == "char" || gardie[0].type == "extra") {
+						div.setAttribute("class", "npc");
+						//(currentStory[0].npc.length == 1)?(div.style.width = "550px"):"";
+						gardie[0].type == "char" ? img.style.width = "550px" : img.setAttribute("style", gardie[0].style);
+
+						// 3 gardis
+						if (num == 2) {
+							switch (n) {
+								case 0:img.style.left = "-130px"; img.style.zIndex = 1;break;
+								case 1:img.style.left = "120px";break;
+							};
+
+						} else if (num == 3) {
+							switch (n) {
+								case 0:img.style.left = "-180px";break;
+								case 1:img.style.left = "170px";break;
+								case 2:img.style.left = 0;break;
+							};
+						};
+
+					} else {
+						if (gardie[0].type == "pet") {
+							div.setAttribute("class", "pet");
+							img.setAttribute("style", gardie[0].style);	
+						} else if (gardie[0].type == "sfx") {
+							div.setAttribute("class", "sfx");
+						};
+						
 					};
 
+					gardie[0].id != currentNPC ? div.setAttribute("style", "-webkit-animation-name: fade-in;") : "";
+					currentNPC = gardie[0].id;
+					contenedor.appendChild(div);
+					
+					if (gardie[0].type == "char" || gardie[0].type == "extra") {
+						document.getElementsByClassName("npc")[n].appendChild(img)
+
+					} else {
+						document.getElementsByClassName(gardie[0].type)[n].appendChild(img)
+					}
+				};
+			};
+
+			// Cargar texto
+			if (currentStory[0].type != "answer_only") {
+
+				if (currentStory[0].type == "story_general") {
+					// Texto general
+					var div = document.createElement("div");
 					div.setAttribute("id", currentStory[0].id);
-					div.innerHTML = currentStory[0].text;
-					contenedor.appendChild(div);	
-				}
+					div.setAttribute("class","text undefined");
+					div.style.top = "50px";
+					div.style.left = "81px";
+					contenedor.appendChild(div);
 
-				
+					div = document.createElement("div");
+					div.style.width = "600px";
+					document.getElementById(currentStory[0].id).appendChild(div);
+					$("#" + currentStory[0].id).css("display", "none");
+					$("#" + currentStory[0].id).fadeIn(500);
 
-			} else if (currentStory[0].type == "info_general") {
+					div = document.createElement("i");
+					document.querySelector(".text.undefined div").appendChild(div);
+
+					var siglas = currentStory[0].text;
+					for (s = 0; s < siglas.length; s++) {
+						var span = document.createElement("span");
+						span.setAttribute("class", "typewriter-letter");
+						span.innerHTML = siglas[s];
+						document.querySelector(".text.undefined div i").appendChild(span);
+					};
+
+					for (t = 1; t <= (siglas.length); t++) {
+						time = t + "00";
+						time = parseInt(time) / 3;
+						$(".typewriter-letter").eq(t-1).delay(time + 500).animate({opacity:1},100);
+					};
+
+				} else if (currentStory[0].type == "npc_dialog") {
+					// Diálogo de NPC
+
+					if (currentStory[0].multiText) {
+						// Múltiples burbujas
+						for (m = 0; m < currentStory[0].text.length; m++) {
+							var div = document.createElement("div");
+							div.setAttribute("class", "bubbleText multi");
+
+							div.setAttribute("id", currentStory[0].id + "-" + m);
+							div.innerHTML = currentStory[0].text[m].text;
+							div.setAttribute("style", currentStory[0].text[m].style);
+							contenedor.appendChild(div);		
+						};
+
+					} else {
+						// Solo una burbuja
+						var div = document.createElement("div");
+						switch (currentStory[0].npc.length) {
+							case 2:div.setAttribute("class", "bubbleText duo");break;
+							case 3:div.setAttribute("class", "bubbleText trio");break;
+							default:div.setAttribute("class", "bubbleText undefined");
+						};
+
+						div.setAttribute("id", currentStory[0].id);
+						div.innerHTML = currentStory[0].text;
+						contenedor.appendChild(div);	
+					}
+
+					
+
+				} else if (currentStory[0].type == "info_general") {
+					var div = document.createElement("div");
+					div.setAttribute("class", "bubbleInfo");
+					div.setAttribute("id", currentStory[0].id);
+					div.innerHTML = "<div>" + currentStory[0].text + "</div>";
+					contenedor.appendChild(div);
+				};
+			};
+
+			// Cargar opciones
+			if (currentStory[0].choices.length != 0) {
 				var div = document.createElement("div");
-				div.setAttribute("class", "bubbleInfo");
-				div.setAttribute("id", currentStory[0].id);
-				div.innerHTML = "<div>" + currentStory[0].text + "</div>";
+				div.setAttribute("class","choiceTextRpg");
+				div.setAttribute("id","choiceText");
 				contenedor.appendChild(div);
+
+				for (x = 0; x < currentStory[0].choices.length; x++) {
+
+					div = document.createElement("div");
+					div.setAttribute("class","choice");
+					div.setAttribute("id", currentStory[0].nextStory[x]);
+
+					div.innerHTML = currentStory[0].choices[x];
+					document.getElementById("choiceText").appendChild(div);
+
+				};
+
+				if (currentStory[0].self != "") {
+					div = document.createElement("div");
+					div.setAttribute("class", "own-npc");
+					document.getElementById("choiceText").appendChild(div);
+
+					var gardie = npcDB.filter(function(v) {return v.id == currentStory[0].self});
+					var img = document.createElement("img");
+					img.setAttribute("class", "npcRpg");
+					img.src = gardie[0].imgURL;
+					document.getElementsByClassName("own-npc")[0].appendChild(img);
+				};
 			};
-		};
 
-		// Cargar opciones
-		if (currentStory[0].choices.length != 0) {
-			var div = document.createElement("div");
-			div.setAttribute("class","choiceTextRpg");
-			div.setAttribute("id","choiceText");
-			contenedor.appendChild(div);
+			currentStory[0].type == "story_general" ? $(".choiceTextRpg").delay(siglas.length * 34 + 500).fadeIn(500) : currentStory[0].type == "npc_dialog" ? $(".choiceTextRpg").delay(500).fadeIn(500) : $(".choiceTextRpg").fadeIn(500);
 
-			for (x = 0; x < currentStory[0].choices.length; x++) {
-
-				div = document.createElement("div");
-				div.setAttribute("class","choice");
-				div.setAttribute("id", currentStory[0].nextStory[x]);
-
-				div.innerHTML = currentStory[0].choices[x];
-				document.getElementById("choiceText").appendChild(div);
-
+			if (currentStory[0].closeDialog == true) {
+				if (currentStory[0].nextStory[0] == []) finalizaEpisodio();
+			} else {
+				setMenu(currentStory[0].id);
 			};
 
-			if (currentStory[0].self != "") {
-				div = document.createElement("div");
-				div.setAttribute("class", "own-npc");
-				document.getElementById("choiceText").appendChild(div);
-
-				var gardie = npcDB.filter(function(v) {return v.id == currentStory[0].self});
-				var img = document.createElement("img");
-				img.setAttribute("class", "npcRpg");
-				img.src = gardie[0].imgURL;
-				document.getElementsByClassName("own-npc")[0].appendChild(img);
-			};
-		};
-
-		currentStory[0].type == "story_general" ? $(".choiceTextRpg").delay(siglas.length * 34 + 500).fadeIn(500) : currentStory[0].type == "npc_dialog" ? $(".choiceTextRpg").delay(500).fadeIn(500) : $(".choiceTextRpg").fadeIn(500);
-
-		if (currentStory[0].closeDialog == true) {
-			if (currentStory[0].nextStory[0] == []) finalizaEpisodio();
 		} else {
-			setMenu(currentStory[0].id);
+			// FUNCION!
+			if (currentStory[0].name == "image_popup") {
+				let image = currentStory[0].image;
+				let button = currentStory[0].buttonText;
+				let link = currentStory[0].buttonLink;
+				drawImagePopUp(image, button, link);
+				cargarStory(currentStory[0].nextStory[0]);
+			};
 		};
 
 	} else {
@@ -541,6 +555,11 @@ function cargarClicker(id) {
 	};	
 };
 
+const drawImagePopUp = (img, btn, url) => {
+	$("body").append(`<div class="layout-popup"><img src="${img}"></div>`);
+	$(".layout-popup").append(`<a ${url != null ? 'href="' + url + '"' : ""}><div class="image-popup-button">${btn}</div></a>`);
+};
+
 $(function() { 
 
 	$("#episode-container").each(function(){$(this).on("click", ".choice", function() {
@@ -630,4 +649,7 @@ $(function() {
 
 	});
 
+	$("body").on("click", ".image-popup-button", function() {
+		$(".layout-popup").remove();
+	});
 });

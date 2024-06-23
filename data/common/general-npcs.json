@@ -1,5 +1,4 @@
 [
-
 	{"id":1000, "name":"Ailikamp, borroso", "type":"pet", "style":"top: 50px;", "imgURL":"assets/img/pet/ailikamp-borroso.png"},
 	{"id":1001, "name":"Dalfelí, silueta", "type":"char", "imgURL":"assets/img/char/dalfeli-silueta.png"},
 	{"id":1002, "name":"Nicolás, silueta", "type":"extra", "style":"top: 10px;", "imgURL":"assets/img/extra/nicolas-silueta.png"},
@@ -18,7 +17,7 @@
 	{"id":1015, "name":"Vómito", "type":"sfx", "imgURL":"assets/img/sfx/vomito.png"},
 	{"id":1016, "name":"Estómago", "type":"sfx", "imgURL":"assets/img/sfx/estomago.png"},
 	{"id":1017, "name":"Golpe", "type":"sfx", "imgURL":"assets/img/sfx/golpe.png"},
-	{"id":1018, "name":"Lovigis (Chenmi)", "type":"pet", "style":"top: 40px;", "imgURL":"https://www.eldarya.es/assets/img/pet/mood/profile/f9ba7cab437df22aa6d87a581b715cea.png"},
+	{"id":1018, "name":"Lovigis (Chenmi)", "type":"pet", "style":"top: 60px;", "imgURL":"https://www.eldarya.es/assets/img/pet/mood/profile/f9ba7cab437df22aa6d87a581b715cea.png"},
 
 	{"id":1050, "name":"Chenmi, borrosa", "type":"char", "imgURL":"assets/img/char/chenmi-borrosa.png"},
 	{"id":1051, "name":"Melany, borrosa", "type":"char", "imgURL":"assets/img/char/melany-borrosa.png"},
