@@ -1,178 +1,93 @@
-
-.tai, .block .ti, nav, .title {
-    letter-spacing: 1.4px;
-    font-size: 11px;
-    line-height: 1.6em;
-}
-
-/* ---  Character Scrollbars ---  */
-
-div::-webkit-scrollbar {width:4px;background-color:#86649b;}
-div::-webkit-scrollbar-thumb {background-color:#86649b;}
-div::-webkit-scrollbar-corner {background-color:#86649b;}
-
-/* ---  General ---  */
-
-body {
-    margin:0px;
-    background-color:#8d7caa;
-    font-smooth:always;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
- 
-#et {
-    background:transparent;
-    color:#000000;
-    background:transparent;
-    right:0px;
-    bottom:0px;
-    padding:5px;
-    position:fixed;
-    letter-spacing:1px;
-    opacity:0.4;
-}
-
-#et a {
-    color:#000000;
-    text-decoration:none;
-    border:0px;
-}
-
-/* ---  Topbar ---  */
-
-#topbar {
-    position:fixed;
-    top:0px;
-    left:0px;
-    width:100%;
-    height:90px;
-    text-align:center;
-    background-color:#ffffff;
-    border-bottom:1px solid #86649b;
-    z-index:3;
-}
-
-.topbartitle {
-    margin-top:25px;
-    margin-bottom:20px;
-    font-family: 'Oswald', sans-serif;
-    font-size:.9emx;
-    text-transform:uppercase;
-    font-style:italic;
-    letter-spacing:1px;
-    color:#888888;
-}
-
-#topbar a {
-    background-color:#ffffff;
-    padding:4px 10px 4px 10px;
-    margin:0 3px 0 3px;
-    color:#888888;
-    text-transform:uppercase;  
-    text-decoration:none;
-    border:0px;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
-#topbar a:hover {
-    background-color:#ffffff;
-    color:#b09bd5;
+#content section {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    width: min-content;
+    margin: auto;
 }
 
 /* --- Character Boxes --- */
 
 .characters {
-float: left;
-width:235px;
-height: 283px;
-margin:0 0 15px;
-background-size:100%;
-font-family: 'Roboto', sans-serif;
-font-size:12px;
-letter-spacing:0.5px;
-color:#000;
-padding:5px;
-border:10px solid #ffffff;
--webkit-transition: all 350ms linear;
--moz-transition: all 350ms linear;
--ms-transition: all 350ms linear;
--o-transition: all 350ms linear;
-transition: all 350ms linear;
-}
-
-.characters:nth-child(3n+2) {
-margin-left: 10px;
-margin-right: 10px;
+    width: 16vw;
+    height: 20vw;
+    margin: 10px;
+    background-size:100%;
+    font-family: 'Roboto', sans-serif;
+    font-size:.8vw;
+    letter-spacing:0.5px;
+    color:#000;
+    border:10px solid #ffffff;
+    overflow: hidden;
+    -webkit-transition: all 350ms linear;
+    -moz-transition: all 350ms linear;
+    -ms-transition: all 350ms linear;
+    -o-transition: all 350ms linear;
+    transition: all 350ms linear;
 }
 
 .characters:hover {
-border:10px solid #fff;
+    border:10px solid #fff;
 }
 
 .characters:hover .charbio {
-opacity:1;
--webkit-transition: all 50ms linear;
--moz-transition: all 50ms linear;
--ms-transition: all 50ms linear;
--o-transition: all 50ms linear;
-transition: all 50ms linear;
+    opacity:1;
+    -webkit-transition: all 50ms linear;
+    -moz-transition: all 50ms linear;
+    -ms-transition: all 50ms linear;
+    -o-transition: all 50ms linear;
+    transition: all 50ms linear;
 }
 
 .characterimg {
-margin:-5px;
-max-width:250px;
-height:293px;
-z-index:-1;
-overflow: hidden;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    position: relative;
 }
 
 .characterimg img {
-width: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
 }
 
 .charbio {
-padding:5px;
-border-top:5px solid #f8f8f8;
-border-left:5px solid #f8f8f8;
-border-right: 5px solid #f8f8f8;;
-margin-top:-274px;
-margin-left: 10px;
-width: 195px;
-height: 248px;
-text-align:center;
-background:#f8f8f8!important;
-z-index:100;
-position:absolute;
-overflow:auto;
-opacity:0;
-line-height: 12px;
--webkit-transition: all 50ms linear;
--moz-transition: all 50ms linear;
--ms-transition: all 50ms linear;
--o-transition: all 50ms linear;
-transition: all 50ms linear;
+    padding: 5px;
+    border: 5px solid #f8f8f8;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    background: #f8f8f8 !important;
+    z-index: 100;
+    position: relative;
+    overflow: auto;
+    opacity: 0;
+    line-height: 1vw;
+    -webkit-transition: all 50ms linear;
+    -moz-transition: all 50ms linear;
+    -ms-transition: all 50ms linear;
+    -o-transition: all 50ms linear;
+    transition: all 50ms linear;
+    top: -95%;
+    left: 5%;
 }
 
 
 .charbio a{
-display:inline-block;
-font-size:12px;
-color:#000000;
-text-transform:lowercase;
-font-style:italic;
-margin:0 2px 3px 2px;
-letter-spacing:1px;
-padding:3px;
-border-bottom:1px solid #ffffff;
+    display:inline-block;
+    color:#000000;
+    text-transform:lowercase;
+    font-style:italic;
+    margin:0 2px 3px 2px;
+    letter-spacing:1px;
+    padding:3px;
+    border-bottom:1px solid #ffffff;
 }
 
 .charbio a:hover {
-color:#000000;
-border-bottom:1px solid #101010;
+    color:#000000;
+    border-bottom:1px solid #101010;
 }
 
 

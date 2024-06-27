@@ -1,0 +1,671 @@
+[
+    {
+        "id":10000,
+        "type":"pov_selector",
+        "pov":[
+            {"char":"Chenmi", "id":1350, "scene":10051}
+        ]
+    },
+
+    {
+        "id":10051,
+        "type":"npc_dialog",
+        "text":"",
+        "background":135,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"Qué sueño tan extraño...", "next":10052}
+        ]
+    },
+    {
+        "id":10052,
+        "type":"npc_dialog",
+        "text":"",
+        "background":135,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"Es decir, no tengo detalles pero tengo una fuerte corazonada... ¿Qué significa?", "next":10053}
+        ]
+    },
+    {
+        "id":10053,
+        "type":"npc_dialog",
+        "text":"",
+        "background":135,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"¿Dónde estarán mis lovigis...?", "next":10054}
+        ]
+    },
+    {
+        "id":10054,
+        "type":"npc_dialog",
+        "text":"",
+        "background":135,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"Debo buscarlos cuanto antes, tengo que reunir a las chicas.", "next":10055}
+        ]
+    },
+    {
+        "id":10055,
+        "type":"npc_dialog",
+        "text":"",
+        "background":128,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"¿Indalecios?", "next":10056}
+        ]
+    },
+    {
+        "id":10056,
+        "type":"npc_dialog",
+        "text":"",
+        "background":128,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"...", "next":10057}
+        ]
+    },
+    {
+        "id":10057,
+        "type":"npc_dialog",
+        "text":"",
+        "background":128,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"Qué curioso. ¿Dónde estarán?", "next":10001}
+        ]
+    },
+    {
+        "id":10001,
+        "type":"npc_dialog",
+        "text":"",
+        "background":128,
+        "npc":[1018],
+        "self":1350,
+        "choices":[
+            {"text":"Oh, hola, aquí están. ¿Me pueden hacen un favor?", "next":10002}
+        ]
+    },
+    {
+        "id":10002,
+        "type":"npc_dialog",
+        "text":"",
+        "background":128,
+        "npc":[1018],
+        "self":1350,
+        "choices":[
+            {"text":"(Los lovigis respondieron encantados a mi petición.)", "next":10003}
+        ]
+    },
+    {
+        "id":10003,
+        "type":"npc_dialog",
+        "text":"",
+        "background":128,
+        "npc":[1018],
+        "self":1350,
+        "choices":[
+            {"text":"¿Podrían ubicar a todas las guardianas a una sala de reuniones de forma inmediata?", "next":10004}
+        ]
+    },
+    {
+        "id":10004,
+        "type":"npc_dialog",
+        "text":"",
+        "background":128,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"(Los familiares automáticamente salieron de la habitación para cumplir con su objetivo.)", "next":10005}
+        ]
+    },
+    {
+        "id":10005,
+        "type":"npc_dialog",
+        "text":"",
+        "background":128,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"(En cuanto a mi... Antes de que las reúna a todas, podría darme un paseo por la residencia, tengo algunas ideas en mente.)", "next":10060}
+        ]
+    },
+    {
+        "id":10060,
+        "type":"objectives",
+        "background":128,
+        "list":[
+            {"id":1, "required":true, "text":"Explora la residencia, parece que Chenmi está buscando algo en particular.", "type":"place", "value":122, "next":10010},
+            {"id":2, "required":false, "text":null, "type":"place", "value":109, "next":10008},
+            {"id":3, "required":false, "text":null, "type":"place", "value":105, "next":10009},
+            {"id":4, "required":false, "text":null, "type":"place", "value":103, "next":10006},
+            {"id":5, "required":false, "text":null, "type":"place", "value":113, "next":10007}
+        ]
+    },
+    {
+        "id":10007,
+        "type":"npc_dialog",
+        "text":"",
+        "background":113,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"(No, el comedor es algo pequeño para lo que tengo planeado...)", "next":"auto"}
+        ]
+    },
+    {
+        "id":10008,
+        "type":"npc_dialog",
+        "text":"",
+        "background":109,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"(El vestíbulo será el recibidor.)", "next":"auto"}
+        ]
+    },
+    {
+        "id":10009,
+        "type":"npc_dialog",
+        "text":"",
+        "background":105,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"(¿Una celebración en la biblioteca?, ¿En qué piensas, Chenmi?)", "next":"auto"}
+        ]
+    },
+    {
+        "id":10006,
+        "type":"npc_dialog",
+        "text":"",
+        "background":103,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"(No es opción reunir a tanta gente aquí.)", "next":"auto"}
+        ]
+    },
+    {
+        "id":10010,
+        "type":"npc_dialog",
+        "text":"",
+        "background":122,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"¡Es perfecto!, con suerte nos toca un día hermoso y podremos aprovechar de los jardines del clan.", "next":10011}
+        ]
+    },
+    {
+        "id":10011,
+        "type":"npc_dialog",
+        "text":"",
+        "background":122,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"(Toca ir a dar la noticia a las muchachas, estoy segura de que les gustará esta idea.)", "next":10012}
+        ]
+    },
+    {
+        "id":10012,
+        "type":"npc_dialog", 
+        "text":"Me resulta parcialmente sospechoso que tengamos una reunión todas aquí, luego de tanto tiempo.",
+        "background":124,
+        "npc":[1150],
+        "self":"",
+        "choices":[
+            {"text":"(Continuar)", "next":10013}
+        ]
+    },
+    {
+        "id":10013,
+        "type":"npc_dialog", 
+        "text":"Comparto el sentimiento ¿Qué se traerá entre manos esta vez...?",
+        "background":124,
+        "npc":[1300],
+        "self":"",
+        "choices":[
+            {"text":"(Continuar)", "next":10014}
+        ]
+    },
+    {
+        "id":10014,
+        "type":"npc_dialog", 
+        "text":"Pues, a mí me gusta cuando podemos juntarnos todas. Con tantas misiones en un sitio y otro, rara vez tenemos tiempo para estar en una misma sala.",
+        "background":124,
+        "npc":[1100],
+        "self":"",
+        "choices":[
+            {"text":"(Continuar)", "next":10015}
+        ]
+    },
+    {
+        "id":10015,
+        "type":"npc_dialog", 
+        "text":"Oh, ¿Chenmi aún no ha llegado?",
+        "background":124,
+        "npc":[1400],
+        "self":"",
+        "choices":[
+            {"text":"(Continuar)", "next":10016}
+        ]
+    },
+    {
+        "id":10016,
+        "type":"npc_dialog", 
+        "text":"Me temo que aún no. La esperamos desde que nos avisó su familiar, sin dar muchos detalles por cierto.",
+        "background":124,
+        "npc":[1011],
+        "self":"",
+        "choices":[
+            {"text":"(Un estruendo aparece por la puerta)", "next":10017}
+        ]
+    },
+    {
+        "id":10017,
+        "type":"npc_dialog",
+        "text":"",
+        "background":124,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"¡Hola, gardis!", "next":10018}
+        ]
+    },
+    {
+        "id":10018,
+        "type":"npc_dialog",
+        "text":"",
+        "background":124,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"(Parece que mi entrada estrepitosa las dejó a todas con ojos como plato.)", "next":10019}
+        ]
+    },
+    {
+        "id":10019,
+        "type":"npc_dialog",
+        "text":"",
+        "background":124,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"(Admito que es divertido verlas asombradas.)", "next":10020}
+        ]
+    },
+    {
+        "id":10020,
+        "type":"npc_dialog", 
+        "text":"Santos Lovigis. ¡Qué sorpresa, niña!", 
+        "background":124,
+        "npc":[1300],
+        "self":1350,
+        "choices":[
+            {"text":"(Continuar)", "next":10021}
+        ]
+    },
+    {
+        "id":10021,
+        "type":"npc_dialog", 
+        "text":"¿A qué se debe tal energía, Chenmi?, ¿Sucede algo?",
+        "background":124,
+        "npc":[1150],
+        "self":1350,
+        "choices":[
+            {"text":"Primero que nada, me encanta vernos a todas juntas.", "next":10022}
+        ]
+    },
+    {
+        "id":10022,
+        "type":"npc_dialog",
+        "text":"",
+        "background":124,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"Bueno, la mayoría... Desde que Jennen y Lara se han ido, sabemos que no ha sido lo mismo el cuartel sin ellas...", "next":10023}
+        ]
+    },
+    {
+        "id":10023,
+        "type":"npc_dialog",
+        "text":"",
+        "background":124,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"Pero dejaron su esencia en el clan y por eso vamos a celebrarnos, porque estamos juntas a pesar de todo.", "next":10024}
+        ]
+    },
+    {
+        "id":10024,
+        "type":"npc_dialog", 
+        "text":"¿A qué te refieres exactamente con “celebrarnos”?",
+        "background":124,
+        "npc":[1300],
+        "self":1350,
+        "choices":[
+            {"text":"Quiero invitar a todas las comunidades vecinas a una gran fiesta que vamos a dar aquí, en la residencia.", "next":10025}
+        ]
+    },
+    {
+        "id":10025,
+        "type":"npc_dialog",
+        "text":"",
+        "background":124,
+        "npc":[1150],
+        "self":1350,
+        "choices":[
+            {"text":"Y gracias a Vidalia, y su amor por la flora de nuestra morada, planeo que sea exclusivamente en nuestros jardines.", "next":10026}
+        ]
+    },
+    {
+        "id":10026,
+        "type":"npc_dialog", 
+        "text":"Bueno, gracias por el reconocimiento, pero...",
+        "background":124,
+        "npc":[1150],
+        "self":1350,
+        "choices":[
+            {"text":"(Continuar)", "next":10027}
+        ]
+    },
+    {
+        "id":10027,
+        "type":"npc_dialog", 
+        "text":"¿Una... fiesta? Suena como algo que no hacemos muy a menudo.",
+        "background":124,
+        "npc":[1011],
+        "self":1350,
+        "choices":[
+            {"text":"(Continuar)", "next":10028}
+        ]
+    },
+    {
+        "id":10028,
+        "type":"npc_dialog", 
+        "text":"A mí me encanta la idea, sería divertido.",
+        "background":124,
+        "npc":[1300],
+        "self":1350,
+        "choices":[
+            {"text":"(Continuar)", "next":10029}
+        ]
+    },
+    {
+        "id":10029,
+        "type":"npc_dialog", 
+        "text":"Auguro cosas buenas si damos una fiesta.",
+        "background":124,
+        "npc":[1400],
+        "self":1350,
+        "choices":[
+            {"text":"(Continuar)", "next":10030}
+        ]
+    },
+    {
+        "id":10030,
+        "type":"npc_dialog", 
+        "text":"Pues a mí también me gustaría. Sería algo nuevo, después de todo lo que hemos pasado.",
+        "background":124,
+        "npc":[1100],
+        "self":1350,
+        "choices":[
+            {"text":"¡Esa es la energía que quiero, genial!", "next":10031}
+        ]
+    },
+    {
+        "id":10031,
+        "type":"npc_dialog",
+        "text":"",
+        "background":124,
+        "npc":[1150],
+        "self":1350,
+        "choices":[
+            {"text":"¿Qué opinas tú, Vidalia?", "next":10032}
+        ]
+    },
+    {
+        "id":10032,
+        "type":"npc_dialog", 
+        "text":"No veo problema alguno. Es más, me agrada la idea aunque… ¿Cómo exactamente planeas iniciar con todo lo que implica organizar una celebración?",
+        "background":124,
+        "npc":[1150],
+        "self":1350,
+        "choices":[
+            {"text":"Pues, podríamos empezar enviando unas tarjetas bellísimas a cada residencia vecina, podríamos elegir un día de hermoso sol para aprovechar nuestro jardín.", "next":10033}
+        ]
+    },
+    {
+        "id":10033,
+        "type":"npc_dialog", 
+        "text":"¡Podríamos hacer una velada de tipo gala!",
+        "background":124,
+        "npc":[1300],
+        "self":1350,
+        "choices":[
+            {"text":"(Continuar)", "next":10034}
+        ]
+    },
+    {
+        "id":10034,
+        "type":"npc_dialog", 
+        "text":"¡Me fascina, chicas, de gala! para así poder lucir nuestros mejores vestuarios.", 
+        "background":124,
+        "npc":[1011],
+        "self":1350,
+        "choices":[
+            {"text":"(Continuar)", "next":10035}
+        ]
+    },
+    {
+        "id":10035,
+        "type":"npc_dialog", 
+        "text":"Puede resultar, ¿cuándo estaríamos iniciando? Al menos con los preparativos mas urgentes.",
+        "background":124,
+        "npc":[1150],
+        "self":1350,
+        "choices":[
+            {"text":"¡Empecemos cuanto antes!", "next":10036}
+        ]
+    },
+    {
+        "id":10036,
+        "type":"npc_dialog", 
+        "text":"Siendo así, supongo que lo ideal sería primero aclarar, ¿cuáles son las cosas que se deben tener en cuenta para un gran baile valkyriano?",
+        "background":124,
+        "npc":[1150],
+        "self":1350,
+        "choices":[
+            {"text":"(Continuar)", "next":10037}
+        ]
+    },
+    {
+        "id":10037,
+        "type":"npc_dialog", 
+        "text":"Varias de hecho. Tenemos que pensar en la comida, la música, qué tipo de público vendrá...",
+        "background":124,
+        "npc":[1300],
+        "self":1350,
+        "choices":[
+            {"text":"¡Tendremos invitados de todo tipo!, será un baile que estará en boca de todos, todas las razas y especies pueden presentarse.", "next":10043}
+        ]
+    },
+    {
+        "id":10043,
+        "type":"npc_dialog", 
+        "text":"Cierto. Pasando al próximo punto, ¿qué tipo de música les gustaría que sonara?",
+        "background":124,
+        "npc":[1300],
+        "self":1350,
+        "choices":[
+            {"text":"Algo clásico, pero animado. Podríamos pedirle a los pul-", "next":10044}
+        ]
+    },
+    {
+        "id":10044,
+        "type":"npc_dialog", 
+        "text":"¡Pulpatatas no!. Les tengo mucho respeto, pero me dan impresión con sus tentáculos...",
+        "background":124,
+        "npc":[1011],
+        "self":1350,
+        "choices":[
+            {"text":"(Continuar)", "next":10045}
+        ]
+    },
+    {
+        "id":10045,
+        "type":"npc_dialog", 
+        "text":"¡Jaja!, pero si son tan tiernos y totalmente inofensivos.",
+        "background":124,
+        "npc":[1400],
+        "self":1350,
+        "choices":[
+            {"text":"(Continuar)", "next":10046}
+        ]
+    },
+    {
+        "id":10046,
+        "type":"npc_dialog", 
+        "text":"Bien, si no son pulpatatas, entonces podríamos pedirle al personal del clan que nos acompañen con algunos instrumentos. Yo me encargaré de ello. ¿Qué más?",
+        "background":124,
+        "npc":[1300],
+        "self":1350,
+        "choices":[
+            {"text":"(Continuar)", "next":10047}
+        ]
+    },
+    {
+        "id":10047,
+        "type":"npc_dialog", 
+        "text":"¿Qué comida serviremos?",
+        "background":124,
+        "npc":[1100],
+        "self":1350,
+        "choices":[
+            {"text":"Hablaré con Dalfelí para preparar un banquete grandísimo, lleno de dulces para variar. Y yo me encargaré de algunos elixires para catar durante el festín.", "next":10039}
+        ]
+    },
+    {
+        "id":10039,
+        "type":"npc_dialog",
+        "text":"",
+        "background":124,
+        "npc":[1100],
+        "self":1350,
+        "choices":[
+            {"text":"Será algo grandioso, lo puedo sentir.", "next":10048}
+        ]
+    },
+    {
+        "id":10048,
+        "type":"npc_dialog", 
+        "text":"Siendo así, tendríamos cubiertas las partes más complejas de la preparación, claro que falta lo más importante, ¿qué día será el elegido?",
+        "background":124,
+        "npc":[1300],
+        "self":1350,
+        "choices":[
+            {"text":"Sé que tiene que ser un día de sol, pasado el mediodía, pero no llegando al atardecer.", "next":10049}
+        ]
+    },
+    {
+        "id":10049,
+        "type":"npc_dialog", 
+        "text":"Pues justamente estamos en temporada de verano con días de lo más despejados, así que estás de suerte.",
+        "background":124,
+        "npc":[1011],
+        "self":1350,
+        "choices":[
+            {"text":"¡Genial, niñas. Manos a la obra, tenemos un baile que organizar y celebrar!", "next":10041}
+        ]
+    },
+    {
+        "id":10041,
+        "type":"story_general", 
+        "text":"Un gran evento se avecinaba en la residencia Valkyrie, pues era hora de celebrar al clan que tanto tiempo llevaba unido y en reclutamiento.",
+        "background":124,
+        "npc":[],
+        "self":"",
+        "choices":[
+            {"text":"(Continuar)", "next":10042}
+        ]
+    },
+    {
+        "id":10042,
+        "type":"story_general", 
+        "text":"Es verdad que, de las hermanas que debieron ser buscadas, no todas aparecieron, tal vez porque se fueron, tal vez porque tomaron otros rumbos...",
+        "background":124,
+        "npc":[],
+        "self":"",
+        "choices":[
+            {"text":"(Continuar)", "next":10058}
+        ]
+    },
+    {
+        "id":10058,
+        "type":"story_general", 
+        "text":"Aun así, eso no sería impedimento para celebrar a las que ya estaban aquí hacía tiempo, viviendo entre eldaryanos, siendo parte de Eldarya.",
+        "background":124,
+        "npc":[],
+        "self":"",
+        "choices":[
+            {"text":"(Continuar)", "next":10059}
+        ]
+    },
+    {
+        "id":10059,
+        "type":"story_general", 
+        "text":"Muchos ánimos frescos se podían sentir en el ambiente, después de todo, se trataba de algo nuevo que el clan quería implementar.",
+        "background":124,
+        "npc":[],
+        "self":"",
+        "choices":[
+            {"text":"(Continuar)", "next":10040}
+        ]
+    },
+    {
+        "id":10040,
+        "type":"story_general",
+        "text":"¿Y tú, has recibido tu invitación especial?, estoy seguro que el clan encontrará la forma de que te llegue a ti y tu entorno eldaryano.", 
+        "background":124,
+        "npc":[],
+        "self":"",
+        "choices":[
+            {"text":"(RECIBIR INVITACIÓN)", "next":10050}
+        ]
+    },
+
+    {
+        "id":10050,
+        "type":"function",
+        "name":"show_image",
+        "image":"assets/img/story/invitacion.png",
+        "buttonText":"Aceptar",
+        "buttonLink":null,
+        "next":[10038]
+    },
+
+    {
+        "id":10038,
+        "type":"npc_dialog",
+        "text":"",
+        "background":124,
+        "npc":[],
+        "self":1350,
+        "choices":[
+            {"text":"(FINALIZAR EPISODIO)", "next":null}
+        ]
+    }
+]

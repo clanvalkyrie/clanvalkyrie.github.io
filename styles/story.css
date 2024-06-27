@@ -1,226 +1,364 @@
-@-webkit-keyframes alert-obj {
-    0%   { opacity: 0; left: -751px;}
-    25%  { opacity: 1; left: 0;}
-    50%  { opacity: 1; left: 0;}
-    75%  { opacity: 1; left: 0;}
-    100% { opacity: 0; left: -751px;}
-}
-
-@-moz-keyframes alert-obj {
-    0%   { opacity: 0; left: -751px;}
-    25%  { opacity: 1; left: 0;}
-    50%  { opacity: 1; left: 0;}
-    75%  { opacity: 1; left: 0;}
-    100% { opacity: 0; left: -751px;}
-}
-
-@keyframes alert-obj {
-    0%   { opacity: 0; left: -751px;}
-    25%  { opacity: 1; left: 0;}
-    50%  { opacity: 1; left: 0;}
-    75%  { opacity: 1; left: 0;}
-    100% { opacity: 0; left: -751px;}
-}
-
-ul {
-    padding-left: 25px;
-    margin: 0;
-}
-
-code {
-	display: block;
-	text-align: center;
-	margin: 15px;
-    margin-bottom: 0;
-    background: transparent;
-    /*-webkit-animation-name: code-on;*/
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-}
-
-input {
-    background-color: #86649b;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.objectives ul .done {
-    text-decoration-line: line-through;
-}
-
-.tai.checkpoint {
-    padding-bottom: 5px;
-    border-bottom: 1px solid #f8f8f8;
-    margin-bottom: 5px;
-}
-
-
-#story .title, #episodes .title {
-    text-align: center;
-    border-bottom: 1px solid;
-    padding-bottom: 25px;
-}
-
-/* Lista de episodios */
-#episode-list {
+#stories-list {
     display: flex;
+    gap: 2vw;
+    padding: 2vw;
     flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
+    margin: auto;
+    width: 87vw;
 }
 
-.episode:nth-child(2n+1) {
-    margin-right: 20px;
-}
-.episode {
-    padding: 15px;
-    border: 1px solid #b492a8;
-    width: calc(50% - 42px);
-    margin-bottom: 20px;
-}
-
-.episode.code {
-    width: 733px;
-    height: 115px;
-    text-align: center;
-}
-
-#error-msg {
+.story-container {
+    width: 15vw;
     position: relative;
-    top: -7px;
-    color: #f00;
-    margin: 0;
+    background-color: #fff;
+    overflow: hidden;
+    height: 25vw;
+    box-shadow: 0 0 4px #0005;
+    padding: .5vw;
+    scale: 1;
+    transition: scale 200ms;
+    
+}
+
+.story-container.hidden::before {
+    content: 'OCULTO';
+    position: absolute;
+    background-color: crimson;
+    color: #fff;
+    padding: .2vw .4vw;
+    font-size: .7vw;
+    z-index: 4;
+    top: 1vw;
+    left: 1vw;
+    font-weight: bold;
+}
+
+.story-container:hover {
+    box-shadow: 0 0 10px #0005;
+    scale: 1.05;
+}
+
+.story-cover-container {
+    height: 20vw;
+    overflow: hidden;
+    background-color: #ddd;
+}
+
+.story-image.empty {
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.story-image.empty {
+    filter: grayscale(1);
+}
+
+.story-name {
+    font-family: oswald;
+    font-size: 1.4vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--main-color);
+}
+
+.story-author {
+    font-style: italic;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.story-author::before {
+    content: 'Autor: ';
+}
+
+.story-status {
+    background-color: var(--main-color);
+    position: absolute;
+    padding: .3vw .5vw;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: .7vw;
+    top: 0;
+    right: 0;
+}
+
+#episodes-modal {
+    position: fixed;
+    background-color: #0005;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
     display: none;
 }
 
-.episode-title {
-    text-align: center;
-    width: 100%;
-    display: block;
-    border-bottom: 1px solid #b492a8;
-    padding-bottom: 10px;
+.episodes-container {
+    height: 100%;
+    display: grid;
+}
+
+.episode-list {
+    padding: .8vw;
+    background-color: #fff;
+    width: 40vw;
+    margin: auto;
+    border: 1px solid var(--main-color);
+}
+
+.story-title {
+    color: var(--main-color);
+    font-family: Oswald, sans-serif;
+    font-size: 2vw;
     text-transform: uppercase;
-    color: #b492a8;
+    font-style: italic;
+}
+
+.story-episodes-title {
+    text-transform: uppercase;
+    font-stretch: condensed;
+    padding: 0.6vw 0 0.2vw;
+    color: var(--main-color-lighter);
+    font-weight: bold;
+    font-size: 0.9vw;
+}
+
+.episodes {
+    max-height: 50vh;
+    border: 1px solid;
+    padding: 0 0.5vw;
+    overflow: auto;
+}
+
+/* EPISODE SECTION */
+#dev-menu {
+    position: fixed;
+    background-color: crimson;
+    padding: 1vw;
+    z-index: 100000;
+    bottom: 1vw;
+    left: 1vw;
+    border-radius: .5vw;
+    width: 12vw;
+}
+
+.dev-header {
+    font-family: oswald;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.3vw;
+}
+
+#dev-menu input {
+    border: 1px solid #fffa;
+    outline: 0;
+    font-family: verdana;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: .2vw .6vw;
+    width: 100%;
+    background-color: #970c28;
+    color: #fff;
+    border-radius: .3vw;
+    text-align: center;
+}
+
+.episode-container {
+    display: flex;
+    font-size: 1vw;
+    padding: 0.5vw 0;
+}
+
+.episode-container:hover {
+    background: linear-gradient(90deg, rgba(199,137,224,0) 0%, rgba(199,137,224,0.1) 30%, rgba(199,137,224,0.1) 70%, rgba(199,137,224,0) 100%);
+}
+
+.episode-container + .episode-container {
+    border-top: 1px dashed;
+}
+
+.episode-info {
+    width: 90%;
+}
+
+.episode-title {
+    text-transform: uppercase;
+    font-family: Oswald, sans-serif;
+    color: var(--main-color);
+    font-size: 1.3vw;
+}
+
+.played .episode-title::after {
+    content: 'LEÍDO';
+    font-family: Arial;
+    font-size: .7vw;
+    vertical-align: top;
+    margin: 0 .5vw;
+    font-style: italic;
+    background-color: #2bb628;
+    color: #fff;
+    padding: .2vw .5vw;
+    border-radius: 1vw;
+    font-stretch: condensed;
+    white-space: -moz-pre-space;
 }
 
 .episode-description {
+    font-style: italic;
     text-align: justify;
 }
 
-.button {
+.play-episode {
+    width: 9%;
+    display: grid;
+    text-align: center;
+    align-self: center;
+    font-size: 2vw;
+    color: var(--main-color);
+    border: 1px solid;
+    padding: 0.5vw;
+    margin: .1vw .1vw .1vw 2vw;
+}
+
+.play-episode:hover {
+    background-color: var(--main-color);
+    color: #fff;
+    border: 1px solid var(--main-color);
+}
+
+#episode {
+    display: none;
+}
+
+.episode-content {
+    padding: 1vw;
+    background-color: #fff;
+    margin: 1vw auto;
+    position: relative;
+}
+
+.objectives-container {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 60px;
+    left: -200px;
+    background-color: var(--main-color-transparent);
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    font-stretch: condensed;
+    border-right: none;
+}
+
+.panel-title {
+    position: absolute;
+    font-family: oswald;
+    top: -31px;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-shadow: 0 0 6px #0009;
+    left: 20px;
+}
+
+.obj-list {
+    height: 100%;
+    overflow: auto;
+}
+
+.objectives-container ul {
+    margin: 0;
+    padding: 10px 15px;
+    list-style: inside;
+}
+
+.obj-list li.completed {
+    text-decoration-line: line-through;
+    font-style: italic;
+    color: #fff6;
+}
+
+.back-button {
+    font-size: 1.5vw;
+    position: absolute;
+    left: 1.5vw;
+    top: 1.2vw;
+}
+
+.back-button::before {
+    border-color: transparent #fff transparent transparent;
+    border-width: 0.66vw 1.2vw 0.66vw 0;
+    border-style: solid;
     display: inline-block;
     position: relative;
-    padding: 5px;
-    border: 1px solid #f6f6f6;
-    width: 60px;
-    cursor: pointer;
-    background-color: #8d7caa;
-    color: #f6f6f6;
+    content: '';
+    margin-right: 0.6vw;
 }
 
-.button + .button {
-    margin-left: 20px;
-}
-
-.button:hover {
-    background: #f6f6f6;
-    border: 1px solid #8d7caa;
-    color: #8d7caa;
-}
-
-#load-episode {
-    width: auto;
-    padding: 10px;
-}
-
-/* Episodio en curso */
-.objectives {
-    height: 223.1px;
-    overflow-y: auto;
-    margin: 10px 0;
-}
-
-.tooltip-objective {
-    position: absolute;
-    background: rgba(0,0,0,0.4);
-    font-weight: bold;
-    max-width: 690px;
-    color: #fff;
-    padding: 10px 25px;
-    z-index: 1;
-    border-radius: 0 10px 10px 0;
-    border: 1px solid #8d7caa;
-    border-left: 0;
-    top: 11px;
-    opacity: 0;
-    -webkit-animation-name: alert-obj;
-    animation-name: alert-obj;
-    -webkit-animation-duration: 4s;
-    animation-duration: 4s;
-}
-
-#episode-container {
-    width: auto;
+#player {
+    background-color: #000;
     background-size: 765px 450px;
     height: 450px;
+    width: 765px;
     position: relative;
     overflow: hidden;
-    background-color: #000;
     background-position: center center;
     -webkit-user-select: none;
     -moz-user-select: none;
     -khtml-user-select: none;
-    -ms-user-select:none;
-    user-select:none;
-
+    -ms-user-select: none;
+    user-select: none;
     display: flex;
     align-items: center;
 }
 
-#episode-back {
-    border-width: 7px 13px 7px 0;
-    border-style: solid;
-    border-color: transparent #8d7caa transparent transparent;
-    overflow: auto;
-    position: absolute;
-    top: 27px;
-    cursor: pointer;
+/* PLAYER ZONE */
+/* Animaciones */
+@-webkit-keyframes fade-in {
+    0%   { opacity: 0; }
+    50%   { opacity: 0; }
+    100% { opacity: 1; }
 }
 
-#episode-container .text {
-    z-index: 100;
-    text-align: justify;
-    position: absolute;
-    overflow: hidden;
-    background: -moz-linear-gradient(top, rgba(180, 146, 168, 0.85) 0%, rgba(141, 124, 170, 0.85) 89%, rgba(118, 100, 123, 0.85) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(180, 146, 168, 0.85)), color-stop(89%, rgba(141, 124, 170, 0.85)), color-stop(100%, rgba(118, 100, 123, 0.85)));
-    background: -webkit-linear-gradient(top, rgba(180, 146, 168, 0.85) 0%, rgba(141, 124, 170, 0.85) 89%, rgba(118, 100, 123, 0.85) 100%);
-    background: -o-linear-gradient(top, rgba(180, 146, 168, 0.85) 0%, rgba(141, 124, 170, 0.85) 89%, rgba(118, 100, 123, 0.85) 100%);
-    background: -ms-linear-gradient(top, rgba(180, 146, 168, 0.85) 0%, rgba(141, 124, 170, 0.85) 89%, rgba(118, 100, 123, 0.85) 100%);
-    background: linear-gradient(to bottom, rgba(180, 146, 168, 0.85) 0%, rgba(141, 124, 170, 0.85) 89%, rgba(118, 100, 123, 0.85) 100%);
-    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d900515d', endColorstr='#4d001935', GradientType=0);*/
-    line-height: 1em;
-    font-size: 20px;
-    
-    
+@-moz-keyframes fade-in {
+    0%   { opacity: 0; }
+    50%   { opacity: 0; }
+    100% { opacity: 1; }
 }
 
-#episode-container .text > div {
-    color: rgba(246, 246, 246, 1);
-    padding: 19px 19px 30px;
-    box-sizing: border-box;
+@keyframes fade-in {
+    0%   { opacity: 0; }
+    50%   { opacity: 0; }
+    100% { opacity: 1; }
 }
 
-#episode-container img.special {
-    position: absolute;
-    cursor: pointer;
+.bubbleInfo {
+    width: 765px;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    top: -30px;
+    position: relative;
 }
 
-.typewriter-letter {
-    opacity: 0;
+.bubbleInfo div {
+    max-width: 350px;
+    background: #fff;
+    position: relative;
+    top: 0;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 14px;
+    font-style: italic;
 }
 
 .bubbleText {
@@ -259,29 +397,6 @@ input {
     position: absolute;
 }
 
-
-.bubbleInfo {
-    width: 765px;
-    height: auto;
-    text-align: center;
-    vertical-align: middle;
-    display: table-cell;
-    top: -30px;
-    position: relative;
-}
-
-.bubbleInfo div {
-    max-width: 350px;
-    background: #fff;
-    position: relative;
-    top: 0;
-    display: inline-block;
-    padding: 20px;
-    border: 1px solid #000;
-    color: #000;
-    font-size: 14px;
-}
-
 .choice {
     padding: 3px;
 }
@@ -300,7 +415,7 @@ input {
     background: -o-linear-gradient(left, rgba(134, 100, 155, 0.9) 0%, rgba(182, 161, 202, 0.9) 60%, rgba(213, 202, 202, 0.6) 100%);
     background: -ms-linear-gradient(left, rgba(134, 100, 155, 0.9) 0%, rgba(182, 161, 202, 0.9) 60%, rgba(213, 202, 202, 0.6) 100%);
     background: linear-gradient(to right, rgba(134, 100, 155, 0.9) 0%, rgba(182, 161, 202, 0.9) 60%, rgba(213, 202, 202, 0.6) 100%);
-    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e62e0035', endColorstr='#990f47ae', GradientType=1);*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e62e0035', endColorstr='#990f47ae', GradientType=1);
     color: rgba(246, 246, 246, 1);
     padding: 1%;
     font-size: 15px;
@@ -311,11 +426,14 @@ input {
 .choiceTextRpg .choice, .adminChoiceTextRpg .choice {
     cursor: pointer;
     line-height: 100%;
-    /*-webkit-transition: all 0.2s ease-in-out;*/
     word-break: break-word;
     padding-right: 15%;
-    /*-webkit-animation-name: fade-in;
-    -webkit-animation-duration: 0.5s;*/
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-animation-name: fade-in;
+    animation-name: fade-in;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
 }
 
 .choice:hover {
@@ -324,13 +442,45 @@ input {
     transition: all 0.2s ease-in-out;
 }
 
+#player .text {
+    z-index: 100;
+    text-align: justify;
+    position: absolute;
+    overflow: hidden;
+    background: -moz-linear-gradient(top, rgba(180, 146, 168, 0.85) 0%, rgba(141, 124, 170, 0.85) 89%, rgba(118, 100, 123, 0.85) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(180, 146, 168, 0.85)), color-stop(89%, rgba(141, 124, 170, 0.85)), color-stop(100%, rgba(118, 100, 123, 0.85)));
+    background: -webkit-linear-gradient(top, rgba(180, 146, 168, 0.85) 0%, rgba(141, 124, 170, 0.85) 89%, rgba(118, 100, 123, 0.85) 100%);
+    background: -o-linear-gradient(top, rgba(180, 146, 168, 0.85) 0%, rgba(141, 124, 170, 0.85) 89%, rgba(118, 100, 123, 0.85) 100%);
+    background: -ms-linear-gradient(top, rgba(180, 146, 168, 0.85) 0%, rgba(141, 124, 170, 0.85) 89%, rgba(118, 100, 123, 0.85) 100%);
+    background: linear-gradient(to bottom, rgba(180, 146, 168, 0.85) 0%, rgba(141, 124, 170, 0.85) 89%, rgba(118, 100, 123, 0.85) 100%);
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d900515d', endColorstr='#4d001935', GradientType=0);*/
+    line-height: 1em;
+    font-size: 20px;
+}
+
+#player .text > div {
+    color: rgba(246, 246, 246, 1);
+    padding: 19px 19px 30px;
+    box-sizing: border-box;
+}
+
+.typewriter-letter {
+    opacity: 0;
+    font-style: italic;
+}
+
+#player img.special {
+    position: absolute;
+    cursor: pointer;
+}
+
 .npc, .pet {
     width: 765px;
     height: 450px;
     display: block;
     position: absolute;
     text-align: center;
-    /*-webkit-animation-name: fade-in;*/
+    /*-webkit-animation-name: fade-in; Se añade dinámicamente*/
     -webkit-animation-duration: 0.2s;
     animation-duration: 0.2s;
 }
@@ -364,16 +514,18 @@ input {
 	max-height: 594px;
 }
 
+
 .changeLocation {
-    width: 14px;
-    height: 14px;
+    width: 18px;
+    height: 18px;
     position: absolute !important;
     border-radius: 14px;
-
     border: 2px solid #98780c;
     box-shadow: -1px -1px 1px #b9994a, 1px 1px 1px #b9994a, -1px 1px 1px #b9994a, 1px -1px 1px #b9994a;
     background: #ffbc00;
     cursor: pointer;
+    font-size: 12px;
+    line-height: 1.5em;
 }
 
 .tooltip {
@@ -383,7 +535,7 @@ input {
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
+    width: 130px;
     background-color: rgba(0,0,0,0.6);
     color: #fff;
     text-align: center;
@@ -401,107 +553,32 @@ input {
     opacity: 1;
 }
 
-#popup-bg {
-    background: rgba(0,0,0,0.8);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    position: fixed;
-    z-index: 101;
-    text-align: center;
-    overflow: auto;
-    display: none;
-}
-
-#popup {
-    width: 500px;
-    background: #fff;
-    z-index: 102;
+/* Functions ingame */
+.ingame_button {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    margin: 20px auto;
     position: relative;
-    display: inline-block;
-    top: 200px;
-    padding:1px;
-}
-
-.popup-title {
-    margin: auto;
-    text-transform: uppercase;
-    padding: 5px 0;
-    display: inline-block;
-    width: 100%;
-    background: #8d7caa;
-    color: #fff;
-}
-
-.popup-body {
-    display: inline-block;
-    width: 90%;
-    padding: 10px 25px;
-}
-
-#char-container {
-    display: none;
-}
-
-#char-select {
     text-align: center;
-    display: inline-block;
-    width: 765px;
+    align-self: end;
+    font-size: 14px;
+    border: 1px solid var(--main-color);
+    transition: 200ms;
 }
 
-.play-char {
-    width: 150px;
-    height: 220px;
-    background-position-x: -320px;
-    background-position-y: -240px;
-    display: inline-block;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    border-radius: 15px;
-    filter: grayscale(1);
-    cursor: pointer;
-    border: 1px solid;
-    box-shadow: 1px 1px 5px #808080;
+.ingame_button a {
+    text-decoration: none;
+    color: inherit;
 }
 
-.play-char + .play-char {
-    margin-left: 20px;
-
+.ingame_button:hover a {
+    text-decoration: none;
+    color: inherit;
 }
 
-.play-char:hover {
-    filter: grayscale(0);
-    transition: filter 0.6s;
-}
-
-.layout-popup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #000a;
-    z-index: 101;
-    display: grid;
-    align-content: center;
-    padding: 50px;
-}
-
-.layout-popup img {
-    object-fit: contain;
-    margin: auto;
-    max-width: 90%;
-    max-height: calc(100% - 40px);
-}
-
-.layout-popup a {
-    margin: auto;
-    cursor: pointer;
-}
-
-.layout-popup a .image-popup-button {
-    padding: 10px 30px;
-    background-color: #86649b;
-    color: #fff;
-    text-transform: uppercase;
+.ingame_button:hover {
+    background-color: #fff;
+    color: var(--main-color);
 }

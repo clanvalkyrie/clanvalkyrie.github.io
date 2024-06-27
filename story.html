@@ -2,127 +2,66 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-
- 		<meta http-equiv="Expires" content="0">
-  		<meta http-equiv="Last-Modified" content="0">
-	  	<meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
-	  	<meta http-equiv="Pragma" content="no-cache">
-
 		<link rel="shortcut icon" type="image/png" href="assets/favicon.png">
 		<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png">
-		<title>Comunidad Valquírica</title>
+		<title>Historias - Comunidad Valquírica</title>
 
-		<link rel="stylesheet" type="text/css" href="styles/base.css">
-		<link rel="stylesheet" type="text/css" href="styles/story.css">
-		<link rel="stylesheet" href="https://use.edgefonts.net/c/7ac18c/1w;lato,2,c0s:W:i4,c0y:W:i7,c0r:W:n4,c0x:W:n7/l" media="all">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans|Oswald' type='text/css'>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script type="text/javascript" src="js/chloader.js"></script>
-		<script type="text/javascript" src="js/story.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="styles/base2.css">
+		<link rel="stylesheet" type="text/css" href="styles/story.css">
 
 	</head>
-	<body class="">
+	<body>
 		<nav>
-			<a class="hi" href="/" style="display: none;">
-				<img src="assets/logo.png">
-			</a>
-			<bar>
-				<a class="i"><img src="assets/logo.png"></a>
-				<a href="/">Vestíbulo</a><a href="https://valkyrieclub.tumblr.com/ask">Mensajería</a><a href="story">Novela</a><a href="guardians">Valkyries</a>
-			</bar>
+			<img src="./assets/logo.png" alt="">
+			<h2><a href="./">Comunidad Valquírica</a></h2>
+			<span class="page-name">Historias</span>
+			<ul class="page-menu">
+				<li><a href="story.html">Historias</a></li>
+				<li><a href="guardians.html">Personajes</a></li>
+				<li><a href="us.html">Nosotros</a></li>
+				<li><a href="help.html">Ayuda</a></li>
+				<li><a href="thanks.html">Agradecimientos</a></li>
+			</ul>
 		</nav>
 
 		<!-- Lista de episodios -->
-		<div class="cont" style="margin-top:50px; display:none;">
-			<aside>
-				<div class="block">
-					<a class="tai" href="/">Comunidad Valquírica</a>
-					<a class="sm" href="/">
-						<img src="assets/cover1.png">
-					</a>
-					Bienvenido a la residencia valquírica. ¿Le ayudo con algo?. — exclamó Chenmi.
-				</div>
-				
+		<div id="container">
+			<section>
+				<div id="stories">
+					<div class="header">Historias disponibles</div>
+					<div id="stories-list">
 
-				<div class="block">
-					<div class="ti">about</div>
-					<div class="nn">
-						<a href="clanvalkyrie">Clan Valkyrie</a>
-						<a href="us">Nosotros</a>
-						<a href="tagged/about">Personajes</a>
-						<a href="affiliate">Afiliados</a>
-						<a href="thanks">¡Gracias a...!</a>
-						<a href="help">Ayuda</a>
+					</div>
+					<div id="episodes-modal">
+						<div class="episodes-container">
+						  <div class="episode-list"></div>
+						</div>
+					  </div>
+				</div>
+
+				<div id="episode">
+					<div id="episode-name" class="header"></div>
+					<div class="episode-container">
+						<div class="episode-content">
+							<div class="objectives-container">
+								<div class="panel-title">Objetivos</div>
+								<div class="obj-list">
+									<ul></ul>
+								</div>
+
+							</div>
+							<div id="player"></div>
+						</div>
 					</div>
 				</div>
-			</aside>
-			<section style="margin-right: 0">
-				<div id="episodes" style="">
-					<div class="title">Continúa tu aventura</div>
-
-					<div class="episode code">
-						<p>Si ya iniciaste tu historia pega aquí tu código para continuar desde dónde la dejaste:</p>
-						<form onsubmit="return false;" style="margin: 20px auto 15px;">
-							<input id="episode-code" value="" >
-							<input id="load-episode" class="button" type="submit" value="Continuar" >
-						</form>
-						<p id="error-msg"></p>
-					</div>
-				</div>
-
-				<div id="episodes" style="">
-
-					<div class="title">Lista de capítulos</div>
-					<ul id="episode-list">
-					</ul>
-				</div>
-
 			</section>
 		</div>
 
-		<!-- Episodios -->
-		<div class="cont" style="margin-top:50px; display:none;">
-			<aside>
-				<div class="block">
-					<div class="tai" href="/">Comunidad Valquírica</div>
-					<span class="main-char"></span>
-				</div>
-				
-				<div class="block">
-					<div class="tai">Objetivos</div>
-					<div class="objectives">
-					</div>
-				</div>
-
-				<div class="block">
-					<div class="tai checkpoint">Checkpoint</div>
-					Utiliza el siguiente código para continuar con tu historia:
-					<code></code>
-				</div>
-			</aside>
-
-			<section style="margin-right: 0">
-
-				<div id="story" style="">
-
-					<div id="episode-back"></div>
-					<div id="ongoing-episode-title" class="title"></div>
-					<div id="episode-container">
-
-						<div id="qwe" style="display:none">data/ch.json</div>
-						<div id="ert" style="display:none">data/common/general-inventory.json</div>
-						<div id="rty" style="display:none">data/common/general-npcs.json</div>
-						<div id="tyu" style="display:none">data/common/general-places.json</div>
-						<div id="yui" style="display:none">data/common/general-special.json</div>
-					</div>
-					<div id="char-container">
-						<p>Este capítulo puede leerse desde diferentes puntos de vista, elige uno para iniciarlo:</p>
-						<div id="char-select"></div>
-					</div>
-
-				</div>
-			</section>
-
-		</div>
+		<!--
 		<div id="popup-bg">
 			<div id="popup">
 				<span class="popup-title"></span>
@@ -136,6 +75,11 @@
 					<div id="next-popup" class="button">Continuar</div>
 				</div>
 			</div>
-		</div>
+		</div> 
+		-->
+
+		<script src="js/normalize.js"></script>
+		<script src="js/story-loader.js"></script>
+		<script src="js/story-play.js"></script>
 	</body>
 </html>

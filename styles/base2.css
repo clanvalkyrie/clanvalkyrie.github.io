@@ -1,0 +1,156 @@
+/* base */
+:root {
+    --main-color: #86649b;
+    --main-color-lighter: #b09bd5;
+    --main-background-color: #8d7caa;
+    --main-color-transparent: #86649bab;
+    --font-color: #888;
+    --nav-height: 45px;
+}
+
+::-webkit-scrollbar {width:7px;background-color:#fff;}
+::-webkit-scrollbar-thumb {background-color:var(--main-color);}
+
+* {
+    box-sizing: border-box;
+    /* scrollbar firefox */
+    scrollbar-color: var(--main-color) #fff;
+    scrollbar-width: thin;
+}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body, a, a:hover {
+    cursor: url('../assets/cursor.cur'), auto;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: var(--main-background-color);
+    background-image: url(../assets/interface/og.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: var(--font-color);
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth:always;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    height: var(--nav-height);
+    width: 100%;
+    background-color: #fff;
+    color: var(--main-color);
+    border-bottom: 1px solid;
+    align-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    box-shadow: 0 0 20px var(--main-color);
+    gap: 10px;
+    z-index: 999;
+}
+
+nav img {
+    height: 100%;
+}
+
+nav h2 {
+    font-family: "Oswald", sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+nav h2 a, nav h2 a:visited, nav h2 a:hover {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.page-name {
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 15px;
+}
+
+nav .page-name::before {
+    content: '»';
+    margin-right: 5px;
+}
+
+.page-menu {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    display: inline-flex;
+    right: 10px;
+    gap: 10px;
+    margin: auto 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-size: 11px;
+}
+
+.page-menu a {
+    color: var(--font-color);
+    padding: 5px;
+    transition: 300ms;
+    font-stretch: condensed;
+    font-weight: bold;
+}
+
+.page-menu a:hover {
+    color: var(--main-color-lighter);
+    text-decoration: none;
+}
+
+
+#container {
+    position: absolute;
+    top: var(--nav-height);
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.header {
+    font-size: 2.1vw;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    width: 80%;
+    text-align: center;
+    margin: 10px auto;
+    color: #fff;
+    font-size: 1vw;
+    font-style: italic;
+}
+
+.header, .subtitle {
+    text-shadow: 0 0 5px #000;
+}
+
+/* fin base */

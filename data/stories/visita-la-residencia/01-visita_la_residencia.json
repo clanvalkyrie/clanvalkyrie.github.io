@@ -1,0 +1,197 @@
+[
+	{
+		"id":10000,
+		"type":"pov_selector",
+        "pov":[
+            {"char":"Chenmi", "id":1350, "scene":10001}
+        ]
+	},
+
+	{
+		"id":10001,
+		"text":"Episodio especial de pruebas.",
+		"type":"info_general",
+		"background":"black",
+		"npc":[],
+		"self":"",
+		"choices":[
+			{"text":"(INICIAR EL EPISODIO)", "next":10002}
+		]
+	},
+	{
+		"id":10002,
+		"text":"Bienvenida a un nuevo episodio de pruebas. Aquí no habrá historia, pero podrás deplazarte libremente entre todos los escenarios disponibles.",
+		"type":"story_general",
+		"background":153,
+		"npc":[],
+		"self":1350,
+		"choices":[
+			{"text":"(Continuar)", "next":10003}
+		]
+	},
+	{
+		"id":10003,
+		"text":"Para ello voy a dejarte en manos de mi asistente, ¡buena suerte!",
+		"type":"story_general",
+		"background":153,
+		"npc":[],
+		"self":1350,
+		"choices":[
+			{"text":"¿Asistente?", "next":10004}
+		]
+	},
+	{
+		"id":10004,
+		"text":"Bienvenida,<br>mi nombre es Zekai,<br>yo me encargaré de llevarte a la residencia.",
+		"type":"npc_dialog",
+		"background":153,
+		"npc":[1007],
+		"self":1350,
+		"choices":[
+			{"text":"Vale.", "next":10005}
+		]
+	},
+	{
+		"id":10005,
+		"text":"Solo dime, ¿quieres andar por el día, o por la noche?",
+		"type":"npc_dialog",
+		"background":153,
+		"npc":[1007],
+		"self":1350,
+		"choices":[
+			{"text":"Mejor por el día.", "next":10006},
+			{"text":"Prefiero la noche.", "next":10011}
+		]
+	},
+	{
+		"id":10006,
+		"text":"Muy bien.",
+		"type":"npc_dialog",
+		"background":153,
+		"npc":[1007],
+		"self":1350,
+		"choices":[
+			{"text":"(Continuar)", "next":10007}
+		]
+	},
+	{
+		"id":10007,
+		"text":"* Residencia, de día. *",
+		"type":"info_general",
+		"background":"black",
+		"npc":[],
+		"self":1350,
+		"choices":[
+			{"text":"(Continuar)", "next":10008}
+		]
+	},
+	{
+		"id":10008,
+		"text":"Listo, regresa aquí si necesitas algo.",
+		"type":"npc_dialog",
+		"background":119,
+		"npc":[1007],
+		"self":1350,
+		"choices":[
+			{"text":"(Terminar conversación)", "next":10016}
+		]
+	},
+	{
+		"id":10016,
+		"type":"objectives",
+		"background":119,
+		"list":[
+			{"id":1, "required":true, "text":"Visita la residencia, de día.", "type":"place", "value":119, "next":10009}
+		]
+	},
+	{
+		"id":10009,
+		"text":"¿Necesitas algo?",
+		"type":"npc_dialog",
+		"background":119,
+		"npc":[1007],
+		"self":1350,
+		"choices":[
+			{"text":"¿Puedes hacer de noche?", "next":10012},
+			{"text":"Solo estoy mirando.", "next":10010}
+		]
+	},
+	{
+		"id":10010,
+		"text":"Pues continúa.",
+		"type":"npc_dialog",
+		"background":119,
+		"npc":[1007],
+		"self":1350,
+		"choices":[
+			{"text":"(Terminar conversación)", "next":10016}
+		]
+	},
+
+
+
+	{
+		"id":10011,
+		"text":"Muy bien.",
+		"type":"npc_dialog",
+		"background":153,
+		"npc":[1007],
+		"self":1350,
+		"choices":[
+			{"text":"(Continuar)", "next":10012}
+		]
+	},
+	{
+		"id":10012,
+		"text":"* Residencia, de noche. *",
+		"type":"info_general",
+		"background":"black",
+		"npc":[],
+		"self":1350,
+		"choices":[
+			{"text":"(Continuar)", "next":10013}
+		]
+	},
+	{
+		"id":10013,
+		"text":"Listo, regresa aquí si necesitas algo.",
+		"type":"npc_dialog",
+		"background":126,
+		"npc":[1007],
+		"self":1350,
+		"choices":[
+			{"text":"(Terminar conversación)", "next":10017}
+		]
+	},
+	{
+		"id":10017,
+		"type":"objectives",
+		"background":126,
+		"list":[
+			{"id":1, "required":true, "text":"Visita la residencia, de noche.", "type":"place", "value":126, "next":10014}
+		]
+	},
+	{
+		"id":10014,
+		"text":"¿Necesitas algo?",
+		"type":"npc_dialog",
+		"background":126,
+		"npc":[1007],
+		"self":1350,
+		"choices":[
+			{"text":"¿Puedes hacer de día?", "next":10007},
+			{"text":"Solo estoy mirando.", "next":10015}
+		]
+	},
+	{
+		"id":10015,
+		"text":"Pues continúa.",
+		"type":"npc_dialog",
+		"background":126,
+		"npc":[1007],
+		"self":1350,
+		"choices":[
+			{"text":"(Terminar conversación)", "next":10017}
+		]
+	}
+]

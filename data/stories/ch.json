@@ -1,0 +1,53 @@
+[
+    {
+        "nombre":"Clan Valkyrie (spin-off)", "visible":true, "ubicacion":"clan-valkyrie-spinoff",
+        "portada":null,
+        "autor":"Naranja",
+        "descripcion":null,
+        "mapa":"v_mapa.json",
+        "personajes":"v_personajes.json",
+        "finalizado":false,
+        "capitulos":[
+            {"episodio":1, "nombre":"La invitación", "descripcion":"Chenmi, una de las Valkyries, está planeando un gran baile de gala para las comunidades de los alrededores, pues está convencida de que es momento de forjar alianzas y empezar a conocer a quiénes nos rodean en el entorno eldaryano. ¿Te sumarás?"}
+        ]
+    },
+
+    {
+        "nombre":"Clan Valkyrie", "visible":false, "ubicacion":"clan-valkyrie",
+        "portada":null,
+        "autor":"Naranja",
+        "descripcion":null,
+        "mapa":"mapa.json",
+        "personajes":"v_personajes.json",
+        "finalizado":false,
+        "capitulos":[
+            {"episodio":1, "nombre":"Grata Bienvenida", "descripcion":null},
+            {"episodio":2, "nombre":"La usurpación a un aposento", "descripcion":null}
+        ]
+    },
+
+    {
+        "nombre":"Visita la residencia", "visible":true, "ubicacion":"visita-la-residencia",
+        "portada":null,
+        "autor":"Zunay",
+        "descripcion":"Desplázate libremente por la residencia.",
+        "mapa":"v_mapa.json",
+        "personajes":"v_personajes.json",
+        "finalizado":true,
+        "capitulos":[
+            {"episodio":1, "nombre":"Visita la residencia", "descripcion":"Desplázate libremente por la residencia."}
+        ]
+    },
+    {
+        "nombre":"DEV Test Story", "visible":false, "ubicacion":"dev-test-story",
+        "portada":null,
+        "autor":"Zunay",
+        "descripcion":"Episodio de pruebas",
+        "mapa":"v_mapa.json",
+        "personajes":"v_personajes.json",
+        "finalizado":true,
+        "capitulos":[
+            {"episodio":1, "nombre":"DEV Test Story", "descripcion":"Episodio de pruebas."}
+        ]
+    }
+]
