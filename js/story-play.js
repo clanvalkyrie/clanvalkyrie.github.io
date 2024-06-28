@@ -8,8 +8,8 @@ const playEpisode = async (story, episode) => {
     let name = ((episodeInfo[0].nombre).replace(/ /g, "_")).toLowerCase();
     let episodeName = `${num}-${normalize(name)}`;
 
-    let map = storyInfo[0].mapa != "mapa.json" ? `_general/${storyInfo[0].mapa}` : `${story}/${episodeLocation}/${storyInfo[0].mapa}`;
-    let pj = storyInfo[0].personajes != "personajes.json" ? `_general/${storyInfo[0].personajes}` : `${story}/${episodeLocation}/${storyInfo[0].personajes}`;
+    let map = storyInfo[0].mapa != "mapa.json" ? `general/${storyInfo[0].mapa}` : `${story}/${episodeLocation}/${storyInfo[0].mapa}`;
+    let pj = storyInfo[0].personajes != "personajes.json" ? `general/${storyInfo[0].personajes}` : `${story}/${episodeLocation}/${storyInfo[0].personajes}`;
     
     $("#episode-name").text(`${episode} - ${episodeInfo[0].nombre}`);
     $("#episode-name").prepend('<span class="back-button">Regresar</span>');
