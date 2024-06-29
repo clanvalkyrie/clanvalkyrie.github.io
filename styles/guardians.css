@@ -2,7 +2,7 @@
 .profiles {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     margin: 20px auto;
 }
 
@@ -60,27 +60,49 @@
     opacity: 1;
 }
 
+.photoname[data-target="jenna"] {background-color: #F93A3A77;}
+.photoname[data-target="chenmi"] {background-color: #F9943A77;}
+.photoname[data-target="maat"] {background-color: #F9F93A77;}
+.photoname[data-target="vidalia"] {background-color: #8EF93A77;}
+.photoname[data-target="unknown"] {background-color: #3AE2F977;}
+.photoname[data-target="alariane"] {background-color: #3A57F977;}
+.photoname[data-target="keiko"] {background-color: #713AF977;}
+.photoname[data-target="lara"] {background-color: #F93ABF77;}
+.photoname[data-target="gisany"] {background-color: #FFFFFF77;}
+.photoname[data-target="zakurin"] {background-color: #00000077;}
+.photoname[data-target="alanna"] {background-color: #80808077;}
+.photoname[data-target="bugambilia"] {background-color: #FFD80077;}
+
 .pointer {
     cursor: pointer;
 }
 
 .rotate {
     color: #fff;
-    letter-spacing: 3px;
-    height: 7.6vw;
+    letter-spacing: 3px;    
+    height: 7vw;
     width: 25.8vw;
     display: flex;
     justify-content: center;
     align-items: center;
     white-space: nowrap;
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg) translateY(-3%);
+    -moz-transform: rotate(-90deg) translateY(-3%);
+    -ms-transform: rotate(-90deg) translateY(-3%);
+    -o-transform: rotate(-90deg) translateY(-3%);
+    transform: rotate(-90deg) translateY(-3%);
     text-shadow: 0 0 10px #fff;
+    text-shadow: 0 0 10px #000;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
+}
+
+.photoname[data-target="unknown"] .rotate {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
 }
 
 .photodiv img {
@@ -92,8 +114,13 @@
     width: 7.6vw;
     height: 25.8vw;
     object-fit: cover;
-    transform: scale(250%) translateY(10%);
+    transform: scale(238%) translateY(10%);
     position: relative;
+}
+
+.profiles img.unknown {
+    transform: scale(.8) translateX(-3%);
+    object-fit: contain;
 }
 
 .profiles div img {

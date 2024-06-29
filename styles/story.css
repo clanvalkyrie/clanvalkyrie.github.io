@@ -4,15 +4,15 @@
     padding: 2vw;
     flex-wrap: wrap;
     margin: auto;
-    width: 87vw;
+    width: 83vw;
 }
 
 .story-container {
-    width: 15vw;
+    width: 25vw;
     position: relative;
     background-color: #fff;
     overflow: hidden;
-    height: 25vw;
+    height: 35vw;
     box-shadow: 0 0 4px #0005;
     padding: .5vw;
     scale: 1;
@@ -39,7 +39,7 @@
 }
 
 .story-cover-container {
-    height: 20vw;
+    height: 32vw;
     overflow: hidden;
     background-color: #ddd;
 }

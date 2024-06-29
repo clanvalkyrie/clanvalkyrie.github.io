@@ -25,7 +25,6 @@ const drawStoriesList = stories => {
 		.append(`<div class="story-info"></div>`);
 		$(".story-info").eq(i)
 		.append(`<div class="story-name">${story[i].nombre}</div>`)
-		.append(`<div class="story-author">${story[i].autor}</div>`)
 		.append(`<div class="story-status">${story[i].finalizado ? "Finalizado" : "En curso"}</div>`);
 
 		if (!story[i].visible) $(".story-container").eq(i).addClass("hidden");
@@ -39,7 +38,6 @@ const drawEpisodeList = location => {
 
 	$(".episode-list")
 	.append(`<div class="story-title">${story[0].nombre}</div>`)
-	.append(`<div class="story-author">${story[0].autor}</div>`)
 	.append(`<div class="story-episodes-title">Lista de episodios:</div>`)
 	.append(`<div class="episodes"></div>`);
 

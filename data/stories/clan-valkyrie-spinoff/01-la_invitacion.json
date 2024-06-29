@@ -266,7 +266,7 @@
         "type":"npc_dialog", 
         "text":"Me temo que aún no. La esperamos desde que nos avisó su familiar, sin dar muchos detalles por cierto.",
         "background":124,
-        "npc":[1011],
+        "npc":[1550],
         "self":"",
         "choices":[
             {"text":"(Un estruendo aparece por la puerta)", "next":10017}
@@ -387,7 +387,7 @@
         "type":"npc_dialog", 
         "text":"¿Una... fiesta? Suena como algo que no hacemos muy a menudo.",
         "background":124,
-        "npc":[1011],
+        "npc":[1550],
         "self":1350,
         "choices":[
             {"text":"(Continuar)", "next":10028}
@@ -464,7 +464,7 @@
         "type":"npc_dialog", 
         "text":"¡Me fascina, chicas, de gala! para así poder lucir nuestros mejores vestuarios.", 
         "background":124,
-        "npc":[1011],
+        "npc":[1550],
         "self":1350,
         "choices":[
             {"text":"(Continuar)", "next":10035}
@@ -519,7 +519,7 @@
         "type":"npc_dialog", 
         "text":"¡Pulpatatas no!. Les tengo mucho respeto, pero me dan impresión con sus tentáculos...",
         "background":124,
-        "npc":[1011],
+        "npc":[1550],
         "self":1350,
         "choices":[
             {"text":"(Continuar)", "next":10045}
@@ -585,7 +585,7 @@
         "type":"npc_dialog", 
         "text":"Pues justamente estamos en temporada de verano con días de lo más despejados, así que estás de suerte.",
         "background":124,
-        "npc":[1011],
+        "npc":[1550],
         "self":1350,
         "choices":[
             {"text":"¡Genial, niñas. Manos a la obra, tenemos un baile que organizar y celebrar!", "next":10041}

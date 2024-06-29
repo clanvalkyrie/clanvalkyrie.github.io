@@ -395,3 +395,52 @@ $(function() {
         drawScene(next);
     });
 });
+
+// function cargarClicker(id) {
+// 	contenedor.innerHTML = "";
+// 	var temp = specialDB.filter(v => {return v.id == id});
+
+// 	for (c = 0; c < temp[0].click; c++) {
+// 		var html = '<img class="special" src="' + temp[0].img[c].url + '" style="'+ temp[0].img[c].style + '">';
+// 		$("#episode-container").append(html);
+// 	};	
+// };
+
+// const drawImagePopUp = (img, btn, url) => {
+// 	$("body").append(`<div class="layout-popup"><img src="${img}"></div>`);
+// 	$(".layout-popup").append(`<a ${url != null ? 'href="' + url + '"' : ""}><div class="image-popup-button">${btn}</div></a>`);
+// };
+
+// $(function() { 
+
+// 	$("#episode-container").each(function(){$(this).on("click", ".special", function() {
+// 		$(this).remove();
+// 		if ($(".special").length == 0) {
+// 			var dialog = storyDB.filter(v => {return v.id == current});
+// 			cargarStory(dialog[0].nextStory[0]);
+// 		};
+// 	})});
+
+// 	$("#char-select").each(function(){$(this).on("click", ".play-char", function() {
+// 		var selectedChar = $(this).attr("id");
+// 		$("#char-container").fadeOut(200);
+// 		cargarStory(selectedChar);
+// 		$("#episode-container").delay(200).fadeIn(400);
+
+// 	})});
+
+// 	$("#episode-container").click(function() {
+// 		if (cc == 1) {
+// 			$(".typewriter-letter").css("opacity", "1");
+// 			$(".choiceTextRpg").show();
+// 			cc = 0;
+// 		} else {
+// 			cc++;
+// 		};
+
+// 	});
+
+// 	$("body").on("click", ".image-popup-button", function() {
+// 		$(".layout-popup").remove();
+// 	});
+// });
