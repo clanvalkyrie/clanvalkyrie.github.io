@@ -9,7 +9,7 @@
 
 	{
 		"id":10001,
-		"text":"Episodio especial de pruebas.",
+		"text":["Episodio especial de pruebas."],
 		"type":"info_general",
 		"background":"black",
 		"npc":[],
@@ -20,7 +20,7 @@
 	},
 	{
 		"id":10002,
-		"text":"Bienvenida a un nuevo episodio de pruebas. Aquí no habrá historia, pero podrás deplazarte libremente entre todos los escenarios disponibles.",
+		"text":["Bienvenida a un nuevo episodio de pruebas. Aquí no habrá historia, pero podrás deplazarte libremente entre todos los escenarios disponibles."],
 		"type":"story_general",
 		"background":153,
 		"npc":[],
@@ -31,7 +31,7 @@
 	},
 	{
 		"id":10003,
-		"text":"Para ello voy a dejarte en manos de mi asistente, ¡buena suerte!",
+		"text":["Para ello voy a dejarte en manos de mi asistente, ¡buena suerte!"],
 		"type":"story_general",
 		"background":153,
 		"npc":[],
@@ -42,7 +42,7 @@
 	},
 	{
 		"id":10004,
-		"text":"Bienvenida,<br>mi nombre es Zekai,<br>yo me encargaré de llevarte a la residencia.",
+		"text":["Bienvenida,<br>mi nombre es Zekai,<br>yo me encargaré de llevarte a la residencia."],
 		"type":"npc_dialog",
 		"background":153,
 		"npc":[1007],
@@ -53,7 +53,7 @@
 	},
 	{
 		"id":10005,
-		"text":"Solo dime, ¿quieres andar por el día, o por la noche?",
+		"text":["Solo dime, ¿quieres andar por el día, o por la noche?"],
 		"type":"npc_dialog",
 		"background":153,
 		"npc":[1007],
@@ -65,7 +65,7 @@
 	},
 	{
 		"id":10006,
-		"text":"Muy bien.",
+		"text":["Muy bien."],
 		"type":"npc_dialog",
 		"background":153,
 		"npc":[1007],
@@ -76,7 +76,7 @@
 	},
 	{
 		"id":10007,
-		"text":"* Residencia, de día. *",
+		"text":["* Residencia, de día. *"],
 		"type":"info_general",
 		"background":"black",
 		"npc":[],
@@ -87,7 +87,7 @@
 	},
 	{
 		"id":10008,
-		"text":"Listo, regresa aquí si necesitas algo.",
+		"text":["Listo, regresa aquí si necesitas algo."],
 		"type":"npc_dialog",
 		"background":119,
 		"npc":[1007],
@@ -106,7 +106,7 @@
 	},
 	{
 		"id":10009,
-		"text":"¿Necesitas algo?",
+		"text":["¿Necesitas algo?"],
 		"type":"npc_dialog",
 		"background":119,
 		"npc":[1007],
@@ -118,7 +118,7 @@
 	},
 	{
 		"id":10010,
-		"text":"Pues continúa.",
+		"text":["Pues continúa."],
 		"type":"npc_dialog",
 		"background":119,
 		"npc":[1007],
@@ -132,7 +132,7 @@
 
 	{
 		"id":10011,
-		"text":"Muy bien.",
+		"text":["Muy bien."],
 		"type":"npc_dialog",
 		"background":153,
 		"npc":[1007],
@@ -143,7 +143,7 @@
 	},
 	{
 		"id":10012,
-		"text":"* Residencia, de noche. *",
+		"text":["* Residencia, de noche. *"],
 		"type":"info_general",
 		"background":"black",
 		"npc":[],
@@ -154,7 +154,7 @@
 	},
 	{
 		"id":10013,
-		"text":"Listo, regresa aquí si necesitas algo.",
+		"text":["Listo, regresa aquí si necesitas algo."],
 		"type":"npc_dialog",
 		"background":126,
 		"npc":[1007],
@@ -173,7 +173,7 @@
 	},
 	{
 		"id":10014,
-		"text":"¿Necesitas algo?",
+		"text":["¿Necesitas algo?"],
 		"type":"npc_dialog",
 		"background":126,
 		"npc":[1007],
@@ -185,7 +185,7 @@
 	},
 	{
 		"id":10015,
-		"text":"Pues continúa.",
+		"text":["Pues continúa."],
 		"type":"npc_dialog",
 		"background":126,
 		"npc":[1007],

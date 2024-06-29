@@ -10,7 +10,7 @@
     {
         "id":10001,
         "type":"info_general",
-        "text":"Esto es un bloque de información",
+        "text":["Esto es un bloque de información"],
         "background":"black",
         "npc":[],
         "self":1350,
@@ -21,7 +21,7 @@
     {
         "id":10002,
         "type":"story_general",
-        "text":"Esto es un bloque de historia.",
+        "text":["Esto es un bloque de historia."],
         "background":105,
         "npc":[],
         "self":1350,
@@ -32,7 +32,7 @@
     {
         "id":10003,
         "type":"npc_dialog",
-        "text":"",
+        "text":[],
         "background":105,
         "npc":[1007],
         "self":1350,
@@ -43,7 +43,7 @@
     {
         "id":10004,
         "type":"npc_dialog",
-        "text":"Este es un diálogo de un NPC.",
+        "text":["Este es un diálogo de un NPC."],
         "background":105,
         "npc":[1007],
         "self":1350,
@@ -54,7 +54,7 @@
     {
         "id":10005,
         "type":"npc_dialog",
-        "text":"Mira eso, puedes elegir varias opciones.",
+        "text":["Mira eso, puedes elegir varias opciones."],
         "background":105,
         "npc":[1007],
         "self":1350,
@@ -67,7 +67,7 @@
     {
         "id":10006,
         "type":"npc_dialog",
-        "text":"XDDDDDDD",
+        "text":["XDDDDDDD"],
         "background":105,
         "npc":[1007],
         "self":1350,
@@ -79,7 +79,7 @@
     {
         "id":10007,
         "type":"npc_dialog",
-        "text":"que",
+        "text":["que"],
         "background":105,
         "npc":[1007],
         "self":1350,
@@ -91,7 +91,7 @@
     {
         "id":10008,
         "type":"npc_dialog",
-        "text":"...QUÉ CONTESTARME, PORQUE CLARO, DE SEGURO TE MAREÉ",
+        "text":["...QUÉ CONTESTARME, PORQUE CLARO, DE SEGURO TE MAREÉ"],
         "background":105,
         "npc":[1007],
         "self":1350,
@@ -103,7 +103,7 @@
     {
         "id":10009,
         "type":"npc_dialog",
-        "text":"Es hora de probar los objetivos. Te asignaré un objetivo obligatorio, y otro opcional.",
+        "text":["Es hora de probar los objetivos. Te asignaré un objetivo obligatorio, y otro opcional."],
         "background":105,
         "npc":[1007],
         "self":1350,
@@ -114,7 +114,7 @@
     {
         "id":10010,
         "type":"npc_dialog",
-        "text":"Solo sígueme y no te distraigas",
+        "text":["Solo sígueme y no te distraigas"],
         "background":105,
         "npc":[1007],
         "self":1350,
@@ -135,7 +135,7 @@
     {
         "id":10012,
         "type":"npc_dialog",
-        "text":"",
+        "text":[],
         "background":101,
         "npc":[],
         "self":1350,
@@ -146,7 +146,7 @@
     {
         "id":10013,
         "type":"npc_dialog",
-        "text":"Oh Chenmi, ¡qué sorpresa!",
+        "text":["Oh Chenmi, ¡qué sorpresa!"],
         "background":121,
         "npc":[1001],
         "self":1350,
@@ -157,7 +157,7 @@
     {
         "id":10014,
         "type":"npc_dialog",
-        "text":"Oh, okay.",
+        "text":["Oh, okay."],
         "background":121,
         "npc":[1001],
         "self":1350,
@@ -168,7 +168,7 @@
     {
         "id":10015,
         "type":"npc_dialog",
-        "text":"Hasta que llegas",
+        "text":["Hasta que llegas"],
         "background":153,
         "npc":[1007],
         "self":1350,
@@ -179,7 +179,7 @@
     {
         "id":10016,
         "type":"npc_dialog",
-        "text":"Y por eso tenías que seguirme.",
+        "text":["Y por eso tenías que seguirme."],
         "background":153,
         "npc":[1007],
         "self":1350,
@@ -190,7 +190,7 @@
     {
         "id":10017,
         "type":"npc_dialog",
-        "text":"Bueno, es suficiente por hoy. Zunay ya tiene que ponerse a trabajar.",
+        "text":["Bueno, es suficiente por hoy. Zunay ya tiene que ponerse a trabajar."],
         "background":153,
         "npc":[1007],
         "self":1350,
@@ -201,7 +201,7 @@
     {
         "id":10018,
         "type":"npc_dialog",
-        "text":"¡Ya cállate y déjame finalizar el episodio!",
+        "text":["¡Ya cállate y déjame finalizar el episodio!"],
         "background":153,
         "npc":[1007],
         "self":1350,

@@ -16,7 +16,7 @@ var guardian = [
 			{"k":"Grupo", 		"v":''},
 			{"k":"Ocupación", 	"v":''},
 			{"k":"Gustos", 		"v":''}		// ultimo campo sin coma
-		], "perfil":"https://www.eldarya.es",
+		], "perfil":"",
 		"bio":[
 			'', // Copiar lineas segun parrafos deseados, quitar la coma si es el ultimo
 			'', // Copiar lineas segun parrafos deseados, quitar la coma si es el ultimo
@@ -39,7 +39,7 @@ var guardian = [
 			{"k":"Grupo", 		"v":'Clan Valkyrie.'},
 			{"k":"Ocupación", 	"v":'Guía Obsidiana, entrenadora de soldados.'},
 			{"k":"Gustos", 		"v":'"¿Que me  presten atención cuando hablo cuenta?"'}
-		], "perfil":"https://www.eldarya.es",
+		], "perfil":"",
 		"bio":[
 			'A pesar de provenir de tierras peligrosamente desconocidas, y con un amargo pasado, Jennen tuvo que volverse cruda y hóstil para dirigirse a los extraños. Sin embargo eso no bastó para mantener intacto su afecto y cuidado para con aquellos que están guardados en su corazón.',
 			'Jennen es fuerte, hozada y un ejemplo a seguir para toda la residencia. Gracias a ello es fácil ganarse el respeto de sus reclutas, e incluso hasta el temor de los demás (aunque a Jennen no le guste imponer miedo).',
@@ -62,7 +62,7 @@ var guardian = [
 			{"k":"Grupo", 		"v":'Clan Valkyrie.'},
 			{"k":"Ocupación", 	"v":'"Hago de todo, a veces mal, pero de todo."'},
 			{"k":"Gustos", 		"v":'Dar de qué hablar, sin siquiera estar presente. También le gusta superarse.'}
-		], "perfil":"https://www.eldarya.es",
+		], "perfil":"",
 		"bio":[
 			'Chenmi nació en el mundo de los humanos, hasta donde se sabe, pero de su vida humana no se sabe absolutamente nada, pues una vez que pasó por el "Proceso de eclosión y re-juventud de renacimiento" todos sus recuerdos han quedado en el pasado.',
 			'Llegó a Eldarya hace, apróximadamente, 24 años. En plena posterioridad de la guerra. También se sabe que Chenmi "es una esencia", aunque si se lo preguntas no sabrá cómo explicar esto tampoco...',
@@ -96,7 +96,7 @@ var guardian = [
 			{"k":"Grupo", 		"v":'Clan Valkyrie.'},
 			{"k":"Ocupación", 	"v":'Alquimista.'},
 			{"k":"Gustos", 		"v":'La lectura bajo los primeros rayos del sol es quizás una de las mejores maneras de empezar el día.'}
-		], "perfil":"https://www.eldarya.es",
+		], "perfil":"",
 		"bio":[
 			'Aunque no hable mucho de ella misma, lo que se sabe del pasado de Vidalia es que siendo nativa de Eldarya tiene conocimiento y una visión interesante del entorno que la rodea, y ello esta ciertamente ligado a su ser como dríada. Independiente a su especie, ella se caracteriza por los varios tatuajes que cubren su cuerpo: sellos, maldiciones, milagros, anomalías. No les da clasificación alguna, son parte de su ser y son los responsables de su existencia y de brindarle libertad.',
 			'Llegó al CG hace unos años desde una tierra lejana, y le agradó tanto el lugar que decidió quedarse y hacer parte de la comunidad, que afortunadamente la acogió y le ofreció mas de lo que hubiese imaginado, y ella a su vez como agradecimiento da todo de si para apoyarlos en lo que le sea posible.',
@@ -124,7 +124,7 @@ var guardian = [
 			{"k":"Grupo", 		"v":'Clan Valkyrie.'},
 			{"k":"Ocupación", 	"v":'En absolutamente todo. Originalmente profesora.'},
 			{"k":"Gustos", 		"v":'"Gustos bastantes, pero cuando un alumno presta atención no existe mejor satisfacción."'}
-		], "perfil":"https://www.eldarya.es",
+		], "perfil":"",
 		"bio":[
 			'Melanie es una guardiana centrada, inteligente y de característicos modales. Le encanta enseñar y ser la guía para los demás, es por ello que se la conoce como "la sensei de todos", aunque quizás no le encante mucho ese título.',
 			'Es originaria de Eldarya, pero no exactamente de la ciudad de Eel. No es raro que a veces desaparezca para irse a su tierra natal y pasar tiempo con sus hermanas de sangre. Melanie dice que sus hermanas valkyries son tan importantes como las de sangre, es por que que debe darle tanta atención como se la da a sus amigas.',
@@ -147,7 +147,7 @@ var guardian = [
 			{"k":"Grupo", 		"v":'Clan Valkyrie.'},
 			{"k":"Ocupación", 	"v":'Asistente de Alariane en enfermería. Tesorera.'},
 			{"k":"Gustos", 		"v":'Las moras, y parece que el morado también.'}
-		], "perfil":"https://www.eldarya.es",
+		], "perfil":"",
 		"bio":[
 			'Próximamente.'
 		]
@@ -167,7 +167,7 @@ var guardian = [
 			{"k":"Grupo", 		"v":'Clan Valkyrie.'},
 			{"k":"Ocupación", 	"v":'Encargada de la clasificación de pócimas.'},
 			{"k":"Gustos", 		"v":'Las flores, también el valle de donde proviene.'}
-		], "perfil":"https://www.eldarya.es",
+		], "perfil":"",
 		"bio":[
 			'Lara es realmente un sol de persona, suele ser bastante amigable y destaca por lo risueña que puede llegar a ser. Le gusta la moda, cantar con familiares y hasta a veces sumarse a las travesuras de Chenmi, aunque a veces liga retos por ello.',
 			'Es verdad que prefiere trabajar sola, pues según trabajar en compañía implica hablar, y a Lara le encanta hablar. Le es bastante fácil distraerse, es por ello que quizás se aisle a la hora de realizar tareas. Es verdad también que suele ser bastante misteriosa... A veces demasaido.',
@@ -189,7 +189,7 @@ var guardian = [
 			{"k":"Grupo", 		"v":'Clan Valkyrie.'},
 			{"k":"Ocupación", 	"v":'Sacerdotiza.'},
 			{"k":"Gustos", 		"v":'Cuando Chenmi está a cargo del clan. Mirar las nubes.'}
-		], "perfil":"https://www.eldarya.es",
+		], "perfil":"",
 		"bio":[
 			'Próximamente.'
 		]
@@ -209,7 +209,7 @@ var guardian = [
 			{"k":"Grupo", 		"v":'Clan Valkyrie.'},
 			{"k":"Ocupación", 	"v":'Soldado de la Residencia. Asistente de Jennen en el taller.'},
 			{"k":"Gustos", 		"v":'Fiel amante al color negro y le gusta encontrar famis nuevos. También disfruta de las playas de Eel.'}
-		], "perfil":"https://www.eldarya.es",
+		], "perfil":"",
 		"bio":[
 			'Próximamente.'
 		]
@@ -229,7 +229,7 @@ var guardian = [
 			{"k":"Grupo", 		"v":'¿Clan Valkyrie?'},
 			{"k":"Ocupación", 	"v":'¿?'},
 			{"k":"Gustos", 		"v":'¿?'}
-		], "perfil":"https://www.eldarya.es",
+		], "perfil":"",
 		"bio":[
 			'¿?'
 		]

@@ -8,7 +8,7 @@
         "personajes":"v_personajes.json",
         "finalizado":false,
         "capitulos":[
-            {"episodio":1, "nombre":"La invitación", "descripcion":"Chenmi, una de las Valkyries, está planeando un gran baile de gala para las comunidades de los alrededores, pues está convencida de que es momento de forjar alianzas y empezar a conocer a quiénes nos rodean en el entorno eldaryano. ¿Te sumarás?"}
+            {"episodio":0, "nombre":"La invitación", "descripcion":"Chenmi, una de las Valkyries, está planeando un gran baile de gala para las comunidades de los alrededores, pues está convencida de que es momento de forjar alianzas y empezar a conocer a quiénes nos rodean en el entorno eldaryano. ¿Te sumarás?"}
         ]
     },
 
