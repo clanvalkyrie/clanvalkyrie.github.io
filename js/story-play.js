@@ -133,10 +133,10 @@ const drawScene = (id) => {
 
                 // mover gardis segun la cantidad!
                 if (scene[0].npc.length == 2) {
-                    n == 0 ? $(".npc-container img").css("left", "-130px").css("z-index", 1) : $(".npc-container img").css("left", "120px");
+                    n == 0 ? $(".npc-container img").eq(n).css("left", "-100px").css("z-index", 1) : $(".npc-container img").eq(n).css("left", "100px");
 
                 } else if (scene[0].npc.length == 3) {
-                    n == 0 ? $(".npc-container img").css("left", "-180px") : n == 1 ? $(".npc-container img").css("left", "170px") : $(".npc-container img").css("left", 0);
+                    n == 0 ? $(".npc-container img").eq(n).css("left", "-180px") : n == 1 ? $(".npc-container img").eq(n).css("left", "170px") : $(".npc-container img").eq(n).css("left", 0);
                 };
 
             } else {
@@ -161,7 +161,7 @@ const drawScene = (id) => {
         $(`#${scene[0].id}`).css("display", "none");
         $(`#${scene[0].id}`).fadeIn(500);
 
-        let siglas = scene[0].text;
+        let siglas = scene[0].text[0];
         for (s = 0; s < siglas.length; s++) {
             $(".text.undefined div").append(`<span class="typewriter-letter">${siglas[s]}</span>`);
         };
@@ -173,17 +173,19 @@ const drawScene = (id) => {
         };
 
     } else if (skip == null && scene[0].type == "info_general") {
-        $("#player").append(`<div class="bubbleInfo"><div>${scene[0].text}</div></div>`);
+        $("#player").append(`<div class="bubbleInfo"><div>${scene[0].text[0]}</div></div>`);
 
     } else if (skip == null && scene[0].type == "npc_dialog") {
 
-        if (scene[0].text != "") {
+        if (scene[0].text.length > 0) {
 
             // Solo una burbuja
-            $("#player").append(`<div data-bubble="${scene[0].id}" class="bubbleText">${scene[0].text}</div>`);
+            for (b = 0; b < scene[0].text.length; b++) {
+                $("#player").append(`<div data-bubble="${scene[0].id}" class="bubbleText">${scene[0].text[b]}</div>`);
+            };
 
-            // Ubicar según la cantidad de NPCs
-            (scene[0].npc.length == 2) ? $(".bubbleText").addClass("duo") : (scene[0].npc.length == 3) ? $(".bubbleText").addClass("trio") : $(".bubbleText").addClass("undefined");
+            // Ubicar según la cantidad de bubbleText
+            (scene[0].text.length == 2) ? $(".bubbleText").addClass("duo") : (scene[0].text.length == 3) ? $(".bubbleText").addClass("trio") : $(".bubbleText").addClass("undefined");
 
             //	// opcion multiText PENDIENTE
 
@@ -333,7 +335,7 @@ const show_image = (img, btn, url, next) => {
         .css("background-repeat", "no-repeat")
         .css("background-size", "auto 430px")
         .css("background-position", "center");
-    $("#player").append(`<div class="ingame_button" data-next="${next}"><a${url != null ? ' href="' + url + '"' : ""}>${btn}</a></div>`);
+    $("#player").append(`<div class="ingame_button" data-next="${next}"><a${url != null ? ' href="' + url + '" target="_blank"' : ""}>${btn}</a></div>`);
 };
 
 
@@ -394,7 +396,20 @@ $(function() {
         $("#player").removeAttr("style");
         drawScene(next);
     });
+
+	$("#player").click(function() {
+		if (cc == 1) {
+			$(".typewriter-letter").css("opacity", "1");
+			$(".choiceTextRpg").show();
+			cc = 0;
+		} else {
+			cc++;
+		};
+	});
+
 });
+
+var cc = 0;
 
 // function cargarClicker(id) {
 // 	contenedor.innerHTML = "";
@@ -406,11 +421,6 @@ $(function() {
 // 	};	
 // };
 
-// const drawImagePopUp = (img, btn, url) => {
-// 	$("body").append(`<div class="layout-popup"><img src="${img}"></div>`);
-// 	$(".layout-popup").append(`<a ${url != null ? 'href="' + url + '"' : ""}><div class="image-popup-button">${btn}</div></a>`);
-// };
-
 // $(function() { 
 
 // 	$("#episode-container").each(function(){$(this).on("click", ".special", function() {
@@ -420,27 +430,3 @@ $(function() {
 // 			cargarStory(dialog[0].nextStory[0]);
 // 		};
 // 	})});
-
-// 	$("#char-select").each(function(){$(this).on("click", ".play-char", function() {
-// 		var selectedChar = $(this).attr("id");
-// 		$("#char-container").fadeOut(200);
-// 		cargarStory(selectedChar);
-// 		$("#episode-container").delay(200).fadeIn(400);
-
-// 	})});
-
-// 	$("#episode-container").click(function() {
-// 		if (cc == 1) {
-// 			$(".typewriter-letter").css("opacity", "1");
-// 			$(".choiceTextRpg").show();
-// 			cc = 0;
-// 		} else {
-// 			cc++;
-// 		};
-
-// 	});
-
-// 	$("body").on("click", ".image-popup-button", function() {
-// 		$(".layout-popup").remove();
-// 	});
-// });

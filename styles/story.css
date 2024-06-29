@@ -20,6 +20,11 @@
     
 }
 
+.devmode .story-container {
+    width: 15vw;
+    height: 25vw;
+}
+
 .story-container.hidden::before {
     content: 'OCULTO';
     position: absolute;
@@ -42,6 +47,10 @@
     height: 32vw;
     overflow: hidden;
     background-color: #ddd;
+}
+
+.devmode .story-cover-container {
+    height: 22vw;
 }
 
 .story-image.empty {
@@ -383,8 +392,18 @@
 
 .bubbleText.duo {
     left: 0;
-    top: -80px;
+    top: 0;
     margin: auto;
+}
+
+.bubbleText.duo:nth-child(2n+1) {
+    margin-left: 50px;
+    margin-top: 130px;
+}
+
+.bubbleText.duo:nth-child(2n+2) {
+    margin-right: 50px;
+    margin-top: 80px;
 }
 
 .bubbleText.trio {

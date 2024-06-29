@@ -3,6 +3,7 @@ $(document).ready(function() {
 	// Cargar DB
 	$.get("./data/stories/ch.json", dbChapters => {
 		storiesGlobal = dbChapters;
+		if ((window.location.href).includes("//127.0.0")) $("body").addClass("devmode");
 		drawStoriesList(dbChapters);
 	});
 });
