@@ -8,7 +8,6 @@
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans|Oswald' type='text/css'>
-    <link rel="stylesheet" href="https://use.edgefonts.net/c/7ac18c/1w;lato,2,c0s:W:i4,c0y:W:i7,c0r:W:n4,c0x:W:n7/l" media="all">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="styles/base2.css">
@@ -18,23 +17,45 @@
             height: 30vw;
             object-fit: contain;
         }
-
-        #container ul {
-            padding: 0;
-            margin: 0;
+        table {
+            margin: 1.2vw auto;
             color: #fff;
-            display: flex;
-            list-style: none;
-            text-align: center;
-            font-size: 1vw;
             text-shadow: 0 0 5px #000;
-            text-transform: uppercase;
-            gap: 1vw;
-            width: 80%;
-            margin: 1.5vw auto;
+        }
+        thead {
             font-family: oswald;
+            font-size: 1.5vw;
             font-style: italic;
         }
+        td, th {
+            width: 10vw;
+            vertical-align: top;
+            border: none;
+        }
+        table ul {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            list-style: none;
+            font-size: 1vw;
+        }
+        table li {
+            margin: .5vw;
+            font-stretch: condensed;
+            transition: 200ms;
+        }
+        table li:hover {
+            color: #fff;
+            font-weight: bold;
+            scale: 1.2;
+        }
+        table li i.fa {
+            font-size: .7vw;
+            margin-top: -8px;
+            position: relative;
+            margin: 0 .2vw;
+        }
+
     </style>
 </head>
 
@@ -54,20 +75,47 @@
     <div id="container">
         <div class="header">¡Gracias!</div>
         <img src="https://64.media.tumblr.com/87d5f82a173e1f2c62eb735ab3bb7ac2/3b28d0f763ea9931-ad/s1280x1920/d84dc4fb7c80ab8eef2a8ee477c0a36253070222.png">
-        <div class="subtitle">Gracias a todos los que han aportado un poco de ustedes para que la historia de las Valkyries sea posible. Enternamente agradecido por darlo todo durante el desarrollo.<br>He aquí unos agradecimientos especiales:</div>
-        <ul>
-            <li>Azariel Art (Comisión)</li>
-            <li>Dyusbeth (Desarrollo)</li>
-            <li>Gaby (Desarrollo)</li>
-            <li>Katuh (Desarrollo)</li>
-            <li>Kirle (Desarrollo)</li>
-            <li>Koi (Desarrollo)</li>
-            <li>Mantequilla (Desarrollo)</li>
-            <li>Mily (Desarrollo)</li>
-            <li>Vikru (Desarrollo)</li>
-            <li>Zunay (Programación)</li>
-        </ul>
+        <div class="subtitle">Gracias a todos los que hemos estado aportado un poco de nosotros durante todos estos años para que la historia de las Valkyries sea posible. Hoy nos sentimos orgullosos hasta donde llegamos, y todavía esperamos mucha travesía mágica por recorrer. Eternamente agradecido por darlo todo.<br>He aquí unos agradecimientos especiales:</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Desarrollo</th>
+                    <th>Programación</th>
+                    <th>Comisiones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <li><i class="fa fa-star"></i> ABUGABS <i class="fa fa-star"></i></li>
+                            <li>DYUSBETH</li>
+                            <li>GABY</li>
+                            <li><i class="fa fa-star"></i> GIZS <i class="fa fa-star"></i></li>
+                            <li>KATUH</li>
+                            <li>KIRLE</li>
+                            <li>KOI</li>
+                            <li>MANTEQUILLA</li>
+                            <li><i class="fa fa-star"></i> MENA <i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i> MINA <i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i> SOKA <i class="fa fa-star"></i></li>
+                            <li>VIKRU</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><i class="fa fa-star"></i> ZUNAY <i class="fa fa-star"></i></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>AZARIEL ART</li>
+                        </ul>
+                    </td>
+                </tr>
 
+            </tbody>
+        </table>
     </div>
 </body>
 </html>
