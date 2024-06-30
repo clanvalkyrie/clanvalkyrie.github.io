@@ -1,61 +1,48 @@
+var globalMap = [];
 $(document).ready(function(){
-    // Cargar lista de escenarios
-    const requestBG = new XMLHttpRequest();requestBG.open("GET","/valkyrieclub/data/common/general-places.json");requestBG.responseType = "json";requestBG.send();
-    requestBG.onload = function() {json = requestBG.response;cargarLista(json);};
+    $.get('../data/stories/general/v_mapa.json', mapa => {
+		globalMap = mapa;
+		cargarLista(globalMap);
+	})
+	
 });
 
-var REMOTE = "https://zunnay.github.io/valkyrieclub/";
+const cargarLista = mapa => {
 
-function cargarLista(lista) {
-	var select = document.getElementsByTagName("select")[0].value;
-	var bg = lista.filter(function(v) {return v.tag == select});
-	var txt = "<h3>" + select + "</h3>";
+	let select = $("select").eq(0).val();
+	let bg = mapa.filter(v => v.tag == select);
+
+	$("#category-container").html(`<div class="title">${select}</div>`);
 
 	if (bg.length > 0) {
-		txt += "<table>";
 
-		var rows = Math.floor(bg.length / 4);
-		var mod = bg.length % 4;
-		var i = 0;
+		$("#category-container").append('<div id="list-container"></div>');
 
-		for (r = 0; r < rows; r++) {
+		for (i = 0; i < bg.length; i++) {
+			$("#list-container").append(`<div class="item-container" data-point="${bg[i].id}"></div>`);
+			$(".item-container").eq(i).append(`<img src="../${bg[i].imgURL}">`);
+			$(".item-container").eq(i).append(`<p><b>${bg[i].id}</b></p><p>${(bg[i].name).replace(/<br>/g, " ")}</p>`);
 
-			txt += "<tr>";
-
-			for (c = 1; c <= 4; c++) {
-				i = (r*4) + c - 1;
-				txt += "<td><img src='" +  REMOTE + bg[i].imgURL + "'>" + bg[i].id + " - " + bg[i].name + "</td>";
-			};
-
-			txt += "</tr>";
 		};
-
-		if (mod > 0) {
-			if(i != 0) i++;
-			txt += "<tr>";
-			for (i; i < bg.length; i++) {
-				txt += "<td><img src='" +  REMOTE + bg[i].imgURL + "'>" + bg[i].id + " - " + bg[i].name + "</td>";
-			};
-
-			var vacio = 4 - mod;
-			for (v = 0; v < vacio; v++) {
-				txt += "<td style='border:none;'></td>";
-			};
-			
-			txt += "</tr>";
-		};
-		txt = txt + "</table>";
 
 	} else {
-		txt += "<br><p>Esta categoría está vacía.</p>";
-	}
-
-	$("#category-container").html(txt);
-}
+		$("#category-container").append("<br><p>Esta categoría está vacía.</p>");
+	};
+};
 
 $(function() {
 	$("#select-category").change(function() {
-		cargarLista(json);
+		cargarLista(globalMap);
+	});
+
+	$("#category-container").on("click", ".item-container", function() {
+		let point = $(this).attr("data-point");
+		navigator.clipboard.writeText(point);	
+		$(this).find("img").css("filter", "brightness(2)");
+
+		setTimeout(() => {
+			$(this).find("img").removeAttr("style");
+		}, 200);
 	});
 });
 
