@@ -60,18 +60,18 @@
     opacity: 1;
 }
 
-.photoname[data-target="jenna"] {background-color: #F93A3A77;}
-.photoname[data-target="chenmi"] {background-color: #F9943A77;}
-.photoname[data-target="maat"] {background-color: #F9F93A77;}
-.photoname[data-target="vidalia"] {background-color: #8EF93A77;}
-.photoname[data-target="unknown"] {background-color: #3AE2F977;}
-.photoname[data-target="alariane"] {background-color: #3A57F977;}
-.photoname[data-target="keiko"] {background-color: #713AF977;}
-.photoname[data-target="lara"] {background-color: #F93ABF77;}
-.photoname[data-target="gisany"] {background-color: #FFFFFF77;}
-.photoname[data-target="zakurin"] {background-color: #00000077;}
-.photoname[data-target="alanna"] {background-color: #80808077;}
-.photoname[data-target="bugambilia"] {background-color: #FFD80077;}
+.photodiv:nth-child(1) .photoname {background-color: #F93A3A77;}
+.photodiv:nth-child(2) .photoname {background-color: #F9943A77;}
+.photodiv:nth-child(3) .photoname {background-color: #F9F93A77;}
+.photodiv:nth-child(4) .photoname {background-color: #8EF93A77;}
+.photodiv:nth-child(5) .photoname {background-color: #3AE2F977;}
+.photodiv:nth-child(6) .photoname {background-color: #3A57F977;}
+.photodiv:nth-child(7) .photoname {background-color: #713AF977;}
+.photodiv:nth-child(8) .photoname {background-color: #F93ABF77;}
+.photodiv:nth-child(9) .photoname {background-color: #FFFFFF77;}
+.photodiv:nth-child(10) .photoname {background-color: #00000077;}
+.photodiv:nth-child(11) .photoname {background-color: #80808077;}
+.photodiv:nth-child(12) .photoname {background-color: #FFD80077;}
 
 .pointer {
     cursor: pointer;

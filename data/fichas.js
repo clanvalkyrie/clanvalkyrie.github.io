@@ -5,7 +5,7 @@ var guardian = [
 
 	{ 
 		"nombre":"",
-		"tag":"", // tag unico sin espacios ni signos
+		"tag":"unknown // tag unico sin espacios ni signos
 		"img":"",
 		"ficha":[
 			{"k":"Apodo", 		"v":''},
@@ -28,7 +28,7 @@ var guardian = [
 
 	{
 		"nombre":"Jenna",
-		"tag":"jenna",
+		"tag":"unknown",
 		"img":"https://64.media.tumblr.com/a7cec008fa4dda76caf7ea466f8bdcf6/dbbfb9a9d6b97ae0-86/s640x960/09dd5a925a3b4350e378d29f2e736c2365b9c65d.pnj",
 		"ficha":[
 			{"k":"Apodo", 		"v":'Simplemente Jenn.'},
@@ -51,7 +51,7 @@ var guardian = [
 
 	{
 		"nombre":"Chenmi",
-		"tag":"chenmi",
+		"tag":"unknown",
 		"img":"https://64.media.tumblr.com/ca325a2e3e1bc3016bbb250a9fcfa520/dbbfb9a9d6b97ae0-ad/s640x960/81762e0b345743de321b5e500eee2143cb38ab5a.pnj",
 		"ficha":[
 			{"k":"Apodo", 		"v":'Soberana, Chen.'},
@@ -74,7 +74,7 @@ var guardian = [
 
 	{ 
 		"nombre":"Maat",
-		"tag":"maat",
+		"tag":"unknown",
 		"img":"https://64.media.tumblr.com/d8754fa2ed840850e956f8d4e965ba41/dbbfb9a9d6b97ae0-71/s640x960/3a0c4dc0cb472909d0c5d7580c1b9f012bcd59a3.png",
 		"perfil":"",
 		"bio":[
@@ -85,7 +85,7 @@ var guardian = [
 
 	{ 
 		"nombre":"Vidalia",
-		"tag":"vidalia",
+		"tag":"unknown",
 		"img":"https://64.media.tumblr.com/22e1a5cfe257df3811221b7b026bfceb/dbbfb9a9d6b97ae0-cb/s640x960/91c0d8ab5c69bc5fa7ce380e9dab62457bf43c00.pnj",
 		"ficha":[
 			{"k":"Apodo", 		"v":'Vida, Vid.'},
@@ -113,7 +113,7 @@ var guardian = [
 
 	{ 
 		"nombre":"Alariane",
-		"tag":"alariane",
+		"tag":"unknown",
 		"img":"https://64.media.tumblr.com/fd3a3fa97f59796d302a687cb6bc94ee/dbbfb9a9d6b97ae0-cf/s640x960/55b8873618051a7cb63373c7657dcf0b32bbe6b4.pnj",
 		"ficha":[
 			{"k":"Apodo", 		"v":'Ala.'},
@@ -136,7 +136,7 @@ var guardian = [
 
 	{ 
 		"nombre":"Keiko",
-		"tag":"keiko",
+		"tag":"unknown",
 		"img":"https://64.media.tumblr.com/02e9994053cacd5c803e5e3b3388a2ab/dbbfb9a9d6b97ae0-7d/s640x960/17661a54be30076d409e025b5cab26621dabbf31.pnj",
 		"ficha":[
 			{"k":"Apodo", 		"v":'A veces Kei, otras veces KeiKei.'},
@@ -156,7 +156,7 @@ var guardian = [
 
 	{ 
 		"nombre":"Lara",
-		"tag":"lara",
+		"tag":"unknown",
 		"img":"https://64.media.tumblr.com/94c35a3d531bf6014c739ec1a7ec3a7b/dbbfb9a9d6b97ae0-1f/s640x960/ba45dd86e0e8f2f1186e42280f302497f7210c52.pnj",
 		"ficha":[
 			{"k":"Apodo", 		"v":'-'},
@@ -178,7 +178,7 @@ var guardian = [
 
 	{ 
 		"nombre":"Gisany",
-		"tag":"gisany",
+		"tag":"unknown",
 		"img":"https://64.media.tumblr.com/15168d1de9c779a2ae5340a5fb9aa83b/dbbfb9a9d6b97ae0-bb/s640x960/ec042ee8c595028356360d6a33cb1811d301a0cf.pnj",
 		"ficha":[
 			{"k":"Apodo", 		"v":'Gis.'},
@@ -198,7 +198,7 @@ var guardian = [
 
 	{ 
 		"nombre":"Zakurin",
-		"tag":"zakurin",
+		"tag":"unknown",
 		"img":"https://64.media.tumblr.com/a45457b85d4e5f09a648852d04158251/dbbfb9a9d6b97ae0-53/s640x960/2bf559d7c1a0a74c3dc1235caaed12a34af983cb.pnj",
 		"ficha":[
 			{"k":"Apodo", 		"v":'Zak.'},
@@ -218,7 +218,7 @@ var guardian = [
 
 	{ 
 		"nombre":"Alanna",
-		"tag":"alanna",
+		"tag":"unknown",
 		"img":"https://64.media.tumblr.com/2a4261e5fb315b641e414c9cfe531537/dbbfb9a9d6b97ae0-9e/s640x960/ebea09af8304b461867ed309543a01d433c15f76.pnj",
 		"ficha":[
 			{"k":"Apodo", 		"v":'¿?'},
@@ -238,7 +238,7 @@ var guardian = [
 	
 	{ 
 		"nombre":"Bugambilia",
-		"tag":"bugambilia",
+		"tag":"unknown",
 		"img":"https://64.media.tumblr.com/4b19ef50407f286facd2cd9e74559ce5/dbbfb9a9d6b97ae0-ed/s640x960/0116ab62743677ca704f024b65542f6deb9f6a8a.pnj",
 		"perfil":"",
 		"bio":[

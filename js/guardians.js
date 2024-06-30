@@ -7,11 +7,24 @@ const drawFichas = () => {
 	guardian.pop();
 
 	for (i = 0; i < guardian.length; i++) {
+
 		$("#people").append('<div class="photodiv animation"></div>');
-		$(".photodiv").eq(i)
-		.append(`<div class="photoname pointer" data-toggle="modal" data-target="${guardian[i].tag}"></div>`)
-		.append(`<img class="photo${guardian[i].tag == "unknown" ? " unknown" : ""}" src="${guardian[i].img}">`);
-		$(".photoname.pointer").eq(i).append(`<span class="rotate">${guardian[i].nombre}</span>`);
+
+		if (guardian[i].tag != "unknown") {
+			
+			$(".photodiv").eq(i)
+			.append(`<div class="photoname pointer" data-toggle="modal" data-target="${guardian[i].tag}"></div>`)
+			.append(`<img class="photo${guardian[i].tag == "unknown" ? " unknown" : ""}" src="${guardian[i].img}">`);
+			$(".photoname.pointer").eq(i).append(`<span class="rotate">${guardian[i].nombre}</span>`);
+
+		} else {
+
+			$(".photodiv").eq(i)
+			.append(`<div class="photoname pointer" data-toggle="modal" data-target="${guardian[i].tag}"></div>`)
+			.append(`<img class="photo unknown" src="./assets/logo.png">`);
+			$(".photoname.pointer").eq(i).append(`<span class="rotate">?</span>`);
+		};
+		
 	};
 };
 
