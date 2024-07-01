@@ -10,17 +10,17 @@
 	{
 		"id":101, "name":"Sala de Alquimia", 
 		"imgURL":"assets/img/places/sala-alquimia.png",
-		"places":[107,119], 
-		"style":["top: 180px;left: 430px;", "top: 370px;left: 110px;"],
-		"tooltip":["top","top"],
+		"places":[107,119,157], 
+		"style":["top: 180px;left: 430px;", "top: 370px;left: 110px;","top: 200px;left: 159px;"],
+		"tooltip":["top","top","top"],
 		"tag":"Residencia"
 	},
 	{
 		"id":102, "name":"Sala de Alquimia,<br>de noche", 
 		"imgURL":"assets/img/places/sala-alquimia-noche.png",
-		"places":[108,126], 
-		"style":["top: 180px;left: 430px;", "top: 370px;left: 110px;"],
-		"tooltip":["top","top"],
+		"places":[108,126,158], 
+		"style":["top: 180px;left: 430px;", "top: 370px;left: 110px;","top: 200px;left: 159px;"],
+		"tooltip":["top","top","top"],
 		"tag":"Residencia"
 	},
 	{
@@ -90,9 +90,9 @@
 	{
 		"id":111, "name":"Ala Derecha", 
 		"imgURL":"assets/img/places/ala-derecha.png",
-		"places":[109,113], 
-		"style":["top: 280px;left: 70px;","top: 240px;left: 625px;"],
-		"tooltip":["right","top"],
+		"places":[109,113,154], 
+		"style":["top: 280px;left: 70px;","top: 240px;left: 625px;","top:220px;left: 257px;"],
+		"tooltip":["right","top","top"],
 		"tag":"Residencia"
 	},
 	{
@@ -176,7 +176,7 @@
 	{
 		"id":122, "name":"Jardines",
 		"imgURL":"assets/img/places/jardines.png",
-		"places":[109,111,139],
+		"places":[109,111,155],
 		"style":["top: 230px;left: 464px;", "top: 240px;left: 75px;","top: 390px;left: 80px;"],
 		"tooltip":["top","top","top"],
 		"tag":"Residencia"
@@ -184,9 +184,9 @@
 	{
 		"id":123, "name":"Jardines, de noche",
 		"imgURL":"assets/img/places/jardines-noche.png",
-		"places":[110,112,140],
-		"style":["top: 230px;left: 464px;", "top: 240px;left: 75px;","top: 390px;left: 80px;"],
-		"tooltip":["top","top","top"],
+		"places":[110,112,108,156],
+		"style":["top: 250px;left: 270px;", "top: 372px;left: 75px;", "top: 260px;left: 639px;","top: 410px;left: 600px;"],
+		"tooltip":["top","top","top","top"],
 		"tag":"Residencia"
 	},
 	{
@@ -428,5 +428,46 @@
 		"style":["top: 220px;left: 355px;","top: 390px;left: 240px;"],
 		"tooltip":["top","top"],
 		"tag":"Bosque"
+	},
+	{
+		"id":154, "name":"Almacén",
+		"imgURL":"assets/img/places/almacen.png",
+		"places":[111],
+		"style":["top: 410px;left: 650px;"],
+		"tooltip":["top"],
+		"tag":"Residencia"
+	},
+	{
+		"id":155, "name":"Pista de danzas",
+		"imgURL":"assets/img/places/pista-danzas.png",
+		"places":[122,157],
+		"style":["top: 350px;left: 95px;","top: 250px;left: 222px;"],
+		"tooltip":["top","top"],
+		"tag":"Residencia"
+	},
+	{
+		"id":156, "name":"Pista de danzas,<br>de noche",
+		"imgURL":"assets/img/places/pista-danzas-noche.png",
+		"places":[123,158],
+		"style":["top: 350px;left: 95px;","top: 250px;left: 222px;"],
+		"tooltip":["top","top"],
+		"tag":"Residencia"
+	},
+	{
+		"id":157, "name":"Invernadero",
+		"imgURL":"assets/img/places/invernadero.png",
+		"places":[155],
+		"style":["top: 400px;left: 310px;"],
+		"tooltip":["top"],
+		"tag":"Residencia"
+	},
+	{
+		"id":158, "name":"Invernadero,<br>de noche",
+		"imgURL":"assets/img/places/invernadero-noche.png",
+		"places":[156],
+		"style":["top: 400px;left: 310px;"],
+		"tooltip":["top"],
+		"tag":"Residencia"
 	}
+	
 ]

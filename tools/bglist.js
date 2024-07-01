@@ -30,6 +30,40 @@ const cargarLista = mapa => {
 	};
 };
 
+const drawPreview = id => {
+	$("#background-preview").html("");
+	let points = globalMap.filter(v => v.id == id);
+	$("#background-preview").css("background-image", `url(../${points[0].imgURL})`);
+
+	for (p = 0; p < points[0].places.length; p++) {
+
+		// Dibujar punto
+		$("#background-preview").append(`<div class="changeLocation tooltip" data-location="${points[0].places[p]}" style="${points[0].style[p]}"></div>`);
+		
+		// Asignar nombre
+        let point = globalMap.filter(v => v.id == points[0].places[p]);
+        $(".tooltip").eq(p).append(`<span class="tooltiptext">${point[0].name}</span>`);
+
+        // Ubicar el tooltip
+        switch (points[0].tooltip[p]) {
+            case "left":
+                $(".tooltiptext").eq(p).css("left", "-145px");
+                $(".tooltiptext").eq(p).height() > 28 ? $(".tooltiptext").eq(p).css("top", "-18px") : $(".tooltiptext").eq(p).css("top", "-7px");
+                break;
+            case "right":
+                $(".tooltiptext").eq(p).css("left", "30px");
+                $(".tooltiptext").eq(p).height() > 28 ? $(".tooltiptext").eq(p).css("top", "-18px") : $(".tooltiptext").eq(p).css("top", "-7px");
+                break;
+            default:
+                $(".tooltiptext").eq(p).css("bottom", "200%");
+                $(".tooltiptext").eq(p).css("left", "50%");
+                $(".tooltiptext").eq(p).css("margin-left", "-70px");
+        };
+
+	};
+	
+};
+
 $(function() {
 	$("#select-category").change(function() {
 		cargarLista(globalMap);
@@ -43,6 +77,26 @@ $(function() {
 		setTimeout(() => {
 			$(this).find("img").removeAttr("style");
 		}, 200);
+	});
+
+	$("#category-container").on("click", "img", function(e) {
+		e.stopPropagation();
+		let point = parseInt($(this).parent().attr("data-point"));
+		drawPreview(point);
+		$("#draw-preview").css("display", "grid");
+	});
+
+	$("#draw-preview").click(function() {
+		$("#draw-preview").hide();
+	});
+
+	$("#bg-container").click(function(e) {
+		e.stopPropagation();
+	});
+
+	$("#background-preview").on("click", ".changeLocation", function() {
+		let point = parseInt($(this).attr("data-location"));
+		drawPreview(point);
 	});
 });
 

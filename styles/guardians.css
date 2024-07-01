@@ -60,18 +60,18 @@
     opacity: 1;
 }
 
-.photodiv:nth-child(1) .photoname {background-color: #F93A3A77;}
-.photodiv:nth-child(2) .photoname {background-color: #F9943A77;}
-.photodiv:nth-child(3) .photoname {background-color: #F9F93A77;}
-.photodiv:nth-child(4) .photoname {background-color: #8EF93A77;}
-.photodiv:nth-child(5) .photoname {background-color: #3AE2F977;}
-.photodiv:nth-child(6) .photoname {background-color: #3A57F977;}
-.photodiv:nth-child(7) .photoname {background-color: #713AF977;}
-.photodiv:nth-child(8) .photoname {background-color: #F93ABF77;}
-.photodiv:nth-child(9) .photoname {background-color: #FFFFFF77;}
-.photodiv:nth-child(10) .photoname {background-color: #00000077;}
-.photodiv:nth-child(11) .photoname {background-color: #80808077;}
-.photodiv:nth-child(12) .photoname {background-color: #FFD80077;}
+.photodiv:nth-child(1) .photoname {background-color: #FFD80077;}
+.photodiv:nth-child(2) .photoname {background-color: #FFFFFF77;}
+.photodiv:nth-child(3) .photoname {background-color: #F93A3A77;}
+.photodiv:nth-child(4) .photoname {background-color: #F9943A77;}
+.photodiv:nth-child(5) .photoname {background-color: #F9F93A77;}
+.photodiv:nth-child(6) .photoname {background-color: #8EF93A77;}
+.photodiv:nth-child(7) .photoname {background-color: #3AE2F977;}
+.photodiv:nth-child(8) .photoname {background-color: #3A57F977;}
+.photodiv:nth-child(9) .photoname {background-color: #713AF977;}
+.photodiv:nth-child(10) .photoname {background-color: #F93ABF77;}
+.photodiv:nth-child(11) .photoname {background-color: #00000077;}
+.photodiv:nth-child(12) .photoname {background-color: #80808077;}
 
 .pointer {
     cursor: pointer;

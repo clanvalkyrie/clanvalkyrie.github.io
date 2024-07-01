@@ -1,6 +1,6 @@
 [
     {
-        "nombre":"Clan Valkyrie (spin-off)", "visible":true, "ubicacion":"clan-valkyrie-spinoff",
+        "nombre":"Clan Valkyrie (spin-off)", "visible":false, "ubicacion":"clan-valkyrie-spinoff",
         "portada":null,
         "autor":"Naranja",
         "descripcion":null,
