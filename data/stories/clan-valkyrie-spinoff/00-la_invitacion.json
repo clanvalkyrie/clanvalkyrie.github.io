@@ -3,7 +3,7 @@
         "id":10000,
         "type":"pov_selector",
         "pov":[
-            {"char":"Chenmi", "id":1350, "scene":10051}
+            {"char":"chenmi", "scene":10051}
         ]
     },
 
@@ -13,7 +13,7 @@
         "text":[],
         "background":135,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"Qué sueño tan extraño...", "next":10052}
         ]
@@ -24,7 +24,7 @@
         "text":[],
         "background":135,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"Es decir, no tengo detalles pero tengo una fuerte corazonada... ¿Qué significa?", "next":10053}
         ]
@@ -35,7 +35,7 @@
         "text":[],
         "background":135,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"¿Dónde estarán mis lovigis...?", "next":10054}
         ]
@@ -46,7 +46,7 @@
         "text":[],
         "background":135,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"Debo buscarlos cuanto antes, tengo que reunir a las chicas.", "next":10055}
         ]
@@ -57,7 +57,7 @@
         "text":[],
         "background":128,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"¿Indalecios?", "next":10056}
         ]
@@ -68,7 +68,7 @@
         "text":[],
         "background":128,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"...", "next":10057}
         ]
@@ -79,7 +79,7 @@
         "text":[],
         "background":128,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"Qué curioso. ¿Dónde estarán?", "next":10061}
         ]
@@ -89,8 +89,8 @@
         "type":"npc_dialog",
         "text":[],
         "background":122,
-        "npc":[1018],
-        "self":1350,
+        "npc":["lovigis"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Cuando salí al jardín, allí andaban revoloteando junto a la fuente.)", "next":10001}
         ]
@@ -100,8 +100,8 @@
         "type":"npc_dialog",
         "text":[],
         "background":122,
-        "npc":[1018],
-        "self":1350,
+        "npc":["lovigis"],
+        "self":"chenmi",
         "choices":[
             {"text":"Hola, Indalecios. Les tengo un recado, ¿podrían ubicar a las muchachas cuanto antes en la sala de reuniones?", "next":10002}
         ]
@@ -111,8 +111,8 @@
         "type":"npc_dialog",
         "text":[],
         "background":122,
-        "npc":[1018],
-        "self":1350,
+        "npc":["lovigis"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Los lovigis respondieron encantados a mi petición.)", "next":10005}
         ]
@@ -123,7 +123,7 @@
         "text":[],
         "background":122,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(En cuanto a mi... Antes de que las reúna a todas, podría darme un paseo por la residencia, tengo algunas ideas en mente.)", "next":10060}
         ]
@@ -146,7 +146,7 @@
         "text":[],
         "background":113,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(No, el comedor es algo pequeño para lo que tengo planeado...)", "next":"auto"}
         ]
@@ -157,7 +157,7 @@
         "text":[],
         "background":109,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(El vestíbulo será el recibidor.)", "next":"auto"}
         ]
@@ -168,7 +168,7 @@
         "text":[],
         "background":105,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(¿Una celebración en la biblioteca?, ¿En qué piensas, Chenmi?)", "next":"auto"}
         ]
@@ -179,7 +179,7 @@
         "text":[],
         "background":103,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(No es opción reunir a tanta gente aquí.)", "next":"auto"}
         ]
@@ -190,7 +190,7 @@
         "text":[],
         "background":122,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(Creo que al final el mejor sitio para una reunión con tanta gente será aquí, en los jardines...)", "next":10003}
         ]
@@ -201,7 +201,7 @@
         "text":[],
         "background":122,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"Con suerte nos toca un día hermoso.", "next":10011}
         ]
@@ -212,7 +212,7 @@
         "text":[],
         "background":122,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(Toca ir a dar la noticia a las muchachas, estoy segura de que les gustará esta idea.)", "next":10012}
         ]
@@ -222,7 +222,7 @@
         "type":"npc_dialog",
         "text":["Me resulta parcialmente sospechoso que tengamos una reunión todas aquí, luego de tanto tiempo."],
         "background":124,
-        "npc":[1150],
+        "npc":["vidalia"],
         "self":"",
         "choices":[
             {"text":"(Continuar)", "next":10013}
@@ -233,7 +233,7 @@
         "type":"npc_dialog",
         "text":["¿Qué se traerá entre manos esta vez...?"],
         "background":124,
-        "npc":[1300],
+        "npc":["alariane"],
         "self":"",
         "choices":[
             {"text":"(Continuar)", "next":10014}
@@ -244,7 +244,7 @@
         "type":"npc_dialog",
         "text":["Pues, a mi me gusta cuando nos juntamos todas. Rara vez tenemos tiempo para estar en una misma sala."],
         "background":124,
-        "npc":[1100],
+        "npc":["keiko"],
         "self":"",
         "choices":[
             {"text":"(Continuar)", "next":10015}
@@ -255,7 +255,7 @@
         "type":"npc_dialog",
         "text":["Hola a todas. Oh, ¿Chenmi aun no ha llegado?"],
         "background":124,
-        "npc":[1400],
+        "npc":["gisany"],
         "self":"",
         "choices":[
             {"text":"(Continuar)", "next":10016}
@@ -266,7 +266,7 @@
         "type":"npc_dialog",
         "text":["Aquí la esperamos desde que nos avisó su familiar."],
         "background":124,
-        "npc":[1550],
+        "npc":["alanna"],
         "self":"",
         "choices":[
             {"text":"(Continuar)", "next":10004}
@@ -278,7 +278,7 @@
         "text":[],
         "background":124,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(Me he aparecido estrepitosamente por la puerta, sorprendiendo a todas.)", "next":10018}
         ]
@@ -289,7 +289,7 @@
         "text":[],
         "background":124,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"¡Hola, gardis!", "next":10018}
         ]
@@ -300,7 +300,7 @@
         "text":[],
         "background":124,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(Parece que mi entrada las dejó a todas con ojos como plato, tal como esperaba.)", "next":10019}
         ]
@@ -311,7 +311,7 @@
         "text":[],
         "background":124,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(Admito que es divertido verlas asombradas.) Jajaja, deberían ver sus caras.", "next":10020}
         ]
@@ -321,8 +321,8 @@
         "type":"npc_dialog",
         "text":["Santos Seryphones, ¡Qué sorpresa, Mimí!", "Da gusto cruzarte siempre, Chen, jaja."],
         "background":124,
-        "npc":[1300,1550],
-        "self":1350,
+        "npc":["alariane","alanna"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10021}
         ]
@@ -332,8 +332,8 @@
         "type":"npc_dialog",
         "text":["¿A qué se debe tal energía, Chenmi?, ¿Qué sucede?"],
         "background":124,
-        "npc":[1150],
-        "self":1350,
+        "npc":["vidalia"],
+        "self":"chenmi",
         "choices":[
             {"text":"Primero que nada, me encanta vernos a todas juntas.", "next":10022}
         ]
@@ -344,7 +344,7 @@
         "text":[],
         "background":124,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(He echado un ojo en la sala, pero algunas de las chicas no estaban presentes.)", "next":10023}
         ]
@@ -354,8 +354,8 @@
         "type":"npc_dialog",
         "text":["Jenna estaba en camino, y a Lara no la he visto."],
         "background":124,
-        "npc":[1300],
-        "self":1350,
+        "npc":["alariane"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Ni bien mencionó sus nombres, ambas aparecieron por la puerta.)", "next":10062}
         ]
@@ -365,8 +365,8 @@
         "type":"npc_dialog",
         "text":["Hola a todas, linda juntada por lo visto."],
         "background":124,
-        "npc":[1250],
-        "self":1350,
+        "npc":["jenna"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10063}
         ]
@@ -376,8 +376,8 @@
         "type":"npc_dialog",
         "text":["Vaya, cuanta gente, de pronto parece una celebración."],
         "background":124,
-        "npc":[1200],
-        "self":1350,
+        "npc":["lara"],
+        "self":"chenmi",
         "choices":[
             {"text":"Pues de eso se trata, Larita linda. ¡De una celebración!", "next":10064}
         ]
@@ -387,8 +387,8 @@
         "type":"npc_dialog",
         "text":[],
         "background":124,
-        "npc":[1200],
-        "self":1350,
+        "npc":["lara"],
+        "self":"chenmi",
         "choices":[
             {"text":"Es momento de celebrarnos, porque pese a todo, aún estamos todas aquí reunidas.", "next":10024}
         ]
@@ -398,8 +398,8 @@
         "type":"npc_dialog",
         "text":["Lindo monólogo, Mimí, pero, ¿A qué te refieres con celebrarnos?"],
         "background":124,
-        "npc":[1300],
-        "self":1350,
+        "npc":["alariane"],
+        "self":"chenmi",
         "choices":[
             {"text":"Quiero invitar a todas las comunidades vecinas a una gran fiesta que vamos a dar aquí, en la residencia.", "next":10025}
         ]
@@ -409,8 +409,8 @@
         "type":"npc_dialog",
         "text":[],
         "background":124,
-        "npc":[1150],
-        "self":1350,
+        "npc":["vidalia"],
+        "self":"chenmi",
         "choices":[
             {"text":"Y, gracias a Vidalia y a su amor por la flora de nuestra morada, planeo que sea exclusivamente en nuestros jardines.", "next":10026}
         ]
@@ -420,8 +420,8 @@
         "type":"npc_dialog",
         "text":["Bueno, gracias por el reconocimiento, pero... ¿Una fiesta?"],
         "background":124,
-        "npc":[1150],
-        "self":1350,
+        "npc":["vidalia"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10027}
         ]
@@ -431,8 +431,8 @@
         "type":"npc_dialog",
         "text":["¿Una fiesta? Suena poco usual. Me gusta como suena eso."],
         "background":124,
-        "npc":[1250],
-        "self":1350,
+        "npc":["jenna"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10028}
         ]
@@ -442,8 +442,8 @@
         "type":"npc_dialog",
         "text":["A mí me encanta la idea, sería divertido.", "¡A mí también, me encanta!"],
         "background":124,
-        "npc":[1300,1200],
-        "self":1350,
+        "npc":["alariane","lara"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10029}
         ]
@@ -453,8 +453,8 @@
         "type":"npc_dialog",
         "text":["Auguro cosas buenas si damos una fiesta."],
         "background":124,
-        "npc":[1400],
-        "self":1350,
+        "npc":["gisany"],
+        "self":"chenmi",
         "choices":[
             {"text":"¿Ven?, si Gisany augura cosas buenas entonces, ¿qué podría salir mal?", "next":10065}
         ]
@@ -464,8 +464,8 @@
         "type":"npc_dialog",
         "text":["Mejor no tentar al destino, linda..."],
         "background":124,
-        "npc":[1300],
-        "self":1350,
+        "npc":["alariane"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10030}
         ]
@@ -475,8 +475,8 @@
         "type":"npc_dialog",
         "text":["Pues a mí también me gustaría. Sería algo nuevo, después de todo."],
         "background":124,
-        "npc":[1100],
-        "self":1350,
+        "npc":["keiko"],
+        "self":"chenmi",
         "choices":[
             {"text":"¡Esa es la energía que quiero, chicas!", "next":10031}
         ]
@@ -486,8 +486,8 @@
         "type":"npc_dialog",
         "text":[],
         "background":124,
-        "npc":[1150],
-        "self":1350,
+        "npc":["vidalia"],
+        "self":"chenmi",
         "choices":[
             {"text":"¿Qué opinas tú, Vidalia?", "next":10032}
         ]
@@ -497,8 +497,8 @@
         "type":"npc_dialog",
         "text":["Claro, sí. Me encantaría. Estoy de acuerdo que es algo inusual, pero una celebración en nombre de todas nosotras suena conmovedor."],
         "background":124,
-        "npc":[1150],
-        "self":1350,
+        "npc":["vidalia"],
+        "self":"chenmi",
         "choices":[
             {"text":"Pues, podríamos empezar enviando unas tarjetas bellísimas a cada residencia vecina, podríamos elegir un día de hermoso sol para aprovechar nuestro jardín.", "next":10066}
         ]
@@ -508,8 +508,8 @@
         "type":"npc_dialog",
         "text":["Estás de suerte porque el clima de verano es ideal para una fiesta en la playa."],
         "background":124,
-        "npc":[1550],
-        "self":1350,
+        "npc":["alanna"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10033}
         ]
@@ -519,8 +519,8 @@
         "type":"npc_dialog",
         "text":["¡Wow! ¿Playa? ¿Por qué mejor no hacemos una fiesta tipo gala?"],
         "background":124,
-        "npc":[1300],
-        "self":1350,
+        "npc":["alariane"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10034}
         ]
@@ -530,8 +530,8 @@
         "type":"npc_dialog",
         "text":["¡Me fascina, chicas, de gala!", "Llevar hermosos vestidos y peinados altos es todo lo que no me encanta, ¡pero admito que es una idea divertida!"],
         "background":124,
-        "npc":[1200,1250],
-        "self":1350,
+        "npc":["lara","jenna"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Todas empezaron a especular ideas y propuestas, y yo me sentí llena de energía positiva. Tal como en aquellos días de gloria.)", "next":10067}
         ]
@@ -542,7 +542,7 @@
         "text":[],
         "background":124,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(Sabía que ese sueño algo significaba, y tener buena recepción de las chicas más me motivaba a cumplir mi deseo de dar una celebración.)", "next":10068}
         ]
@@ -553,7 +553,7 @@
         "text":[],
         "background":124,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(Hacía tiempo que la sala de reuniones no se sentía tan animada.)", "next":10035}
         ]
@@ -563,8 +563,8 @@
         "type":"npc_dialog",
         "text":["Me parece un plan de los más original, Mimí. ¿Cuándo quieres empezar?"],
         "background":124,
-        "npc":[1150],
-        "self":1350,
+        "npc":["vidalia"],
+        "self":"chenmi",
         "choices":[
             {"text":"¡Empecemos cuanto antes!", "next":10036}
         ]
@@ -574,8 +574,8 @@
         "type":"npc_dialog",
         "text":["Pues, bien, ¿cuáles son las cosas que se deben tener en cuenta para un gran baile valkyriano?"],
         "background":124,
-        "npc":[1150],
-        "self":1350,
+        "npc":["vidalia"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10069}
         ]
@@ -585,8 +585,8 @@
         "type":"npc_dialog",
         "text":["A ver... Hay que pensar en la música.","La comida."],
         "background":124,
-        "npc":[1300,1550],
-        "self":1350,
+        "npc":["alariane","alanna"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10037}
         ]
@@ -596,8 +596,8 @@
         "type":"npc_dialog",
         "text":["¿Qué tipo de público vendrá?"],
         "background":124,
-        "npc":[1100],
-        "self":1350,
+        "npc":["keiko"],
+        "self":"chenmi",
         "choices":[
             {"text":"¡De todo tipo!, será un baile que estará en boca de todos, todas las razas y especies pueden presentarse.", "next":10043}
         ]
@@ -607,8 +607,8 @@
         "type":"npc_dialog",
         "text":["Bueno, ¿y qué tipo de música les gustaría que sonara?"],
         "background":124,
-        "npc":[1300],
-        "self":1350,
+        "npc":["alariane"],
+        "self":"chenmi",
         "choices":[
             {"text":"Algo clásico, pero animado. Podríamos pedirle a los pul-", "next":10044}
         ]
@@ -618,8 +618,8 @@
         "type":"npc_dialog",
         "text":["Pulpatatas no. Les tengo mucho respeto, pero pueden volverse un problema."],
         "background":124,
-        "npc":[1100],
-        "self":1350,
+        "npc":["keiko"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10070}
         ]
@@ -629,8 +629,8 @@
         "type":"npc_dialog",
         "text":["Estoy de acuerdo, creo que hay mala experiencia con los pulpatas como invitados de orquesta."],
         "background":124,
-        "npc":[1250],
-        "self":1350,
+        "npc":["jenna"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10045}
         ]
@@ -640,8 +640,8 @@
         "type":"npc_dialog",
         "text":["¡Jaja!, pero si son tan tiernos y totalmente inofensivos."],
         "background":124,
-        "npc":[1400],
-        "self":1350,
+        "npc":["gisany"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10046}
         ]
@@ -651,8 +651,8 @@
         "type":"npc_dialog",
         "text":["De acuerdo... Si no son pulpatatas, podríamos pedirle al personal del clan que nos haga sonar algunos instrumentos. Yo me encargaré de ello. ¿Qué más?"],
         "background":124,
-        "npc":[1300],
-        "self":1350,
+        "npc":["alariane"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10047}
         ]
@@ -662,8 +662,8 @@
         "type":"npc_dialog",
         "text":["¿Qué comida serviremos?"],
         "background":124,
-        "npc":[1550],
-        "self":1350,
+        "npc":["alanna"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10039}
         ]
@@ -673,8 +673,8 @@
         "type":"npc_dialog",
         "text":["Si quieres puedo hablarle a la cocinera, Dalfelí, para que prepare algunos bocadillos de ocasión."],
         "background":124,
-        "npc":[1100],
-        "self":1350,
+        "npc":["keiko"],
+        "self":"chenmi",
         "choices":[
             {"text":"Genial, Keiko, habla con ella, ¡pide un banquete extra grande!", "next":10071}
         ]
@@ -684,8 +684,8 @@
         "type":"npc_dialog",
         "text":["Genial, y yo podría especializarme en realizar algunos elixires de temporada."],
         "background":124,
-        "npc":[1200],
-        "self":1350,
+        "npc":["lara"],
+        "self":"chenmi",
         "choices":[
             {"text":"Te ayudaré con ello, cuenta conmigo. (Le he guiñado un ojo.)", "next":10048}
         ]
@@ -695,8 +695,8 @@
         "type":"npc_dialog",
         "text":["¿Y qué día sería?, ¿qué día te gustaría?"],
         "background":124,
-        "npc":[1300],
-        "self":1350,
+        "npc":["alariane"],
+        "self":"chenmi",
         "choices":[
             {"text":"Sé que tiene que ser un día de sol, pasada el mediodía, pero no llegando al atardecer.", "next":10049}
         ]
@@ -706,8 +706,8 @@
         "type":"npc_dialog",
         "text":["Pues estamos en temporada de calores, así que estás de suerte. Nos tocará una semana abundante de climas cálidos."],
         "background":124,
-        "npc":[1550],
-        "self":1350,
+        "npc":["alanna"],
+        "self":"chenmi",
         "choices":[
             {"text":"¡Genial, niñas! Manos a la obra, ¡tenemos un baile que organizar y celebrar!", "next":10041}
         ]
@@ -784,7 +784,7 @@
         "text":[],
         "background":124,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(FINALIZAR EPISODIO)", "next":null}
         ]

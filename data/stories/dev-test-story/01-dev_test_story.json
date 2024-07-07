@@ -3,7 +3,7 @@
         "id":10000,
         "type":"pov_selector",
         "pov":[
-            {"char":"Chenmi", "id":1350, "scene":10001}
+            {"char":"chenmi", "scene":10001}
         ]
     },
 
@@ -13,7 +13,7 @@
         "text":["Esto es un bloque de información"],
         "background":"black",
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10002}
         ]
@@ -24,7 +24,7 @@
         "text":["Esto es un bloque de historia."],
         "background":105,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(Continuar)", "next":10003}
         ]
@@ -34,8 +34,8 @@
         "type":"npc_dialog",
         "text":[],
         "background":105,
-        "npc":[1007],
-        "self":1350,
+        "npc":["zekai"],
+        "self":"chenmi",
         "choices":[
             {"text":"Esto es un monólogo", "next":10004}
         ]
@@ -45,8 +45,8 @@
         "type":"npc_dialog",
         "text":["Este es un diálogo de un NPC."],
         "background":105,
-        "npc":[1007],
-        "self":1350,
+        "npc":["zekai"],
+        "self":"chenmi",
         "choices":[
             {"text":"Hola NPC", "next":10005}
         ]
@@ -56,8 +56,8 @@
         "type":"npc_dialog",
         "text":["Mira eso, puedes elegir varias opciones."],
         "background":105,
-        "npc":[1007],
-        "self":1350,
+        "npc":["zekai"],
+        "self":"chenmi",
         "choices":[
             {"text":"La rosa de Guadalupe esta mejor que Juego de Tronos.", "next":10006},
             {"text":"El rey de Parangaricutirimícuaro se quiere desparangaricutirimicuarizar, el que lo desparangaricutirimicuarize un buen desparangaricutirimicuarizador será.", "next":10007},
@@ -69,8 +69,8 @@
         "type":"npc_dialog",
         "text":["XDDDDDDD"],
         "background":105,
-        "npc":[1007],
-        "self":1350,
+        "npc":["zekai"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Quiero elegir otra opción)", "next":10005},
             {"text":"(Ya me aburrí, quiero seguir)", "next":10009}
@@ -81,8 +81,8 @@
         "type":"npc_dialog",
         "text":["que"],
         "background":105,
-        "npc":[1007],
-        "self":1350,
+        "npc":["zekai"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Quiero elegir otra opción)", "next":10005},
             {"text":"(Ya me aburrí, quiero seguir)", "next":10009}
@@ -93,8 +93,8 @@
         "type":"npc_dialog",
         "text":["...QUÉ CONTESTARME, PORQUE CLARO, DE SEGURO TE MAREÉ"],
         "background":105,
-        "npc":[1007],
-        "self":1350,
+        "npc":["zekai"],
+        "self":"chenmi",
         "choices":[
             {"text":"(Quiero elegir otra opción)", "next":10005},
             {"text":"(Ya me aburrí, quiero seguir)", "next":10009}
@@ -105,8 +105,8 @@
         "type":"npc_dialog",
         "text":["Es hora de probar los objetivos. Te asignaré un objetivo obligatorio, y otro opcional."],
         "background":105,
-        "npc":[1007],
-        "self":1350,
+        "npc":["zekai"],
+        "self":"chenmi",
         "choices":[
             {"text":"¿Qué tengo que hacer?", "next":10010}
         ]
@@ -116,8 +116,8 @@
         "type":"npc_dialog",
         "text":["Solo sígueme y no te distraigas"],
         "background":105,
-        "npc":[1007],
-        "self":1350,
+        "npc":["zekai"],
+        "self":"chenmi",
         "choices":[
             {"text":"Vale. (Que me distraiga, dice)", "next":10011}
         ]
@@ -138,7 +138,7 @@
         "text":[],
         "background":101,
         "npc":[],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"No Chenmi, no es hora inhalar sustancias. Busca a Zekai", "next":"auto"}
         ]
@@ -149,7 +149,7 @@
         "text":["Oh Chenmi, ¡qué sorpresa!"],
         "background":121,
         "npc":[1001],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"Ah... S-Sí, lo siento, ¡ya me voy!", "next":10014}
         ]
@@ -160,7 +160,7 @@
         "text":["Oh, okay."],
         "background":121,
         "npc":[1001],
-        "self":1350,
+        "self":"chenmi",
         "choices":[
             {"text":"(Duh, obviamente iba a estar en el bosque)", "next":"auto"}
         ]
@@ -170,8 +170,8 @@
         "type":"npc_dialog",
         "text":["Hasta que llegas"],
         "background":153,
-        "npc":[1007],
-        "self":1350,
+        "npc":["zekai"],
+        "self":"chenmi",
         "choices":[
             {"text":"¡No me dijiste a dónde!", "next":10016}
         ]
@@ -181,8 +181,8 @@
         "type":"npc_dialog",
         "text":["Y por eso tenías que seguirme."],
         "background":153,
-        "npc":[1007],
-        "self":1350,
+        "npc":["zekai"],
+        "self":"chenmi",
         "choices":[
             {"text":"(No tiene caso.)", "next":10017}
         ]
@@ -192,8 +192,8 @@
         "type":"npc_dialog",
         "text":["Bueno, es suficiente por hoy. Zunay ya tiene que ponerse a trabajar."],
         "background":153,
-        "npc":[1007],
-        "self":1350,
+        "npc":["zekai"],
+        "self":"chenmi",
         "choices":[
             {"text":"¿Y esa quien es?", "next":10018}
         ]
@@ -203,8 +203,8 @@
         "type":"npc_dialog",
         "text":["¡Ya cállate y déjame finalizar el episodio!"],
         "background":153,
-        "npc":[1007],
-        "self":1350,
+        "npc":["zekai"],
+        "self":"chenmi",
         "choices":[
             {"text":"(FINALIZAR EPISODIO)", "next":null}
         ]

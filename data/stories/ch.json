@@ -17,7 +17,7 @@
         "portada":null,
         "autor":"Naranja",
         "descripcion":null,
-        "mapa":"mapa.json",
+        "mapa":"v_mapa.json",
         "personajes":"v_personajes.json",
         "finalizado":false,
         "capitulos":[
