@@ -118,11 +118,11 @@ const drawScene = (id) => {
     if (skip == null && scene[0].npc.length > 0) {
 
         for (n = 0; n < scene[0].npc.length; n++) {
-            let gardie = globalChar.filter(v => v.id == scene[0].npc[n]);
+            let gardie = globalChar.filter(v => v.tag == scene[0].npc[n]);
             if (gardie.length == 0)  skip = `El personaje ${scene[0].npc[n]} no existe.`;
             if (gardie.length > 1) skip = `El código ${scene[0].npc[n]} está asignado a más de un personaje.`;
 
-            $("#player").append(`<div class="npc-container" data-char="${scene[0].npc[n]}"><img src="${gardie[0].imgURL}"></div>`);
+            $("#player").append(`<div class="npc-container" data-char="${scene[0].npc[n]}"><img src="${gardie[0].url}"></div>`);
 
             if (gardie[0].type == "char" || gardie[0].type == "extra") {
                 $(".npc-container").eq(n).attr("data-char", scene[0].npc[n]);
@@ -218,8 +218,8 @@ const drawScene = (id) => {
 
         if (scene[0].self != "") {
             // dibujar PJ
-            let gardie = globalChar.filter(v => v.id == scene[0].self);
-            $("#choiceText").append(`<div class="own-npc"><img class="npcRpg" src="${gardie[0].imgURL}"></div>`)
+            let gardie = globalChar.filter(v => v.tag == scene[0].self);
+            $("#choiceText").append(`<div class="own-npc"><img class="npcRpg" src="${gardie[0].url}"></div>`)
         } else {
             $("#choiceText").css("width", "96%")
             $(".choice").css("padding-right", "3px");
@@ -261,17 +261,17 @@ const drawMapPoints = (location) => {
     $("#player").css("background-image", `url(${map[0].imgURL})`);
     $("#player").attr("data-map", location);
 
-    for (m = 0; m < map[0].places.length; m++) {
+    for (m = 0; m < map[0].points.length; m++) {
 
         // Dibujar punto
-        $("#player").append(`<div class="changeLocation tooltip" data-location="${map[0].places[m]}" style="${map[0].style[m]}"></div>`);
+        $("#player").append(`<div class="changeLocation tooltip" data-location="${map[0].points[m].id}" style="${map[0].points[m].position}"></div>`);
         
         // Asignar nombre
-        let point = globalMap.filter(v => v.id == map[0].places[m]);
+        let point = globalMap.filter(v => v.id == map[0].points[m].id);
         $(".tooltip").eq(m).append(`<span class="tooltiptext">${point[0].name}</span>`);
 
         // Ubicar el tooltip
-        switch (map[0].tooltip[m]) {
+        switch (map[0].points[m].tooltip) {
             case "left":
                 $(".tooltiptext").eq(m).css("left", "-145px");
                 $(".tooltiptext").eq(m).height() > 28 ? $(".tooltiptext").eq(m).css("top", "-18px") : $(".tooltiptext").eq(m).css("top", "-7px");

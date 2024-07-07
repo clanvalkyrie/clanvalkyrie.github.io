@@ -32,20 +32,20 @@ const cargarLista = mapa => {
 
 const drawPreview = id => {
 	$("#background-preview").html("");
-	let points = globalMap.filter(v => v.id == id);
-	$("#background-preview").css("background-image", `url(../${points[0].imgURL})`);
+	let map = globalMap.filter(v => v.id == id);
+	$("#background-preview").css("background-image", `url(../${map[0].imgURL})`);
 
-	for (p = 0; p < points[0].places.length; p++) {
+	for (p = 0; p < map[0].points.length; p++) {
 
 		// Dibujar punto
-		$("#background-preview").append(`<div class="changeLocation tooltip" data-location="${points[0].places[p]}" style="${points[0].style[p]}"></div>`);
+		$("#background-preview").append(`<div class="changeLocation tooltip" data-location="${map[0].points[p].id}" style="${map[0].points[p].position}"></div>`);
 		
 		// Asignar nombre
-        let point = globalMap.filter(v => v.id == points[0].places[p]);
+        let point = globalMap.filter(v => v.id == map[0].points[p].id);
         $(".tooltip").eq(p).append(`<span class="tooltiptext">${point[0].name}</span>`);
 
         // Ubicar el tooltip
-        switch (points[0].tooltip[p]) {
+        switch (map[0].points[p].tooltip) {
             case "left":
                 $(".tooltiptext").eq(p).css("left", "-145px");
                 $(".tooltiptext").eq(p).height() > 28 ? $(".tooltiptext").eq(p).css("top", "-18px") : $(".tooltiptext").eq(p).css("top", "-7px");
