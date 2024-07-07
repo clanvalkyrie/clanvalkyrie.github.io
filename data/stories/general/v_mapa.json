@@ -235,7 +235,7 @@
 		"imgURL":"assets/img/places/vestibulo-secundario.png",
 		"points":[
 			{"id":109, "position":"top: 280px;left: 170px;", "tooltip":"top"},
-			{"id":130, "posititop: 350px;left: 62px;on":"", "tooltip":"right"},
+			{"id":130, "position":"top: 350px;left: 62px;", "tooltip":"right"},
 			{"id":159, "position":"top: 140px;left: 610px;", "tooltip":"top"},
 			{"id":165, "position":"top: 360px;left: 690px;", "tooltip":"left"}
 		], "tag":"Residencia"
@@ -245,7 +245,7 @@
 		"imgURL":"assets/img/places/vestibulo-secundario-noche.png",
 		"points":[
 			{"id":110, "position":"top: 280px;left: 170px;", "tooltip":"top"},
-			{"id":131, "posititop: 350px;left: 62px;on":"", "tooltip":"right"},
+			{"id":131, "position":"top: 350px;left: 62px;", "tooltip":"right"},
 			{"id":160, "position":"top: 140px;left: 610px;", "tooltip":"top"},
 			{"id":166, "position":"top: 360px;left: 690px;", "tooltip":"left"}
 		], "tag":"Residencia"
