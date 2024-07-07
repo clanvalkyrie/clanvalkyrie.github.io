@@ -212,7 +212,40 @@
     width: 250px;
     object-fit: cover;
     margin-right: 10px;
+    display: none;
 }
+
+.modal-img.selected {
+    display: block;
+}
+
+.alt-image-container {
+    position: absolute;
+    right: calc(100% - 260px);
+    display: inline-flex;
+    gap: 5px;
+}
+
+.alt-image {
+    background-color: var(--main-color);
+    color: #fff;
+    font-weight: 700;
+    width: 22px;
+    text-align: center;
+    height: 22px;
+    align-items: center;
+    position: relative;
+    display: grid;
+    border: 1px solid;
+}
+
+.alt-image.selected {
+    color: var(--main-color);
+    background-color: #fff;
+}
+
+
+
 
 .modal-info {
     font-size: 12px;

@@ -73,6 +73,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     color: var(--main-color);
+    text-align: center;
 }
 
 .story-author {

@@ -5,17 +5,19 @@ var guardian = [
 
 	{ 
 		"nombre":"",
-		"tag":"unknown // tag unico sin espacios ni signos
-		"img":"",
+		"tag":"unknown", // tag unico sin espacios ni signos
+		"img":[
+			"" // Enlaces
+		],
 		"ficha":[
-			{"k":"Apodo", 		"v":''},
-			{"k":"Altura", 		"v":''},
-			{"k":"Peso", 		"v":''},
-			{"k":"Edad", 		"v":''},
-			{"k":"Raza", 		"v":''},
-			{"k":"Grupo", 		"v":''},
-			{"k":"Ocupación", 	"v":''},
-			{"k":"Gustos", 		"v":''}		// ultimo campo sin coma
+			{"k":"Apodo", 			"v":''},
+			{"k":"Color", 			"v":''},
+			{"k":"Raza",			"v":''},
+			{"k":"Familiar",		"v":''},
+			{"k":"Ocupación",	 	"v":''},
+			{"k":"Gustos",	 		"v":''},
+			{"k":"Personalidad", 	"v":''},
+			{"k":"Frase célebre",	"v":''}		// ultimo campo sin coma
 		], "perfil":"",
 		"bio":[
 			'', // Copiar lineas segun parrafos deseados, quitar la coma si es el ultimo
@@ -26,223 +28,280 @@ var guardian = [
 
 ------------------------------------- */
 
-	{
-		"nombre":"Jenna",
-		"tag":"unknown",
-		"img":"https://64.media.tumblr.com/a7cec008fa4dda76caf7ea466f8bdcf6/dbbfb9a9d6b97ae0-86/s640x960/09dd5a925a3b4350e378d29f2e736c2365b9c65d.pnj",
+	{ 
+		"nombre":"Aine",
+		"tag":"aine",
+		"img":[
+			"https://64.media.tumblr.com/8076d10ee20ecafb206b642e37c6946b/3a67b7f9c6e1105a-42/s640x960/58f6a3baccff48d6633a568c7f7bd15c76fada13.pnj"
+		],
 		"ficha":[
-			{"k":"Apodo", 		"v":'Simplemente Jenn.'},
-			{"k":"Altura", 		"v":'158 cm.'},
-			{"k":"Peso", 		"v":'51 kg.'},
-			{"k":"Edad", 		"v":'19 años.'},
-			{"k":"Raza", 		"v":'Erinia.'},
-			{"k":"Grupo", 		"v":'Clan Valkyrie.'},
-			{"k":"Ocupación", 	"v":'Guía Obsidiana, entrenadora de soldados.'},
-			{"k":"Gustos", 		"v":'"¿Que me  presten atención cuando hablo cuenta?"'}
+			{"k":"Color", 			"v":'Dorado, representa éxito, abundancia y liderazgo'},
+			{"k":"Raza",			"v":'¿Humana?'},
+			{"k":"Familiar",		"v":'Lepidave hembra, Chenmi'},
+			{"k":"Ocupación",	 	"v":'Líder y coordinadora del grupo'},
+			{"k":"Gustos",	 		"v":'El orden del clan, entrenar a diario, las manzanas verdes'},
+			{"k":"Personalidad", 	"v":'Carismática, valiente, y generosa'},
+			{"k":"Frase célebre",	"v":'"El éxito no se mide en victorias, se mide sabiendo instruir al victorioso"'}
 		], "perfil":"",
 		"bio":[
-			'A pesar de provenir de tierras peligrosamente desconocidas, y con un amargo pasado, Jennen tuvo que volverse cruda y hóstil para dirigirse a los extraños. Sin embargo eso no bastó para mantener intacto su afecto y cuidado para con aquellos que están guardados en su corazón.',
-			'Jennen es fuerte, hozada y un ejemplo a seguir para toda la residencia. Gracias a ello es fácil ganarse el respeto de sus reclutas, e incluso hasta el temor de los demás (aunque a Jennen no le guste imponer miedo).',
-			'Aunque a veces puede ser bastante impulsiva, disfruta apoyar a sus amigas en nuevas ideas que tengan para proponer, hasta no duda en ser conejillo de indias para los experimentos de sus amigas.',
-			'Siente una gran afinidad por sus hermanas, pero principalmente por Chenmi, pues debido a que esta apareció en su vida, ahora Jennen tiene una morada donde poder ser ella misma y hasta incluso ser la guía y ejemplo para los demás.'
+			'Aine es la encarnación del éxito y el liderazgo, aunque ella aún no lo sabe. Su familiar protector, siempre a su lado, simboliza su capacidad para defender y guiar a sus hermanas. Con su presencia magnética y su habilidad para inspirar, Aine promueve la abundancia y el éxito, liderando con un espíritu noble y generoso.'
 		]
 	},
 
-
-	{
-		"nombre":"Chenmi",
-		"tag":"unknown",
-		"img":"https://64.media.tumblr.com/ca325a2e3e1bc3016bbb250a9fcfa520/dbbfb9a9d6b97ae0-ad/s640x960/81762e0b345743de321b5e500eee2143cb38ab5a.pnj",
-		"ficha":[
-			{"k":"Apodo", 		"v":'Soberana, Chen.'},
-			{"k":"Altura", 		"v":'165 cm.'},
-			{"k":"Peso", 		"v":'55 kg.'},
-			{"k":"Edad", 		"v":'entre 19 y 20.'},
-			{"k":"Raza", 		"v":'Humana.'},
-			{"k":"Grupo", 		"v":'Clan Valkyrie.'},
-			{"k":"Ocupación", 	"v":'"Hago de todo, a veces mal, pero de todo."'},
-			{"k":"Gustos", 		"v":'Dar de qué hablar, sin siquiera estar presente. También le gusta superarse.'}
-		], "perfil":"",
-		"bio":[
-			'Chenmi nació en el mundo de los humanos, hasta donde se sabe, pero de su vida humana no se sabe absolutamente nada, pues una vez que pasó por el "Proceso de eclosión y re-juventud de renacimiento" todos sus recuerdos han quedado en el pasado.',
-			'Llegó a Eldarya hace, apróximadamente, 24 años. En plena posterioridad de la guerra. También se sabe que Chenmi "es una esencia", aunque si se lo preguntas no sabrá cómo explicar esto tampoco...',
-			'Se volvió lider y fundadora del Clan debido al pedido de la mismísima Freyja quien se reveló ante ella para decirle que era una Valkyrie, busque a sus hermanas Valkyries, sea mandataria de las comunidades valquíricas junto a sus aliados, y se preparasen para lo que se avecinaba.',
-		    'A simple vista se le puede ver que está muy dispuesta para con el Clan, y para seguir en su búsqueda de las Valkyries. Espera lograr grandes cosas, y que su nombre quede para la posterioridad eldaryana.'
-		]
-	},
 
 
 	{ 
-		"nombre":"Maat",
-		"tag":"unknown",
-		"img":"https://64.media.tumblr.com/d8754fa2ed840850e956f8d4e965ba41/dbbfb9a9d6b97ae0-71/s640x960/3a0c4dc0cb472909d0c5d7580c1b9f012bcd59a3.png",
-		"perfil":"",
-		"bio":[
-			'Próximamente.'
-		]
-	},
-
-
-	{ 
-		"nombre":"Vidalia",
-		"tag":"unknown",
-		"img":"https://64.media.tumblr.com/22e1a5cfe257df3811221b7b026bfceb/dbbfb9a9d6b97ae0-cb/s640x960/91c0d8ab5c69bc5fa7ce380e9dab62457bf43c00.pnj",
+		"nombre":"Delina",
+		"tag":"delina",
+		"img":[
+			"https://64.media.tumblr.com/9e26a4f3dfbd0dae690cf80d259207c6/3a67b7f9c6e1105a-79/s640x960/b13f828106ef892d1b78944ccbe0c4419785cfe7.pnj"
+		],
 		"ficha":[
-			{"k":"Apodo", 		"v":'Vida, Vid.'},
-			{"k":"Altura", 		"v":'175 cm.'},
-			{"k":"Peso", 		"v":'55 kg.'},
-			{"k":"Edad", 		"v":'Aparenta los 19 años.'},
-			{"k":"Raza", 		"v":'Driada.'},
-			{"k":"Grupo", 		"v":'Clan Valkyrie.'},
-			{"k":"Ocupación", 	"v":'Alquimista.'},
-			{"k":"Gustos", 		"v":'La lectura bajo los primeros rayos del sol es quizás una de las mejores maneras de empezar el día.'}
+			{"k":"Apodo", 			"v":'Deli'},
+			{"k":"Color", 			"v":'Blanco, representa pureza, vida y paz'},
+			{"k":"Raza",			"v":'Fantasma'},
+			{"k":"Familiar",		"v":'Skanis macho, Polaris'},
+			{"k":"Ocupación",	 	"v":'Sanadora y cuidadora'},
+			{"k":"Gustos",	 		"v":'La tranquilidad de una sala vacía, que la consientan, los abrazos de Gemma'},
+			{"k":"Personalidad", 	"v":'Sensible, protectora, y compasiva'},
+			{"k":"Frase célebre",	"v":'"La verdadera paz se encuentra en el alma que ya se fue."'}
 		], "perfil":"",
 		"bio":[
-			'Aunque no hable mucho de ella misma, lo que se sabe del pasado de Vidalia es que siendo nativa de Eldarya tiene conocimiento y una visión interesante del entorno que la rodea, y ello esta ciertamente ligado a su ser como dríada. Independiente a su especie, ella se caracteriza por los varios tatuajes que cubren su cuerpo: sellos, maldiciones, milagros, anomalías. No les da clasificación alguna, son parte de su ser y son los responsables de su existencia y de brindarle libertad.',
-			'Llegó al CG hace unos años desde una tierra lejana, y le agradó tanto el lugar que decidió quedarse y hacer parte de la comunidad, que afortunadamente la acogió y le ofreció mas de lo que hubiese imaginado, y ella a su vez como agradecimiento da todo de si para apoyarlos en lo que le sea posible.',
-			'Quizas Vidalia pueda ser catalogada como servicial, o tal vez va por su cuenta, y seguramente es de lo mas directa, pero en realidad es alguien con quien puedes contar... Claro, si te ganas su confianza.' 
+			'Delina, la sensible de Cáncer, irradia pureza y paz. Su aureola, presente sobre su cabeza, simboliza su conexión con la vida y la muerte. Delina comprende y conecta profundamente con las emociones de los demás, siendo una figura de consuelo y vida en la residencia. Promueve un ambiente de serenidad y apoyo, cuidando de sus hermanas con amor y dedicación.'
 		]
 	},
 
-	{
-		"nombre":"?",
-		"tag":"unknown",
-		"img":"./assets/logo.png"
-	},
 
 
 	{ 
-		"nombre":"Alariane",
-		"tag":"unknown",
-		"img":"https://64.media.tumblr.com/fd3a3fa97f59796d302a687cb6bc94ee/dbbfb9a9d6b97ae0-cf/s640x960/55b8873618051a7cb63373c7657dcf0b32bbe6b4.pnj",
+		"nombre":"Cassandra",
+		"tag":"cassandra",
+		"img":[
+			"https://64.media.tumblr.com/01bb78b511d19ebc8c9ee27214446cb8/3a67b7f9c6e1105a-f9/s640x960/842aef6afd719c3868df4d60a347604e2ae27908.pnj",
+			"https://64.media.tumblr.com/0708d53c53be141b7378c44425117bf3/3a67b7f9c6e1105a-7d/s640x960/f3292def2787bbc51bc4be06b9ddaad36299f18d.pnj"
+		],
 		"ficha":[
-			{"k":"Apodo", 		"v":'Ala.'},
-			{"k":"Altura", 		"v":'161 cm.'},
-			{"k":"Peso", 		"v":'84 kg.'},
-			{"k":"Edad", 		"v":'22 años.'},
-			{"k":"Raza", 		"v":'¿Humana?.'},
-			{"k":"Grupo", 		"v":'Clan Valkyrie.'},
-			{"k":"Ocupación", 	"v":'En absolutamente todo. Originalmente profesora.'},
-			{"k":"Gustos", 		"v":'"Gustos bastantes, pero cuando un alumno presta atención no existe mejor satisfacción."'}
+			{"k":"Apodo", 			"v":'Cassi'},
+			{"k":"Color", 			"v":'Rojo, representa accionar, poder, y pasión'},
+			{"k":"Raza",			"v":'Dragona'},
+			{"k":"Familiar",		"v":'Warrifang macho, Lolo'},
+			{"k":"Ocupación",	 	"v":'Estratega y planificadora'},
+			{"k":"Gustos",	 		"v":'Pensar estrategias, lustrar su lanza y compartir el té con las muchachas'},
+			{"k":"Personalidad", 	"v":'Ambiciosa, disciplinada, y prudente'},
+			{"k":"Frase célebre",	"v":'"El fuego en mi interior nunca se apaga. Haré lo que haga que hacerse y la pasión y el accionar serán mis aliados"'}
 		], "perfil":"",
 		"bio":[
-			'Melanie es una guardiana centrada, inteligente y de característicos modales. Le encanta enseñar y ser la guía para los demás, es por ello que se la conoce como "la sensei de todos", aunque quizás no le encante mucho ese título.',
-			'Es originaria de Eldarya, pero no exactamente de la ciudad de Eel. No es raro que a veces desaparezca para irse a su tierra natal y pasar tiempo con sus hermanas de sangre. Melanie dice que sus hermanas valkyries son tan importantes como las de sangre, es por que que debe darle tanta atención como se la da a sus amigas.',
-			'A veces comparte lecturas con Vidalia, pues le encanta estudiar y aprender; e incluso hace sus propias investigaciones para el avance eldaryano en general.',
-			'Trata de siempre dar lo mejor de ella debido a que le encanta autosuperarse.'
+			'Cassandra, la ambiciosa Dragona antropomorfa de Capricornio, es conocida por su poder y determinación. Su lanza, siempre lista para la acción, simboliza su capacidad de tomar decisiones rápidas y efectivas. Cassandra inspira a sus hermanas con su fortaleza y energía incansable, siendo una líder formidable dentro de la residencia. Su pasión por alcanzar sus metas y su capacidad de acción rápida la convierten en una figura clave en la protección y el liderazgo del grupo.'
 		]
 	},
 
 
+
 	{ 
-		"nombre":"Keiko",
-		"tag":"unknown",
-		"img":"https://64.media.tumblr.com/02e9994053cacd5c803e5e3b3388a2ab/dbbfb9a9d6b97ae0-7d/s640x960/17661a54be30076d409e025b5cab26621dabbf31.pnj",
+		"nombre":"Penélope",
+		"tag":"penelope",
+		"img":[
+			"https://64.media.tumblr.com/afa253947aeca7d8092dcd8e585794dc/3a67b7f9c6e1105a-2c/s640x960/0bbec1db8436e127bbde1d93f977c9b88c66ba7d.pnj",
+			"https://64.media.tumblr.com/489826d351007693bf16ac732c6fd226/3a67b7f9c6e1105a-8e/s640x960/e526b54c9bc0840b6cebabd6e425448a12fda76f.pnj"
+		],
 		"ficha":[
-			{"k":"Apodo", 		"v":'A veces Kei, otras veces KeiKei.'},
-			{"k":"Altura", 		"v":'162 cm.'},
-			{"k":"Peso", 		"v":'57 kg.'},
-			{"k":"Edad", 		"v":'21 años.'},
-			{"k":"Raza", 		"v":'Desconocida.'},
-			{"k":"Grupo", 		"v":'Clan Valkyrie.'},
-			{"k":"Ocupación", 	"v":'Asistente de Alariane en enfermería. Tesorera.'},
-			{"k":"Gustos", 		"v":'Las moras, y parece que el morado también.'}
+			{"k":"Apodo", 			"v":'Penny'},
+			{"k":"Color", 			"v":'Naranja, representa la alegría, entusiasmo y vitalidad'},
+			{"k":"Raza",			"v":'Sirenhada'},
+			{"k":"Familiar",		"v":'Aurorca hembra, Olivia'},
+			{"k":"Ocupación",	 	"v":'Música y artista, también alquimista'},
+			{"k":"Gustos",	 		"v":'Aprender melodías, entonar melodías, crear pociones'},
+			{"k":"Personalidad", 	"v":'Energética, valiente, impulsiva y líder natural'},
+			{"k":"Frase célebre",	"v":'"La vida es una canción, y yo siempre estoy lista para el próximo verso."'}
 		], "perfil":"",
 		"bio":[
-			'Próximamente.'
+			'Penélope, la alegre Sirena Hada de Piscis, irradia entusiasmo y vitalidad. Su lira mágica, que toca con habilidad, infunde alegría y energía positiva a todos los que la escuchan. Con su espíritu vivaz y su capacidad para alegrar cualquier ambiente, Penny se convierte en el corazón de la residencia. Su voz melodiosa y su naturaleza optimista inspiran a sus hermanas a vivir cada día con alegría y entusiasmo.'
 		]
 	},
 
 
+
 	{ 
-		"nombre":"Lara",
-		"tag":"unknown",
-		"img":"https://64.media.tumblr.com/94c35a3d531bf6014c739ec1a7ec3a7b/dbbfb9a9d6b97ae0-1f/s640x960/ba45dd86e0e8f2f1186e42280f302497f7210c52.pnj",
+		"nombre":"Aranda",
+		"tag":"aranda",
+		"img":[
+			"https://64.media.tumblr.com/121285ae9790d4a4c522cffe31f309e2/3a67b7f9c6e1105a-39/s640x960/98db98c3e5a971781064d19e4209886621101664.pnj",
+			"https://64.media.tumblr.com/cb65fc4f42bf2569d41f635670eb65d0/3a67b7f9c6e1105a-22/s640x960/6d279d956052b10321f2c42bd518c7507aa82d1b.pnj"
+		],
 		"ficha":[
-			{"k":"Apodo", 		"v":'-'},
-			{"k":"Altura", 		"v":'170 cm.'},
-			{"k":"Peso", 		"v":'55 kg.'},
-			{"k":"Edad", 		"v":'Aparenta los 20 años.'},
-			{"k":"Raza", 		"v":'Silfide.'},
-			{"k":"Grupo", 		"v":'Clan Valkyrie.'},
-			{"k":"Ocupación", 	"v":'Encargada de la clasificación de pócimas.'},
-			{"k":"Gustos", 		"v":'Las flores, también el valle de donde proviene.'}
+			{"k":"Apodo", 			"v":'Ara, Ari'},
+			{"k":"Color", 			"v":'Amarillo, representa armonía, energía y precaución'},
+			{"k":"Raza",			"v":'Valkyria'},
+			{"k":"Familiar",		"v":'Alfeli hembra, Marila'},
+			{"k":"Ocupación",	 	"v":'Encargada del cuartel de guerreros'},
+			{"k":"Gustos",	 		"v":'Su escudo, que admiren su escudo, entrenar con sus mejores soldados'},
+			{"k":"Personalidad", 	"v":'Energética, valiente, impulsiva y líder natural'},
+			{"k":"Frase célebre",	"v":'"La energía está en todas partes, solo tienes que saber cómo canalizarla."'}
 		], "perfil":"",
 		"bio":[
-			'Lara es realmente un sol de persona, suele ser bastante amigable y destaca por lo risueña que puede llegar a ser. Le gusta la moda, cantar con familiares y hasta a veces sumarse a las travesuras de Chenmi, aunque a veces liga retos por ello.',
-			'Es verdad que prefiere trabajar sola, pues según trabajar en compañía implica hablar, y a Lara le encanta hablar. Le es bastante fácil distraerse, es por ello que quizás se aisle a la hora de realizar tareas. Es verdad también que suele ser bastante misteriosa... A veces demasaido.',
-			'Lara es una característica hada mágica originaria de los valles de Fairytopia. Curiosamente es la única hada que ronda por los pasillos de la residencia Valkyrie, pero eso no parece que sea algo que le moleste.'
+			'Aranda, la enérgica Valkyria de Aries, es un modelo de armonía y precaución. Su espada encantada, siempre lista para la batalla, refleja su energía vibrante y su actitud cuidadosa. Ara mantiene la paz y el equilibrio en la residencia, siempre alerta y lista para actuar. Su capacidad para equilibrar su energía con una actitud cuidadosa la convierte en una guardiana excepcional.'
 		]
 	},
 
 
+
 	{ 
-		"nombre":"Gisany",
-		"tag":"unknown",
-		"img":"https://64.media.tumblr.com/15168d1de9c779a2ae5340a5fb9aa83b/dbbfb9a9d6b97ae0-bb/s640x960/ec042ee8c595028356360d6a33cb1811d301a0cf.pnj",
+		"nombre":"Tamara",
+		"tag":"tamara",
+		"img":[
+			"https://64.media.tumblr.com/0ca0dadafd2e07ebddadc22d06dd3bb1/3a67b7f9c6e1105a-3f/s640x960/af7c42534fc9bf34d024265f803f52c2cad9eea8.pnj"
+		],
 		"ficha":[
-			{"k":"Apodo", 		"v":'Gis.'},
-			{"k":"Altura", 		"v":'160 cm.'},
-			{"k":"Peso", 		"v":'75 kg.'},
-			{"k":"Edad", 		"v":'21 años.'},
-			{"k":"Raza", 		"v":'Hechicera.'},
-			{"k":"Grupo", 		"v":'Clan Valkyrie.'},
-			{"k":"Ocupación", 	"v":'Sacerdotiza.'},
-			{"k":"Gustos", 		"v":'Cuando Chenmi está a cargo del clan. Mirar las nubes.'}
+			{"k":"Apodo", 			"v":'Tami'},
+			{"k":"Color", 			"v":'Verde, representa naturaleza, crecimiento y salud'},
+			{"k":"Raza",			"v":'Ninfa'},
+			{"k":"Familiar",		"v":'Chavana macho, Poderío'},
+			{"k":"Ocupación",	 	"v":'Jardinera y proveedora de alimentos'},
+			{"k":"Gustos",	 		"v":'Pasear y retocar los verdes de la mansión, el petricor y atender a los enfermos'},
+			{"k":"Personalidad", 	"v":'Paciente, confiable, y perseverante'},
+			{"k":"Frase célebre",	"v":'"Todo lo bueno lleva tiempo, incluso una semilla, la cual se toma su tiempo para acabar siendo el fruto más rico."'}
 		], "perfil":"",
 		"bio":[
-			'Próximamente.'
+			'Tamara, la paciente Ninfa de Tauro, está profundamente conectada con la naturaleza. Su cornamenta encantada, que lleva como un símbolo de su afinidad con el crecimiento y la salud, le otorga la habilidad de nutrir y cuidar todo lo que la rodea. Tami fomenta un ambiente de renovación constante en la residencia, actuando como un pilar de estabilidad y bienestar para sus hermanas.'
 		]
 	},
 
 
+
 	{ 
-		"nombre":"Zakurin",
-		"tag":"unknown",
-		"img":"https://64.media.tumblr.com/a45457b85d4e5f09a648852d04158251/dbbfb9a9d6b97ae0-53/s640x960/2bf559d7c1a0a74c3dc1235caaed12a34af983cb.pnj",
+		"nombre":"Valondra",
+		"tag":"valondra",
+		"img":[
+			"https://64.media.tumblr.com/e92ec17f72d1c777d103c521cffeaeb7/3a67b7f9c6e1105a-98/s640x960/58e9a2f8348792ef424db8b7f126bb800a1c6dfc.pnj"
+		],
 		"ficha":[
-			{"k":"Apodo", 		"v":'Zak.'},
-			{"k":"Altura", 		"v":'170 cm.'},
-			{"k":"Peso", 		"v":'56 kg.'},
-			{"k":"Edad", 		"v":'23.'},
-			{"k":"Raza", 		"v":'Arcadiana.'},
-			{"k":"Grupo", 		"v":'Clan Valkyrie.'},
-			{"k":"Ocupación", 	"v":'Soldado de la Residencia. Asistente de Jennen en el taller.'},
-			{"k":"Gustos", 		"v":'Fiel amante al color negro y le gusta encontrar famis nuevos. También disfruta de las playas de Eel.'}
+			{"k":"Apodo", 			"v":'Valo, Vale'},
+			{"k":"Color", 			"v":'Celeste, representa comunicación, inocencia y tranquilidad'},
+			{"k":"Raza",			"v":'Elfa'},
+			{"k":"Familiar",		"v":'Azulibélula hembra, Paprika'},
+			{"k":"Ocupación",	 	"v":'Bibliotecaria y archivista'},
+			{"k":"Gustos",	 		"v":'Leer, el sonido del silencio y las azulibélulas'},
+			{"k":"Personalidad", 	"v":'Meticulosa, analítica, y práctica'},
+			{"k":"Frase célebre",	"v":'"Con una buena estrategia, hasta el caos puede encontrar su orden."'}
 		], "perfil":"",
 		"bio":[
-			'Próximamente.'
+			'Valondra, la meticulosa Elfa de Virgo, destaca por su habilidad para comunicarse con claridad y su naturaleza tranquila. Su diario de estrategias, que siempre lleva consigo, contiene planes y tácticas detalladas para cada situación. Valondra utiliza su capacidad para mantener la calma en situaciones difíciles, asegurando la armonía entre sus hermanas y guiando al grupo con sabiduría y precisión.'
 		]
 	},
 
 
+
 	{ 
-		"nombre":"Alanna",
-		"tag":"unknown",
-		"img":"https://64.media.tumblr.com/2a4261e5fb315b641e414c9cfe531537/dbbfb9a9d6b97ae0-9e/s640x960/ebea09af8304b461867ed309543a01d433c15f76.pnj",
+		"nombre":"Lyra",
+		"tag":"lyra",
+		"img":[
+			"https://64.media.tumblr.com/bee46b6f6b70b6989bbc7d22b191eac8/3a67b7f9c6e1105a-de/s640x960/bf90cc0c3cf18bfa97ad23cc929d54a7f17b519f.pnj"
+		],
 		"ficha":[
-			{"k":"Apodo", 		"v":'¿?'},
-			{"k":"Altura", 		"v":'¿?'},
-			{"k":"Peso", 		"v":'¿?'},
-			{"k":"Edad", 		"v":'¿?'},
-			{"k":"Raza", 		"v":'¿?'},
-			{"k":"Grupo", 		"v":'¿Clan Valkyrie?'},
-			{"k":"Ocupación", 	"v":'¿?'},
-			{"k":"Gustos", 		"v":'¿?'}
+			{"k":"Apodo", 			"v":'Li'},
+			{"k":"Color", 			"v":'Azul, representa lealtad, estabilidad y sabiduría'},
+			{"k":"Raza",			"v":'Ángel'},
+			{"k":"Familiar",		"v":'Drafayel macho, Iván'},
+			{"k":"Ocupación",	 	"v":'Enfermera, mediadora y consejera'},
+			{"k":"Gustos",	 		"v":'Aprender y entender, la gente decente y el chocolate blanco'},
+			{"k":"Personalidad", 	"v":'Diplomática, justa, y encantadora'},
+			{"k":"Frase célebre",	"v":'"La sabiduría no viene de saberlo todo, sino de saber escuchar."'}
 		], "perfil":"",
 		"bio":[
-			'¿?'
+			'Lyra, la diplomática Ángel de Libra, es un pilar de lealtad y sabiduría. Su diario de hechizos, que consulta para resolver conflictos y ayudar a sus hermanas, refleja su naturaleza estable y su capacidad para mediar. Lyra mantiene la paz y la estabilidad en la residencia, siempre ofreciendo su apoyo leal y sus conocimientos mágicos para el bienestar del grupo.'
 		]
 	},
 
-	
+
+
 	{ 
-		"nombre":"Bugambilia",
-		"tag":"unknown",
-		"img":"https://64.media.tumblr.com/4b19ef50407f286facd2cd9e74559ce5/dbbfb9a9d6b97ae0-ed/s640x960/0116ab62743677ca704f024b65542f6deb9f6a8a.pnj",
-		"perfil":"",
+		"nombre":"Sirina",
+		"tag":"sirina",
+		"img":[
+			"https://64.media.tumblr.com/ebd0884129b0ec982c5263033ba33529/3a67b7f9c6e1105a-b8/s640x960/856380283d6fff314a025316c4dcc8c97e7cb75d.pnj",
+			"https://64.media.tumblr.com/4b46c62d0dc51a7f20f4fd3ab548d093/3a67b7f9c6e1105a-09/s640x960/cd1ea1863ffed88b7ad301f2f416b0c35a18b086.pnj"
+		],
+		"ficha":[
+			{"k":"Apodo", 			"v":'Siri'},
+			{"k":"Color", 			"v":'Violeta, representa espiritualidad, creatividad e introspección'},
+			{"k":"Raza",			"v":'Centaura'},
+			{"k":"Familiar",		"v":'Perceed hembra, Serafina'},
+			{"k":"Ocupación",	 	"v":'Exploradora y guía'},
+			{"k":"Gustos",	 		"v":'Dibujar con Penny, hacer yoga y relajarse bajo el sol.'},
+			{"k":"Personalidad", 	"v":'Aventurera, optimista, y filosófica'},
+			{"k":"Frase célebre",	"v":'"Exploremos el afuera, así buscamos de novedades."'}
+		], "perfil":"",
 		"bio":[
-			'Próximamente.'	
+			'Sirina, la aventurera Centaura de Sagitario, es una fuente de espiritualidad y creatividad. Su arco y flecha, siempre listos para explorar nuevos horizontes, simbolizan su amor por la aventura y la introspección. Sirina fomenta la creatividad y el crecimiento espiritual en la residencia, inspirando a sus hermanas a buscar siempre nuevas formas de expandir sus conocimientos y habilidades.'
+		]
+	},
+
+
+
+	{ 
+		"nombre":"Gemma",
+		"tag":"gemma",
+		"img":[
+			"https://64.media.tumblr.com/43baa0dd246422e28107748f7a1ff497/3a67b7f9c6e1105a-94/s640x960/b1b59d354043d18154faa89f325a7188fe4723cf.pnj"
+		],
+		"ficha":[
+			{"k":"Apodo", 			"v":'Gemita'},
+			{"k":"Color", 			"v":'Rosa, representa amor, ternura y compasión'},
+			{"k":"Raza",			"v":'Hada'},
+			{"k":"Familiar",		"v":'Cerbinille macho, Martín'},
+			{"k":"Ocupación",	 	"v":'Alquimista'},
+			{"k":"Gustos",	 		"v":'Dar amor, unir parejas, que le regalen flores'},
+			{"k":"Personalidad", 	"v":'Comunicativa, curiosa, y versátil'},
+			{"k":"Frase célebre",	"v":'"Me enseñaron a amar, y amar es lo que haré."'}
+		], "perfil":"",
+		"bio":[
+			'Gemma, la curiosa Hada de Géminis, es conocida por su amor y compasión. Su pócima de amor, que lleva consigo y utiliza para fomentar la armonía, refleja su capacidad para conectar con los demás y su naturaleza tierna. A veces utiliza su ingenio y su amor por el conocimiento para promover la comprensión y la empatía entre sus hermanas, creando un ambiente de amor y apoyo mutuo.'
+		]
+	},
+
+
+
+	{ 
+		"nombre":"Égatha",
+		"tag":"egatha",
+		"img":[
+			"https://64.media.tumblr.com/5f4d124bf5a37470e1bc15e4c19135bb/3a67b7f9c6e1105a-a5/s640x960/6a61c101a796a52cc9cf513b4912aea181fe151a.pnj"
+		],
+		"ficha":[
+			{"k":"Apodo", 			"v":'Ega'},
+			{"k":"Color", 			"v":'Negro, representa elegancia, misterio y muerte'},
+			{"k":"Raza",			"v":'Vampira '},
+			{"k":"Familiar",		"v":'Lapy macho, Enze'},
+			{"k":"Ocupación",	 	"v":'Guardiana de secretos y protectora de la noche'},
+			{"k":"Gustos",	 		"v":'La noche, conocer sombras nuevas y el helado sabor menta'},
+			{"k":"Personalidad", 	"v":'Intensa, apasionada, y misteriosa'},
+			{"k":"Frase célebre",	"v":'"En la noche es cuando más me gusta andar; tengo mis temitas con el sol."'}
+		], "perfil":"",
+		"bio":[
+			'Égatha, la intensa Vampira de Escorpio, es una figura de elegancia y misterio. Su daga ceremonial, utilizada en rituales oscuros y protectores, simboliza su conexión con lo desconocido y lo místico. Aga utiliza su fuerza y su sabiduría para mantener la seguridad y la integridad de la residencia, enfrentando con valentía cualquier amenaza que se presente.'
+		]
+	},
+
+
+
+	{ 
+		"nombre":"E4 Lú",
+		"tag":"e4lu",
+		"img":[
+			"https://64.media.tumblr.com/97bc654dc754f0133cfc25df1a41bc0d/3a67b7f9c6e1105a-ea/s640x960/982018974a7f8d750ec7066b0cb88dc407f4d0d7.pnj"
+		],
+		"ficha":[
+			{"k":"Apodo", 			"v":'Ealu'},
+			{"k":"Color", 			"v":'Plateado, representa control, modernismo, y avance'},
+			{"k":"Raza",			"v":'Fénix androide'},
+			{"k":"Familiar",		"v":'Bunraku hembra, Eilu'},
+			{"k":"Ocupación",	 	"v":'Inventora y tecnóloga'},
+			{"k":"Gustos",	 		"v":'Aprender de las especies, innovar'},
+			{"k":"Personalidad", 	"v":'Innovadora, independiente, y humanitaria'},
+			{"k":"Frase célebre",	"v":'"No esperen sentimientos de mi parte. Todavía los estoy configurando.”'}
+		], "perfil":"",
+		"bio":[
+			'E4 Lú, la innovadora Fénix androide de Acuario, es una visionaria de control y avance. Su incienso combustible, que utiliza en rituales y momentos de reflexión, simboliza su capacidad para renovar y avanzar constantemente. E4 Lú utiliza su creatividad y su visión futurista para desarrollar nuevas soluciones y mejorar la vida de sus hermanas, siempre buscando la innovación y el progreso.'
 		]
 	},
 

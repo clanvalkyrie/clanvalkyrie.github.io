@@ -14,7 +14,7 @@ const drawFichas = () => {
 			
 			$(".photodiv").eq(i)
 			.append(`<div class="photoname pointer" data-toggle="modal" data-target="${guardian[i].tag}"></div>`)
-			.append(`<img class="photo${guardian[i].tag == "unknown" ? " unknown" : ""}" src="${guardian[i].img}">`);
+			.append(`<img class="photo${guardian[i].tag == "unknown" ? " unknown" : ""}" src="${guardian[i].img[0]}">`);
 			$(".photoname.pointer").eq(i).append(`<span class="rotate">${guardian[i].nombre}</span>`);
 
 		} else {
@@ -36,7 +36,18 @@ const drawModal = tag => {
 
 		$("body").append(`<div class="modal show" id="${char[0].tag}Modal"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"></div></div></div>`);
 		$(".modal-content").append(`<div class="modal-body"></div>`);
-		$(".modal-body").append(`<img class="modal-img" src="${char[0].img}"><div class="modal-info"></div>`);
+		$(".modal-body").append(`<div class="alt-image-container"></div>`);
+
+		for (i = 0; i < char[0].img.length; i++) {
+			$(".modal-body").append(`<img class="modal-img${(i == 0) ? " selected" : ""}" src="${char[0].img[i]}">`);
+			$(".alt-image-container").append(`<div class="alt-image${(i == 0) ? " selected" : ""}" data-image="${i}">${i + 1}</div>`);
+		};
+
+		if (char[0].img.length == 1) {
+			$(".alt-image-container").hide();
+		};
+
+		$(".modal-body").append(`<div class="modal-info"></div>`);
 		$(".modal-info")
 		.append(`<div id="modal-name"><p>${char[0].nombre}</p></div>`)
 		.append(`<div class="modal-attributes"><ul class="data"></ul></div>`)
@@ -77,5 +88,18 @@ $(function() {
 	$("body").on("click", ".modal-content", function(e) {
 		e.stopPropagation();
 	});
-	
+
+
+	$("body").on("click", ".alt-image", function() {
+		let clase = $(this).attr("class");
+		if (!clase.includes("selected")) {
+			let index = parseInt($(this).attr("data-image"));
+			$(".alt-image.selected").removeClass("selected");
+			$(".modal-img.selected").removeClass("selected");
+
+			$(this).addClass("selected");
+			$(".modal-img").eq(index).addClass("selected");
+
+		};
+	});
 });

@@ -27,7 +27,7 @@
     },
 
     {
-        "nombre":"Visita la residencia", "visible":true, "ubicacion":"visita-la-residencia",
+        "nombre":"Residencia Valkyrie", "visible":true, "ubicacion":"residencia-valkyrie",
         "portada":null,
         "autor":"Zunay",
         "descripcion":"Desplázate libremente por la residencia.",
@@ -35,7 +35,7 @@
         "personajes":"v_personajes.json",
         "finalizado":true,
         "capitulos":[
-            {"episodio":1, "nombre":"Visita la residencia", "descripcion":"Desplázate libremente por la residencia."}
+            {"episodio":1, "nombre":"Visita la residencia", "descripcion":"Conoce el entorno y adéntrate por los rincones más profundos."}
         ]
     },
     {
