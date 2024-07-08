@@ -148,7 +148,7 @@
         "type":"npc_dialog",
         "text":["Oh Chenmi, ¡qué sorpresa!"],
         "background":121,
-        "npc":[1001],
+        "npc":["dalfeli-1"],
         "self":"chenmi",
         "choices":[
             {"text":"Ah... S-Sí, lo siento, ¡ya me voy!", "next":10014}
@@ -159,7 +159,7 @@
         "type":"npc_dialog",
         "text":["Oh, okay."],
         "background":121,
-        "npc":[1001],
+        "npc":["dalfeli-1"],
         "self":"chenmi",
         "choices":[
             {"text":"(Duh, obviamente iba a estar en el bosque)", "next":"auto"}
