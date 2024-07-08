@@ -298,25 +298,36 @@ const checkNextPoint = (point) => {
         let type = $($(`.objective.active[data-value="${point}"]`)).data("type");
         let value = $($(`.objective.active[data-value="${point}"]`)).data("value");
         let next = parseInt($($(`.objective.active[data-value="${point}"]`)).data("next"));
+        let text = $($(`.objective.active[data-value="${point}"]`)).text();
 
-        $(`.objective.active[data-value="${point}"`).addClass("completed").removeClass("active");
-        
-        // El objetivo completado era obligatorio?
         if (required == true) {
-            // Comprobar si hay mas objetivos hermanos (de la misma escena) requeridos
-            if ($(`.objective.active[data-scene="${scene}"][data-required="${true}"]`).length == 0) {
+            // Comprobar si hay más objetivos hermanos (de la misma escena) requeridos
+            if ($(`.objective.active[data-scene="${scene}"][data-required="${true}"]`).length == 1) {
 
-                // Era el único, cancelar todos los objetivos hermanos opcionales activos
+                // Era el único, completar el objetivo y cancelar todos los objetivos hermanos opcionales activos
+                $(`.objective.active[data-value="${point}"`).addClass("completed").removeClass("active");
                 $(`.objective.active[data-scene="${scene}"]`).addClass("cancelled").removeClass("active");
+                drawScene(next);
 
             } else {
-                // Hay más objetivos hermanos obligatorios
-                // PENDIENTE
-            };
-        };
+                // Hay más objetivos requeridos, primero deben completarse los "ocultos"
+                if (text == "null") {
+                    // Completar! 
+                    $(`.objective.active[data-value="${point}"`).addClass("completed").removeClass("active");
+                    drawScene(next);
 
-        // Cargar escena siguiente
-        drawScene(next);
+                } else {
+                    // No completar, continuar explorando
+                    drawMapPoints(point);
+                };
+            };
+        } else {
+
+            // Era opcional, completar
+            $(`.objective.active[data-value="${point}"`).addClass("completed").removeClass("active");
+            drawScene(next);
+
+        };
 
     } else if ($(`.objective.active[data-value="${point}"]`).length > 1) {
         // Se completaron varios objetivos
