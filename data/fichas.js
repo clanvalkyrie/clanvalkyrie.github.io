@@ -62,7 +62,7 @@ var guardian = [
 			{"k":"Raza",			"v":'Fantasma'},
 			{"k":"Familiar",		"v":'Skanis macho, Polaris'},
 			{"k":"Ocupación",	 	"v":'Sanadora y cuidadora'},
-			{"k":"Gustos",	 		"v":'La tranquilidad de una sala vacía, que la consientan, los abrazos de Gemma'},
+			{"k":"Gustos",	 		"v":'La tranquilidad de una sala vacía, que la consientan, los abrazos de Luh'},
 			{"k":"Personalidad", 	"v":'Sensible, protectora, y compasiva'},
 			{"k":"Frase célebre",	"v":'"La verdadera paz se encuentra en el alma que ya se fue."'}
 		], "perfil":"",
@@ -239,13 +239,13 @@ var guardian = [
 
 
 	{ 
-		"nombre":"Gemma",
-		"tag":"gemma",
+		"nombre":"Luh",
+		"tag":"luh",
 		"img":[
-			"https://64.media.tumblr.com/43baa0dd246422e28107748f7a1ff497/3a67b7f9c6e1105a-94/s640x960/b1b59d354043d18154faa89f325a7188fe4723cf.pnj"
+			"https://64.media.tumblr.com/a43d99adeae61988b56b104c572fbc30/3a67b7f9c6e1105a-d7/s640x960/eb14e1426416f02988c7f0f97c6d7ac6b3749241.pnj"
 		],
 		"ficha":[
-			{"k":"Apodo", 			"v":'Gemita'},
+			{"k":"Apodo", 			"v":'Lulú'},
 			{"k":"Color", 			"v":'Rosa, representa amor, ternura y compasión'},
 			{"k":"Raza",			"v":'Hada'},
 			{"k":"Familiar",		"v":'Cerbinille macho, Martín'},
@@ -255,7 +255,7 @@ var guardian = [
 			{"k":"Frase célebre",	"v":'"Me enseñaron a amar, y amar es lo que haré."'}
 		], "perfil":"",
 		"bio":[
-			'Gemma, la curiosa Hada de Géminis, es conocida por su amor y compasión. Su pócima de amor, que lleva consigo y utiliza para fomentar la armonía, refleja su capacidad para conectar con los demás y su naturaleza tierna. A veces utiliza su ingenio y su amor por el conocimiento para promover la comprensión y la empatía entre sus hermanas, creando un ambiente de amor y apoyo mutuo.'
+			'Luh, la curiosa Hada de Géminis, es conocida por su amor y compasión. Su pócima de amor, que lleva consigo y utiliza para fomentar la armonía, refleja su capacidad para conectar con los demás y su naturaleza tierna. A veces utiliza su ingenio y su amor por el conocimiento para promover la comprensión y la empatía entre sus hermanas, creando un ambiente de amor y apoyo mutuo.'
 		]
 	},
 
