@@ -142,11 +142,19 @@
     backdrop-filter: blur(6px);
 }
 
+.devmode .modal {
+    backdrop-filter: none;
+    background-color: #000b;
+}
+
+.devmode .modal-content {
+    background-color: rgba(255,255,255,0.6);
+}
+
 .modal-dialog {
     position: relative;
     width: auto;
     margin: .5rem;
-    pointer-events: none;
     max-width: 600px;
     color: var(--font-color);
 }
@@ -180,13 +188,12 @@
 }
 
 .modal-content {
-    position: relative;
+    position: absolute;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
-    pointer-events: auto;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.2);
@@ -196,6 +203,7 @@
     background-clip: padding-box;
     border: 1px solid white;
     height: 500px;
+    transition: left 300ms;
 }
 
 .modal-body {
@@ -306,6 +314,23 @@ li.link-profile {
     margin: 10px 0;
 }
 
+
+.modal-button {
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    position: absolute;
+    border: 1px solid;
+}
+
+.modal-button.prev {
+    left: -50px;
+}
+
+.modal-button.next {
+    right: -50px;
+}
 
 /*
 animation: drop 1.5s ease forwards; ?????

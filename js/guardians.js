@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	if ((window.location.href).includes("//127.0.0")) $("body").addClass("devmode");
 	drawFichas();
 });
 
@@ -29,45 +30,104 @@ const drawFichas = () => {
 };
 
 const drawModal = tag => {
-
-	if (tag != "unknown") {
-
-		let char = guardian.filter(v => v.tag == tag);
-
-		$("body").append(`<div class="modal show" id="${char[0].tag}Modal"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"></div></div></div>`);
-		$(".modal-content").append(`<div class="modal-body"></div>`);
-		$(".modal-body").append(`<div class="alt-image-container"></div>`);
-
-		for (i = 0; i < char[0].img.length; i++) {
-			$(".modal-body").append(`<img class="modal-img${(i == 0) ? " selected" : ""}" src="${char[0].img[i]}">`);
-			$(".alt-image-container").append(`<div class="alt-image${(i == 0) ? " selected" : ""}" data-image="${i}">${i + 1}</div>`);
-		};
-
-		if (char[0].img.length == 1) {
-			$(".alt-image-container").hide();
-		};
-
-		$(".modal-body").append(`<div class="modal-info"></div>`);
-		$(".modal-info")
-		.append(`<div id="modal-name"><p>${char[0].nombre}</p></div>`)
-		.append(`<div class="modal-attributes"><ul class="data"></ul></div>`)
-		.append(`<div class="modal-description"></div>`);
+	// dibujar todos y ubicar "tag" = left:0
+	let currentTagIndex = guardian.findIndex(v => v.tag == tag);
 	
-		if (char[0].ficha != undefined) {
-			for (i = 0; i < char[0].ficha.length; i++) {
-				$(".modal-attributes .data").append(`<li><span class="data-label">${char[0].ficha[i].k}:</span> ${char[0].ficha[i].v}</li>`);
+	$("body").append(`<div class="modal show"><div class="modal-dialog modal-dialog-centered"></div></div>`);
+	for (g = 0; g < guardian.length; g++) {
+
+		if (tag != "unknown") {
+
+			$(".modal-dialog").append('<div class="modal-content"></div>');
+
+			$(".modal-content").eq(g).append(`<div class="modal-body"></div>`);
+			$(".modal-body").eq(g).append(`<div class="alt-image-container"></div>`);
+	
+			for (i = 0; i < guardian[g].img.length; i++) {
+				$(".modal-body").eq(g).append(`<img class="modal-img${(i == 0) ? " selected" : ""}" src="${guardian[g].img[i]}">`);
+				$(".alt-image-container").eq(g).append(`<div class="alt-image${(i == 0) ? " selected" : ""}" data-image="${i}">${i + 1}</div>`);
 			};
-		};
 	
-		if (char[0].perfil != "") {
-			$(".modal-attributes .data").append(`<li class="link-profile"><a href="${char[0].perfil}">VISÍTAME</a></li>`);
-		};
+			if (guardian[g].img.length == 1) {
+				$(".alt-image-container").eq(g).hide();
+			};
 	
-		for (d = 0; d < char[0].bio.length; d++) {
-			$(".modal-description").append(`<p>${char[0].bio[d]}</p>`);
+			$(".modal-body").eq(g).append(`<div class="modal-info"></div>`);
+			$(".modal-info").eq(g)
+			.append(`<div id="modal-name"><p>${guardian[g].nombre}</p></div>`)
+			.append(`<div class="modal-attributes"><ul class="data"></ul></div>`)
+			.append(`<div class="modal-description"></div>`);
+		
+			if (guardian[g].ficha != undefined) {
+				for (i = 0; i < guardian[g].ficha.length; i++) {
+					$(".modal-attributes .data").eq(g).append(`<li><span class="data-label">${guardian[g].ficha[i].k}:</span> ${guardian[g].ficha[i].v}</li>`);
+				};
+			};
+		
+			if (guardian[g].perfil != "") {
+				$(".modal-attributes .data").eq(g).append(`<li class="link-profile"><a href="${guardian[g].perfil}">VISÍTAME</a></li>`);
+			};
+		
+			for (d = 0; d < guardian[g].bio.length; d++) {
+				$(".modal-description").eq(g).append(`<p>${guardian[g].bio[d]}</p>`);
+			};
+	
 		};
 
+		// posicion
+		if (g < currentTagIndex) {
+			$(".modal-content").eq(g).css("left", "-100vw");
+		} else if (g > currentTagIndex) {
+			$(".modal-content").eq(g).css("left", "100vw");
+		} else {
+			$(".modal-content").eq(g).css("left", 0);
+		};
 	};
+
+	// flechas!
+	$(".modal-dialog").append('<div class="modal-button prev"><i class="fa fa-chevron-left"></i></div>');
+	$(".modal-dialog").append('<div class="modal-button next"><i class="fa fa-chevron-right"></i></div>');
+	toggleModalButtons(currentTagIndex);
+};
+
+const toggleModalButtons = index => {
+	$(".modal-button.prev").attr("data-prev", (index - 1));
+	$(".modal-button.next").attr("data-next", (index + 1));
+
+	if (index == 0) {
+		$(".modal-button.prev").hide();
+	} else if (index == (guardian.length - 1)) {
+		$(".modal-button.next").hide();
+	} else {
+		$(".modal-button").fadeIn(200);
+	};
+};
+
+const switchModal = (from, to) => {
+
+	// ocultar botones
+	$(".modal-button").fadeOut(200);
+
+	setTimeout(function() {
+
+		if (from < to) {
+			// next
+			$(".modal-content").eq(from).css("left", "-100vw");
+			$(".modal-content").eq(to).css("left", "0");
+
+		} else if (to < from) {
+			// prev
+			$(".modal-content").eq(from).css("left", "100vw");
+			$(".modal-content").eq(to).css("left", "0");
+
+		};
+
+	}, 200);
+
+	setTimeout(function() {
+		$(".modal-button").fadeIn(200);
+		toggleModalButtons(to);
+	}, 500);
 };
 
 $(function() {
@@ -89,16 +149,58 @@ $(function() {
 		e.stopPropagation();
 	});
 
+	$("body").on("click", ".modal-button.prev", function(e) {
+		e.stopPropagation();
+
+		let to = parseInt($(this).attr("data-prev"));
+		let from = to + 1;
+		switchModal(from, to);
+	});
+
+	$("body").on("click", ".modal-button.next", function(e) {
+		e.stopPropagation();
+
+		let to = parseInt($(this).attr("data-next"));
+		let from = to - 1;
+		switchModal(from, to);
+	});
 
 	$("body").on("click", ".alt-image", function() {
 		let clase = $(this).attr("class");
 		if (!clase.includes("selected")) {
 			let index = parseInt($(this).attr("data-image"));
-			$(".alt-image.selected").removeClass("selected");
-			$(".modal-img.selected").removeClass("selected");
+			$(this).parent().find(".alt-image.selected").removeClass("selected");
+			$(this).parent().parent().find(".modal-img.selected").removeClass("selected");
 
 			$(this).addClass("selected");
-			$(".modal-img").eq(index).addClass("selected");
+			$(this).parent().parent().find(".modal-img").eq(index).addClass("selected");
+
+		};
+	});
+
+	$("html").keydown(function(e) {
+		if ($(".modal.show").length == 1) {
+
+			let key = e.keyCode;
+			if (key != 38 && key != 40) {
+
+				let prev = parseInt($(".modal-button.prev").attr("data-prev"));
+				let next = parseInt($(".modal-button.next").attr("data-next"));
+				let current = prev + 1;
+	
+				if (key == 37 && current > 0) {
+					// left
+					switchModal(current, prev);
+	
+				} else if (key == 39 && current < (guardian.length - 1)) {
+					// right
+					switchModal(current, next);
+				};
+
+			} else {
+				// es up o down
+				e.preventDefault();
+			};
 
 		};
 	});
