@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="../assets/favicon.png">
+	<title>VCtools : Formato</title>
+	<link rel="stylesheet" type="text/css" href="../styles/base.css">
+	<link rel="stylesheet" type="text/css" href="formato.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans|Oswald' type='text/css'>
+	<script type="text/javascript" src="formato.js"></script>
+</head>
+<body>
+	
+    <nav>
+        <img src="../assets/logo.png" alt="">
+        <h2><a href="../">Clan Valkyrie</a></h2>
+        <span class="page-name">VCtools : Formato</span>
+        <ul class="page-menu">
+            <li><a href="../story.html">Historias</a></li>
+            <li><a href="../guardians.html">Personajes</a></li>
+            <li><a href="../gallery.html">Galería</a></li>
+            <li><a href="../us.html">Nosotros</a></li>
+        </ul>
+        
+    </nav>
+
+	
+	<div id="container">
+		<div class="header">Formatear historia</div>
+        <div id="panel-container">
+            <button id="reset-all">LIMPIAR TODO</button>
+            <div id="form-container">
+            
+                <form id="form-texto">
+                    <h3>Escenas</h3>
+                    <label>Tipo de escena: </label>
+                    <select id="select-form">
+                        <option value="npc_dialog">Diálogo / Monólogo</option>
+                        <option value="story_general">Historia</option>
+                        <option value="info_general">Información</option>
+                    </select><br>
+
+                    <section id="npc_dialog">
+                        <button id="add-dialog" type="button" title="Añadir diálogo">+</button>
+                        <input class="pj-name" type="text" placeholder="Personaje"> : <input class="pj-text" type="text" placeholder="Texto">
+                    </section>
+                    
+                    
+                    <section id="story_general">
+                        <textarea id="story" placeholder="Texto"></textarea>
+                    </section>
+    
+                    <br><label for="">Opciones:</label><br>
+                    <div id="choices">
+                        <input class="self-name" type="text" placeholder="Personaje"> &gt; <input class="self-text" type="text" placeholder="Texto" value="(Continuar)">
+                        <button id="add-choice" type="button" title="Añadir opciones">+</button>
+                    </div>
+                    <br><button id="add-scene" type="submit">Añadir escena</button>
+
+
+                   
+                </form>
+    
+                <form id="form-others">
+                    <h3>Información</h3>
+                    <select id="other-types">
+                        <option value="background">Cambiar fondo</option>
+                        <option value="objectives">Nuevo objetivo</option>
+                        <option value="notes">Notas / Aclaraciones</option>
+                    </select>
+                    : <input id="other-input" type="text" placeholder=""><br>
+    
+                    <button id="add-other" type="submit">Añadir información</button>
+                </form>
+            </div>
+    
+            <div id="scenes-preview">
+                <h3>Muestra</h3>
+                <textarea id="preview" readonly></textarea>
+            </div>
+        </div>
+		
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+#panel-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #fffc;
+    padding: 30px;
+    margin: 20px 0;
+    border: 1px solid var(--main-background-color);
+    box-shadow: 4px 4px 0 var(--main-color);
+    color: #000;
+    font-family: 'Consolas', Courier, monospace;
+    font-size: 14px;
+    position: relative;
+}
+
+#reset-all {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+input, select, button, textarea {
+    margin: 5px 0;
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid var(--main-color-lighter);
+    outline-offset: 1px;
+}
+
+.pj-name, .self-name {
+    width: 80px;
+}
+
+.pj-text, .self-text { 
+    width: 78%; 
+}
+
+#add-dialog, #add-choice, .remove-choice {
+    width: 26px;
+    text-align: center;
+    right: 0;
+    position: absolute;
+}
+
+#add-dialog {
+    bottom: 0;
+}
+
+textarea {
+    width: 90%;
+    resize: none;
+}
+
+#npc_dialog, #choices {
+    display: inline-block;
+    width: 95%;
+    position: relative;
+}
+
+#preview {
+    width: 100%;
+    resize: vertical;
+    min-height: calc(100% - 60px);
+    position: relative;
+}
