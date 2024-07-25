@@ -28,7 +28,7 @@
 
     {
         "nombre":"Residencia Valkyrie", "visible":true, "ubicacion":"residencia-valkyrie",
-        "portada":"https://64.media.tumblr.com/d16279033822a03ad4934a6ec0f60fcc/5fbcf559ec8c42d6-3b/s540x810/38507a933a76d71818c72d0332433cb7cc2f3fbe.jpg",
+        "portada":"https://64.media.tumblr.com/7ca546b94829e4260111b9d48a999973/5a116b2c12679102-0c/s540x810/50cd840faf8575cbb761585c303517075e0c703e.pnj",
         "autor":"Zunay",
         "descripcion":"Desplázate libremente por la residencia.",
         "mapa":"v_mapa.json",
