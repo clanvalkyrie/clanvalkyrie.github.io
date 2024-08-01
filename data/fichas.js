@@ -38,13 +38,15 @@ var guardian = [
 			{"k":"Color", 			"v":'Dorado, representa éxito, abundancia y liderazgo'},
 			{"k":"Raza",			"v":'¿Humana?'},
 			{"k":"Familiar",		"v":'Lepidave hembra, Chenmi'},
-			{"k":"Ocupación",	 	"v":'Líder y coordinadora del grupo'},
+			{"k":"Ocupación",	 	"v":'Aprendiz Valkyrie'},
 			{"k":"Gustos",	 		"v":'El orden del clan, entrenar a diario, las manzanas verdes'},
 			{"k":"Personalidad", 	"v":'Carismática, valiente, y generosa'},
-			{"k":"Frase célebre",	"v":'"El éxito no se mide en victorias, se mide sabiendo instruir al victorioso"'}
+			{"k":"Frase célebre",	"v":'"Todavía estoy entendiendo todo esto."'}
 		], "perfil":"",
 		"bio":[
-			'Aine es la encarnación del éxito y el liderazgo, aunque ella aún no lo sabe. Su familiar protector, siempre a su lado, simboliza su capacidad para defender y guiar a sus hermanas. Con su presencia magnética y su habilidad para inspirar, Aine promueve la abundancia y el éxito, liderando con un espíritu noble y generoso.'
+			'Tranquila y modesta, Aine prefiere mantener un perfil bajo a pesar de la enorme responsabilidad que se le ha impuesto. Pero es accesible y le gusta prestar atención para poder dar lo mejor de ella. ', 
+			'Es verdad que aunque siente una fuerte conexión con su misión, a menudo se encuentra insegura sobre cómo llevarla a cabo. Aine es la última hermana destinada a unir a las doce guardianas del Clan Valkyrie. Se esfuerza por entender su papel y liderar el clan, sabiendo que su éxito es crucial para fortalecer los valores y la voluntad del pueblo eldaryano. ', 
+			'Su vida pasada está envuelta en misterio, ya que su memoria se vio afectada al cruzar los portales hacia Eldarya, una condición común entre muchas chicas que han llegado a este mundo.'
 		]
 	},
 
@@ -67,7 +69,10 @@ var guardian = [
 			{"k":"Frase célebre",	"v":'"La verdadera paz se encuentra en el alma que ya se fue."'}
 		], "perfil":"",
 		"bio":[
-			'Delina, la sensible de Cáncer, irradia pureza y paz. Su aureola, presente sobre su cabeza, simboliza su conexión con la vida y la muerte. Delina comprende y conecta profundamente con las emociones de los demás, siendo una figura de consuelo y vida en la residencia. Promueve un ambiente de serenidad y apoyo, cuidando de sus hermanas con amor y dedicación.'
+			'Delina es la segunda de las 12 hermanas y la responsable de encontrar a Aine y encargarle la misión de liderarlas. Aunque su naturaleza sensible y pacífica es de notarse a primera impresión, puede mostrar un carácter firme cuando las cosas no están fluyendo como deberían.',
+			'Como encargada de la enfermería en la residencia Valkyrie, Delina tiene un don innato para las sanaciones, lo que la hace ideal para su rol. A menudo recibe ayuda del equipo de alquimistas de la residencia para acudir por medicinas y pócimas curadoras.',
+			'Aunque disfruta de su tiempo en silencio, sabe disfrutar de la compañía de sus hermanas.',
+			'Es de raza fantasma y, al igual que muchas en Eldarya, no recuerda su pasado debido a la inestabilidad de los portales.'
 		]
 	},
 
@@ -88,10 +93,13 @@ var guardian = [
 			{"k":"Ocupación",	 	"v":'Estratega y planificadora'},
 			{"k":"Gustos",	 		"v":'Pensar estrategias, lustrar su lanza y compartir el té con las muchachas'},
 			{"k":"Personalidad", 	"v":'Ambiciosa, disciplinada, y prudente'},
-			{"k":"Frase célebre",	"v":'"El fuego en mi interior nunca se apaga. Haré lo que haga que hacerse y la pasión y el accionar serán mis aliados"'}
+			{"k":"Frase célebre",	"v":'""El fuego en mi interior nunca se apaga. Haré lo que se tenga que hacer y la pasión y el accionar serán mis aliados."'}
 		], "perfil":"",
 		"bio":[
-			'Cassandra, la ambiciosa Dragona antropomorfa de Capricornio, es conocida por su poder y determinación. Su lanza, siempre lista para la acción, simboliza su capacidad de tomar decisiones rápidas y efectivas. Cassandra inspira a sus hermanas con su fortaleza y energía incansable, siendo una líder formidable dentro de la residencia. Su pasión por alcanzar sus metas y su capacidad de acción rápida la convierten en una figura clave en la protección y el liderazgo del grupo.'
+			'Cassandra, es una diva andante, reconocida por su elegancia y porte distintivo que se refleja tanto en su habla como en su apariencia.',
+			'Su forma original es la de un majestuoso dragón, la cual utiliza para patrullar y vigilar los cielos; muy a gusto con su papel en el equipo de guerreros, que no es novedad que es uno de los más prestigiosos de la región.',
+			'Disfruta de los momentos compartidos con sus amigas, más a gusto está cuando es con un té bajo un solecito de alguna tarde.',
+			'Su amor y dedicación hacia sus hermanas y su posición en la residencia reflejan su profunda pasión y compromiso.'
 		]
 	},
 
@@ -115,7 +123,10 @@ var guardian = [
 			{"k":"Frase célebre",	"v":'"La vida es una canción, y yo siempre estoy lista para el próximo verso."'}
 		], "perfil":"",
 		"bio":[
-			'Penélope, la alegre Sirena Hada de Piscis, irradia entusiasmo y vitalidad. Su lira mágica, que toca con habilidad, infunde alegría y energía positiva a todos los que la escuchan. Con su espíritu vivaz y su capacidad para alegrar cualquier ambiente, Penny se convierte en el corazón de la residencia. Su voz melodiosa y su naturaleza optimista inspiran a sus hermanas a vivir cada día con alegría y entusiasmo.'
+			'Penny es una chica dulce y llena de vitalidad, tal como lo refleja su color naranja. Naturalmente carismática y encantadora; siempre que ella esté presente se puede sentir un aura mágica en el lugar. ',
+			'Como sirenhada, tiene la capacidad de moverse con facilidad tanto en tierra como en agua, aunque será más común encontrarla en la tierra. Los océanos suele visitarlo más en las temporadas de calor. ',
+			'Dotada de un talento especial para la música, sus cánticos mágicos acompañados por una lira son frecuentes y cautivadores. Cada atardecer de solsticio, es ella quien recita el cántico valkyrie oficial de la residencia, un momento muy esperado por toda la comunidad valquírica. ',
+			'En el ámbito de la alquimia, Penny es una investigadora y exploradora natural, siempre probando cosas nuevas. Suele compartir más tiempo con Tamara, pues son colegas cercanas en la sala de alquimia.'
 		]
 	},
 
@@ -139,7 +150,9 @@ var guardian = [
 			{"k":"Frase célebre",	"v":'"La energía está en todas partes, solo tienes que saber cómo canalizarla."'}
 		], "perfil":"",
 		"bio":[
-			'Aranda, la enérgica Valkyria de Aries, es un modelo de armonía y precaución. Su espada encantada, siempre lista para la batalla, refleja su energía vibrante y su actitud cuidadosa. Ara mantiene la paz y el equilibrio en la residencia, siempre alerta y lista para actuar. Su capacidad para equilibrar su energía con una actitud cuidadosa la convierte en una guardiana excepcional.'
+			'Aranda es la personificación de la acción cuando la situación lo requiere. Su alerta es el detonante para que su equipo se ponga en guardia. Es muy fuerte por naturaleza, lo que la hace ideal para el combate cuerpo a cuerpo, aunque su talento está en el manejo increíble de su espada.',
+			'Comparte un amor muy cercano y de hermana mayor. Su característica más destacada es que le gusta hacer comentarios polémicos, y tal vez por eso es que a menudo recibe llamadas de atención de parte de sus hermanas.',
+			'Como muchas de las valkyries, ella tampoco tiene memoria de su pasado.'
 		]
 	},
 
@@ -162,7 +175,9 @@ var guardian = [
 			{"k":"Frase célebre",	"v":'"Todo lo bueno lleva tiempo, incluso una semilla, la cual se toma su tiempo para acabar siendo el fruto más rico."'}
 		], "perfil":"",
 		"bio":[
-			'Tamara, la paciente Ninfa de Tauro, está profundamente conectada con la naturaleza. Su cornamenta encantada, que lleva como un símbolo de su afinidad con el crecimiento y la salud, le otorga la habilidad de nutrir y cuidar todo lo que la rodea. Tami fomenta un ambiente de renovación constante en la residencia, actuando como un pilar de estabilidad y bienestar para sus hermanas.'
+			'Tamara es paciente por naturaleza, pero aun así siempre es mejor no provocarla. Solo ha sido una vez que se la vio molesta, y la razón es tabú hablarlo.',
+			'Su don es la vitalidad de su alrededor, brindando vida nueva a la naturaleza que la rodea, lo que le sirve para sus habilidades especializadas en la alquimia, junto con su amiga Penny.',
+			'Le gusta ser reservada, pero accesible a la vez. Ella es originaria de Eldarya, sabe moverse por muchos espacios lejanos a Eel lo que la vuelve una guía para todas.'
 		]
 	},
 
@@ -185,7 +200,9 @@ var guardian = [
 			{"k":"Frase célebre",	"v":'"Con una buena estrategia, hasta el caos puede encontrar su orden."'}
 		], "perfil":"",
 		"bio":[
-			'Valondra, la meticulosa Elfa de Virgo, destaca por su habilidad para comunicarse con claridad y su naturaleza tranquila. Su diario de estrategias, que siempre lleva consigo, contiene planes y tácticas detalladas para cada situación. Valondra utiliza su capacidad para mantener la calma en situaciones difíciles, asegurando la armonía entre sus hermanas y guiando al grupo con sabiduría y precisión.'
+			'Valondra es la encargada de la biblioteca, por lo que es natural que esté siendo una sabelotodo. Su don es saberlo todo, comparte ese gran dote junto con Lyra, por eso es normal que ambas estén juntas.',
+			'Es naturalmente armoniosa, lo que hace que su presencia de elfa valkyrie trasmita pacifismo en el ambiente. Está bastante acompañado a su forma de ser, de hecho; lo que significa que será difícil que te tuteé.',
+			'Le gusta estar escribiendo en su diario, quizá es de su vida, de sus andanzas, ¿romance?, o simplemente de notas; pero es sabido que no va a dejar que lo ojees porque, por alguna razón, jamás los enseña.'
 		]
 	},
 
@@ -208,7 +225,9 @@ var guardian = [
 			{"k":"Frase célebre",	"v":'"La sabiduría no viene de saberlo todo, sino de saber escuchar."'}
 		], "perfil":"",
 		"bio":[
-			'Lyra, la diplomática Ángel de Libra, es un pilar de lealtad y sabiduría. Su diario de hechizos, que consulta para resolver conflictos y ayudar a sus hermanas, refleja su naturaleza estable y su capacidad para mediar. Lyra mantiene la paz y la estabilidad en la residencia, siempre ofreciendo su apoyo leal y sus conocimientos mágicos para el bienestar del grupo.'
+			'Lyra es la que está al tanto de todo, de alguna u otra forma. Nada se le escapa, por eso nunca es buen plan intentar hacerse más que ella. Pero eso no le quita lo amorosa y maternal que suele ser para sus hermanas.',
+			'Siempre está acompañada de su libro de encantos, pues según ella está estudiando, y sí, seguramente sea el caso. Por lo general se encuentra en la biblioteca, es muy inteligente, modesta y le gusta mostrar que saber llevar su encanto con clase.',
+			'Lyra mantiene la paz y la estabilidad en la residencia, es la que está al mando de toda la comunidad valquírica y los trabajos que se deben hacer para mantener la residencia en pleno funcionamiento. Ella es quien mantiene todo en su perfecto equilibrio.'
 		]
 	},
 
@@ -232,7 +251,9 @@ var guardian = [
 			{"k":"Frase célebre",	"v":'"Exploremos el afuera, así buscamos de novedades."'}
 		], "perfil":"",
 		"bio":[
-			'Sirina, la aventurera Centaura de Sagitario, es una fuente de espiritualidad y creatividad. Su arco y flecha, siempre listos para explorar nuevos horizontes, simbolizan su amor por la aventura y la introspección. Sirina fomenta la creatividad y el crecimiento espiritual en la residencia, inspirando a sus hermanas a buscar siempre nuevas formas de expandir sus conocimientos y habilidades.'
+			'Sirina es originalmente una cierva, pero toma pócimas para parecerse a una humana corriente, pues le es más práctica de esa forma. Cuando sale a explorar es cuando toma su forma original.',
+			'Aventurera por naturaleza, (lo que comparte con Penny, aunque no suelan salir juntas a explorar), siempre tiene algo nuevo para trabajar en investigación. Es fácil hallarla en la sala de portales trabajando para recuperar las memorias perdidas.',
+			'Es naturalmente espiritual, tiene una conexión muy profunda con las energías y las entidades de otros planos, dote que comparte junto con Delina.'
 		]
 	},
 
@@ -255,7 +276,9 @@ var guardian = [
 			{"k":"Frase célebre",	"v":'"Me enseñaron a amar, y amar es lo que haré."'}
 		], "perfil":"",
 		"bio":[
-			'Luh, la curiosa Hada de Géminis, es conocida por su amor y compasión. Su pócima de amor, que lleva consigo y utiliza para fomentar la armonía, refleja su capacidad para conectar con los demás y su naturaleza tierna. A veces utiliza su ingenio y su amor por el conocimiento para promover la comprensión y la empatía entre sus hermanas, creando un ambiente de amor y apoyo mutuo.'
+			'Luh es una hada cómica, carismática y compradora con sólo una mirada. Sus ojos poseen el arco iris, señal divina de que es una bendecida de las tierras encantadas de Fairyland, valle de donde proviene, lo que la hace originaria de Eldarya.',
+			'Es curiosa, bondadosa, muy presente cuando las situaciones se pueden volver tensas. Es apaciguadora nata, pero de gran actitud y carácter, siempre es mejor no molestarla demás.',
+			'Le gusta andar entre pócimas creadas por ella misma, aunque eso no la vuelve exactamente una alquimista, pero sabe lo suficiente de la materia. Es muy común encontrarla entre flores.'
 		]
 	},
 
@@ -278,7 +301,9 @@ var guardian = [
 			{"k":"Frase célebre",	"v":'"En la noche es cuando más me gusta andar; tengo mis temitas con el sol."'}
 		], "perfil":"",
 		"bio":[
-			'Égatha, la intensa Vampira de Escorpio, es una figura de elegancia y misterio. Su daga ceremonial, utilizada en rituales oscuros y protectores, simboliza su conexión con lo desconocido y lo místico. Aga utiliza su fuerza y su sabiduría para mantener la seguridad y la integridad de la residencia, enfrentando con valentía cualquier amenaza que se presente.'
+			'Égatha suele ser algo intensa en un buen sentido cuando está contenta, es muy dulce y tierna a pesar de su apariencia de mujer seria. Es más usual hallarla de noche mientras hace sus patrullas, pues es cuando más activa puede estar.',
+			'Es muy habilidosa con su cuerpo, logra acrobacias peculiares, de mucha destreza. Se maneja muy bien con las dagas, pero para qué si el clan no precisa asesinar a nadie.',
+			'Como muchas de sus hermanas, Égatha no recuerda su pasado cuando atravesó los portales a Eldarya.'
 		]
 	},
 
@@ -301,7 +326,9 @@ var guardian = [
 			{"k":"Frase célebre",	"v":'"No esperen sentimientos de mi parte. Todavía los estoy configurando.”'}
 		], "perfil":"",
 		"bio":[
-			'E4 Lú, la innovadora Fénix androide de Acuario, es una visionaria de control y avance. Su incienso combustible, que utiliza en rituales y momentos de reflexión, simboliza su capacidad para renovar y avanzar constantemente. E4 Lú utiliza su creatividad y su visión futurista para desarrollar nuevas soluciones y mejorar la vida de sus hermanas, siempre buscando la innovación y el progreso.'
+			'E4 Lú no tiene recuerdos de un portal ni tampoco de un nacimiento, sino de una creación, aunque no sabe quién fue su creador. Fue encontrada muy deteriorada cuando las chicas de la residencia la llevaron para recuperarla.',
+			'Es increíblemente astuta tanto como una IA, lo que la vuelve innovadora, y es la que más avances dio en la residencia; gracias a ella, las chicas disfrutan de tecnología mágica (recurso exclusivo de la región).',
+			'Su trato es frío pues su programa de personalidad está corrupto, y aunque podría repararse a sí misma, prefiere quedarse sin personalidad, y la razón nunca la explica.'
 		]
 	},
 
