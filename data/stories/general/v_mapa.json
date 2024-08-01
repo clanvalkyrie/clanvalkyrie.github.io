@@ -151,7 +151,9 @@
 		"imgURL":"assets/img/places/callejon-abandonado.png",
 		"points":[
 			{"id":116, "position":"top: 210px;left: 60px;", "tooltip":"right"},
-			{"id":118, "position":"top: 220px;right: 50px;", "tooltip":"left"}
+			{"id":118, "position":"top: 220px;right: 50px;", "tooltip":"left"},
+			{"id":170, "position":"top: 400px;left: 380px;", "tooltip":"top"}
+			
 		], "tag":"Otros"
 	},
 	{
@@ -352,7 +354,8 @@
 		"points":[
 			{"id":144, "position":"top: 320px;left: 50px;", "tooltip":"right"},
 			{"id":149, "position":"top: 250px;left: 400px;", "tooltip":"top"},
-			{"id":150, "position":"top: 350px;left: 710px;", "tooltip":"left"}
+			{"id":150, "position":"top: 350px;left: 710px;", "tooltip":"left"},
+			{"id":169, "position":"top: 400px;left: 300px;", "tooltip":"top"}
 		], "tag":"Bosque"
 	},
 	{
@@ -547,6 +550,73 @@
 		"points":[
 			{"id":112, "position":"top: 415px;left: 70px;", "tooltip":"top"}
 		], "tag":"Residencia"
+	},
+
+
+
+
+
+	{
+		"id":169, "name":"Entrada al pueblo",
+		"imgURL":"assets/img/places/entrada-pueblo.png",
+		"points":[
+			{"id":143, "position":"top: 240px;left: 15px;", "tooltip":"right"},
+			{"id":171, "position":"top: 400px;left: 615px;", "tooltip":"top"}
+		], "tag":"Otros"
+	},
+	{
+		"id":170, "name":"Entrada al pueblo,<br>de noche",
+		"imgURL":"assets/img/places/entrada-pueblo-noche.png",
+		"points":[
+			{"id":117, "position":"top: 230px;left: 230px;", "tooltip":"top"},
+			{"id":172, "position":"top: 400px;left: 615px;", "tooltip":"top"}
+		], "tag":"Otros"
+	},
+	{
+		"id":171, "name":"Pueblo",
+		"imgURL":"assets/img/places/pueblo.png",
+		"points":[
+			{"id":169, "position":"top: 390px;left: 60px;", "tooltip":"right"},
+			{"id":173, "position":"top: 220px;left: 662px;", "tooltip":"top"}
+		], "tag":"Otros"
+	},
+	{
+		"id":172, "name":"Pueblo, de noche",
+		"imgURL":"assets/img/places/pueblo-noche.png",
+		"points":[
+			{"id":170, "position":"top: 390px;left: 60px;", "tooltip":"right"},
+			{"id":174, "position":"top: 220px;left: 662px;", "tooltip":"top"}
+		], "tag":"Otros"
+	},
+	{
+		"id":173, "name":"Asentamiento",
+		"imgURL":"assets/img/places/asentamiento.png",
+		"points":[
+			{"id":171, "position":"top: 390px;left: 420px;", "tooltip":"top"},
+			{"id":175, "position":"top: 210px;left: 310px;", "tooltip":"top"}
+		], "tag":"Otros"
+	},
+	{
+		"id":174, "name":"Asentamiento,<br>de noche",
+		"imgURL":"assets/img/places/asentamiento-noche.png",
+		"points":[
+			{"id":172, "position":"top: 390px;left: 420px;", "tooltip":"top"},
+			{"id":176, "position":"top: 210px;left: 310px;", "tooltip":"top"}
+		], "tag":"Otros"
+	},
+	{
+		"id":175, "name":"Asentamiento,<br>al fondo",
+		"imgURL":"assets/img/places/asentamiento-fondo.png",
+		"points":[
+			{"id":173, "position":"top: 220px;left: 510px;", "tooltip":"top"}
+		], "tag":"Otros"
+	},
+	{
+		"id":176, "name":"Asentamiento<br>al fondo, de noche",
+		"imgURL":"assets/img/places/asentamiento-fondo-noche.png",
+		"points":[
+			{"id":174, "position":"top: 220px;left: 510px;", "tooltip":"top"}
+		], "tag":"Otros"
 	}
 	
 ]
