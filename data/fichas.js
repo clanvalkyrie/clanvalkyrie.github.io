@@ -288,7 +288,7 @@ var guardian = [
 		"nombre":"Égatha",
 		"tag":"egatha",
 		"img":[
-			"https://64.media.tumblr.com/5f4d124bf5a37470e1bc15e4c19135bb/3a67b7f9c6e1105a-a5/s640x960/6a61c101a796a52cc9cf513b4912aea181fe151a.pnj"
+			"https://64.media.tumblr.com/169dfe63a6739a2399a155830f7e1413/492f03790cd69334-9d/s640x960/0c69b19273fe3525d96ace5c742ad600abc77a29.pnj"
 		],
 		"ficha":[
 			{"k":"Apodo", 			"v":'Ega'},
